@@ -29,6 +29,12 @@ jobs:
       # The book's Markdown is vendored into content/, so the build needs
       # nothing from the book repository.
       - run: npm ci
+
+      # https://svelte.dev/docs/kit/adapter-static#GitHub-Pages
+      # BASE_PATH is deliberately left unset. The docs set it to the repository
+      # name, which is right for a project site served from
+      # /<repo>/ — but this repository is named <org>.github.io and is served
+      # from the domain root, so the base path must stay empty.
       - run: npm run build
 
       - uses: actions/configure-pages@v5

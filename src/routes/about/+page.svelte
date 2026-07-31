@@ -39,9 +39,10 @@
 		<h2>This website</h2>
 		<p>
 			This site is a <a href="https://svelte.dev/docs/kit">SvelteKit</a> application built with
-			<a href="https://svelte.dev/docs/kit/adapter-static">adapter-static</a>: every page is
-			prerendered to plain HTML at build time, so GitHub Pages serves files and nothing else. There
-			is no server, no database, and no tracking.
+			<a href="https://svelte.dev/docs/kit/adapter-static">adapter-static</a>, configured per its
+			<a href="https://svelte.dev/docs/kit/adapter-static#GitHub-Pages">GitHub Pages guidance</a>:
+			every page is prerendered to plain HTML at build time, so GitHub Pages serves files and
+			nothing else. There is no server, no database, and no tracking.
 		</p>
 		<p>
 			The book's Markdown is <em>vendored</em> into this repository under <code>content/</code>

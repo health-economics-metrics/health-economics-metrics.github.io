@@ -33,8 +33,14 @@ export function routeFor(path) {
 	return null;
 }
 
-/** Rewrite a Markdown link into a site link, leaving external links untouched. */
-export function rewriteHref(href, fromFile) {
+/**
+ * Rewrite a Markdown link into a site link, leaving external links untouched.
+ *
+ * `base` is prepended to any link that resolves to a route, so the book's own
+ * cross-references survive being served from a subpath — the same thing the
+ * Svelte templates do with `{base}{href}`.
+ */
+export function rewriteHref(href, fromFile, base = '') {
 	if (!href) return href;
 	if (/^[a-z][a-z0-9+.-]*:/i.test(href) || href.startsWith('//') || href.startsWith('#')) return href;
 	const hashAt = href.indexOf('#');
@@ -42,7 +48,7 @@ export function rewriteHref(href, fromFile) {
 	const target = hashAt === -1 ? href : href.slice(0, hashAt);
 	if (!target) return href;
 	const route = routeFor(contentPath(target, fromFile));
-	return route ? route + hash : href;
+	return route ? base + route + hash : href;
 }
 
 /** True when a link leaves the site. */

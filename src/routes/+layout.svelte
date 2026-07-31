@@ -7,6 +7,12 @@
 
 	let { data, children } = $props();
 
+	// The 404.html fallback is rendered without layout data, so both fall back to
+	// something sensible rather than throwing on a page that exists to be shown
+	// when something has already gone wrong.
+	const bookTitle = $derived(data?.bookTitle ?? 'Health Economics Metrics');
+	const parts = $derived(data?.parts ?? []);
+
 	const topLinks = [
 		{ href: '/', label: 'Home' },
 		{ href: '/contents/', label: 'Contents' },
@@ -40,7 +46,7 @@
 	<div class="site-header-inner">
 		<a class="site-brand" href="{base}/">
 			<span class="site-brand-mark" aria-hidden="true">£/QALY</span>
-			<span class="site-brand-name">{data.bookTitle}</span>
+			<span class="site-brand-name">{bookTitle}</span>
 		</a>
 
 		<nav class="site-nav" aria-label="Main">
@@ -76,7 +82,7 @@
 <div class="site-body" class:site-body-wide={isHome}>
 	<aside class="site-sidebar">
 		<SectionNav class="book-nav" label="Book contents">
-			{#each data.parts as part (part.title)}
+			{#each parts as part (part.title)}
 				<details class="book-nav-part" open={containsCurrent(part)}>
 					<summary class="book-nav-part-title">{part.title}</summary>
 					<SectionList class="book-nav-list">
@@ -105,7 +111,7 @@
 <Footer class="site-footer" label="Site">
 	<div class="site-footer-inner">
 		<p>
-			<strong>{data.bookTitle}</strong> — health economics math, examples, and reasoning for
+			<strong>{bookTitle}</strong> — health economics math, examples, and reasoning for
 			software engineers building for national health services.
 		</p>
 		<p class="site-footer-note">

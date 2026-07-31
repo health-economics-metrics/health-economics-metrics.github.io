@@ -8,6 +8,7 @@
 
 import { Marked } from 'marked';
 import GithubSlugger from 'github-slugger';
+import { base } from '$app/paths';
 import { isExternal, rewriteHref } from './paths.js';
 
 /** Split a leading `# Title` off the source. Every book file starts with one. */
@@ -51,7 +52,7 @@ export function render(source, file) {
 
 	marked.use({
 		walkTokens(token) {
-			if (token.type === 'link') token.href = rewriteHref(token.href, file);
+			if (token.type === 'link') token.href = rewriteHref(token.href, file, base);
 		},
 		renderer: {
 			heading(token) {

@@ -78,3 +78,17 @@ To change which themes ship, edit the `themes` list in `bin/vendor-lily.mjs` and
 ## Deploy
 
 `.github/workflows/pages.yml` builds and deploys on every push to `main`. In the repository settings, set **Pages → Source** to **GitHub Actions**.
+
+The configuration follows the SvelteKit guidance for [GitHub Pages](https://svelte.dev/docs/kit/adapter-static#GitHub-Pages):
+
+- **`fallback: '404.html'`** — every route is prerendered, so the fallback is only reached by a URL that does not exist. GitHub Pages serves `404.html` for those, which replaces its default 404 page with this site's own (`src/routes/+error.svelte`).
+- **`static/.nojekyll`** — stops Jekyll from stripping paths that begin with an underscore, such as `_app/`.
+- **`paths.base`** — this repository is named `<org>.github.io`, so the site is served from the domain root and the base path is **empty**. The docs set `BASE_PATH` to the repository name; that is correct for a *project* site served from `/<repo>/`, and wrong here — it would serve the site from `/health-economics-metrics.github.io/`. The workflow therefore leaves `BASE_PATH` unset.
+
+To deploy this source somewhere that *is* under a subpath, set it at build time:
+
+```sh
+BASE_PATH=/some-subpath npm run build
+```
+
+Links in the built output are relative (SvelteKit's `paths.relative` default), so the site also survives being moved without a rebuild.
