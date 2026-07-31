@@ -1,0 +1,51 @@
+// Mapping between vendored content files and site routes.
+// Content paths are always relative to content/, e.g. "topics/opportunity-cost.md".
+
+/** Resolve `href` (as written inside `fromFile`) to a content path. */
+export function contentPath(href, fromFile) {
+	const from = fromFile.includes('/') ? fromFile.slice(0, fromFile.lastIndexOf('/')) : '';
+	const segments = href.startsWith('/')
+		? href.slice(1).split('/')
+		: [...from.split('/'), ...href.split('/')];
+	const out = [];
+	for (const segment of segments) {
+		if (segment === '' || segment === '.') continue;
+		if (segment === '..') out.pop();
+		else out.push(segment);
+	}
+	return out.join('/');
+}
+
+/** Site route for a content path, or null when the file is not published. */
+export function routeFor(path) {
+	switch (path) {
+		case 'README.md':
+			return '/';
+		case 'GLOSSARY.md':
+			return '/glossary/';
+		case 'INDEX.md':
+			return '/subject-index/';
+		case 'STYLE_GUIDE.md':
+			return '/style-guide/';
+	}
+	const topic = /^topics\/([\w.-]+)\.md$/.exec(path);
+	if (topic) return `/topics/${topic[1]}/`;
+	return null;
+}
+
+/** Rewrite a Markdown link into a site link, leaving external links untouched. */
+export function rewriteHref(href, fromFile) {
+	if (!href) return href;
+	if (/^[a-z][a-z0-9+.-]*:/i.test(href) || href.startsWith('//') || href.startsWith('#')) return href;
+	const hashAt = href.indexOf('#');
+	const hash = hashAt === -1 ? '' : href.slice(hashAt);
+	const target = hashAt === -1 ? href : href.slice(0, hashAt);
+	if (!target) return href;
+	const route = routeFor(contentPath(target, fromFile));
+	return route ? route + hash : href;
+}
+
+/** True when a link leaves the site. */
+export function isExternal(href) {
+	return /^[a-z][a-z0-9+.-]*:/i.test(href ?? '') || (href ?? '').startsWith('//');
+}
