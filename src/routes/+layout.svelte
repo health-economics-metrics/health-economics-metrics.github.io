@@ -1,17 +1,16 @@
 <script>
 	import { base } from '$app/paths';
 	import { page } from '$app/state';
-	import { Footer, Header, SectionList, SectionListItem, SectionNav, SkipLink } from '$lib/lily';
+	import { Footer, Header, SkipLink } from '$lib/lily';
 	import { TextSizePicker, ThemePicker } from '$lib/lily-helpers';
 	import { themes } from '$lib/themes.js';
 
 	let { data, children } = $props();
 
-	// The 404.html fallback is rendered without layout data, so both fall back to
-	// something sensible rather than throwing on a page that exists to be shown
-	// when something has already gone wrong.
+	// The 404.html fallback is rendered without layout data, so this falls back
+	// to something sensible rather than throwing on a page that exists to be
+	// shown when something has already gone wrong.
 	const bookTitle = $derived(data?.bookTitle ?? 'Health Economics Metrics');
-	const parts = $derived(data?.parts ?? []);
 
 	const topLinks = [
 		{ href: '/', label: 'Home' },
@@ -24,15 +23,9 @@
 	const sizes = ['small', 'medium', 'large', 'x-large'];
 
 	const path = $derived(page.url.pathname);
-	const isHome = $derived(path === `${base}/` || path === '/');
 
 	function current(href) {
 		return path === `${base}${href}` || path === href;
-	}
-
-	/** Is the reader inside this part of the book? Controls which section opens. */
-	function containsCurrent(part) {
-		return part.entries.some((entry) => current(entry.href));
 	}
 </script>
 
@@ -79,30 +72,7 @@
 	</div>
 </Header>
 
-<div class="site-body" class:site-body-wide={isHome}>
-	<aside class="site-sidebar">
-		<SectionNav class="book-nav" label="Book contents">
-			{#each parts as part (part.title)}
-				<details class="book-nav-part" open={containsCurrent(part)}>
-					<summary class="book-nav-part-title">{part.title}</summary>
-					<SectionList class="book-nav-list">
-						{#each part.entries as entry (entry.slug)}
-							<SectionListItem class="book-nav-item" current={current(entry.href)}>
-								<a
-									class="book-nav-link"
-									href="{base}{entry.href}"
-									aria-current={current(entry.href) ? 'page' : undefined}
-								>
-									{entry.title}
-								</a>
-							</SectionListItem>
-						{/each}
-					</SectionList>
-				</details>
-			{/each}
-		</SectionNav>
-	</aside>
-
+<div class="site-body">
 	<main id="main" class="site-main">
 		{@render children()}
 	</main>

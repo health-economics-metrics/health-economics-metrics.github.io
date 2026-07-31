@@ -241,87 +241,17 @@ pre {
 
 /* --- Page frame ---------------------------------------------------------- */
 
+/* One column. Navigation lives in the header, the contents page, and the
+   previous/next links at the foot of each topic. */
 .site-body {
-	display: grid;
-	grid-template-columns: minmax(0, 19rem) minmax(0, 1fr);
-	gap: var(--lily-space-xl);
 	max-width: 90rem;
 	margin: 0 auto;
 	padding: var(--lily-space-lg);
 }
 
-/* The home page is the book's own table of contents, so the sidebar would
-   only repeat it. */
-.site-body-wide {
-	grid-template-columns: minmax(0, 1fr);
-}
-
-.site-body-wide .site-sidebar {
-	display: none;
-}
-
 .site-main {
 	min-width: 0;
 	padding-bottom: var(--lily-space-xl);
-}
-
-/* --- Sidebar: the book's navigation -------------------------------------- */
-
-.site-sidebar {
-	position: sticky;
-	top: calc(var(--site-header-height) + var(--lily-space-md));
-	align-self: start;
-	max-height: calc(100vh - var(--site-header-height) - var(--lily-space-xl));
-	overflow-y: auto;
-	padding-inline-end: var(--lily-space-sm);
-	font-size: 0.95em;
-}
-
-.book-nav-part {
-	border-bottom: 1px solid var(--lily-border);
-}
-
-.book-nav-part-title {
-	padding: 0.6rem 0.25rem;
-	font-weight: 600;
-	cursor: pointer;
-	list-style-position: outside;
-}
-
-.book-nav-part-title:hover {
-	color: var(--color-primary);
-}
-
-.book-nav-list {
-	margin: 0 0 0.5rem;
-	padding: 0;
-	list-style: none;
-}
-
-.book-nav-item {
-	margin: 0;
-}
-
-.book-nav-link {
-	display: block;
-	padding: 0.3rem 0.5rem 0.3rem 0.85rem;
-	border-inline-start: 2px solid var(--lily-border);
-	color: var(--lily-text-muted);
-	text-decoration: none;
-	line-height: 1.4;
-}
-
-.book-nav-link:hover {
-	border-inline-start-color: var(--lily-border-strong);
-	background-color: var(--lily-surface-alt);
-	color: var(--lily-text);
-}
-
-.book-nav-link[aria-current='page'] {
-	border-inline-start-color: var(--color-primary);
-	background-color: var(--lily-surface-alt);
-	color: var(--lily-text);
-	font-weight: 600;
 }
 
 /* --- Shared page furniture ------------------------------------------------ */
@@ -871,19 +801,6 @@ pre {
 /* --- Narrow screens ------------------------------------------------------- */
 
 @media (max-width: 64rem) {
-	.site-body {
-		grid-template-columns: minmax(0, 1fr);
-		gap: var(--lily-space-md);
-	}
-
-	.site-sidebar {
-		position: static;
-		max-height: none;
-		overflow: visible;
-		padding: 0 0 var(--lily-space-md);
-		border-bottom: 1px solid var(--lily-border);
-	}
-
 	.site-header-inner {
 		padding-inline: var(--lily-space-md);
 	}
@@ -919,7 +836,6 @@ pre {
 
 @media print {
 	.site-header,
-	.site-sidebar,
 	.site-footer,
 	.topic-pagination,
 	.topic-contents,
@@ -928,7 +844,6 @@ pre {
 	}
 
 	.site-body {
-		display: block;
 		padding: 0;
 	}
 

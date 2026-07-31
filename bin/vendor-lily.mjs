@@ -46,7 +46,6 @@ const components = [
 	'SectionHeading',
 	'SectionList',
 	'SectionListItem',
-	'SectionNav',
 	'SkipLink'
 ];
 

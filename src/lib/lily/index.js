@@ -17,5 +17,4 @@ export { default as SearchInput } from './SearchInput.svelte';
 export { default as SectionHeading } from './SectionHeading.svelte';
 export { default as SectionList } from './SectionList.svelte';
 export { default as SectionListItem } from './SectionListItem.svelte';
-export { default as SectionNav } from './SectionNav.svelte';
 export { default as SkipLink } from './SkipLink.svelte';
