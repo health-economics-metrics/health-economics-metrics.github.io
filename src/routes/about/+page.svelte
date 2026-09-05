@@ -64,6 +64,25 @@
 			pickers remember your choice in this browser.
 		</p>
 
+		<h2>Claude skills</h2>
+		<p>
+			The book ships two <a href="https://code.claude.com/docs/en/skills">Claude Skills</a>, so
+			an agentic coding session can put it to work directly rather than recalling health
+			economics from general training:
+			<a
+				href="https://github.com/health-economics-metrics/health-economics-metrics/blob/main/skills/health-economics-metrics-skill/SKILL.md"
+				>health-economics-metrics-skill</a
+			>
+			explains a concept, computes a metric from your own numbers, or assembles a multi-metric
+			business case, grounded in this book's formulas, worked examples, and pitfalls; and
+			<a
+				href="https://github.com/health-economics-metrics/health-economics-metrics/blob/main/skills/health-economics-metrics-maintainer-skill/SKILL.md"
+				>health-economics-metrics-maintainer-skill</a
+			>
+			carries the per-topic template and README conventions for maintaining the book itself. Drop
+			either into a project's <code>.claude/skills/</code> to use it.
+		</p>
+
 		<h2>Licence and source</h2>
 		<p>
 			The book and this site are open source. See
