@@ -336,18 +336,6 @@ pre {
 	color: var(--lily-text-muted);
 }
 
-.book-hero-meta {
-	display: flex;
-	align-items: center;
-	gap: var(--lily-space-sm);
-	flex-wrap: wrap;
-	margin: 0;
-}
-
-.book-hero-action {
-	font-weight: 600;
-}
-
 .start-here {
 	margin-bottom: var(--lily-space-xl);
 }
@@ -361,30 +349,28 @@ pre {
 	color: var(--lily-text-muted);
 }
 
-.card-grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-	gap: var(--lily-space-md);
+.start-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
-.start-card {
-	padding: var(--lily-space-md);
-	border: 1px solid var(--lily-border);
-	border-radius: var(--lily-radius-lg);
-	background-color: var(--lily-surface-alt);
+.start-item {
+	padding: 0.5rem 0;
+	border-bottom: 1px solid var(--lily-border);
 }
 
-.start-card h3 {
-	margin: 0 0 0.35rem;
-	font-size: 1.05em;
-}
-
-.start-card h3 a {
+.start-link {
+	font-weight: 600;
 	text-decoration: none;
 }
 
-.start-card p {
-	margin: 0;
+.start-link:hover {
+	text-decoration: underline;
+}
+
+.start-blurb {
+	display: block;
 	color: var(--lily-text-muted);
 	font-size: 0.95em;
 }
