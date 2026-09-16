@@ -21,21 +21,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: pnpm/action-setup@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: lts/*
-          cache: npm
+          cache: pnpm
 
       # The book's Markdown is vendored into content/, so the build needs
       # nothing from the book repository.
-      - run: npm ci
+      - run: pnpm install --frozen-lockfile
 
       # https://svelte.dev/docs/kit/adapter-static#GitHub-Pages
       # BASE_PATH is deliberately left unset. The docs set it to the repository
       # name, which is right for a project site served from
       # /<repo>/ — but this repository is named <org>.github.io and is served
       # from the domain root, so the base path must stay empty.
-      - run: npm run build
+      - run: pnpm run build
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

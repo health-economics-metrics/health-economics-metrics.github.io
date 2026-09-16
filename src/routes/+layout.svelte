@@ -1,8 +1,8 @@
 <script>
 	import { base } from '$app/paths';
 	import { page } from '$app/state';
-	import { Footer, Header, SkipLink } from '$lib/lily';
-	import { TextSizePicker, ThemePicker } from '$lib/lily-helpers';
+	import { Footer, Header, SkipLink } from 'lily-design-system-svelte-headless';
+	import PickerBar from 'lily-design-system-svelte-picker-bar';
 	import { themes } from '$lib/themes.js';
 
 	let { data, children } = $props();
@@ -22,6 +22,41 @@
 
 	const sizes = ['small', 'medium', 'large', 'x-large'];
 
+	// No translated content exists yet, so the locale picker offers just
+	// English — it still sets `lang`/`dir` on <html>, and grows to more
+	// locales the day translated content lands.
+	const locales = ['en'];
+
+	const shareTargets = [
+		{
+			id: 'email',
+			label: 'Email Link',
+			href: (url, title) => `mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(url)}`
+		},
+		{
+			id: 'linkedin',
+			label: 'Share on LinkedIn',
+			href: (url) => `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`
+		},
+		{
+			id: 'reddit',
+			label: 'Share on Reddit',
+			href: (url, title) =>
+				`https://www.reddit.com/submit?url=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}`
+		},
+		{
+			id: 'bluesky',
+			label: 'Share on Bluesky',
+			href: (url, title) => `https://bsky.app/intent/compose?text=${encodeURIComponent(`${title} ${url}`)}`
+		},
+		{
+			id: 'mastodon',
+			label: 'Share on Mastodon',
+			href: (url, title) =>
+				`https://mastodonshare.com/?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`
+		}
+	];
+
 	const path = $derived(page.url.pathname);
 
 	function current(href) {
@@ -38,7 +73,7 @@
 <Header class="site-header" label="Site">
 	<div class="site-header-inner">
 		<a class="site-brand" href="{base}/">
-			<span class="site-brand-mark" aria-hidden="true">£/QALY</span>
+			<span class="site-brand-mark" aria-hidden="true">⚕</span>
 			<span class="site-brand-name">{bookTitle}</span>
 		</a>
 
@@ -51,24 +86,23 @@
 			<a href="https://github.com/health-economics-metrics/health-economics-metrics">GitHub</a>
 		</nav>
 
-		<div class="site-controls">
-			<TextSizePicker
-				class="site-text-size-picker"
-				label="Text size"
-				{sizes}
-				defaultValue="medium"
-				storageKey="health-economics-metrics.text-size"
-			/>
-			<ThemePicker
-				class="site-theme-picker"
-				label="Theme"
-				themesUrl="{base}/assets/themes/"
-				{themes}
-				defaultValue="light"
-				detectFromSystem
-				storageKey="health-economics-metrics.theme"
-			/>
-		</div>
+		<PickerBar
+			class="site-controls"
+			labels={{ theme: 'Theme', locale: 'Language', textSize: 'Text size', share: 'Share' }}
+			themesUrl="{base}/assets/themes/"
+			{themes}
+			themeProps={{ defaultValue: 'light', detectFromSystem: true, storageKey: 'health-economics-metrics.theme' }}
+			{locales}
+			sizes={sizes}
+			textSizeProps={{ defaultValue: 'medium', storageKey: 'health-economics-metrics.text-size' }}
+			{shareTargets}
+			shareProps={{
+				title: bookTitle,
+				copyLabel: 'Copy link',
+				copiedLabel: 'Copied',
+				copyFailedLabel: 'Copy failed'
+			}}
+		/>
 	</div>
 </Header>
 

@@ -159,19 +159,27 @@ pre {
 	gap: var(--lily-space-xs);
 }
 
-/* --- Pickers (theme + text size) ------------------------------------------
- * Both Lily helpers render the same shape: a button, and a listbox that the
- * component shows and hides with the `hidden` attribute. The hidden rule has
- * to be restated because setting `display` on the list would defeat it.
+/* --- Pickers (theme, locale, text size, share) -----------------------------
+ * All four Lily helpers composed by PickerBar render the same shape: a
+ * button, and a list that the component shows and hides with the `hidden`
+ * attribute. The hidden rule has to be restated because setting `display` on
+ * the list would defeat it. The theme stylesheet already styles every one of
+ * these classes (see its `@layer lily` rules); this block only overrides the
+ * button/list chrome for a smaller, square icon-button treatment, and leaves
+ * the share picker's link/button rows and status message to the theme.
  * ------------------------------------------------------------------------ */
 
-.site-theme-picker,
-.site-text-size-picker {
+.theme-picker,
+.locale-picker,
+.text-size-picker,
+.share-picker {
 	position: relative;
 }
 
 .theme-picker-button,
-.text-size-picker-button {
+.locale-picker-button,
+.text-size-picker-button,
+.share-picker-button {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -188,13 +196,17 @@ pre {
 }
 
 .theme-picker-button:hover,
-.text-size-picker-button:hover {
+.locale-picker-button:hover,
+.text-size-picker-button:hover,
+.share-picker-button:hover {
 	background-color: var(--lily-surface-alt);
 	border-color: var(--lily-border-strong);
 }
 
 .theme-picker-list,
-.text-size-picker-list {
+.locale-picker-list,
+.text-size-picker-list,
+.share-picker-list {
 	position: absolute;
 	inset-inline-end: 0;
 	top: calc(100% + 0.35rem);
@@ -212,11 +224,14 @@ pre {
 }
 
 .theme-picker-list[hidden],
-.text-size-picker-list[hidden] {
+.locale-picker-list[hidden],
+.text-size-picker-list[hidden],
+.share-picker-list[hidden] {
 	display: none;
 }
 
 .theme-picker-option,
+.locale-picker-option,
 .text-size-picker-option {
 	padding: 0.4rem 0.6rem;
 	border-radius: var(--lily-radius-sm);
@@ -226,17 +241,34 @@ pre {
 }
 
 .theme-picker-option:hover,
+.locale-picker-option:hover,
 .text-size-picker-option:hover,
 .theme-picker-option[data-active],
+.locale-picker-option[data-active],
 .text-size-picker-option[data-active] {
 	background-color: var(--lily-surface-alt);
 }
 
 .theme-picker-option[aria-selected='true'],
+.locale-picker-option[aria-selected='true'],
 .text-size-picker-option[aria-selected='true'] {
 	background-color: var(--color-primary);
 	color: var(--color-primary-content);
 	font-weight: 600;
+}
+
+/* share-picker's destinations are real <a> links, so the global `a { color:
+ * var(--color-primary) }` rule above (an unlayered rule, which always beats
+ * the theme's `@layer lily` styling regardless of specificity) would
+ * otherwise paint them as ordinary prose links instead of matching the
+ * "Copy link" button beside them. */
+.share-picker-target {
+	color: var(--lily-text);
+	text-decoration: none;
+}
+
+.share-picker-target:hover {
+	color: var(--lily-text);
 }
 
 /* --- Page frame ---------------------------------------------------------- */

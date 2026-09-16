@@ -1,6 +1,11 @@
 <script>
 	import { base } from '$app/paths';
-	import { ContentsList, ContentsListItem, ContentsNav, SectionHeading } from '$lib/lily';
+	import {
+		ContentsList,
+		ContentsListItem,
+		ContentsNav,
+		SectionHeading
+	} from 'lily-design-system-svelte-headless';
 
 	let { data } = $props();
 

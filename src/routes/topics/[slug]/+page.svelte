@@ -11,7 +11,7 @@
 		PaginationList,
 		PaginationListItem,
 		PaginationNav
-	} from '$lib/lily';
+	} from 'lily-design-system-svelte-headless';
 
 	let { data } = $props();
 

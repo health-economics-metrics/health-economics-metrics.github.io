@@ -1,6 +1,6 @@
 <script>
 	import { base } from '$app/paths';
-	import { Badge, Card } from '$lib/lily';
+	import { Badge, Card } from 'lily-design-system-svelte-headless';
 
 	let { data } = $props();
 </script>
