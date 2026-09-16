@@ -208,6 +208,17 @@ pre {
 .text-size-picker-list,
 .share-picker-list {
 	position: absolute;
+	/* The theme stylesheet sets `inset-inline-start: 0` on these same
+	 * classes (opening the list rightward from the button). That's a
+	 * different logical property from `inset-inline-end`, so neither
+	 * layer wins outright — both apply, the box is over-constrained, and
+	 * the browser silently keeps `inset-inline-start` and drops this
+	 * rule's end offset. `inset-inline-start: auto` cancels the theme's
+	 * value explicitly, so only the end offset below takes effect and
+	 * every list opens leftward, anchored to its own button's end edge —
+	 * never past the viewport, whichever of the four pickers it is.
+	 */
+	inset-inline-start: auto;
 	inset-inline-end: 0;
 	top: calc(100% + 0.35rem);
 	z-index: 200;
