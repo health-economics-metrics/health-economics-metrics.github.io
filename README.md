@@ -8,7 +8,7 @@ Published at <https://health-economics-metrics.github.io/>.
 
 A [SvelteKit](https://svelte.dev/docs/kit) site built with [adapter-static](https://svelte.dev/docs/kit/adapter-static). Every page is prerendered to plain HTML at build time, so GitHub Pages serves files and nothing else — no server, no database, no tracking.
 
-The book's Markdown is **vendored** into `content/` rather than read across repositories, so a fresh clone builds on its own. The site's user interface is built from the [Lily Design System](https://github.com/LilyDesignSystem): the headless components and the theme/locale/text-size/share pickers are ordinary npm dependencies (`lily-design-system-svelte-headless`, `lily-design-system-svelte-picker-bar`), imported from `node_modules` like any other package. Only the theme stylesheets are vendored, into `static/assets/themes/`, because Lily does not publish those as an npm package.
+The book's Markdown is **vendored** into `content/` rather than read across repositories, so a fresh clone builds on its own. The site's user interface is built from the [Lily Design System](https://github.com/LilyDesignSystem): the headless components and the theme/locale/text-size/share pickers are ordinary npm dependencies (`@lilydesignsystem/svelte-headless`, `@lilydesignsystem/svelte-picker-bar`), imported from `node_modules` like any other package. Only the theme stylesheets are vendored, into `static/assets/themes/`, because Lily does not publish those as an npm package.
 
 ### The book's README is the table of contents
 
@@ -49,7 +49,7 @@ BOOK=/path/to/health-economics-metrics pnpm run sync:content
 LILY=/path/to/lily-design-system pnpm run sync:lily
 ```
 
-Vendored files carry a "do not edit here" banner. Change them upstream, then re-sync. The Lily components themselves are not vendored — bump `lily-design-system-svelte-headless` and `lily-design-system-svelte-picker-bar` in `package.json` instead.
+Vendored files carry a "do not edit here" banner. Change them upstream, then re-sync. The Lily components themselves are not vendored — bump `@lilydesignsystem/svelte-headless` and `@lilydesignsystem/svelte-picker-bar` in `package.json` instead.
 
 ## Layout
 
@@ -65,7 +65,7 @@ static/assets/style.css  the site's own styling; Lily ships none
 static/assets/themes/  vendored Lily themes, swapped by the theme picker
 ```
 
-The Lily headless components (`ArticleLayout`, `Header`, `Card`, ...) come from `lily-design-system-svelte-headless`; the header's theme/locale/text-size/share row comes from `lily-design-system-svelte-picker-bar`. Both are regular npm dependencies — see `package.json`.
+The Lily headless components (`ArticleLayout`, `Header`, `Card`, ...) come from `@lilydesignsystem/svelte-headless`; the header's theme/locale/text-size/share row comes from `@lilydesignsystem/svelte-picker-bar`. Both are regular npm dependencies — see `package.json`.
 
 Content lives under `$lib/server`, so the book's Markdown can never reach a browser bundle: pages read it from `+page.server.js` loads, which run at build time under prerendering.
 

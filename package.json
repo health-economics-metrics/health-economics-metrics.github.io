@@ -23,9 +23,9 @@
     "vite": "^8.2.1"
   },
   "dependencies": {
+    "@lilydesignsystem/svelte-headless": "^0.1.0",
+    "@lilydesignsystem/svelte-picker-bar": "^0.1.0",
     "github-slugger": "^2.0.0",
-    "lily-design-system-svelte-headless": "^0.3.1",
-    "lily-design-system-svelte-picker-bar": "^0.1.0",
     "marked": "^18.0.10"
   }
 }

@@ -1,8 +1,8 @@
 <script>
 	import { base } from '$app/paths';
 	import { page } from '$app/state';
-	import { Footer, Header, SkipLink } from 'lily-design-system-svelte-headless';
-	import PickerBar from 'lily-design-system-svelte-picker-bar';
+	import { Footer, Header, SkipLink } from '@lilydesignsystem/svelte-headless';
+	import PickerBar from '@lilydesignsystem/svelte-picker-bar';
 	import { themes } from '$lib/themes.js';
 
 	let { data, children } = $props();

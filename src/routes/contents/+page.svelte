@@ -5,7 +5,7 @@
 		ContentsListItem,
 		ContentsNav,
 		SectionHeading
-	} from 'lily-design-system-svelte-headless';
+	} from '@lilydesignsystem/svelte-headless';
 
 	let { data } = $props();
 

@@ -1,6 +1,6 @@
 <script>
 	import { base } from '$app/paths';
-	import { SectionList, SectionListItem } from 'lily-design-system-svelte-headless';
+	import { SectionList, SectionListItem } from '@lilydesignsystem/svelte-headless';
 
 	let { data } = $props();
 </script>
