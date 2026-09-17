@@ -47,7 +47,7 @@
 		<p>
 			The book's Markdown is <em>vendored</em> into this repository under <code>content/</code>
 			rather than referenced across repositories, so the site builds standalone from a fresh clone.
-			<code>npm run sync</code> re-copies it from the book. The book's own README is the table of
+			<code>pnpm run sync</code> re-copies it from the book. The book's own README is the table of
 			contents: its section headings become the parts of the book, and the order of its links
 			becomes reading order, previous/next, and the sidebar.
 		</p>
@@ -56,12 +56,12 @@
 		<p>
 			The interface is built from the
 			<a href="https://github.com/LilyDesignSystem">Lily Design System</a> — its headless Svelte
-			components for structure and accessibility, and its helper components for the theme and text
-			size pickers in the header. Headless means the components ship markup, ARIA, and keyboard
-			behaviour but no styling, so the look here comes from a Lily theme plus this site's own
-			stylesheet. {data.themeCount} themes are available from the header, including the UK Government
-			Digital Service, NHS England, NHS Scotland, NHS Wales, and US Web Design System palettes. Both
-			pickers remember your choice in this browser.
+			components for structure and accessibility, and its PickerBar helper for the theme, language,
+			text size, and share controls in the header. Headless means the components ship markup, ARIA,
+			and keyboard behaviour but no styling, so the look here comes from a Lily theme plus this
+			site's own stylesheet. All {data.themeCount} Lily default themes are available from the
+			header, including the UK Government Digital Service, NHS England, NHS Scotland, NHS Wales, and
+			US Web Design System palettes. Theme and text size choices persist in this browser.
 		</p>
 
 		<h2>Claude skills</h2>

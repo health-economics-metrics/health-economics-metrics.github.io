@@ -3,7 +3,6 @@
 	import { page } from '$app/state';
 	import { Footer, Header, SkipLink } from '@lilydesignsystem/svelte-headless';
 	import PickerBar from '@lilydesignsystem/svelte-picker-bar';
-	import { themes } from '$lib/themes.js';
 
 	let { data, children } = $props();
 
@@ -19,8 +18,6 @@
 		{ href: '/search/', label: 'Search' },
 		{ href: '/about/', label: 'About' }
 	];
-
-	const sizes = ['small', 'medium', 'large', 'x-large'];
 
 	// No translated content exists yet, so the locale picker offers just
 	// English — it still sets `lang`/`dir` on <html>, and grows to more
@@ -86,21 +83,40 @@
 			<a href="https://github.com/health-economics-metrics/health-economics-metrics">GitHub</a>
 		</nav>
 
+		{#snippet shareIcon()}
+			<!-- Outline arrow, matching testingexamples.github.io's share-picker
+			     icon: an explicit-size SVG (not an em-scaled text glyph), so it
+			     sidesteps the --lily-picker-icon-scale font-size math entirely. -->
+			<svg
+				class="share-picker-icon"
+				viewBox="0 0 16 16"
+				width="1.05rem"
+				height="1.05rem"
+				fill="none"
+				stroke="currentColor"
+				stroke-width="1.6"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				aria-hidden="true"
+			>
+				<path d="M2.5 8h11M9 3.5 13.5 8 9 12.5" />
+			</svg>
+		{/snippet}
+
 		<PickerBar
 			class="site-controls"
 			labels={{ theme: 'Theme', locale: 'Language', textSize: 'Text size', share: 'Share' }}
 			themesUrl="{base}/assets/themes/"
-			{themes}
 			themeProps={{ defaultValue: 'light', detectFromSystem: true, storageKey: 'health-economics-metrics.theme' }}
 			{locales}
-			sizes={sizes}
-			textSizeProps={{ defaultValue: 'medium', storageKey: 'health-economics-metrics.text-size' }}
+			textSizeProps={{ defaultValue: 'normal', storageKey: 'health-economics-metrics.text-size' }}
 			{shareTargets}
 			shareProps={{
 				title: bookTitle,
 				copyLabel: 'Copy link',
 				copiedLabel: 'Copied',
-				copyFailedLabel: 'Copy failed'
+				copyFailedLabel: 'Copy failed',
+				children: shareIcon
 			}}
 		/>
 	</div>

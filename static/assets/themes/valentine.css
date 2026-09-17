@@ -1,97 +1,95 @@
 /* ============================================================================
- * Lily theme: lofi
+ * Lily theme: valentine
  *
  * Standalone Lily Design System theme — declares the theme tokens and inlines
  * the component CSS for all 492 Lily components, so this single file is the
  * only stylesheet required to render a Lily-styled page.
  *
  * Credit for the theme source: DaisyUI (https://daisyui.com/)
- *
- * Upstream tracked: DaisyUI v5-era theme palette, adapted to Lily tokens and hooks.
  * ========================================================================= */
 
 /* Theme tokens — the colour, radius, border, and depth variables consumed
  * by every Lily component rule below. The theme applies by default (`:root`)
- * and also when explicitly opted into via `<html data-theme="lofi">`,
+ * and also when explicitly opted into via `<html data-theme="valentine">`,
  * so multiple themes can coexist in one document and be switched at runtime
  * by updating the `data-theme` attribute. */
 
-:where(:root, :root[data-theme="lofi"]) {
+:where(:root, :root[data-theme="valentine"]) {
     color-scheme: light;
 
     /* Page-level surface (primary canvas). Sits behind body copy
        and primary content areas. Lightest base shade in light
        themes, deepest in dark themes. */
-    --color-base-100: oklch(100% 0 0);
+    --color-base-100: oklch(97% 0.014 343.198);
     /* Secondary surface — section panels, card backgrounds,
        sidebars, table-header fills. One step away from the page
        surface. */
-    --color-base-200: oklch(97% 0 0);
+    --color-base-200: oklch(94% 0.028 342.258);
     /* Tertiary surface — dividers, sunken wells, hover-row
        backgrounds. The most muted of the three base shades. */
-    --color-base-300: oklch(94% 0 0);
+    --color-base-300: oklch(89% 0.061 343.231);
     /* Primary text colour. High-contrast against base-100 to meet
        WCAG contrast ratios for body copy. */
-    --color-base-content: oklch(0% 0 0);
+    --color-base-content: oklch(52% 0.223 3.958);
     /* Primary brand / action colour. Used on primary buttons,
        active navigation items, selected states, and the focus
        ring. */
-    --color-primary: oklch(15.91% 0 0);
+    --color-primary: oklch(65% 0.241 354.308);
     /* Foreground colour used over `--color-primary` fills (so
        primary buttons retain a guaranteed contrast ratio). */
     --color-primary-content: oklch(100% 0 0);
     /* Secondary brand colour. Pressed/hover state for primary
        buttons and visited links; also drives the secondary chrome
        family. */
-    --color-secondary: oklch(21.45% 0.001 17.278);
+    --color-secondary: oklch(62% 0.265 303.9);
     /* Foreground colour used over `--color-secondary` fills. */
-    --color-secondary-content: oklch(100% 0 0);
+    --color-secondary-content: oklch(97% 0.014 308.299);
     /* Accent colour — used sparingly for emphasis, the AI label,
        illustrations, and tertiary call-outs. */
-    --color-accent: oklch(26.86% 0 0);
+    --color-accent: oklch(82% 0.111 230.318);
     /* Foreground colour used over `--color-accent` fills. */
-    --color-accent-content: oklch(100% 0 0);
+    --color-accent-content: oklch(39% 0.09 240.876);
     /* Neutral chrome surface — footer bars, code blocks,
        tooltips, government-banner strips. Typically the theme's
        darkest neutral. */
-    --color-neutral: oklch(0% 0 0);
+    --color-neutral: oklch(40% 0.153 2.432);
     /* Foreground colour used over `--color-neutral` fills. */
-    --color-neutral-content: oklch(100% 0 0);
+    --color-neutral-content: oklch(89% 0.061 343.231);
     /* Informational status colour — informational banners, links,
        'did-you-know' callouts. */
-    --color-info: oklch(79.54% 0.103 205.9);
+    --color-info: oklch(86% 0.127 207.078);
     /* Foreground colour used over `--color-info` fills. */
-    --color-info-content: oklch(15.91% 0.02 205.9);
+    --color-info-content: oklch(44% 0.11 240.79);
     /* Success / confirmation colour — used on success panels,
        completed step indicators, validation pass states, and the
        green RAG status. */
-    --color-success: oklch(90.13% 0.153 164.14);
+    --color-success: oklch(84% 0.143 164.978);
     /* Foreground colour used over `--color-success` fills. */
-    --color-success-content: oklch(18.03% 0.03 164.14);
+    --color-success-content: oklch(43% 0.095 166.913);
     /* Warning colour — yellow/amber band; used on phase banners,
        in-progress states, validation warnings, and the amber RAG
        status. */
-    --color-warning: oklch(88.37% 0.135 79.94);
+    --color-warning: oklch(75% 0.183 55.934);
     /* Foreground colour used over `--color-warning` fills. Often
        dark so text remains legible on a bright yellow background. */
-    --color-warning-content: oklch(17.67% 0.027 79.94);
+    --color-warning-content: oklch(26% 0.079 36.259);
     /* Error / destructive colour — used on alert dialogs, error
        messages, validation failures, urgent care cards, and the
        red RAG status. */
-    --color-error: oklch(78.66% 0.15 28.47);
+    --color-error: oklch(63% 0.237 25.331);
     /* Foreground colour used over `--color-error` fills. */
-    --color-error-content: oklch(15.73% 0.03 28.47);
+    --color-error-content: oklch(97% 0.013 17.38);
     /* Smallest corner radius. Applied to chips, badges, switches,
        and radio/checkbox containers (mapped to `--lily-radius-
        sm`). */
-    --radius-selector: 2rem;
+    --radius-selector: 1rem;
     /* Medium corner radius. Applied to inputs, buttons, menu
        items, tooltips, and most everyday form controls (mapped to
        `--lily-radius-md`). */
-    --radius-field: 0.25rem;
+    --radius-field: 2rem;
     /* Largest corner radius. Applied to cards, dialogs, drawers,
        and hero blocks (mapped to `--lily-radius-lg`). */
-    --radius-box: 0.5rem;
+    --radius-box: 1rem;
     /* Base size for selector-style controls (checkbox/radio glyph
        size, switch thumb diameter). Currently unused by Lily's
        baseline component rules but available for theme
@@ -124,6 +122,9 @@
  * at 0 — application CSS always wins. To replace a Lily component's default
  * look, declare a higher-specificity rule (or a later @layer) in your own
  * stylesheet.
+ *
+ * Upstream tracked: DaisyUI v5-era theme palette, adapted to Lily tokens
+ * and hooks.
  * -------------------------------------------------------------------------- */
 
 @layer lily {

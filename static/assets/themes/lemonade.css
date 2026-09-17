@@ -1,5 +1,5 @@
 /* ============================================================================
- * Lily theme: lofi
+ * Lily theme: lemonade
  *
  * Standalone Lily Design System theme — declares the theme tokens and inlines
  * the component CSS for all 492 Lily components, so this single file is the
@@ -12,86 +12,86 @@
 
 /* Theme tokens — the colour, radius, border, and depth variables consumed
  * by every Lily component rule below. The theme applies by default (`:root`)
- * and also when explicitly opted into via `<html data-theme="lofi">`,
+ * and also when explicitly opted into via `<html data-theme="lemonade">`,
  * so multiple themes can coexist in one document and be switched at runtime
  * by updating the `data-theme` attribute. */
 
-:where(:root, :root[data-theme="lofi"]) {
+:where(:root, :root[data-theme="lemonade"]) {
     color-scheme: light;
 
     /* Page-level surface (primary canvas). Sits behind body copy
        and primary content areas. Lightest base shade in light
        themes, deepest in dark themes. */
-    --color-base-100: oklch(100% 0 0);
+    --color-base-100: oklch(98.71% 0.02 123.72);
     /* Secondary surface — section panels, card backgrounds,
        sidebars, table-header fills. One step away from the page
        surface. */
-    --color-base-200: oklch(97% 0 0);
+    --color-base-200: oklch(91.8% 0.018 123.72);
     /* Tertiary surface — dividers, sunken wells, hover-row
        backgrounds. The most muted of the three base shades. */
-    --color-base-300: oklch(94% 0 0);
+    --color-base-300: oklch(84.89% 0.017 123.72);
     /* Primary text colour. High-contrast against base-100 to meet
        WCAG contrast ratios for body copy. */
-    --color-base-content: oklch(0% 0 0);
+    --color-base-content: oklch(19.74% 0.004 123.72);
     /* Primary brand / action colour. Used on primary buttons,
        active navigation items, selected states, and the focus
        ring. */
-    --color-primary: oklch(15.91% 0 0);
+    --color-primary: oklch(58.92% 0.199 134.6);
     /* Foreground colour used over `--color-primary` fills (so
        primary buttons retain a guaranteed contrast ratio). */
-    --color-primary-content: oklch(100% 0 0);
+    --color-primary-content: oklch(11.78% 0.039 134.6);
     /* Secondary brand colour. Pressed/hover state for primary
        buttons and visited links; also drives the secondary chrome
        family. */
-    --color-secondary: oklch(21.45% 0.001 17.278);
+    --color-secondary: oklch(77.75% 0.196 111.09);
     /* Foreground colour used over `--color-secondary` fills. */
-    --color-secondary-content: oklch(100% 0 0);
+    --color-secondary-content: oklch(15.55% 0.039 111.09);
     /* Accent colour — used sparingly for emphasis, the AI label,
        illustrations, and tertiary call-outs. */
-    --color-accent: oklch(26.86% 0 0);
+    --color-accent: oklch(85.39% 0.201 100.73);
     /* Foreground colour used over `--color-accent` fills. */
-    --color-accent-content: oklch(100% 0 0);
+    --color-accent-content: oklch(17.08% 0.04 100.73);
     /* Neutral chrome surface — footer bars, code blocks,
        tooltips, government-banner strips. Typically the theme's
        darkest neutral. */
-    --color-neutral: oklch(0% 0 0);
+    --color-neutral: oklch(30.98% 0.075 108.6);
     /* Foreground colour used over `--color-neutral` fills. */
-    --color-neutral-content: oklch(100% 0 0);
+    --color-neutral-content: oklch(86.2% 0.015 108.6);
     /* Informational status colour — informational banners, links,
        'did-you-know' callouts. */
-    --color-info: oklch(79.54% 0.103 205.9);
+    --color-info: oklch(86.19% 0.047 224.14);
     /* Foreground colour used over `--color-info` fills. */
-    --color-info-content: oklch(15.91% 0.02 205.9);
+    --color-info-content: oklch(17.24% 0.009 224.14);
     /* Success / confirmation colour — used on success panels,
        completed step indicators, validation pass states, and the
        green RAG status. */
-    --color-success: oklch(90.13% 0.153 164.14);
+    --color-success: oklch(86.19% 0.047 157.85);
     /* Foreground colour used over `--color-success` fills. */
-    --color-success-content: oklch(18.03% 0.03 164.14);
+    --color-success-content: oklch(17.24% 0.009 157.85);
     /* Warning colour — yellow/amber band; used on phase banners,
        in-progress states, validation warnings, and the amber RAG
        status. */
-    --color-warning: oklch(88.37% 0.135 79.94);
+    --color-warning: oklch(86.19% 0.047 102.15);
     /* Foreground colour used over `--color-warning` fills. Often
        dark so text remains legible on a bright yellow background. */
-    --color-warning-content: oklch(17.67% 0.027 79.94);
+    --color-warning-content: oklch(17.24% 0.009 102.15);
     /* Error / destructive colour — used on alert dialogs, error
        messages, validation failures, urgent care cards, and the
        red RAG status. */
-    --color-error: oklch(78.66% 0.15 28.47);
+    --color-error: oklch(86.19% 0.047 25.85);
     /* Foreground colour used over `--color-error` fills. */
-    --color-error-content: oklch(15.73% 0.03 28.47);
+    --color-error-content: oklch(17.24% 0.009 25.85);
     /* Smallest corner radius. Applied to chips, badges, switches,
        and radio/checkbox containers (mapped to `--lily-radius-
        sm`). */
-    --radius-selector: 2rem;
+    --radius-selector: 1rem;
     /* Medium corner radius. Applied to inputs, buttons, menu
        items, tooltips, and most everyday form controls (mapped to
        `--lily-radius-md`). */
-    --radius-field: 0.25rem;
+    --radius-field: 0.5rem;
     /* Largest corner radius. Applied to cards, dialogs, drawers,
        and hero blocks (mapped to `--lily-radius-lg`). */
-    --radius-box: 0.5rem;
+    --radius-box: 1rem;
     /* Base size for selector-style controls (checkbox/radio glyph
        size, switch thumb diameter). Currently unused by Lily's
        baseline component rules but available for theme

@@ -10,9 +10,10 @@
  *   2. this file, which lays out the book and styles its prose
  *
  * Everything below is written against the theme's semantic tokens rather than
- * literal colours, so all twenty themes — including the NHS, GDS, and USWDS
- * palettes — work without a per-theme branch. The theme's own rules sit in
- * `@layer lily` behind `:where()`, so any plain selector here wins outright.
+ * literal colours, so all 45 Lily default themes — including the NHS, GDS,
+ * and USWDS palettes — work without a per-theme branch. The theme's own
+ * rules sit in `@layer lily` behind `:where()`, so any plain selector here
+ * wins outright.
  * ========================================================================= */
 
 /* --- Reading size ---------------------------------------------------------
@@ -26,17 +27,26 @@
 	--site-measure: 46rem;
 }
 
-:root[data-text-size='small'] {
-	--site-scale: 0.9;
+:root[data-text-size='smallest'] {
+	--site-scale: 0.647;
 }
-:root[data-text-size='medium'] {
+:root[data-text-size='smaller'] {
+	--site-scale: 0.765;
+}
+:root[data-text-size='small'] {
+	--site-scale: 0.882;
+}
+:root[data-text-size='normal'] {
 	--site-scale: 1;
 }
 :root[data-text-size='large'] {
-	--site-scale: 1.15;
+	--site-scale: 1.118;
 }
-:root[data-text-size='x-large'] {
-	--site-scale: 1.3;
+:root[data-text-size='larger'] {
+	--site-scale: 1.235;
+}
+:root[data-text-size='largest'] {
+	--site-scale: 1.353;
 }
 
 /* --- Base ---------------------------------------------------------------- */

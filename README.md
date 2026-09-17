@@ -71,9 +71,9 @@ Content lives under `$lib/server`, so the book's Markdown can never reach a brow
 
 ## Themes
 
-Twenty Lily themes ship in `static/assets/themes/`, offered by the picker in the header: the neutral reading themes, plus the UK Government Digital Service, NHS England, NHS Scotland, NHS Wales, and US Web Design System palettes. The site's stylesheet is written against Lily's semantic tokens (`--lily-surface`, `--lily-text`, `--lily-space-*`), so every theme works without a per-theme branch. Theme and text size choices persist in the reader's browser.
+All 45 Lily default themes ship in `static/assets/themes/` — not a curated subset — including the UK Government Digital Service, NHS England, NHS Scotland, NHS Wales, and US Web Design System palettes. `PickerBar` offers them in its own default order (alphabetical, with the UK/US government themes grouped at the end), so the site never hand-maintains a theme list. The site's stylesheet is written against Lily's semantic tokens (`--lily-surface`, `--lily-text`, `--lily-space-*`), so every theme works without a per-theme branch. Theme and text size choices persist in the reader's browser.
 
-To change which themes ship, edit the `themes` list in `bin/vendor-lily.mjs` and re-run `pnpm run sync:lily`; it regenerates `src/lib/themes.js` to match what it actually copied.
+`pnpm run sync:lily` re-vendors every theme stylesheet found in the Lily checkout's `themes/` directory — there is no per-site curation to edit.
 
 ## Deploy
 
