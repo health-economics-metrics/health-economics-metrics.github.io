@@ -1,7 +1,8 @@
 <script>
 	import { base } from '$app/paths';
 	import { page } from '$app/state';
-	import { SectionList, SectionListItem } from '@lilydesignsystem/svelte-headless';
+	import { ContentsNav, SectionList, SectionListItem } from '@lilydesignsystem/svelte-headless';
+	import PartsList from '$lib/PartsList.svelte';
 	import { ui } from '$lib/i18n.js';
 
 	let { data } = $props();
@@ -34,7 +35,13 @@
 		</section>
 	{/if}
 
-	<article class="prose">
-		{@html data.html}
-	</article>
+	<ContentsNav class="contents" label={t.navContents}>
+		<PartsList parts={data.parts} locale={page.params.locale} />
+	</ContentsNav>
+
+	{#if data.trailingHtml}
+		<article class="prose">
+			{@html data.trailingHtml}
+		</article>
+	{/if}
 </div>

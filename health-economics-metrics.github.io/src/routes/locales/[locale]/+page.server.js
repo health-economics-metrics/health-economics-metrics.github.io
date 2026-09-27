@@ -25,17 +25,37 @@ export function load({ params }) {
 	// for relative-link resolution is the content root (dirname('README.md')),
 	// not a translated file's own locales/<locale>/ directory.
 	const { title, summary } = render(source, 'README.md');
-	const { order } = book(locale);
+	const { parts, order, sourcePartCount } = book(locale);
 
 	// The README opens with a summary and a "New here?" sentence, both of which
-	// the hero and the Start here list already show. Render from the first part
-	// heading onward so the page states each of them once. The README only ever
-	// links into the canonical locale, so its topic links are re-targeted at
-	// this locale's own slugs after rendering.
+	// the hero and the Start here list already show, so the intro is only used
+	// below to resolve those "New here?" picks, never rendered itself.
 	const partsStart = source.indexOf('\n## ');
 	const intro = partsStart === -1 ? source : source.slice(0, partsStart);
-	const rendered = render(partsStart === -1 ? source : source.slice(partsStart + 1), 'README.md');
-	const html = localizeHtml(rendered.html, locale);
+
+	// Parts/chapters render as PartsList's numbered nested list, built from
+	// `parts` above — not from the raw Markdown — so this only needs whatever
+	// prose follows the last topic-bearing part (e.g. "Benchmark freshness",
+	// "Claude skills": headings with no topic entries under them, which
+	// book.js's `navParts` filter already excludes from `parts`). Every
+	// translated index.md mirrors the canonical heading order line for line,
+	// so counting `sourcePartCount` many `\n## ` markers from the front lands
+	// on that same boundary in every locale.
+	let tailStart = source.length;
+	if (partsStart !== -1) {
+		let from = partsStart;
+		for (let seen = 0; seen < sourcePartCount; seen += 1) {
+			const next = source.indexOf('\n## ', from + 1);
+			if (next === -1) {
+				tailStart = source.length;
+				break;
+			}
+			from = next;
+			tailStart = next + 1;
+		}
+	}
+	const tail = tailStart < source.length ? source.slice(tailStart) : '';
+	const trailingHtml = tail.trim() ? localizeHtml(render(tail, 'README.md').html, locale) : '';
 
 	// The book's own intro sentence ("New here? Start with …", translated)
 	// decides the starting points, so the site never disagrees with the book
@@ -57,7 +77,8 @@ export function load({ params }) {
 	return {
 		title,
 		summary,
-		html,
+		parts,
+		trailingHtml,
 		startHere
 	};
 }

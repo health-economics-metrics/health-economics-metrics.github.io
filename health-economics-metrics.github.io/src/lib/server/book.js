@@ -154,7 +154,18 @@ function titleOf(locale, slug) {
 
 const bookCache = new Map();
 
-/** The book for one locale: `{ title, parts: [{title, entries}], order: [...] }`. */
+/**
+ * The book for one locale:
+ * `{ title, parts: [{title, entries}], order: [...], sourcePartCount }`.
+ *
+ * `sourcePartCount` is how many of `parts` correspond to a real `## ` heading
+ * in this locale's own README-shaped source, as opposed to the synthetic
+ * "Also in this book" overflow part appended below (which exists only in
+ * memory, never in the file) — callers that need to find where the source's
+ * numbered parts end and its trailing prose begins (the home page's "New
+ * here?"-adjacent sections, e.g.) count `sourcePartCount` many `\n## `
+ * markers from the front rather than `parts.length` many.
+ */
 export function book(locale) {
 	if (bookCache.has(locale)) return bookCache.get(locale);
 
@@ -170,6 +181,7 @@ export function book(locale) {
 			resolveEntry(entry, locale, byCanonicalSlug.get(entry.canonicalSlug))
 		)
 	}));
+	const sourcePartCount = parts.length;
 	let order = parts.flatMap((part) => part.entries.map((entry) => ({ ...entry, part: part.title })));
 
 	// Anything in this locale's topics/ that the README never links to (via
@@ -189,7 +201,7 @@ export function book(locale) {
 		order = order.concat(entries.map((entry) => ({ ...entry, part: part.title })));
 	}
 
-	const result = { title, parts, order };
+	const result = { title, parts, order, sourcePartCount };
 	bookCache.set(locale, result);
 	return result;
 }
