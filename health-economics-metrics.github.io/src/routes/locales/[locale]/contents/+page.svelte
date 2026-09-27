@@ -36,17 +36,17 @@
 
 	<ContentsNav class="contents" label={t.navContents}>
 		<ContentsList class="contents-parts">
-			{#each data.parts as part (part.title)}
+			{#each data.parts as part, partIndex (part.title)}
 				<ContentsListItem class="contents-part" id={partId(part.title)}>
 					<SectionHeading
 						class="contents-part-heading"
-						heading={part.title}
+						heading="{partIndex + 1} {part.title}"
 						subtitle={t.topicsCountSubtitle(part.entries.length)}
 					/>
 					<ContentsList class="contents-part-list">
-						{#each part.entries as entry (entry.slug)}
+						{#each part.entries as entry, entryIndex (entry.slug)}
 							<ContentsListItem class="contents-entry">
-								<a class="contents-entry-link" href="{base}{entry.href}">{entry.title}</a>
+								<a class="contents-entry-link" href="{base}{entry.href}">{partIndex + 1}.{entryIndex} {entry.title}</a>
 								{#if entry.blurb}
 									<span class="contents-entry-blurb">{entry.blurb}</span>
 								{/if}
