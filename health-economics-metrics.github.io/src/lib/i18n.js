@@ -39,7 +39,6 @@ const EN = {
 	contentsMetaDescription: (bookTitle) => `Every topic in ${bookTitle}, in reading order.`,
 	contentsIntro: (count, parts) =>
 		`All ${count} topics in reading order, across ${parts} parts. Each topic covers one metric or concept: definition, why it matters, the math, a worked example, the software engineering connection, pitfalls, and sources.`,
-	topicsCountSubtitle: (n) => `${n} topics`,
 
 	topicsMetaDescription: (bookTitle) => `Every topic in ${bookTitle}, listed A to Z.`,
 	topicsIntroPrefix: (count) => `All ${count} topics in alphabetical order. For reading order, see the`,
@@ -93,7 +92,6 @@ const es = {
 	contentsMetaDescription: (bookTitle) => `Todos los temas de ${bookTitle}, en orden de lectura.`,
 	contentsIntro: (count, parts) =>
 		`Los ${count} temas en orden de lectura, repartidos en ${parts} partes. Cada tema cubre una métrica o concepto: definición, por qué importa, las matemáticas, un ejemplo resuelto, la conexión con la ingeniería de software, los errores comunes y las fuentes.`,
-	topicsCountSubtitle: (n) => `${n} temas`,
 	topicsMetaDescription: (bookTitle) => `Todos los temas de ${bookTitle}, en orden alfabético.`,
 	topicsIntroPrefix: (count) => `Los ${count} temas en orden alfabético. Para el orden de lectura, consulta el`,
 	contentsLinkText: 'contenido',
@@ -144,7 +142,6 @@ const fr = {
 	contentsMetaDescription: (bookTitle) => `Tous les sujets de ${bookTitle}, dans l’ordre de lecture.`,
 	contentsIntro: (count, parts) =>
 		`Les ${count} sujets dans l’ordre de lecture, répartis en ${parts} parties. Chaque sujet couvre un indicateur ou un concept : définition, pourquoi c’est important, les mathématiques, un exemple résolu, le lien avec l’ingénierie logicielle, les pièges et les sources.`,
-	topicsCountSubtitle: (n) => `${n} sujets`,
 	topicsMetaDescription: (bookTitle) => `Tous les sujets de ${bookTitle}, classés de A à Z.`,
 	topicsIntroPrefix: (count) => `Les ${count} sujets par ordre alphabétique. Pour l’ordre de lecture, voir le`,
 	contentsLinkText: 'sommaire',
@@ -195,7 +192,6 @@ const ru = {
 	contentsMetaDescription: (bookTitle) => `Все темы книги «${bookTitle}» в порядке чтения.`,
 	contentsIntro: (count, parts) =>
 		`Все ${count} тем в порядке чтения, в ${parts} разделах. Каждая тема охватывает одну метрику или понятие: определение, почему это важно, математика, разобранный пример, связь с разработкой ПО, типичные ошибки и источники.`,
-	topicsCountSubtitle: (n) => `${n} тем`,
 	topicsMetaDescription: (bookTitle) => `Все темы книги «${bookTitle}» в алфавитном порядке.`,
 	topicsIntroPrefix: (count) => `Все ${count} тем в алфавитном порядке. Порядок чтения — в`,
 	contentsLinkText: 'оглавлении',
@@ -244,7 +240,6 @@ const zh = {
 	contentsMetaDescription: (bookTitle) => `《${bookTitle}》的全部主题，按阅读顺序排列。`,
 	contentsIntro: (count, parts) =>
 		`全部 ${count} 个主题按阅读顺序排列，共分为 ${parts} 个部分。每个主题涵盖一个指标或概念：定义、为何重要、数学计算、一个实例解析、与软件工程的关联、常见误区，以及参考来源。`,
-	topicsCountSubtitle: (n) => `${n} 个主题`,
 	topicsMetaDescription: (bookTitle) => `《${bookTitle}》的全部主题，按字母顺序排列。`,
 	topicsIntroPrefix: (count) => `全部 ${count} 个主题按字母顺序排列。如需阅读顺序，请查看`,
 	contentsLinkText: '目录',
@@ -295,7 +290,6 @@ const ar = {
 	contentsMetaDescription: (bookTitle) => `جميع مواضيع ${bookTitle}، بترتيب القراءة.`,
 	contentsIntro: (count, parts) =>
 		`جميع المواضيع البالغ عددها ${count} بترتيب القراءة، موزعة على ${parts} أقسام. يغطي كل موضوع مقياساً أو مفهوماً واحداً: التعريف، لماذا هو مهم، الرياضيات، مثال محلول، العلاقة بهندسة البرمجيات، الأخطاء الشائعة، والمصادر.`,
-	topicsCountSubtitle: (n) => `${n} موضوعاً`,
 	topicsMetaDescription: (bookTitle) => `جميع مواضيع ${bookTitle}، مرتبة أبجدياً.`,
 	topicsIntroPrefix: (count) => `جميع المواضيع البالغ عددها ${count} بترتيب أبجدي. للاطلاع على ترتيب القراءة، راجع`,
 	contentsLinkText: 'الفهرس',
@@ -346,7 +340,6 @@ const cy = {
 	contentsMetaDescription: (bookTitle) => `Pob pwnc yn ${bookTitle}, yn nhrefn darllen.`,
 	contentsIntro: (count, parts) =>
 		`Pob un o’r ${count} pwnc yn nhrefn darllen, ar draws ${parts} rhan. Mae pob pwnc yn ymdrin ag un metrig neu gysyniad: diffiniad, pam mae’n bwysig, y fathemateg, enghraifft wedi’i datrys, y cysylltiad â pheirianneg feddalwedd, peryglon, a ffynonellau.`,
-	topicsCountSubtitle: (n) => `${n} pwnc`,
 	topicsMetaDescription: (bookTitle) => `Pob pwnc yn ${bookTitle}, wedi’u rhestru o A i Z.`,
 	topicsIntroPrefix: (count) => `Pob un o’r ${count} pwnc yn nhrefn yr wyddor. Ar gyfer trefn darllen, gweler y`,
 	contentsLinkText: 'cynnwys',
@@ -397,7 +390,6 @@ const hi = {
 	contentsMetaDescription: (bookTitle) => `${bookTitle} के सभी विषय, पढ़ने के क्रम में।`,
 	contentsIntro: (count, parts) =>
 		`सभी ${count} विषय पढ़ने के क्रम में, ${parts} भागों में विभाजित। प्रत्येक विषय एक मीट्रिक या अवधारणा को कवर करता है: परिभाषा, यह क्यों महत्वपूर्ण है, गणित, एक हल किया गया उदाहरण, सॉफ़्टवेयर इंजीनियरिंग से संबंध, सामान्य गलतियाँ, और स्रोत।`,
-	topicsCountSubtitle: (n) => `${n} विषय`,
 	topicsMetaDescription: (bookTitle) => `${bookTitle} के सभी विषय, A से Z तक सूचीबद्ध।`,
 	topicsIntroPrefix: (count) => `सभी ${count} विषय वर्णानुक्रम में। पढ़ने के क्रम के लिए, देखें`,
 	contentsLinkText: 'विषय-सूची',
@@ -448,7 +440,6 @@ const bn = {
 	contentsMetaDescription: (bookTitle) => `${bookTitle}-এর সকল বিষয়, পড়ার ক্রমে।`,
 	contentsIntro: (count, parts) =>
 		`সকল ${count}টি বিষয় পড়ার ক্রমে, ${parts}টি ভাগে বিভক্ত। প্রতিটি বিষয় একটি মেট্রিক বা ধারণা নিয়ে আলোচনা করে: সংজ্ঞা, কেন এটি গুরুত্বপূর্ণ, গণিত, একটি সমাধানকৃত উদাহরণ, সফটওয়্যার প্রকৌশলের সাথে সংযোগ, সাধারণ ভুল, এবং তথ্যসূত্র।`,
-	topicsCountSubtitle: (n) => `${n}টি বিষয়`,
 	topicsMetaDescription: (bookTitle) => `${bookTitle}-এর সকল বিষয়, A থেকে Z পর্যন্ত তালিকাভুক্ত।`,
 	topicsIntroPrefix: (count) => `সকল ${count}টি বিষয় বর্ণানুক্রমিকভাবে। পড়ার ক্রমের জন্য দেখুন`,
 	contentsLinkText: 'সূচিপত্র',
@@ -499,7 +490,6 @@ const pt = {
 	contentsMetaDescription: (bookTitle) => `Todos os tópicos de ${bookTitle}, por ordem de leitura.`,
 	contentsIntro: (count, parts) =>
 		`Todos os ${count} tópicos por ordem de leitura, distribuídos em ${parts} partes. Cada tópico cobre uma métrica ou conceito: definição, por que importa, a matemática, um exemplo resolvido, a ligação com a engenharia de software, armadilhas comuns e fontes.`,
-	topicsCountSubtitle: (n) => `${n} tópicos`,
 	topicsMetaDescription: (bookTitle) => `Todos os tópicos de ${bookTitle}, por ordem alfabética.`,
 	topicsIntroPrefix: (count) => `Todos os ${count} tópicos por ordem alfabética. Para a ordem de leitura, veja o`,
 	contentsLinkText: 'índice',
@@ -550,7 +540,6 @@ const id = {
 	contentsMetaDescription: (bookTitle) => `Semua topik dalam ${bookTitle}, sesuai urutan baca.`,
 	contentsIntro: (count, parts) =>
 		`Semua ${count} topik dalam urutan baca, terbagi dalam ${parts} bagian. Setiap topik membahas satu metrik atau konsep: definisi, mengapa penting, matematikanya, contoh yang diselesaikan, kaitan dengan rekayasa perangkat lunak, kesalahan umum, dan sumber.`,
-	topicsCountSubtitle: (n) => `${n} topik`,
 	topicsMetaDescription: (bookTitle) => `Semua topik dalam ${bookTitle}, terdaftar dari A hingga Z.`,
 	topicsIntroPrefix: (count) => `Semua ${count} topik dalam urutan abjad. Untuk urutan baca, lihat`,
 	contentsLinkText: 'daftar isi',
@@ -601,7 +590,6 @@ const ur = {
 	contentsMetaDescription: (bookTitle) => `${bookTitle} کے تمام موضوعات، پڑھنے کی ترتیب میں۔`,
 	contentsIntro: (count, parts) =>
 		`تمام ${count} موضوعات پڑھنے کی ترتیب میں، ${parts} حصوں میں تقسیم۔ ہر موضوع ایک میٹرک یا تصور کا احاطہ کرتا ہے: تعریف، یہ کیوں اہم ہے، ریاضی، ایک حل شدہ مثال، سافٹ ویئر انجینئرنگ سے تعلق، نقصانات، اور ذرائع۔`,
-	topicsCountSubtitle: (n) => `${n} موضوعات`,
 	topicsMetaDescription: (bookTitle) => `${bookTitle} کے تمام موضوعات، A سے Z تک فہرست شدہ۔`,
 	topicsIntroPrefix: (count) => `تمام ${count} موضوعات حروف تہجی کی ترتیب میں۔ پڑھنے کی ترتیب کے لیے دیکھیں`,
 	contentsLinkText: 'فہرست',

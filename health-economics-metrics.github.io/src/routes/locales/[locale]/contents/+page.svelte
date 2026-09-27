@@ -22,6 +22,6 @@
 	</header>
 
 	<ContentsNav class="contents" label={t.navContents}>
-		<PartsList parts={data.parts} locale={page.params.locale} />
+		<PartsList parts={data.parts} />
 	</ContentsNav>
 </div>

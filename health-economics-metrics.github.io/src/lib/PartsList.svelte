@@ -7,10 +7,8 @@
 	// <ContentsList> of that part's chapters — never independent sections.
 	import { base } from '$app/paths';
 	import { ContentsList, ContentsListItem, SectionHeading } from '@lilydesignsystem/svelte-headless';
-	import { ui } from './i18n.js';
 
-	let { parts, locale } = $props();
-	const t = $derived(ui(locale));
+	let { parts } = $props();
 
 	/** Anchor id for a part, so deep links can target it. */
 	function partId(title) {
@@ -24,11 +22,7 @@
 <ContentsList class="contents-parts">
 	{#each parts as part, partIndex (part.title)}
 		<ContentsListItem class="contents-part" id={partId(part.title)}>
-			<SectionHeading
-				class="contents-part-heading"
-				heading="{partIndex + 1} {part.title}"
-				subtitle={t.topicsCountSubtitle(part.entries.length)}
-			/>
+			<SectionHeading class="contents-part-heading" heading="{partIndex + 1} {part.title}" />
 			<ContentsList class="contents-part-list">
 				{#each part.entries as entry, entryIndex (entry.slug)}
 					<ContentsListItem class="contents-entry">
