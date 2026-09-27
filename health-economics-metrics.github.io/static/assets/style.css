@@ -401,7 +401,19 @@ pre {
 	font-size: 0.95em;
 }
 
-/* --- Contents ------------------------------------------------------------ */
+/* --- Contents --------------------------------------------------------------
+ * Parts and their chapters render as one nested list — <ContentsList> (an
+ * <ol>) of parts, each a <ContentsListItem> (<li>) containing a further
+ * <ContentsList> of that part's chapters — not a grid/table/tile layout.
+ * Plain block flow throughout; list markers stay off, matching the rest of
+ * the site's list styling (border-line separators instead of bullets).
+ * ------------------------------------------------------------------------ */
+
+.contents-parts {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
 
 .contents-part {
 	max-width: 60rem;
