@@ -4,17 +4,13 @@ Health Economics Metrics
 • Tags: #HealthEconomics #DigitalHealth #HealthTech #HealthPolicy
 • Keywords: health economics, cost-effectiveness analysis, QALY, HTA
 
-Summary
-Joel Parker Henderson publishes Health Economics Metrics, a free online reference for health economists and software engineers. It explains core concepts from opportunity cost through cost-effectiveness analysis, and helps readers judge whether a digital health product is worth building. It is live now at health-economics-metrics.github.io for anyone working in health technology anywhere in the world.
+Summary: Health Economics Metrics is a free online reference for health economists and software engineers. It explains core concepts from opportunity cost through cost-effectiveness analysis, and helps readers judge whether a digital health product is worth building.
 
-Benefits
-Readers get a plain explanation of cost-effectiveness, quality-adjusted life years, and other measures of value, each paired with a worked example and a direct line back to a real software decision. Someone new to health economics can look up a term in the middle of a meeting and see right away why it matters and how to apply it.
+Benefits: Readers get a plain explanation of cost-effectiveness, quality-adjusted life years, and other measures of value, each paired with a worked example and a direct line back to a real software decision. Someone new to health economics can look up a term in the middle of a meeting and see right away why it matters and how to apply it.
 
-Why it matters
-Health technology teams often stall because clinicians, economists, and engineers use the same words to mean different things. A shared reference gives everyone common ground, so a conversation about value moves forward instead of circling back to definitions every time it comes up.
+Why it matters: Health technology teams often stall because clinicians, economists, and engineers use the same words to mean different things. A shared reference gives everyone common ground, so a conversation about value moves forward instead of circling back to definitions every time it comes up.
 
-Please share
-Please pass this along to a colleague who works between health economics and software delivery: a product manager scoping a business case, an engineer estimating impact, or a clinician turning outcomes into numbers. A direct message or a mention in a group where these conversations already happen both work well.
+Please share: You can send this to a colleague who works between health economics and software delivery, or a product manager scoping a business case, or an engineer estimating impact, or a clinician turning outcomes into numbers. Share this in groups where these conversations already happen.
 
-Advice welcome
-This project keeps growing, and I welcome advice on which topic to add next or where an explanation could read more clearly. I would love to hear a suggestion, a correction, or a use case this reference has not covered yet, so please message me directly.
+Advice welcome: This project evolves and I welcome help on which topics to add or adjust, or suggestions, corrections, or use cases this reference has not covered yet. Your help here improves the project for many more people.
+
