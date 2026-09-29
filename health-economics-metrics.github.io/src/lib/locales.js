@@ -25,6 +25,7 @@ export const LOCALE_LABELS = {
 	'cy-gb': 'Cymraeg - Y Deyrnas Unedig',
 	'cy-001': 'Cymraeg',
 	'hi-001': 'हिन्दी',
+	'hi-in': 'हिन्दी - भारत',
 	'bn-001': 'বাংলা',
 	'bn-bd': 'বাংলা - বাংলাদেশ',
 	'pt-001': 'Português',
