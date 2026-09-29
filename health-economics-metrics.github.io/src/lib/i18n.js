@@ -361,6 +361,56 @@ const cy = {
 	paginationNext: 'Nesaf'
 };
 
+const de = {
+	skipToContent: 'Zum Inhalt springen',
+	navHome: 'Startseite',
+	navContents: 'Inhalt',
+	navTopicsAZ: 'Themen A–Z',
+	navSearch: 'Suche',
+	navAbout: 'Über',
+	footerSourceLink: 'Quelle',
+	footerTaglineSuffix:
+		' — Mathematik, Beispiele und Argumentation der Gesundheitsökonomie für Softwareentwickler, die für nationale Gesundheitsdienste entwickeln.',
+	footerNote:
+		'Zahlen in diesem Buch veralten schnell. Jedes Thema datiert seine Referenzwerte im Text; vor Verwendung einer Zahl in einem realen Business Case erneut prüfen.',
+	pickerTheme: 'Design',
+	pickerLanguage: 'Sprache',
+	pickerTextSize: 'Textgröße',
+	pickerShare: 'Teilen',
+	shareCopyLink: 'Link kopieren',
+	shareCopied: 'Kopiert',
+	shareCopyFailed: 'Kopieren fehlgeschlagen',
+	shareEmailLabel: 'Per E-Mail teilen',
+	shareLinkedinLabel: 'Auf LinkedIn teilen',
+	shareRedditLabel: 'Auf Reddit teilen',
+	shareBlueskyLabel: 'Auf Bluesky teilen',
+	shareMastodonLabel: 'Auf Mastodon teilen',
+	startHere: 'Hier anfangen',
+	startHereSubtitle: 'Die drei Ideen, auf denen alles andere aufbaut.',
+	contentsMetaDescription: (bookTitle) => `Alle Themen in ${bookTitle}, in Lesereihenfolge.`,
+	contentsIntro: (count, parts) =>
+		`Alle ${count} Themen in Lesereihenfolge, verteilt auf ${parts} Teile. Jedes Thema behandelt eine Kennzahl oder ein Konzept: Definition, warum es wichtig ist, die Mathematik, ein durchgerechnetes Beispiel, den Bezug zur Softwareentwicklung, Fallstricke und Quellen.`,
+	topicsMetaDescription: (bookTitle) => `Alle Themen in ${bookTitle}, von A bis Z.`,
+	topicsIntroPrefix: (count) => `Alle ${count} Themen in alphabetischer Reihenfolge. Für die Lesereihenfolge siehe den`,
+	contentsLinkText: 'Inhalt',
+	jumpToLetter: 'Zum Buchstaben springen',
+	searchMetaDescription: (bookTitle) => `Durchsuchen Sie alle Themen in ${bookTitle}.`,
+	searchIntro: (count) =>
+		`Alle ${count} Themen nach Titel, Teil, Zusammenfassung und Abschnittsüberschrift durchsuchen. Alles läuft in Ihrem Browser — nichts, was Sie eingeben, verlässt diese Seite.`,
+	searchInputLabel: 'Themen durchsuchen',
+	searchPlaceholder: 'QALY, Diskontierung, Kosten pro Token…',
+	searchHintEmptyHtml: 'Zum Suchen tippen. Probieren Sie <em>QALY</em>, <em>Bettentage</em> oder <em>ROI</em>.',
+	noResultsPrefix: 'Kein Thema passt zu ',
+	noResultsMiddle: '. Versuchen Sie einen allgemeineren Begriff, oder durchsuchen Sie den ',
+	resultsCountSingular: 'Thema',
+	resultsCountPlural: 'Themen',
+	topicPosition: (index, total) => `Thema ${index} von ${total}`,
+	onThisPage: 'Auf dieser Seite',
+	paginationLabel: 'Buch',
+	paginationPrevious: 'Zurück',
+	paginationNext: 'Weiter'
+};
+
 const hi = {
 	skipToContent: 'सामग्री पर जाएँ',
 	navHome: 'होम',
@@ -612,6 +662,7 @@ const ur = {
 };
 
 const TRANSLATIONS = {
+	'de-de': de,
 	'es-es': es,
 	'es-001': es,
 	'fr-fr': fr,
