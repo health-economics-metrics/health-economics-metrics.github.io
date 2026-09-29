@@ -26,6 +26,7 @@ export const LOCALE_LABELS = {
 	'cy-001': 'Cymraeg',
 	'hi-001': 'हिन्दी',
 	'bn-001': 'বাংলা',
+	'bn-bd': 'বাংলা - বাংলাদেশ',
 	'pt-001': 'Português',
 	'id-001': 'Bahasa Indonesia',
 	'ur-001': 'اردو'
