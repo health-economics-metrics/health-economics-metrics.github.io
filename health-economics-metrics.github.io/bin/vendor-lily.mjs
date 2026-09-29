@@ -1,37 +1,25 @@
 #!/usr/bin/env node
-// Vendor the Lily Design System themes this site offers, so the site builds
-// standalone with no dependency on a local Lily checkout.
-//
-// The Svelte components themselves (headless components, and the theme,
-// locale, text-size, share, and picker-bar helpers) are NOT vendored — they
-// are ordinary npm dependencies (see package.json) and come from
-// node_modules like any other package. Only the theme stylesheets are
-// vendored here, because Lily does not publish them as an npm package: they
-// live only in the `themes/` directory of the lily-design-system monorepo.
+// Vendor the Lily Design System themes this site offers into static/, since
+// they have to be real files under the site's own origin for the theme
+// picker to fetch by URL (`themesUrl` + a slug) and for <link rel=
+// "stylesheet"> in app.html — an npm package's export map resolves for
+// import statements, not for a browser requesting a URL.
 //
 // Every default theme ships — not a curated subset — matching PickerBar's
 // own DEFAULT_THEMES catalog, so the theme picker never offers a theme
 // this site can't actually load.
 //
-// Source: $LILY if set, else ../../lilydesignsystem/lily-design-system.
-// Run after Lily's themes change:  npm run sync:lily
+// Source: the @lilydesignsystem/themes npm dependency (see package.json) —
+// an ordinary, versioned package, not a local Lily checkout.
+// Run after upgrading that dependency:  npm run sync:lily
 
 import { copyFile, mkdir, readdir, rm } from 'node:fs/promises';
-import { existsSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const siteRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const lily = resolve(
-	process.env.LILY ?? join(siteRoot, '..', '..', 'lilydesignsystem', 'lily-design-system')
-);
-
-if (!existsSync(join(lily, 'themes'))) {
-	console.error(`No Lily checkout found at ${lily}. Set LILY=/path/to/lily-design-system.`);
-	process.exit(1);
-}
-
-const themesSrc = join(lily, 'themes');
+const packageJsonUrl = import.meta.resolve('@lilydesignsystem/themes/package.json');
+const themesSrc = join(dirname(fileURLToPath(packageJsonUrl)), 'dist');
 const themesOut = join(siteRoot, 'static', 'assets', 'themes');
 
 const themeFiles = (await readdir(themesSrc)).filter((name) => name.endsWith('.css')).sort();
@@ -43,4 +31,4 @@ for (const file of themeFiles) {
 	await copyFile(join(themesSrc, file), join(themesOut, file));
 }
 
-console.log(`Vendored ${themeFiles.length} Lily theme(s) from ${lily}.`);
+console.log(`Vendored ${themeFiles.length} Lily theme(s) from @lilydesignsystem/themes.`);

@@ -42,20 +42,21 @@ pnpm run sync:content   # book Markdown -> content/
 pnpm run sync:lily      # Lily themes  -> static/assets/themes
 ```
 
-Both scripts default to sibling checkouts and can be pointed elsewhere:
+`sync:content` defaults to a sibling checkout and can be pointed elsewhere:
 
 ```sh
 BOOK=/path/to/health-economics-metrics pnpm run sync:content
-LILY=/path/to/lily-design-system pnpm run sync:lily
 ```
 
-Vendored files carry a "do not edit here" banner. Change them upstream, then re-sync. The Lily components themselves are not vendored — bump `@lilydesignsystem/svelte-headless` and `@lilydesignsystem/svelte-picker-bar` in `package.json` instead.
+`sync:lily` copies from the `@lilydesignsystem/themes` npm dependency (see `package.json`) — bump that package's version to pick up new/updated themes, then re-run it.
+
+Vendored files carry a "do not edit here" banner. Change them upstream, then re-sync. The Lily components and themes themselves are not vendored as source — bump `@lilydesignsystem/svelte-headless`, `@lilydesignsystem/svelte-picker-bar`, and `@lilydesignsystem/themes` in `package.json` instead.
 
 ## Layout
 
 ```
 bin/sync-content.mjs   vendor the book's Markdown into content/
-bin/vendor-lily.mjs    vendor Lily's theme stylesheets (components are npm deps)
+bin/vendor-lily.mjs    vendor theme stylesheets from the @lilydesignsystem/themes npm dep
 content/               the book, verbatim (generated — do not edit)
 src/lib/markdown.js    Markdown -> HTML: link rewriting, heading ids
 src/lib/paths.js       content path <-> site route mapping
@@ -73,7 +74,7 @@ Content lives under `$lib/server`, so the book's Markdown can never reach a brow
 
 All 45 Lily default themes ship in `static/assets/themes/` — not a curated subset — including the UK Government Digital Service, NHS England, NHS Scotland, NHS Wales, and US Web Design System palettes. `PickerBar` offers them in its own default order (alphabetical, with the UK/US government themes grouped at the end), so the site never hand-maintains a theme list. The site's stylesheet is written against Lily's semantic tokens (`--lily-surface`, `--lily-text`, `--lily-space-*`), so every theme works without a per-theme branch. Theme and text size choices persist in the reader's browser.
 
-`pnpm run sync:lily` re-vendors every theme stylesheet found in the Lily checkout's `themes/` directory — there is no per-site curation to edit.
+`pnpm run sync:lily` re-vendors every theme stylesheet the `@lilydesignsystem/themes` package ships — there is no per-site curation to edit.
 
 ## Deploy
 

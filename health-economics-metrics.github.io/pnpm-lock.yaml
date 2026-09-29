@@ -14,6 +14,9 @@ importers:
       '@lilydesignsystem/svelte-picker-bar':
         specifier: ^0.1.0
         version: 0.1.0(svelte@5.56.9)
+      '@lilydesignsystem/themes':
+        specifier: ^0.1.0
+        version: 0.1.0
       github-slugger:
         specifier: ^2.0.0
         version: 2.0.0
@@ -93,6 +96,10 @@ packages:
     engines: {node: '=26'}
     peerDependencies:
       svelte: ^5.0.0
+
+  '@lilydesignsystem/themes@0.1.0':
+    resolution: {integrity: sha512-Oa52SvChIe0kE7g0xqa+XUkXO4Bi6GRJmOvPjDWkk+zJ9W2O1N1DZk0l8/BEsAGUMSZZBDL+IobTfR0Ps20DmA==}
+    engines: {node: '=26'}
 
   '@oxc-project/types@0.144.0':
     resolution: {integrity: sha512-nuhZIOLuI6TFQ32I/WnUx+SCPY7SdSKwgnFHydAuoS1+Z4BRcaP+RRJmGzl9lw+0OFF7UmaESf7KQRXaNLHypg==}
@@ -557,6 +564,8 @@ snapshots:
   '@lilydesignsystem/svelte-theme-picker@0.1.0(svelte@5.56.9)':
     dependencies:
       svelte: 5.56.9
+
+  '@lilydesignsystem/themes@0.1.0': {}
 
   '@oxc-project/types@0.144.0': {}
 
