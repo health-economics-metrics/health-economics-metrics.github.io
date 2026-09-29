@@ -411,6 +411,56 @@ const de = {
 	paginationNext: 'Weiter'
 };
 
+const ja = {
+	skipToContent: 'コンテンツへスキップ',
+	navHome: 'ホーム',
+	navContents: '目次',
+	navTopicsAZ: 'トピック一覧(A–Z)',
+	navSearch: '検索',
+	navAbout: 'このサイトについて',
+	footerSourceLink: 'ソース',
+	footerTaglineSuffix:
+		' — 国の医療サービスのためにソフトウェアを開発するエンジニアのための、医療経済学の数式・事例・考え方。',
+	footerNote:
+		'この本の数値はすぐに古くなります。各トピックは本文中で基準値の日付を示しています。実際のビジネスケースで数値を使う前に再確認してください。',
+	pickerTheme: 'テーマ',
+	pickerLanguage: '言語',
+	pickerTextSize: '文字サイズ',
+	pickerShare: '共有',
+	shareCopyLink: 'リンクをコピー',
+	shareCopied: 'コピーしました',
+	shareCopyFailed: 'コピーに失敗しました',
+	shareEmailLabel: 'メールで共有',
+	shareLinkedinLabel: 'LinkedInで共有',
+	shareRedditLabel: 'Redditで共有',
+	shareBlueskyLabel: 'Blueskyで共有',
+	shareMastodonLabel: 'Mastodonで共有',
+	startHere: 'ここから始める',
+	startHereSubtitle: '他のすべての土台となる3つの考え方。',
+	contentsMetaDescription: (bookTitle) => `${bookTitle}の全トピックを、読む順に並べたもの。`,
+	contentsIntro: (count, parts) =>
+		`全${count}トピックを${parts}部に分けて、読む順に並べています。各トピックは1つの指標または概念を扱い、定義、なぜ重要か、数式、計算例、ソフトウェア工学との関連、落とし穴、出典を含みます。`,
+	topicsMetaDescription: (bookTitle) => `${bookTitle}の全トピックを、五十音順に並べたもの。`,
+	topicsIntroPrefix: (count) => `全${count}トピックをアルファベット順に並べています。読む順については`,
+	contentsLinkText: '目次',
+	jumpToLetter: '文字へジャンプ',
+	searchMetaDescription: (bookTitle) => `${bookTitle}の全トピックを検索します。`,
+	searchIntro: (count) =>
+		`全${count}トピックを、タイトル・部・要約・見出しで検索できます。すべてブラウザ内で完結し、入力内容がこのページの外に送られることはありません。`,
+	searchInputLabel: 'トピックを検索',
+	searchPlaceholder: 'QALY、割引、トークンあたりの費用…',
+	searchHintEmptyHtml: '検索するには入力してください。<em>QALY</em>、<em>病床日</em>、<em>ROI</em>などをお試しください。',
+	noResultsPrefix: '該当するトピックがありません: ',
+	noResultsMiddle: '。より一般的な言葉を試すか、',
+	resultsCountSingular: '件のトピック',
+	resultsCountPlural: '件のトピック',
+	topicPosition: (index, total) => `トピック ${index} / ${total}`,
+	onThisPage: 'このページの内容',
+	paginationLabel: '本',
+	paginationPrevious: '前へ',
+	paginationNext: '次へ'
+};
+
 const hi = {
 	skipToContent: 'सामग्री पर जाएँ',
 	navHome: 'होम',
@@ -663,6 +713,7 @@ const ur = {
 
 const TRANSLATIONS = {
 	'de-de': de,
+	'ja-jp': ja,
 	'es-es': es,
 	'es-001': es,
 	'fr-fr': fr,
