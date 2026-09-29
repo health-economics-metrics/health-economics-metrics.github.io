@@ -30,7 +30,8 @@ export const LOCALE_LABELS = {
 	'bn-bd': 'বাংলা - বাংলাদেশ',
 	'pt-001': 'Português',
 	'id-001': 'Bahasa Indonesia',
-	'ur-001': 'اردو'
+	'ur-001': 'اردو',
+	'ur-pk': 'اردو - پاکستان'
 };
 
 export const DEFAULT_LOCALE = 'en-gb-oxendict';

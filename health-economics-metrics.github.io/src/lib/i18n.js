@@ -732,7 +732,8 @@ const TRANSLATIONS = {
 	'bn-bd': bn,
 	'pt-001': pt,
 	'id-001': id,
-	'ur-001': ur
+	'ur-001': ur,
+	'ur-pk': ur
 };
 
 /** This locale's UI strings, falling back to English for any missing key. */
