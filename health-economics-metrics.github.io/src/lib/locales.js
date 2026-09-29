@@ -30,6 +30,7 @@ export const LOCALE_LABELS = {
 	'bn-bd': 'বাংলা - বাংলাদেশ',
 	'pt-001': 'Português',
 	'id-001': 'Bahasa Indonesia',
+	'id-id': 'Bahasa Indonesia - Indonesia',
 	'ur-001': 'اردو',
 	'ur-pk': 'اردو - پاکستان'
 };

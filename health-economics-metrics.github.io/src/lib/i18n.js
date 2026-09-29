@@ -732,6 +732,7 @@ const TRANSLATIONS = {
 	'bn-bd': bn,
 	'pt-001': pt,
 	'id-001': id,
+	'id-id': id,
 	'ur-001': ur,
 	'ur-pk': ur
 };
