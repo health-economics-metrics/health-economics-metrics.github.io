@@ -63,6 +63,56 @@ const EN = {
 	paginationNext: 'Next'
 };
 
+const it = {
+	skipToContent: 'Vai al contenuto',
+	navHome: 'Home',
+	navContents: 'Indice',
+	navTopicsAZ: 'Argomenti A–Z',
+	navSearch: 'Cerca',
+	navAbout: 'Informazioni',
+	footerSourceLink: 'Codice sorgente',
+	footerTaglineSuffix:
+		' — matematica, esempi e ragionamento di economia sanitaria per ingegneri del software che sviluppano per i servizi sanitari nazionali.',
+	footerNote:
+		'I numeri di questo libro invecchiano rapidamente. Ogni argomento data i propri parametri di riferimento direttamente nel testo; verificare nuovamente prima di usare un numero in un business case reale.',
+	pickerTheme: 'Tema',
+	pickerLanguage: 'Lingua',
+	pickerTextSize: 'Dimensione testo',
+	pickerShare: 'Condividi',
+	shareCopyLink: 'Copia link',
+	shareCopied: 'Copiato',
+	shareCopyFailed: 'Copia non riuscita',
+	shareEmailLabel: 'Condividi via email',
+	shareLinkedinLabel: 'Condividi su LinkedIn',
+	shareRedditLabel: 'Condividi su Reddit',
+	shareBlueskyLabel: 'Condividi su Bluesky',
+	shareMastodonLabel: 'Condividi su Mastodon',
+	startHere: 'Inizia qui',
+	startHereSubtitle: 'Le tre idee su cui si basa tutto il resto.',
+	contentsMetaDescription: (bookTitle) => `Tutti gli argomenti di ${bookTitle}, in ordine di lettura.`,
+	contentsIntro: (count, parts) =>
+		`Tutti i ${count} argomenti in ordine di lettura, suddivisi in ${parts} parti. Ogni argomento tratta una metrica o un concetto: definizione, perché è importante, la matematica, un esempio risolto, il collegamento con l'ingegneria del software, le insidie e le fonti.`,
+	topicsMetaDescription: (bookTitle) => `Tutti gli argomenti di ${bookTitle}, dalla A alla Z.`,
+	topicsIntroPrefix: (count) => `Tutti i ${count} argomenti in ordine alfabetico. Per l'ordine di lettura, vedi l'`,
+	contentsLinkText: 'indice',
+	jumpToLetter: 'Vai alla lettera',
+	searchMetaDescription: (bookTitle) => `Cerca in tutti gli argomenti di ${bookTitle}.`,
+	searchIntro: (count) =>
+		`Cerca tra tutti i ${count} argomenti per titolo, parte, riepilogo e titolo di sezione. Tutto viene eseguito nel tuo browser — nulla di ciò che digiti lascia questa pagina.`,
+	searchInputLabel: 'Cerca argomenti',
+	searchPlaceholder: 'QALY, attualizzazione, costo per token…',
+	searchHintEmptyHtml: 'Digita per cercare. Prova <em>QALY</em>, <em>giorni di degenza</em>, o <em>ROI</em>.',
+	noResultsPrefix: 'Nessun argomento corrisponde a ',
+	noResultsMiddle: '. Prova un termine più generico, oppure sfoglia l\'',
+	resultsCountSingular: 'argomento',
+	resultsCountPlural: 'argomenti',
+	topicPosition: (index, total) => `Argomento ${index} di ${total}`,
+	onThisPage: 'In questa pagina',
+	paginationLabel: 'Libro',
+	paginationPrevious: 'Precedente',
+	paginationNext: 'Successivo'
+};
+
 const es = {
 	skipToContent: 'Saltar al contenido',
 	navHome: 'Inicio',
@@ -716,6 +766,7 @@ const TRANSLATIONS = {
 	'ja-jp': ja,
 	'es-es': es,
 	'es-001': es,
+	'it-it': it,
 	'fr-fr': fr,
 	'fr-001': fr,
 	'ru-ru': ru,
