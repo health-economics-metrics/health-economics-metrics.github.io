@@ -911,6 +911,56 @@ const uk = {
 	paginationNext: 'Наступна'
 };
 
+const sv = {
+	skipToContent: 'Hoppa till innehållet',
+	navHome: 'Hem',
+	navContents: 'Innehåll',
+	navTopicsAZ: 'Ämnen A–Ö',
+	navSearch: 'Sök',
+	navAbout: 'Om denna webbplats',
+	footerSourceLink: 'Källa',
+	footerTaglineSuffix:
+		' — hälsoekonomins matematik, exempel och resonemang för ingenjörer som bygger mjukvara för nationella hälso- och sjukvårdsorganisationer.',
+	footerNote:
+		'Siffrorna i den här boken blir snabbt inaktuella. Varje ämne daterar sina riktmärken direkt i texten; verifiera igen innan du använder en siffra i ett verkligt affärscase.',
+	pickerTheme: 'Tema',
+	pickerLanguage: 'Språk',
+	pickerTextSize: 'Textstorlek',
+	pickerShare: 'Dela',
+	shareCopyLink: 'Kopiera länk',
+	shareCopied: 'Kopierad',
+	shareCopyFailed: 'Kopiering misslyckades',
+	shareEmailLabel: 'Dela via e-post',
+	shareLinkedinLabel: 'Dela på LinkedIn',
+	shareRedditLabel: 'Dela på Reddit',
+	shareBlueskyLabel: 'Dela på Bluesky',
+	shareMastodonLabel: 'Dela på Mastodon',
+	startHere: 'Börja här',
+	startHereSubtitle: 'De tre idéer som allt annat bygger på.',
+	contentsMetaDescription: (bookTitle) => `Alla ämnen i ${bookTitle}, i läsordning.`,
+	contentsIntro: (count, parts) =>
+		`Alla ${count} ämnen i läsordning, indelade i ${parts} delar. Varje ämne täcker ett mått eller begrepp: definition, varför det är viktigt, matematiken, ett genomarbetat exempel, kopplingen till mjukvaruutveckling, fallgropar och källor.`,
+	topicsMetaDescription: (bookTitle) => `Alla ämnen i ${bookTitle}, listade i alfabetisk ordning.`,
+	topicsIntroPrefix: (count) => `Alla ${count} ämnen i alfabetisk ordning. För läsordning, se`,
+	contentsLinkText: 'innehållsförteckningen',
+	jumpToLetter: 'Hoppa till bokstav',
+	searchMetaDescription: (bookTitle) => `Sök bland alla ämnen i ${bookTitle}.`,
+	searchIntro: (count) =>
+		`Sök bland alla ${count} ämnen efter titel, del, sammanfattning och rubriker. Allt sker i din webbläsare — det du skriver lämnar aldrig denna sida.`,
+	searchInputLabel: 'Sök ämnen',
+	searchPlaceholder: 'QALY, diskontering, kostnad per token…',
+	searchHintEmptyHtml: 'Skriv för att söka. Prova <em>QALY</em>, <em>vårddagar</em> eller <em>ROI</em>.',
+	noResultsPrefix: 'Inga matchande ämnen: ',
+	noResultsMiddle: '. Prova en mer allmän term, eller bläddra i ',
+	resultsCountSingular: 'ämne',
+	resultsCountPlural: 'ämnen',
+	topicPosition: (index, total) => `Ämne ${index} av ${total}`,
+	onThisPage: 'På den här sidan',
+	paginationLabel: 'Bok',
+	paginationPrevious: 'Föregående',
+	paginationNext: 'Nästa'
+};
+
 const TRANSLATIONS = {
 	'de-de': de,
 	'ja-jp': ja,
@@ -939,7 +989,8 @@ const TRANSLATIONS = {
 	'ur-pk': ur,
 	'ko-kr': ko,
 	'nl-nl': nl,
-	'uk-ua': uk
+	'uk-ua': uk,
+	'sv-se': sv
 };
 
 /** This locale's UI strings, falling back to English for any missing key. */
