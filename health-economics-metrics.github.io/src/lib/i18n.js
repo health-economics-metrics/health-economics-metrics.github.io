@@ -1011,6 +1011,56 @@ const fi = {
 	paginationNext: 'Seuraava'
 };
 
+const no = {
+	skipToContent: 'Hopp til innhold',
+	navHome: 'Hjem',
+	navContents: 'Innhold',
+	navTopicsAZ: 'Emner A–Å',
+	navSearch: 'Søk',
+	navAbout: 'Om dette nettstedet',
+	footerSourceLink: 'Kilde',
+	footerTaglineSuffix:
+		' — helseøkonomiens matematikk, eksempler og resonnement for ingeniører som bygger programvare for nasjonale helsetjenester.',
+	footerNote:
+		'Tallene i denne boken blir raskt utdaterte. Hvert emne daterer sine referanseverdier direkte i teksten; verifiser på nytt før du bruker et tall i en reell business case.',
+	pickerTheme: 'Tema',
+	pickerLanguage: 'Språk',
+	pickerTextSize: 'Tekststørrelse',
+	pickerShare: 'Del',
+	shareCopyLink: 'Kopier lenke',
+	shareCopied: 'Kopiert',
+	shareCopyFailed: 'Kopiering mislyktes',
+	shareEmailLabel: 'Del via e-post',
+	shareLinkedinLabel: 'Del på LinkedIn',
+	shareRedditLabel: 'Del på Reddit',
+	shareBlueskyLabel: 'Del på Bluesky',
+	shareMastodonLabel: 'Del på Mastodon',
+	startHere: 'Begynn her',
+	startHereSubtitle: 'De tre idéene alt annet bygger på.',
+	contentsMetaDescription: (bookTitle) => `Alle emner i ${bookTitle}, i lesrekkefølge.`,
+	contentsIntro: (count, parts) =>
+		`Alle ${count} emner i lesrekkefølge, delt inn i ${parts} deler. Hvert emne dekker ett mål eller begrep: definisjon, hvorfor det er viktig, matematikken, et gjennomarbeidet eksempel, koblingen til programvareutvikling, fallgruver og kilder.`,
+	topicsMetaDescription: (bookTitle) => `Alle emner i ${bookTitle}, listet alfabetisk.`,
+	topicsIntroPrefix: (count) => `Alle ${count} emner i alfabetisk rekkefølge. For lesrekkefølge, se`,
+	contentsLinkText: 'innholdsfortegnelsen',
+	jumpToLetter: 'Hopp til bokstav',
+	searchMetaDescription: (bookTitle) => `Søk i alle emner i ${bookTitle}.`,
+	searchIntro: (count) =>
+		`Søk i alle ${count} emner etter tittel, del, sammendrag og overskrifter. Alt skjer i nettleseren din — det du skriver forlater aldri denne siden.`,
+	searchInputLabel: 'Søk i emner',
+	searchPlaceholder: 'QALY, diskontering, kostnad per token…',
+	searchHintEmptyHtml: 'Skriv for å søke. Prøv <em>QALY</em>, <em>liggedøgn</em>, eller <em>ROI</em>.',
+	noResultsPrefix: 'Ingen samsvarende emner: ',
+	noResultsMiddle: '. Prøv et mer generelt begrep, eller bla gjennom ',
+	resultsCountSingular: 'emne',
+	resultsCountPlural: 'emner',
+	topicPosition: (index, total) => `Emne ${index} av ${total}`,
+	onThisPage: 'På denne siden',
+	paginationLabel: 'Bok',
+	paginationPrevious: 'Forrige',
+	paginationNext: 'Neste'
+};
+
 const TRANSLATIONS = {
 	'de-de': de,
 	'ja-jp': ja,
@@ -1041,7 +1091,8 @@ const TRANSLATIONS = {
 	'nl-nl': nl,
 	'uk-ua': uk,
 	'sv-se': sv,
-	'fi-fi': fi
+	'fi-fi': fi,
+	'no-no': no
 };
 
 /** This locale's UI strings, falling back to English for any missing key. */
