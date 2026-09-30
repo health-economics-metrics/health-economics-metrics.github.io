@@ -1111,6 +1111,56 @@ const da = {
 	paginationNext: 'Næste'
 };
 
+const pl = {
+	skipToContent: 'Przejdź do treści',
+	navHome: 'Strona główna',
+	navContents: 'Spis treści',
+	navTopicsAZ: 'Tematy A–Z',
+	navSearch: 'Szukaj',
+	navAbout: 'O tej stronie',
+	footerSourceLink: 'Źródło',
+	footerTaglineSuffix:
+		' — matematyka, przykłady i rozumowanie ekonomii zdrowia dla inżynierów budujących oprogramowanie dla krajowych służb zdrowia.',
+	footerNote:
+		'Liczby w tej książce szybko się dezaktualizują. Każdy temat datuje swoje wartości referencyjne bezpośrednio w tekście; zweryfikuj je ponownie przed użyciem liczby w rzeczywistym uzasadnieniu biznesowym.',
+	pickerTheme: 'Motyw',
+	pickerLanguage: 'Język',
+	pickerTextSize: 'Rozmiar tekstu',
+	pickerShare: 'Udostępnij',
+	shareCopyLink: 'Kopiuj link',
+	shareCopied: 'Skopiowano',
+	shareCopyFailed: 'Kopiowanie nie powiodło się',
+	shareEmailLabel: 'Udostępnij przez e-mail',
+	shareLinkedinLabel: 'Udostępnij na LinkedIn',
+	shareRedditLabel: 'Udostępnij na Reddit',
+	shareBlueskyLabel: 'Udostępnij na Bluesky',
+	shareMastodonLabel: 'Udostępnij na Mastodon',
+	startHere: 'Zacznij tutaj',
+	startHereSubtitle: 'Trzy idee, na których buduje się wszystko inne.',
+	contentsMetaDescription: (bookTitle) => `Wszystkie tematy ${bookTitle} w kolejności czytania.`,
+	contentsIntro: (count, parts) =>
+		`Wszystkie ${count} tematów w kolejności czytania, podzielone na ${parts} części. Każdy temat obejmuje jeden wskaźnik lub pojęcie: definicję, dlaczego to ważne, matematykę, rozwiązany przykład, powiązanie z inżynierią oprogramowania, pułapki i źródła.`,
+	topicsMetaDescription: (bookTitle) => `Wszystkie tematy ${bookTitle}, wymienione alfabetycznie.`,
+	topicsIntroPrefix: (count) => `Wszystkie ${count} tematów w kolejności alfabetycznej. Kolejność czytania znajdziesz w`,
+	contentsLinkText: 'spisie treści',
+	jumpToLetter: 'Przejdź do litery',
+	searchMetaDescription: (bookTitle) => `Przeszukaj wszystkie tematy ${bookTitle}.`,
+	searchIntro: (count) =>
+		`Przeszukaj wszystkie ${count} tematów według tytułu, części, streszczenia i nagłówków. Wszystko dzieje się w twojej przeglądarce — to, co wpisujesz, nigdy nie opuszcza tej strony.`,
+	searchInputLabel: 'Szukaj tematów',
+	searchPlaceholder: 'QALY, dyskontowanie, koszt na token…',
+	searchHintEmptyHtml: 'Wpisz, aby wyszukać. Spróbuj <em>QALY</em>, <em>dni łóżkowe</em> lub <em>ROI</em>.',
+	noResultsPrefix: 'Brak pasujących tematów: ',
+	noResultsMiddle: '. Spróbuj bardziej ogólnego terminu lub przeglądaj ',
+	resultsCountSingular: 'temat',
+	resultsCountPlural: 'tematów',
+	topicPosition: (index, total) => `Temat ${index} z ${total}`,
+	onThisPage: 'Na tej stronie',
+	paginationLabel: 'Książka',
+	paginationPrevious: 'Poprzedni',
+	paginationNext: 'Następny'
+};
+
 const TRANSLATIONS = {
 	'de-de': de,
 	'ja-jp': ja,
@@ -1143,7 +1193,8 @@ const TRANSLATIONS = {
 	'sv-se': sv,
 	'fi-fi': fi,
 	'no-no': no,
-	'da-dk': da
+	'da-dk': da,
+	'pl-pl': pl
 };
 
 /** This locale's UI strings, falling back to English for any missing key. */
