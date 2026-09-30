@@ -761,6 +761,56 @@ const ur = {
 	paginationNext: 'اگلا'
 };
 
+const ko = {
+	skipToContent: '본문으로 건너뛰기',
+	navHome: '홈',
+	navContents: '목차',
+	navTopicsAZ: '주제 A–Z',
+	navSearch: '검색',
+	navAbout: '소개',
+	footerSourceLink: '소스',
+	footerTaglineSuffix:
+		' — 국가 보건 서비스를 위해 소프트웨어를 구축하는 엔지니어를 위한 보건경제학 수식, 사례, 그리고 사고방식.',
+	footerNote:
+		'이 책의 수치는 빠르게 낡아집니다. 각 주제는 본문에 기준값의 날짜를 명시합니다; 실제 비즈니스 케이스에 어떤 수치를 사용하기 전에 다시 확인하세요.',
+	pickerTheme: '테마',
+	pickerLanguage: '언어',
+	pickerTextSize: '글자 크기',
+	pickerShare: '공유',
+	shareCopyLink: '링크 복사',
+	shareCopied: '복사됨',
+	shareCopyFailed: '복사 실패',
+	shareEmailLabel: '이메일로 링크 공유',
+	shareLinkedinLabel: 'LinkedIn에 공유',
+	shareRedditLabel: 'Reddit에 공유',
+	shareBlueskyLabel: 'Bluesky에 공유',
+	shareMastodonLabel: 'Mastodon에 공유',
+	startHere: '여기서 시작하기',
+	startHereSubtitle: '나머지 모든 것의 토대가 되는 세 가지 개념.',
+	contentsMetaDescription: (bookTitle) => `${bookTitle}의 모든 주제를 읽는 순서대로 나열합니다.`,
+	contentsIntro: (count, parts) =>
+		`총 ${count}개의 주제를 읽는 순서로 ${parts}부로 나누었습니다. 각 주제는 하나의 지표나 개념을 다룹니다: 정의, 왜 중요한가, 수식, 계산 예시, 소프트웨어 공학과의 연관성, 함정, 그리고 출처.`,
+	topicsMetaDescription: (bookTitle) => `${bookTitle}의 모든 주제를 A–Z 순으로 나열합니다.`,
+	topicsIntroPrefix: (count) => `총 ${count}개의 주제를 알파벳 순으로 나열합니다. 읽는 순서는`,
+	contentsLinkText: '목차',
+	jumpToLetter: '문자로 이동',
+	searchMetaDescription: (bookTitle) => `${bookTitle}의 모든 주제를 검색합니다.`,
+	searchIntro: (count) =>
+		`총 ${count}개의 주제를 제목, 부, 요약, 그리고 소제목으로 검색합니다. 모든 검색은 브라우저 안에서 이루어지며, 입력한 내용은 이 페이지 밖으로 전송되지 않습니다.`,
+	searchInputLabel: '주제 검색',
+	searchPlaceholder: 'QALY, 할인, 토큰당 비용…',
+	searchHintEmptyHtml: '검색하려면 입력하세요. <em>QALY</em>, <em>병상일</em>, 또는 <em>ROI</em>를 시도해 보세요.',
+	noResultsPrefix: '일치하는 주제가 없습니다: ',
+	noResultsMiddle: '. 더 일반적인 용어를 시도하거나, ',
+	resultsCountSingular: '개의 주제',
+	resultsCountPlural: '개의 주제',
+	topicPosition: (index, total) => `주제 ${index} / ${total}`,
+	onThisPage: '이 페이지의 내용',
+	paginationLabel: '책',
+	paginationPrevious: '이전',
+	paginationNext: '다음'
+};
+
 const TRANSLATIONS = {
 	'de-de': de,
 	'ja-jp': ja,
@@ -785,7 +835,8 @@ const TRANSLATIONS = {
 	'id-001': id,
 	'id-id': id,
 	'ur-001': ur,
-	'ur-pk': ur
+	'ur-pk': ur,
+	'ko-kr': ko
 };
 
 /** This locale's UI strings, falling back to English for any missing key. */
