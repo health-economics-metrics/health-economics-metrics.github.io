@@ -10,6 +10,7 @@ export const LOCALE_LABELS = {
 	'en-gb-oxendict': 'English - Great Britain - Oxford',
 	'en-001': 'English',
 	'en-150': 'English - Europe',
+	'da-dk': 'Dansk - Danmark',
 	'de-de': 'Deutsch - Deutschland',
 	'it-it': 'Italiano - Italia',
 	'ja-jp': '日本語 - 日本',
