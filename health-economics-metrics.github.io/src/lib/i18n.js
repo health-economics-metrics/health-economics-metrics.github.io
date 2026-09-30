@@ -961,6 +961,56 @@ const sv = {
 	paginationNext: 'Nästa'
 };
 
+const fi = {
+	skipToContent: 'Siirry sisältöön',
+	navHome: 'Etusivu',
+	navContents: 'Sisällys',
+	navTopicsAZ: 'Aiheet A–Ö',
+	navSearch: 'Haku',
+	navAbout: 'Tietoa sivustosta',
+	footerSourceLink: 'Lähdekoodi',
+	footerTaglineSuffix:
+		' — terveystaloustieteen matematiikkaa, esimerkkejä ja ajattelua ohjelmistoinsinööreille, jotka rakentavat ratkaisuja kansallisille terveydenhuolto-organisaatioille.',
+	footerNote:
+		'Tämän kirjan luvut vanhenevat nopeasti. Jokainen aihe päivämäärittää vertailuarvonsa suoraan tekstissä; varmista ne uudelleen ennen kuin käytät lukua todellisessa liiketoimintatapauksessa.',
+	pickerTheme: 'Teema',
+	pickerLanguage: 'Kieli',
+	pickerTextSize: 'Tekstin koko',
+	pickerShare: 'Jaa',
+	shareCopyLink: 'Kopioi linkki',
+	shareCopied: 'Kopioitu',
+	shareCopyFailed: 'Kopiointi epäonnistui',
+	shareEmailLabel: 'Jaa sähköpostitse',
+	shareLinkedinLabel: 'Jaa LinkedInissä',
+	shareRedditLabel: 'Jaa Redditissä',
+	shareBlueskyLabel: 'Jaa Blueskyssä',
+	shareMastodonLabel: 'Jaa Mastodonissa',
+	startHere: 'Aloita tästä',
+	startHereSubtitle: 'Kolme ideaa, joiden varaan kaikki muu rakentuu.',
+	contentsMetaDescription: (bookTitle) => `Kaikki ${bookTitle}:n aiheet lukujärjestyksessä.`,
+	contentsIntro: (count, parts) =>
+		`Kaikki ${count} aihetta lukujärjestyksessä, jaettuna ${parts} osaan. Jokainen aihe käsittelee yhden mittarin tai käsitteen: määritelmän, miksi se on tärkeä, matematiikan, ratkaistun esimerkin, yhteyden ohjelmistokehitykseen, sudenkuopat ja lähteet.`,
+	topicsMetaDescription: (bookTitle) => `Kaikki ${bookTitle}:n aiheet aakkosjärjestyksessä.`,
+	topicsIntroPrefix: (count) => `Kaikki ${count} aihetta aakkosjärjestyksessä. Lukujärjestystä varten katso`,
+	contentsLinkText: 'sisällysluettelo',
+	jumpToLetter: 'Siirry kirjaimeen',
+	searchMetaDescription: (bookTitle) => `Hae kaikista ${bookTitle}:n aiheista.`,
+	searchIntro: (count) =>
+		`Hae kaikista ${count} aiheesta otsikon, osan, tiivistelmän ja otsikoiden perusteella. Kaikki tapahtuu selaimessasi — kirjoittamasi ei koskaan poistu tältä sivulta.`,
+	searchInputLabel: 'Hae aiheita',
+	searchPlaceholder: 'QALY, diskonttaus, kustannus tokenia kohden…',
+	searchHintEmptyHtml: 'Kirjoita hakeaksesi. Kokeile <em>QALY</em>, <em>vuodepäivät</em> tai <em>ROI</em>.',
+	noResultsPrefix: 'Ei täsmääviä aiheita: ',
+	noResultsMiddle: '. Kokeile yleisempää termiä tai selaa ',
+	resultsCountSingular: 'aihe',
+	resultsCountPlural: 'aihetta',
+	topicPosition: (index, total) => `Aihe ${index}/${total}`,
+	onThisPage: 'Tällä sivulla',
+	paginationLabel: 'Kirja',
+	paginationPrevious: 'Edellinen',
+	paginationNext: 'Seuraava'
+};
+
 const TRANSLATIONS = {
 	'de-de': de,
 	'ja-jp': ja,
@@ -990,7 +1040,8 @@ const TRANSLATIONS = {
 	'ko-kr': ko,
 	'nl-nl': nl,
 	'uk-ua': uk,
-	'sv-se': sv
+	'sv-se': sv,
+	'fi-fi': fi
 };
 
 /** This locale's UI strings, falling back to English for any missing key. */

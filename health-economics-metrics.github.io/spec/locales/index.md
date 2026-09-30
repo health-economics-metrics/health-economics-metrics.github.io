@@ -3,7 +3,7 @@
 How this site supports multiple locales end to end: book content, site
 routing, UI chrome, and the bugs already hit and fixed along the way.
 
-## Locale list (34)
+## Locale list (35)
 
 One English canonical plus regional/international variants, using the
 CLDR `-001` code for "World":
@@ -11,6 +11,7 @@ CLDR `-001` code for "World":
 - `en-gb-oxendict` — canonical/default locale (`DEFAULT_LOCALE` in `src/lib/locales.js`)
 - `en-us`, `en-gb`, `en-150` (Europe), `en-001` (World)
 - `es-es`, `es-001`
+- `fi-fi` (no `-001` world variant yet)
 - `fr-fr`, `fr-001`
 - `de-de` (no `-001` world variant yet)
 - `it-it` (no `-001` world variant yet)
