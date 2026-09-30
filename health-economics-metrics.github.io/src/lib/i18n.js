@@ -811,6 +811,56 @@ const ko = {
 	paginationNext: '다음'
 };
 
+const nl = {
+	skipToContent: 'Naar de inhoud springen',
+	navHome: 'Home',
+	navContents: 'Inhoudsopgave',
+	navTopicsAZ: 'Onderwerpen A–Z',
+	navSearch: 'Zoeken',
+	navAbout: 'Over deze site',
+	footerSourceLink: 'Bron',
+	footerTaglineSuffix:
+		' — wiskunde, voorbeelden en redenering van gezondheidseconomie voor engineers die software bouwen voor nationale gezondheidsdiensten.',
+	footerNote:
+		'De cijfers in dit boek verouderen snel. Elk onderwerp vermeldt de datum van zijn benchmarks in de tekst; verifieer opnieuw voordat u een cijfer in een echte business case gebruikt.',
+	pickerTheme: 'Thema',
+	pickerLanguage: 'Taal',
+	pickerTextSize: 'Tekstgrootte',
+	pickerShare: 'Delen',
+	shareCopyLink: 'Link kopiëren',
+	shareCopied: 'Gekopieerd',
+	shareCopyFailed: 'Kopiëren mislukt',
+	shareEmailLabel: 'Delen via e-mail',
+	shareLinkedinLabel: 'Delen op LinkedIn',
+	shareRedditLabel: 'Delen op Reddit',
+	shareBlueskyLabel: 'Delen op Bluesky',
+	shareMastodonLabel: 'Delen op Mastodon',
+	startHere: 'Begin hier',
+	startHereSubtitle: 'De drie ideeën waarop al het andere voortbouwt.',
+	contentsMetaDescription: (bookTitle) => `Alle onderwerpen van ${bookTitle}, in leesvolgorde.`,
+	contentsIntro: (count, parts) =>
+		`Alle ${count} onderwerpen in leesvolgorde, verdeeld over ${parts} delen. Elk onderwerp behandelt één metriek of concept: definitie, waarom het ertoe doet, de wiskunde, een uitgewerkt voorbeeld, de verbinding met software-engineering, valkuilen en bronnen.`,
+	topicsMetaDescription: (bookTitle) => `Alle onderwerpen van ${bookTitle}, op alfabet gerangschikt.`,
+	topicsIntroPrefix: (count) => `Alle ${count} onderwerpen op alfabet. Voor leesvolgorde, zie`,
+	contentsLinkText: 'de inhoudsopgave',
+	jumpToLetter: 'Naar letter springen',
+	searchMetaDescription: (bookTitle) => `Doorzoek alle onderwerpen van ${bookTitle}.`,
+	searchIntro: (count) =>
+		`Doorzoek alle ${count} onderwerpen op titel, deel, samenvatting en kopjes. Alles gebeurt in uw browser — wat u typt verlaat deze pagina niet.`,
+	searchInputLabel: 'Onderwerpen zoeken',
+	searchPlaceholder: 'QALY, verdiscontering, kosten per token…',
+	searchHintEmptyHtml: 'Typ om te zoeken. Probeer <em>QALY</em>, <em>bedopnamedagen</em>, of <em>ROI</em>.',
+	noResultsPrefix: 'Geen overeenkomende onderwerpen: ',
+	noResultsMiddle: '. Probeer een algemenere term, of blader door ',
+	resultsCountSingular: 'onderwerp',
+	resultsCountPlural: 'onderwerpen',
+	topicPosition: (index, total) => `Onderwerp ${index} van ${total}`,
+	onThisPage: 'Op deze pagina',
+	paginationLabel: 'Boek',
+	paginationPrevious: 'Vorige',
+	paginationNext: 'Volgende'
+};
+
 const TRANSLATIONS = {
 	'de-de': de,
 	'ja-jp': ja,
@@ -836,7 +886,8 @@ const TRANSLATIONS = {
 	'id-id': id,
 	'ur-001': ur,
 	'ur-pk': ur,
-	'ko-kr': ko
+	'ko-kr': ko,
+	'nl-nl': nl
 };
 
 /** This locale's UI strings, falling back to English for any missing key. */
