@@ -861,6 +861,56 @@ const nl = {
 	paginationNext: 'Volgende'
 };
 
+const uk = {
+	skipToContent: 'Перейти до вмісту',
+	navHome: 'Головна',
+	navContents: 'Зміст',
+	navTopicsAZ: 'Теми А–Я',
+	navSearch: 'Пошук',
+	navAbout: 'Про сайт',
+	footerSourceLink: 'Джерело',
+	footerTaglineSuffix:
+		' — математика, приклади та логіка економіки охорони здоров\'я для інженерів, які створюють програмне забезпечення для національних служб охорони здоров\'я.',
+	footerNote:
+		'Цифри в цій книзі швидко застарівають. Кожна тема вказує дату своїх базових показників безпосередньо в тексті; перевіряйте їх повторно перед використанням у реальному бізнес-кейсі.',
+	pickerTheme: 'Тема оформлення',
+	pickerLanguage: 'Мова',
+	pickerTextSize: 'Розмір тексту',
+	pickerShare: 'Поділитися',
+	shareCopyLink: 'Копіювати посилання',
+	shareCopied: 'Скопійовано',
+	shareCopyFailed: 'Не вдалося скопіювати',
+	shareEmailLabel: 'Поділитися електронною поштою',
+	shareLinkedinLabel: 'Поділитися в LinkedIn',
+	shareRedditLabel: 'Поділитися в Reddit',
+	shareBlueskyLabel: 'Поділитися в Bluesky',
+	shareMastodonLabel: 'Поділитися в Mastodon',
+	startHere: 'Почніть тут',
+	startHereSubtitle: 'Три ідеї, на яких будується все інше.',
+	contentsMetaDescription: (bookTitle) => `Усі теми ${bookTitle} у порядку читання.`,
+	contentsIntro: (count, parts) =>
+		`Усі ${count} тем у порядку читання, розподілені на ${parts} частин. Кожна тема охоплює одну метрику чи концепцію: визначення, чому це важливо, математику, розібраний приклад, зв'язок з інженерією програмного забезпечення, підводні камені та джерела.`,
+	topicsMetaDescription: (bookTitle) => `Усі теми ${bookTitle}, розташовані за алфавітом.`,
+	topicsIntroPrefix: (count) => `Усі ${count} тем за алфавітом. Для порядку читання дивіться`,
+	contentsLinkText: 'зміст',
+	jumpToLetter: 'Перейти до літери',
+	searchMetaDescription: (bookTitle) => `Пошук по всіх темах ${bookTitle}.`,
+	searchIntro: (count) =>
+		`Пошук по всіх ${count} темах за назвою, частиною, резюме та заголовками. Усе відбувається у вашому браузері — те, що ви вводите, не залишає цю сторінку.`,
+	searchInputLabel: 'Пошук тем',
+	searchPlaceholder: 'QALY, дисконтування, вартість за токен…',
+	searchHintEmptyHtml: 'Введіть текст для пошуку. Спробуйте <em>QALY</em>, <em>ліжко-дні</em> або <em>ROI</em>.',
+	noResultsPrefix: 'Немає відповідних тем: ',
+	noResultsMiddle: '. Спробуйте загальніший термін або перегляньте ',
+	resultsCountSingular: 'тема',
+	resultsCountPlural: 'тем',
+	topicPosition: (index, total) => `Тема ${index} з ${total}`,
+	onThisPage: 'На цій сторінці',
+	paginationLabel: 'Книга',
+	paginationPrevious: 'Попередня',
+	paginationNext: 'Наступна'
+};
+
 const TRANSLATIONS = {
 	'de-de': de,
 	'ja-jp': ja,
@@ -888,7 +938,8 @@ const TRANSLATIONS = {
 	'ur-001': ur,
 	'ur-pk': ur,
 	'ko-kr': ko,
-	'nl-nl': nl
+	'nl-nl': nl,
+	'uk-ua': uk
 };
 
 /** This locale's UI strings, falling back to English for any missing key. */
