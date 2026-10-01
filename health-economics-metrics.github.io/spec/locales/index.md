@@ -3,7 +3,7 @@
 How this site supports multiple locales end to end: book content, site
 routing, UI chrome, and the bugs already hit and fixed along the way.
 
-## Locale list (38)
+## Locale list (39)
 
 One English canonical plus regional/international variants, using the
 CLDR `-001` code for "World":
@@ -16,7 +16,7 @@ CLDR `-001` code for "World":
 - `da-dk` (no `-001` world variant yet)
 - `de-de` (no `-001` world variant yet)
 - `it-it` (no `-001` world variant yet)
-- `ja-jp` (no `-001` world variant yet)
+- `ja-jp`, `ja-001`
 - `ko-kr` (no `-001` world variant yet)
 - `nl-nl` (no `-001` world variant yet)
 - `no-no` (no `-001` world variant yet)

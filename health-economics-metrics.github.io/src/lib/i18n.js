@@ -1164,6 +1164,7 @@ const pl = {
 const TRANSLATIONS = {
 	'de-de': de,
 	'ja-jp': ja,
+	'ja-001': ja,
 	'es-es': es,
 	'es-001': es,
 	'it-it': it,

@@ -13,6 +13,7 @@ export const LOCALE_LABELS = {
 	'da-dk': 'Dansk - Danmark',
 	'de-de': 'Deutsch - Deutschland',
 	'it-it': 'Italiano - Italia',
+	'ja-001': '日本語',
 	'ja-jp': '日本語 - 日本',
 	'ko-kr': '한국어 - 대한민국',
 	'nl-nl': 'Nederlands - Nederland',
