@@ -1,6 +1,6 @@
-import { render } from '$lib/markdown.js';
-import { read, locales } from '$lib/server/content.js';
-import { DEFAULT_LOCALE, localeLabel } from '$lib/locales.js';
+import { render } from '#lib/markdown.js';
+import { read, locales } from '#lib/server/content.js';
+import { DEFAULT_LOCALE, localeLabel } from '#lib/locales.js';
 
 export function load() {
 	const source = read('README.md') ?? '';

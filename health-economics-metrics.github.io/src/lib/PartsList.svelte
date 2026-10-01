@@ -1,11 +1,12 @@
 <script>
+	import { resolve } from '$app/paths';
+
 	// The book's parts and chapters as one nested, numbered list — shared by
 	// the Contents page and the home page (spec/contents-for-global-sharing-
 	// with-svelte/index.md: "<integer> <title>" per part, "<decimal> <title>"
 	// per chapter, no tiles/tables/flexbox/grid). An outer <ContentsList>
 	// (<ol>) of parts, each a <ContentsListItem> (<li>) containing a further
 	// <ContentsList> of that part's chapters — never independent sections.
-	import { base } from '$app/paths';
 	import { ContentsList, ContentsListItem, SectionHeading } from '@lilydesignsystem/svelte-headless';
 
 	let { parts } = $props();
@@ -26,7 +27,11 @@
 			<ContentsList class="contents-part-list">
 				{#each part.entries as entry, entryIndex (entry.slug)}
 					<ContentsListItem class="contents-entry">
-						<a class="contents-entry-link" href="{base}{entry.href}">{partIndex + 1}.{entryIndex} {entry.title}</a>
+						<a
+							class="contents-entry-link"
+							href="{resolve('')}{entry.href}"
+						>{partIndex + 1}.{entryIndex} {entry.title}</a>
+
 						{#if entry.blurb}
 							<span class="contents-entry-blurb">{entry.blurb}</span>
 						{/if}

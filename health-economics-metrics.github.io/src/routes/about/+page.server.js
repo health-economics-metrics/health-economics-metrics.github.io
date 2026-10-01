@@ -1,5 +1,5 @@
-import { book } from '$lib/server/book.js';
-import { locales } from '$lib/server/content.js';
+import { book } from '#lib/server/book.js';
+import { locales } from '#lib/server/content.js';
 import { DEFAULT_THEMES } from '@lilydesignsystem/svelte-picker-bar';
 
 const DEFAULT_LOCALE = 'en-gb-oxendict';

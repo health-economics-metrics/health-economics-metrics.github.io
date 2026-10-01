@@ -1,9 +1,9 @@
 <script>
-	import { base } from '$app/paths';
+	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
 	import { ContentsNav, SectionList, SectionListItem } from '@lilydesignsystem/svelte-headless';
-	import PartsList from '$lib/PartsList.svelte';
-	import { ui } from '$lib/i18n.js';
+	import PartsList from '#lib/PartsList.svelte';
+	import { ui } from '#lib/i18n.js';
 
 	let { data } = $props();
 	const t = $derived(ui(page.params.locale));
@@ -27,7 +27,7 @@
 			<SectionList class="start-list">
 				{#each data.startHere as item (item.href)}
 					<SectionListItem class="start-item">
-						<a class="start-link" href="{base}{item.href}">{item.title}</a>
+						<a class="start-link" href="{resolve('')}{item.href}">{item.title}</a>
 						<span class="start-blurb">{item.blurb}</span>
 					</SectionListItem>
 				{/each}

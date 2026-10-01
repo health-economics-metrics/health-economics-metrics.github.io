@@ -15,8 +15,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@sveltejs/adapter-static": "^3.0.10",
-    "@sveltejs/kit": "^2.70.2",
+    "@sveltejs/adapter-static": "^4.0.0-next.0",
+    "@sveltejs/kit": "^3.0.0-next.0",
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
     "svelte": "^5.56.9",
     "typescript": "^5.9.3",
@@ -28,5 +28,9 @@
     "@lilydesignsystem/themes": "^0.1.0",
     "github-slugger": "^2.0.0",
     "marked": "^18.0.10"
+  },
+  "imports": {
+    "#lib": "./src/lib/index.js",
+    "#lib/*": "./src/lib/*"
   }
 }

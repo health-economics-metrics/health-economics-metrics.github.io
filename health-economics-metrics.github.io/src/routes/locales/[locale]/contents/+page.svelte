@@ -1,8 +1,8 @@
 <script>
 	import { page } from '$app/state';
 	import { ContentsNav } from '@lilydesignsystem/svelte-headless';
-	import PartsList from '$lib/PartsList.svelte';
-	import { ui } from '$lib/i18n.js';
+	import PartsList from '#lib/PartsList.svelte';
+	import { ui } from '#lib/i18n.js';
 
 	let { data } = $props();
 	const t = $derived(ui(page.params.locale));

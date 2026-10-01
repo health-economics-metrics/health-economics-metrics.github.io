@@ -1,5 +1,5 @@
 <script>
-	import { base } from '$app/paths';
+	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
 </script>
 
@@ -22,9 +22,21 @@
 
 	<p>Try one of these instead:</p>
 	<ul class="error-links">
-		<li><a href="{base}/contents/">Contents</a> — every topic in reading order</li>
-		<li><a href="{base}/topics/">Topics A–Z</a> — look one thing up</li>
-		<li><a href="{base}/search/">Search</a> — search all topics</li>
-		<li><a href="{base}/">Home</a></li>
+		<li>
+			<a href="{resolve('')}/contents/">Contents</a>
+			— every topic in reading order
+		</li>
+
+		<li>
+			<a href="{resolve('')}/topics/">Topics A–Z</a>
+			— look one thing up
+		</li>
+
+		<li>
+			<a href="{resolve('')}/search/">Search</a>
+			— search all topics
+		</li>
+
+		<li><a href="{resolve('')}/">Home</a></li>
 	</ul>
 </div>
