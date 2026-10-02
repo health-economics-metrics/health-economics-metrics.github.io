@@ -29,7 +29,7 @@
 					<ContentsListItem class="contents-entry">
 						<a
 							class="contents-entry-link"
-							href="{resolve('')}{entry.href}"
+							href={resolve(entry.href.slice(1))}
 						>{partIndex + 1}.{entryIndex} {entry.title}</a>
 
 						{#if entry.blurb}

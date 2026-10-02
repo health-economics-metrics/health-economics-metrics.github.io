@@ -24,7 +24,7 @@
 				<SectionListItem class="locale-item">
 					<a
 						class="locale-link"
-						href="{resolve('')}/locales/{locale.code}/"
+						href={resolve(`locales/${locale.code}/`)}
 					>
 						{locale.label} 
 						{#if locale.isDefault}<span class="locale-default-tag">default</span>{/if}

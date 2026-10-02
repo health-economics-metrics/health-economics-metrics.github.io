@@ -50,7 +50,13 @@ export function render(source, file) {
 
 	marked.use({
 		walkTokens(token) {
-			if (token.type === 'link') token.href = rewriteHref(token.href, file, resolve(''));
+			// `rewriteHref` concatenates this with a route that already starts
+			// with '/' (routeFor() always returns a leading-slash path), so the
+			// trailing slash `resolve('')` carries (the base path's own '/')
+			// must be stripped here — otherwise every rewritten link doubles up
+			// to "//locales/..." and renders as a protocol-relative URL instead
+			// of a same-origin path.
+			if (token.type === 'link') token.href = rewriteHref(token.href, file, resolve('').replace(/\/$/, ''));
 		},
 		renderer: {
 			heading(token) {

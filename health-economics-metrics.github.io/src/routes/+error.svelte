@@ -23,20 +23,20 @@
 	<p>Try one of these instead:</p>
 	<ul class="error-links">
 		<li>
-			<a href="{resolve('')}/contents/">Contents</a>
+			<a href={resolve('contents/')}>Contents</a>
 			— every topic in reading order
 		</li>
 
 		<li>
-			<a href="{resolve('')}/topics/">Topics A–Z</a>
+			<a href={resolve('topics/')}>Topics A–Z</a>
 			— look one thing up
 		</li>
 
 		<li>
-			<a href="{resolve('')}/search/">Search</a>
+			<a href={resolve('search/')}>Search</a>
 			— search all topics
 		</li>
 
-		<li><a href="{resolve('')}/">Home</a></li>
+		<li><a href={resolve('')}>Home</a></li>
 	</ul>
 </div>
