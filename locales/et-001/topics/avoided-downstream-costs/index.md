@@ -22,7 +22,7 @@ Sarnaneb vältitud intsidentide väärtuse hindamisega turvaauditis — reaalne,
 
 ## Lõksud
 
-- **Vastelusstsenaariumi ülehindamine, et muuta sekkumine atraktiivsemaks — vt [enne-pärast versus kontrollitud võrdlused](../before-after-vs-controlled-comparisons/).**
+- **Vastelusstsenaariumi ülehindamine, et muuta sekkumine atraktiivsemaks.**
 - **Kõigi välditud kulude omistamine ühele sekkumisele mitme samaaegse muutuse korral.**
 
 ## Allikad
