@@ -1249,6 +1249,7 @@ const TRANSLATIONS = {
 	'fi-fi': fi,
 	'no-no': no,
 	'da-dk': da,
+	'da-001': da,
 	'pl-pl': pl,
 	'vi-001': vi
 };
