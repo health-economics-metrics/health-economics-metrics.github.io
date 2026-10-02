@@ -1211,6 +1211,56 @@ const vi = {
 	paginationNext: 'Tiếp theo'
 };
 
+const et = {
+	skipToContent: 'Liigu sisu juurde',
+	navHome: 'Avaleht',
+	navContents: 'Sisukord',
+	navTopicsAZ: 'Teemad A–Ü',
+	navSearch: 'Otsing',
+	navAbout: 'Teave',
+	footerSourceLink: 'Lähtekood',
+	footerTaglineSuffix:
+		' — tervisemajanduse matemaatika, näited ja mõtteviis tarkvarainseneridele, kes ehitavad lahendusi riiklikele tervishoiuorganisatsioonidele.',
+	footerNote:
+		'Selle raamatu arvud vananevad kiiresti. Iga teema märgib oma võrdlusalused otse tekstis; kontrolli need üle enne kasutamist tegelikus äriprojektis.',
+	pickerTheme: 'Teema',
+	pickerLanguage: 'Keel',
+	pickerTextSize: 'Teksti suurus',
+	pickerShare: 'Jaga',
+	shareCopyLink: 'Kopeeri link',
+	shareCopied: 'Kopeeritud',
+	shareCopyFailed: 'Kopeerimine ebaõnnestus',
+	shareEmailLabel: 'Jaga e-posti teel',
+	shareLinkedinLabel: 'Jaga LinkedInis',
+	shareRedditLabel: 'Jaga Redditis',
+	shareBlueskyLabel: 'Jaga Blueskyl',
+	shareMastodonLabel: 'Jaga Mastodonis',
+	startHere: 'Alusta siit',
+	startHereSubtitle: 'Kolm ideed, millele kõik muu tugineb.',
+	contentsMetaDescription: (bookTitle) => `Kõik ${bookTitle} teemad lugemisjärjekorras.`,
+	contentsIntro: (count, parts) =>
+		`Kõik ${count} teemat lugemisjärjekorras, jaotatud ${parts} osaks. Iga teema käsitleb ühte näitajat või kontseptsiooni: määratlus, miks see on oluline, matemaatika, lahendatud näide, seos tarkvaraarendusega, lõksud ja allikad.`,
+	topicsMetaDescription: (bookTitle) => `Kõik ${bookTitle} teemad tähestikulises järjekorras.`,
+	topicsIntroPrefix: (count) => `Kõik ${count} teemat tähestikulises järjekorras. Lugemisjärjekorra jaoks vaata`,
+	contentsLinkText: 'sisukorda',
+	jumpToLetter: 'Liigu tähe juurde',
+	searchMetaDescription: (bookTitle) => `Otsi kõiki ${bookTitle} teemasid.`,
+	searchIntro: (count) =>
+		`Otsi kõiki ${count} teemat pealkirja, osa, kokkuvõtte ja pealkirjade järgi. Kõik toimub sinu brauseris — see, mida kirjutad, ei lahku kunagi sellelt lehelt.`,
+	searchInputLabel: 'Otsi teemasid',
+	searchPlaceholder: 'QALY, diskonteerimine, kulu tokeni kohta…',
+	searchHintEmptyHtml: 'Kirjuta otsimiseks. Proovi <em>QALY</em>, <em>voodipäevad</em> või <em>ROI</em>.',
+	noResultsPrefix: 'Vastavaid teemasid ei leitud: ',
+	noResultsMiddle: '. Proovi üldisemat terminit või sirvi ',
+	resultsCountSingular: 'teema',
+	resultsCountPlural: 'teemat',
+	topicPosition: (index, total) => `Teema ${index}/${total}`,
+	onThisPage: 'Sellel lehel',
+	paginationLabel: 'Raamat',
+	paginationPrevious: 'Eelmine',
+	paginationNext: 'Järgmine'
+};
+
 const TRANSLATIONS = {
 	'de-de': de,
 	'de-001': de,
@@ -1218,6 +1268,7 @@ const TRANSLATIONS = {
 	'ja-001': ja,
 	'es-es': es,
 	'es-001': es,
+	'et-001': et,
 	'it-it': it,
 	'fr-fr': fr,
 	'fr-001': fr,
