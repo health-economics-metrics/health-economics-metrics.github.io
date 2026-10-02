@@ -1240,6 +1240,7 @@ const TRANSLATIONS = {
 	'ur-001': ur,
 	'ur-pk': ur,
 	'ko-kr': ko,
+	'ko-001': ko,
 	'nl-nl': nl,
 	'uk-ua': uk,
 	'sv-se': sv,
