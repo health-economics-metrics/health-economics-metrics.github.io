@@ -27,6 +27,7 @@ export const LOCALE_LABELS = {
 	'ru-ru': 'Русский - Россия',
 	'ru-001': 'Русский',
 	'uk-ua': 'Українська - Україна',
+	'sv-001': 'Svenska',
 	'sv-se': 'Svenska - Sverige',
 	'fi-fi': 'Suomi - Suomi',
 	'zh-cn': '中文 - 中国大陆',

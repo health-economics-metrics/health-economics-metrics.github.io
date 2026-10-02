@@ -1243,6 +1243,7 @@ const TRANSLATIONS = {
 	'nl-nl': nl,
 	'uk-ua': uk,
 	'sv-se': sv,
+	'sv-001': sv,
 	'fi-fi': fi,
 	'no-no': no,
 	'da-dk': da,
