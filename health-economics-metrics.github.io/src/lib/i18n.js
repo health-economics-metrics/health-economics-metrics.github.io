@@ -1161,6 +1161,56 @@ const pl = {
 	paginationNext: 'Następny'
 };
 
+const vi = {
+	skipToContent: 'Chuyển đến nội dung',
+	navHome: 'Trang chủ',
+	navContents: 'Mục lục',
+	navTopicsAZ: 'Chủ đề A–Z',
+	navSearch: 'Tìm kiếm',
+	navAbout: 'Giới thiệu về trang này',
+	footerSourceLink: 'Mã nguồn',
+	footerTaglineSuffix:
+		' — toán học, ví dụ và lập luận kinh tế y tế cho các kỹ sư phần mềm xây dựng cho các dịch vụ y tế quốc gia.',
+	footerNote:
+		'Các con số trong cuốn sách này nhanh chóng lỗi thời. Mỗi chủ đề ghi ngày tháng cho các giá trị tham chiếu của nó ngay trong văn bản; hãy xác minh lại trước khi sử dụng một con số trong một trường hợp kinh doanh thực tế.',
+	pickerTheme: 'Chủ đề',
+	pickerLanguage: 'Ngôn ngữ',
+	pickerTextSize: 'Cỡ chữ',
+	pickerShare: 'Chia sẻ',
+	shareCopyLink: 'Sao chép liên kết',
+	shareCopied: 'Đã sao chép',
+	shareCopyFailed: 'Sao chép không thành công',
+	shareEmailLabel: 'Chia sẻ qua email',
+	shareLinkedinLabel: 'Chia sẻ trên LinkedIn',
+	shareRedditLabel: 'Chia sẻ trên Reddit',
+	shareBlueskyLabel: 'Chia sẻ trên Bluesky',
+	shareMastodonLabel: 'Chia sẻ trên Mastodon',
+	startHere: 'Bắt đầu tại đây',
+	startHereSubtitle: 'Ba ý tưởng mà mọi thứ khác được xây dựng dựa trên đó.',
+	contentsMetaDescription: (bookTitle) => `Tất cả các chủ đề của ${bookTitle}, theo thứ tự đọc.`,
+	contentsIntro: (count, parts) =>
+		`Tất cả ${count} chủ đề theo thứ tự đọc, chia thành ${parts} phần. Mỗi chủ đề đề cập đến một chỉ số hoặc khái niệm: định nghĩa, tại sao nó quan trọng, toán học, một ví dụ đã giải, mối liên hệ với kỹ thuật phần mềm, những cạm bẫy, và nguồn tham khảo.`,
+	topicsMetaDescription: (bookTitle) => `Tất cả các chủ đề của ${bookTitle}, được liệt kê theo thứ tự bảng chữ cái.`,
+	topicsIntroPrefix: (count) => `Tất cả ${count} chủ đề theo thứ tự bảng chữ cái. Để biết thứ tự đọc, xem`,
+	contentsLinkText: 'mục lục',
+	jumpToLetter: 'Chuyển đến chữ cái',
+	searchMetaDescription: (bookTitle) => `Tìm kiếm trong tất cả các chủ đề của ${bookTitle}.`,
+	searchIntro: (count) =>
+		`Tìm kiếm trong tất cả ${count} chủ đề theo tiêu đề, phần, tóm tắt, và tiêu đề phụ. Mọi thứ diễn ra trong trình duyệt của bạn — những gì bạn gõ không bao giờ rời khỏi trang này.`,
+	searchInputLabel: 'Tìm kiếm chủ đề',
+	searchPlaceholder: 'QALY, chiết khấu, chi phí mỗi token…',
+	searchHintEmptyHtml: 'Gõ để tìm kiếm. Thử <em>QALY</em>, <em>ngày giường</em>, hoặc <em>ROI</em>.',
+	noResultsPrefix: 'Không có chủ đề phù hợp: ',
+	noResultsMiddle: '. Hãy thử một thuật ngữ chung chung hơn, hoặc duyệt qua ',
+	resultsCountSingular: 'chủ đề',
+	resultsCountPlural: 'chủ đề',
+	topicPosition: (index, total) => `Chủ đề ${index}/${total}`,
+	onThisPage: 'Trên trang này',
+	paginationLabel: 'Sách',
+	paginationPrevious: 'Trước',
+	paginationNext: 'Tiếp theo'
+};
+
 const TRANSLATIONS = {
 	'de-de': de,
 	'ja-jp': ja,
@@ -1195,7 +1245,8 @@ const TRANSLATIONS = {
 	'fi-fi': fi,
 	'no-no': no,
 	'da-dk': da,
-	'pl-pl': pl
+	'pl-pl': pl,
+	'vi-001': vi
 };
 
 /** This locale's UI strings, falling back to English for any missing key. */
