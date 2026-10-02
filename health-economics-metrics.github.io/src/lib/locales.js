@@ -51,7 +51,8 @@ export const LOCALE_LABELS = {
 	'id-id': 'Bahasa Indonesia - Indonesia',
 	'ur-001': 'اردو',
 	'ur-pk': 'اردو - پاکستان',
-	'vi-001': 'Tiếng Việt'
+	'vi-001': 'Tiếng Việt',
+	'th-001': 'ไทย'
 };
 
 export const DEFAULT_LOCALE = 'en-gb-oxendict';

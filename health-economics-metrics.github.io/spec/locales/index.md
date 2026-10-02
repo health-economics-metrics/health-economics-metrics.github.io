@@ -3,7 +3,7 @@
 How this site supports multiple locales end to end: book content, site
 routing, UI chrome, and the bugs already hit and fixed along the way.
 
-## Locale list (47)
+## Locale list (48)
 
 One English canonical plus regional/international variants, using the
 CLDR `-001` code for "World":
@@ -34,6 +34,7 @@ CLDR `-001` code for "World":
 - `id-001`, `id-id`
 - `pt-001`, `pt-pt`
 - `et-001` (no regional variant yet)
+- `th-001` (no regional variant yet)
 
 The site never hardcodes this list — `content.js`'s `locales()` discovers it
 from whatever `content/locales/*/` directories the sync script vendored, so a

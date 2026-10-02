@@ -1261,6 +1261,56 @@ const et = {
 	paginationNext: 'Järgmine'
 };
 
+const th = {
+	skipToContent: 'ข้ามไปที่เนื้อหา',
+	navHome: 'หน้าแรก',
+	navContents: 'สารบัญ',
+	navTopicsAZ: 'หัวข้อ A–Z',
+	navSearch: 'ค้นหา',
+	navAbout: 'เกี่ยวกับ',
+	footerSourceLink: 'ซอร์สโค้ด',
+	footerTaglineSuffix:
+		' — คณิตศาสตร์ ตัวอย่าง และแนวคิดทางเศรษฐศาสตร์สุขภาพสำหรับวิศวกรซอฟต์แวร์ที่สร้างโซลูชันให้กับองค์กรด้านสุขภาพแห่งชาติ',
+	footerNote:
+		'ตัวเลขในหนังสือเล่มนี้ล้าสมัยอย่างรวดเร็ว แต่ละหัวข้อระบุวันที่ของค่าเปรียบเทียบโดยตรงในเนื้อหา โปรดตรวจสอบอีกครั้งก่อนใช้ตัวเลขใดๆ ในกรณีทางธุรกิจจริง',
+	pickerTheme: 'ธีม',
+	pickerLanguage: 'ภาษา',
+	pickerTextSize: 'ขนาดตัวอักษร',
+	pickerShare: 'แชร์',
+	shareCopyLink: 'คัดลอกลิงก์',
+	shareCopied: 'คัดลอกแล้ว',
+	shareCopyFailed: 'คัดลอกไม่สำเร็จ',
+	shareEmailLabel: 'แชร์ทางอีเมล',
+	shareLinkedinLabel: 'แชร์บน LinkedIn',
+	shareRedditLabel: 'แชร์บน Reddit',
+	shareBlueskyLabel: 'แชร์บน Bluesky',
+	shareMastodonLabel: 'แชร์บน Mastodon',
+	startHere: 'เริ่มที่นี่',
+	startHereSubtitle: 'สามแนวคิดที่ทุกอย่างอื่นสร้างขึ้นมาจากสิ่งนี้',
+	contentsMetaDescription: (bookTitle) => `หัวข้อทั้งหมดของ ${bookTitle} ตามลำดับการอ่าน`,
+	contentsIntro: (count, parts) =>
+		`หัวข้อทั้งหมด ${count} หัวข้อตามลำดับการอ่าน แบ่งเป็น ${parts} ส่วน แต่ละหัวข้อครอบคลุมตัวชี้วัดหรือแนวคิดหนึ่งอย่าง: คำนิยาม เหตุผลที่สำคัญ คณิตศาสตร์ ตัวอย่างที่คำนวณแล้ว ความเชื่อมโยงกับวิศวกรรมซอฟต์แวร์ ข้อผิดพลาดที่พบบ่อย และแหล่งที่มา`,
+	topicsMetaDescription: (bookTitle) => `หัวข้อทั้งหมดของ ${bookTitle} เรียงตามลำดับตัวอักษร`,
+	topicsIntroPrefix: (count) => `หัวข้อทั้งหมด ${count} หัวข้อเรียงตามลำดับตัวอักษร สำหรับลำดับการอ่าน โปรดดูที่`,
+	contentsLinkText: 'สารบัญ',
+	jumpToLetter: 'ไปที่ตัวอักษร',
+	searchMetaDescription: (bookTitle) => `ค้นหาหัวข้อทั้งหมดของ ${bookTitle}`,
+	searchIntro: (count) =>
+		`ค้นหาหัวข้อทั้งหมด ${count} หัวข้อตามชื่อเรื่อง ส่วน บทสรุป และหัวข้อย่อย ทุกอย่างเกิดขึ้นในเบราว์เซอร์ของคุณ — สิ่งที่คุณพิมพ์จะไม่ออกจากหน้านี้เลย`,
+	searchInputLabel: 'ค้นหาหัวข้อ',
+	searchPlaceholder: 'QALY, การคิดลด, ต้นทุนต่อโทเคน…',
+	searchHintEmptyHtml: 'พิมพ์เพื่อค้นหา ลองคำว่า <em>QALY</em>, <em>วันเตียง</em> หรือ <em>ROI</em>',
+	noResultsPrefix: 'ไม่พบหัวข้อที่ตรงกัน: ',
+	noResultsMiddle: ' ลองใช้คำที่กว้างขึ้น หรือเรียกดู ',
+	resultsCountSingular: 'หัวข้อ',
+	resultsCountPlural: 'หัวข้อ',
+	topicPosition: (index, total) => `หัวข้อ ${index}/${total}`,
+	onThisPage: 'ในหน้านี้',
+	paginationLabel: 'หนังสือ',
+	paginationPrevious: 'ก่อนหน้า',
+	paginationNext: 'ถัดไป'
+};
+
 const TRANSLATIONS = {
 	'de-de': de,
 	'de-001': de,
@@ -1303,7 +1353,8 @@ const TRANSLATIONS = {
 	'da-dk': da,
 	'da-001': da,
 	'pl-pl': pl,
-	'vi-001': vi
+	'vi-001': vi,
+	'th-001': th
 };
 
 /** This locale's UI strings, falling back to English for any missing key. */
