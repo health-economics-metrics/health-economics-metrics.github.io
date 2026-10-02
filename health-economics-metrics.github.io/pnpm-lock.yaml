@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@lilydesignsystem/svelte-headless':
-        specifier: ^0.1.0
-        version: 0.1.0(svelte@5.56.9)
+        specifier: ^0.2.0
+        version: 0.2.0(svelte@5.56.9)
       '@lilydesignsystem/svelte-picker-bar':
         specifier: ^0.1.0
         version: 0.1.0(svelte@5.56.9)
@@ -64,8 +64,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@lilydesignsystem/svelte-headless@0.1.0':
-    resolution: {integrity: sha512-cB4/baunQqs/rrW7xY1jt3Nw3dJEbPD+JjQNsZY9kBlLALOSUoCnkfdo229RUj5Vamc099FvPsYXx4RKi0Siuw==}
+  '@lilydesignsystem/svelte-headless@0.2.0':
+    resolution: {integrity: sha512-xaCVY+qX2Aznb2wGtJhEIMCSeP04N/EZMZbjuOEllpMb3vow5yb/hH1pUybZwic/2HMCEp6zjuI9dSY7gKnRig==}
     engines: {node: '=26'}
     peerDependencies:
       svelte: ^5.0.0
@@ -537,7 +537,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@lilydesignsystem/svelte-headless@0.1.0(svelte@5.56.9)':
+  '@lilydesignsystem/svelte-headless@0.2.0(svelte@5.56.9)':
     dependencies:
       aria-query: 5.3.2
       svelte: 5.56.9

@@ -23,7 +23,7 @@
     "vite": "^8.2.1"
   },
   "dependencies": {
-    "@lilydesignsystem/svelte-headless": "^0.1.0",
+    "@lilydesignsystem/svelte-headless": "^0.2.0",
     "@lilydesignsystem/svelte-picker-bar": "^0.1.0",
     "@lilydesignsystem/themes": "^0.1.0",
     "github-slugger": "^2.0.0",
