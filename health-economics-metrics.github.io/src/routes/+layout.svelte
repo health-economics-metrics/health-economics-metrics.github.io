@@ -93,14 +93,14 @@
 	function navigateToLocale(next) {
 		const links = page.data?.localeLinks;
 		if (links?.[next]) {
-			goto(resolve(`${links[next]}`.slice(1)), { invalidateAll: true });
+			goto(resolve(`${links[next]}`.slice(1)), { refreshAll: true });
 			return;
 		}
 		if (locale) {
-			goto(resolve(`${path.replace(/\/locales\/[\w-]+/, `/locales/${next}`)}`.slice(1)), { invalidateAll: true });
+			goto(resolve(`${path.replace(/\/locales\/[\w-]+/, `/locales/${next}`)}`.slice(1)), { refreshAll: true });
 			return;
 		}
-		goto(resolve(`locales/${next}/`), { invalidateAll: true });
+		goto(resolve(`locales/${next}/`), { refreshAll: true });
 	}
 </script>
 
