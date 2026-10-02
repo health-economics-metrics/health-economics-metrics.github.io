@@ -14,6 +14,7 @@ export const LOCALE_LABELS = {
 	'da-dk': 'Dansk - Danmark',
 	'de-001': 'Deutsch',
 	'de-de': 'Deutsch - Deutschland',
+	'it-001': 'Italiano',
 	'it-it': 'Italiano - Italia',
 	'ja-001': '日本語',
 	'ja-jp': '日本語 - 日本',

@@ -1270,6 +1270,7 @@ const TRANSLATIONS = {
 	'es-001': es,
 	'et-001': et,
 	'it-it': it,
+	'it-001': it,
 	'fr-fr': fr,
 	'fr-001': fr,
 	'ru-ru': ru,
