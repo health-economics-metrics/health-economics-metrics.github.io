@@ -1350,6 +1350,7 @@ const TRANSLATIONS = {
 	'sv-se': sv,
 	'sv-001': sv,
 	'fi-fi': fi,
+	'fi-001': fi,
 	'no-no': no,
 	'da-dk': da,
 	'da-001': da,
