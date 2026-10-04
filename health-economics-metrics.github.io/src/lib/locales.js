@@ -31,6 +31,7 @@ export const LOCALE_LABELS = {
 	'fr-001': 'Français',
 	'ru-ru': 'Русский - Россия',
 	'ru-001': 'Русский',
+	'uk-001': 'Українська',
 	'uk-ua': 'Українська - Україна',
 	'sv-001': 'Svenska',
 	'sv-se': 'Svenska - Sverige',

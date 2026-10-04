@@ -1346,6 +1346,7 @@ const TRANSLATIONS = {
 	'nl-nl': nl,
 	'nl-001': nl,
 	'uk-ua': uk,
+	'uk-001': uk,
 	'sv-se': sv,
 	'sv-001': sv,
 	'fi-fi': fi,
