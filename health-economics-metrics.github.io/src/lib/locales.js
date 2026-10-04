@@ -24,6 +24,7 @@ export const LOCALE_LABELS = {
 	'nl-nl': 'Nederlands - Nederland',
 	'no-no': 'Norsk - Norge',
 	'et-001': 'Eesti',
+	'pl-001': 'Polski',
 	'pl-pl': 'Polski - Polska',
 	'es-es': 'Español - España',
 	'es-001': 'Español',

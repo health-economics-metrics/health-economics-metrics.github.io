@@ -1354,6 +1354,7 @@ const TRANSLATIONS = {
 	'da-dk': da,
 	'da-001': da,
 	'pl-pl': pl,
+	'pl-001': pl,
 	'vi-001': vi,
 	'th-001': th
 };
