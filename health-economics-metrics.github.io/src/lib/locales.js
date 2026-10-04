@@ -22,6 +22,7 @@ export const LOCALE_LABELS = {
 	'ko-kr': '한국어 - 대한민국',
 	'nl-001': 'Nederlands',
 	'nl-nl': 'Nederlands - Nederland',
+	'no-001': 'Norsk',
 	'no-no': 'Norsk - Norge',
 	'et-001': 'Eesti',
 	'pl-001': 'Polski',

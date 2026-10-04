@@ -1352,6 +1352,7 @@ const TRANSLATIONS = {
 	'fi-fi': fi,
 	'fi-001': fi,
 	'no-no': no,
+	'no-001': no,
 	'da-dk': da,
 	'da-001': da,
 	'pl-pl': pl,
