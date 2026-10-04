@@ -41,6 +41,7 @@ Auch Entwicklungskapazität ist ein festes Budget — Roadmap-Slots statt Pfund.
 - **Vergleich mit nichts.** Der korrekte Vergleichsmaßstab ist die zweitbeste Verwendung des Geldes, was selten "nichts tun" ist.
 - **Annahme, gesparte Zeit habe keine Opportunitätskosten.** Gesparte Zeit ist nur wertvoll, wenn sie für etwas Wertvolles neu eingesetzt wird — siehe [zahlungswirksame vs. nicht zahlungswirksame Einsparungen](../cash-releasing-vs-non-cash-releasing/).
 - **Verdrängung ignorieren.** "Das Budget wird sich entsprechend erweitern" stimmt in einem nationalen Gesundheitsdienst unterjährig so gut wie nie.
+- **Ignorieren, welche Methode eine verdrängte Ressource bewertet.** Speziell für verlorene Produktivität — durch Krankheit, Behinderung oder einen ausscheidenden Mitarbeiter — siehe [Humankapitalansatz vs. Friktionskostenmethode](../human-capital-and-friction-cost/), die produktivitätskostenspezifische Fassung dieser Idee.
 
 ## Quellen
 

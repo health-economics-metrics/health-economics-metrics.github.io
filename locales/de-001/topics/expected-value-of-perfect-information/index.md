@@ -4,7 +4,7 @@ EVPI ist der Höchstbetrag, den ein Entscheider zahlen sollte, um Unsicherheit v
 
 ## Warum es wichtig ist
 
-Gesundheitssysteme stehen ständig vor der Wahl: jetzt auf Basis unvollständiger Evidenz einführen oder erst weitere Forschung finanzieren. EVPI gibt der zweiten Option eine Zahl. Beträgt EVPI 50.000 £ und die vorgeschlagene Studie kostet 2 Millionen £, sollte man jetzt einführen. Beträgt EVPI 20 Millionen £, ist die Studie ein Schnäppchen. Dieselbe Frage — "sollten wir das erst pilotieren, bevor wir es ausrollen?" — stellt sich bei jeder Entscheidung über Unternehmenswerkzeuge, und fast niemand bepreist sie.
+Gesundheitssysteme stehen ständig vor der Wahl: jetzt auf Basis unvollständiger Evidenz einführen oder erst weitere Forschung finanzieren. EVPI gibt der zweiten Option eine Zahl. Beträgt EVPI 50.000 £ und die vorgeschlagene Studie kostet 2 Millionen £, sollte man jetzt einführen. Beträgt EVPI 20 Millionen £, ist die Studie ein Schnäppchen. Dieselbe Frage — "sollten wir das erst pilotieren, bevor wir es ausrollen?" — stellt sich bei jeder Entscheidung über Unternehmenswerkzeuge, und fast niemand bepreist sie. Für die Bepreisung der Option, ein Projekt später zu erweitern, statt zuerst Information zu sammeln, siehe [Realoptionsbewertung](../real-options-valuation/).
 
 ## Die Mathematik
 
@@ -46,7 +46,7 @@ EVPI ist die Ökonomie des Spikes, des Pilotprojekts, des A/B-Tests und des Proo
 - **Ein Pilot lohnt sich nur, wenn die Entscheidung sich tatsächlich ändern könnte.** Würde man ohnehin ausrollen, egal wie der Pilot ausfällt, ist EVPI = 0 und der Pilot ist Theater.
 - **Pilotausgaben auf EVPI begrenzen.** Der Wert von Information ist durch den Wert der Entscheidung begrenzt, die sie informiert.
 
-Der partielle EVPI (EVPPI) erweitert dies auf einzelne Parameter: "Was ist es wert, speziell die Zahl der Zeitersparnis genau zu bestimmen?" — das sagt, was der Pilot messen sollte.
+Der partielle EVPI (EVPPI) erweitert dies auf einzelne Parameter: "Was ist es wert, speziell die Zahl der Zeitersparnis genau zu bestimmen?" — das sagt, was der Pilot messen sollte. Für die Bepreisung einer *konkreten* Studie, statt alle Unsicherheit zu beseitigen, siehe [EVSI](../expected-value-of-sample-information/).
 
 ## Fallstricke
 

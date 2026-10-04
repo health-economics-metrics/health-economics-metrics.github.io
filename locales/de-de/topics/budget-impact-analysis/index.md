@@ -33,7 +33,7 @@ Selbst wenn der ICER des Produkts hervorragende 8.000 £/QALY beträgt, muss der
 
 ## Bezug zur Softwareentwicklung
 
-Die BIA ist genau das CFO-seitige Gegenstück zu einer Pro-Kopf-ROI-Behauptung: "Es ist kosteneffektiv pro Entwickler, aber können wir uns den organisationsweiten Rollout dieses Geschäftsjahr leisten?" Lizenzstufen modellieren, eine S-förmige Adoptionskurve, verdrängte Tooling-Ausgaben, die erst Bargeld freisetzen, wenn alte Verträge tatsächlich enden, und induzierte Nutzung (günstigere CI → mehr CI). Eine dreijährige Budget-Impact-Tabelle neben dem ROI zu präsentieren, macht einen Vorschlag für Unternehmenswerkzeuge für die Finanzabteilung glaubwürdig.
+Die BIA ist genau das CFO-seitige Gegenstück zu einer Pro-Kopf-ROI-Behauptung: "Es ist kosteneffektiv pro Entwickler, aber können wir uns den organisationsweiten Rollout dieses Geschäftsjahr leisten?" Lizenzstufen modellieren, eine S-förmige Adoptionskurve, verdrängte Tooling-Ausgaben, die erst Bargeld freisetzen, wenn alte Verträge tatsächlich enden, und induzierte Nutzung (günstigere CI → mehr CI). Eine dreijährige Budget-Impact-Tabelle neben dem ROI zu präsentieren, macht einen Vorschlag für Unternehmenswerkzeuge für die Finanzabteilung glaubwürdig. Eine veröffentlichte Budget-Impact-Summe auf Standorte, Kohorten oder Haushaltsjahre aufzuteilen — so, dass die Teile exakt zur veröffentlichten Zahl abstimmen — ist genau [Cent-genaue Kostenzuordnung](../exact-cents-cost-allocation/); die vielen Posten zu summieren, die diese Summe überhaupt erst speisen, ist [währungssichere Kostenaggregation](../currency-safe-cost-rollup/).
 
 ## Fallstricke
 

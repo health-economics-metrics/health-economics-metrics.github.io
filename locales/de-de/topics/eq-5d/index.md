@@ -46,6 +46,7 @@ Gegenüber einer Kontrollgruppenveränderung von 0,03 (natürliche Genesung) bet
 - **Survivorship Bias**: nur Nutzer zu messen, die engagiert blieben (siehe [Bindung und Abwanderung](../retention-and-churn/)).
 - **3L- und 5L-Versionen oder Wertesets mischen** über Studien hinweg — systematisch unterschiedliche Zahlen.
 - **Deckeneffekte** in leicht betroffenen Bevölkerungsgruppen: Viele Nutzer liegen zu Beginn nahe bei 1,0, sodass kein Spielraum bleibt, um einen Gewinn zu zeigen.
+- **Ein Wertset als selbstbegründend behandeln**: Die Nutzwerte, die ein Wertset liefert, wurden selbst per Time-Trade-Off (oder einer verwandten wahlbasierten) Befragung der Öffentlichkeit erhoben — siehe [Time-Trade-Off-(TTO-)Nutzwerterhebung](../time-trade-off-utility/) dazu, wie das geschieht.
 
 ## Quellen
 

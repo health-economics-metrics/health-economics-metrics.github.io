@@ -34,6 +34,8 @@ Die vom Sponsor selbst bevorzugte Analyse zeigte 9.000 £/QALY; der Referenzfall
 
 Das übertragbare Artefakt ist der **interne Referenzfall**: eine verbindliche Methode für alle Tooling-/Plattform-Business-Cases — deklarierte Vergleichsoption, Standard-Einheitskosten (siehe [Nationaler Tarif und Einheitskosten](../national-tariff-and-unit-costs/) für das Muster), fester Diskontsatz, verpflichtende Sensitivitätsanalyse, Standardvorlage. Ein "AMCP-Dossier für Tools", das einem Plattform-Gremium vorgelegt wird, macht Vorschläge vergleichbar und Manipulation sichtbar — genau wie HTA es für Medizin tut. Kleiner anfangen als NICE es tat: eine zweiseitige Vorlage plus ein veröffentlichtes Preisbuch schlägt gar keinen Standard bei Weitem.
 
+Wie ein mehrzyklisches HTA-Modell tatsächlich Kohorte für Kohorte und Zyklus für Zyklus simuliert wird, siehe [Markov-Kohortensimulation](../markov-cohort-simulation/).
+
 ## Fallstricke
 
 - **HTA als Formalität nach der regulatorischen Zulassung behandeln** — CE-/UKCA-/FDA-Zulassung sagt, ein Produkt sei sicher; HTA entscheidet, ob es *den Kauf wert ist*. Andere Hürde, andere Evidenz.

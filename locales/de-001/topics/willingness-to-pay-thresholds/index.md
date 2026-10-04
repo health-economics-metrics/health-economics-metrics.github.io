@@ -51,6 +51,8 @@ Jede Entwicklungsorganisation hat ein implizites λ: die Hürde, ab der sie Tool
 - **Schwellenwert-Shopping** über Rechtsordnungen hinweg oder das Zitieren der HST-Obergrenze für ein gewöhnliches Produkt.
 - **λ als Preisuntergrenze behandeln**: den Schwellenwert zu unterschreiten ist notwendig, nicht hinreichend — der [Budget-Impact](../budget-impact-analysis/) kann ein pro Einheit erschwingliches Produkt trotzdem versenken.
 - **Ignorieren, dass sich Schwellenwerte bewegen**: NICEs Schweregrad-Modifikatoren (2022) und periodische Überprüfungen ändern das effektive λ; Behauptungen datieren.
+- **Einen ICER ohne vorherige Umrechnung mit einer Schwelle in anderer Währung vergleichen**: siehe [währungsübergreifender ICER-Vergleich](../cross-currency-icer-comparison/) — die Umrechnungsmethode (Kaufkraftparität vs. Marktwechselkurs) ist methodisch folgenreich, kein Rundungsdetail.
+- **λ-basierte Bewertung mit der arbeitsmarktbasierten VSL/VPF-Tradition vermengen**: Sie stammen aus verschiedenen theoretischen Traditionen (budgetbeschränkte Gesundheitsmethodik vs. aus Lohn-Risiko-Abwägungen offenbarte Präferenz) und lassen sich nicht immer in Einklang bringen — zum alternativen Ansatz der offenbarten Präferenz bei der Bewertung des Lebens siehe [Wert eines statistischen Lebens](../value-of-a-statistical-life/).
 
 ## Quellen
 

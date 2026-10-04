@@ -52,6 +52,7 @@ Die ICER-Disziplin überträgt sich vollständig auf Entwicklungsentscheidungen:
 - **Durchschnittswerte statt Inkremente**: die Kosten pro QALY eines ganzen Programms sind nicht der ICER seiner Ausweitung oder Einführung.
 - **Punktschätzer-Verehrung**: ICERs sind Verhältnisse zweier unsicherer Differenzen; Unsicherheit über [PSA und CEACs](../probabilistic-sensitivity-analysis/) berichten.
 - **Negative ICERs sind mehrdeutig** (günstiger-und-besser und teurer-und-schlechter ergeben dasselbe Vorzeichen) — nie einen negativen ICER berichten, ohne zu sagen, in welchem Quadranten er liegt.
+- **Einen ICER über Währungen hinweg ohne expliziten Umrechnungsschritt vergleichen**: Ein in der Währung eines Landes berechneter ICER muss mit einer angegebenen Methode umgerechnet werden, bevor er mit der Schwelle eines anderen Landes verglichen wird — siehe [währungsübergreifender ICER-Vergleich](../cross-currency-icer-comparison/), warum die Wahl des Umrechnungsfaktors (Kaufkraftparität vs. Marktwechselkurs) selbst die Einführungsentscheidung kippen kann.
 
 ## Quellen
 
