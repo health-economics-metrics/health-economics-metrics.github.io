@@ -24,6 +24,8 @@ Ligner en intern "omkostning pr. undgået hændelse"-tærskel, der afgør, hvilk
 
 - **At sammenligne tærskler mellem lande uden at tage højde for forskelle i købekraft.**
 - **At behandle tærsklen som en hård grænse i stedet for en retningslinje.**
+- **At sammenligne en ICER med en tærskel i en anden valuta uden først at omregne**: se [ICER-sammenligning på tværs af valutaer](../cross-currency-icer-comparison/) — omregningsmetoden (købekraftsparitet vs. markedsvekselkurs) er metodisk afgørende, ikke en afrundingsdetalje.
+- **At blande λ-baseret værdisætning med den arbejdsmarkedsbaserede VSL/VPF-tradition**: de stammer fra forskellige teoretiske traditioner (sundhedsbudgetbegrænset metodik vs. præference afsløret via løn-risiko-afvejninger) og kan ikke altid forenes — for den alternative afslørede-præference-tilgang til at værdisætte liv, se [værdien af et statistisk liv](../value-of-a-statistical-life/).
 
 ## Kilder
 

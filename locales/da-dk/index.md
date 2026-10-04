@@ -15,6 +15,9 @@ Ny her? Begynd med [alternativomkostning](locales/en-gb-oxendict/topics/opportun
 - [Følsomhedsanalyse](locales/en-gb-oxendict/topics/sensitivity-analysis/) — tornadodiagrammer; hvilken antagelse der bærer din sag
 - [Probabilistisk følsomhedsanalyse](locales/en-gb-oxendict/topics/probabilistic-sensitivity-analysis/) — Monte Carlo, CEAC, sandsynligheden for at have ret
 - [Forventet værdi af perfekt information](locales/en-gb-oxendict/topics/expected-value-of-perfect-information/) — at prissætte pilotprojektet, før du gennemfører det
+- [Forventet værdi af stikprøveinformation (EVSI)](locales/en-gb-oxendict/topics/expected-value-of-sample-information/) — at prissætte en *konkret foreslået* undersøgelse i stedet for at fjerne al usikkerhed
+- [Realoptionsværdisætning](locales/en-gb-oxendict/topics/real-options-valuation/) — at prissætte optionen til at udvide et trinvist projekt senere i stedet for optionen til først at indsamle information
+- [Humankapitaltilgangen kontra friktionsomkostningsmetoden](locales/en-gb-oxendict/topics/human-capital-and-friction-cost/) — to måder at værdisætte tabt produktivitet på — en forskel på 2x eller mere i de rapporterede omkostninger
 - [Dominans og effektivitetsfronten](locales/en-gb-oxendict/topics/dominance-and-efficiency-frontier/) — at eliminere valgmuligheder, som ingen bør vælge
 
 ## Udfaldsmål
@@ -22,12 +25,15 @@ Ny her? Begynd med [alternativomkostning](locales/en-gb-oxendict/topics/opportun
 - [Kvalitetsjusteret leveår (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — den fælles valuta for sundhedsværdi
 - [Handicapjusteret leveår (DALY)](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — spejlbilledet fra byrdesiden; det globale sundhedsmål
 - [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — instrumentet bag de fleste QALY-nyttevægte
+- [Time Trade-Off (TTO) – indhentning af nytteværdi](locales/en-gb-oxendict/topics/time-trade-off-utility/) — hvordan en nyttevægt faktisk indhentes fra en respondent
 - [Inkrementel omkostningseffektivitetsratio (ICER)](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — ekstra omkostning pr. ekstra enhed sundhed
 - [Betalingsvillighedstærskler](locales/en-gb-oxendict/topics/willingness-to-pay-thresholds/) — NICEs £20–30 tusind/QALY og verdens andre grænser
+- [Værdien af et statistisk liv (VSL)](locales/en-gb-oxendict/topics/value-of-a-statistical-life/) — arbejdsmarkedsalternativet til tærskelbaseret værdisætning
 - [Netto pengeværdi (NMB)](locales/en-gb-oxendict/topics/net-monetary-benefit/) — værdi minus omkostning, gjort korrekt
 - [Opnåede leveår](locales/en-gb-oxendict/topics/life-years-gained/) — overlevelsesmatematik og retfærdighedsvarianten evLYG
 - [Sundhedsjusteret forventet levetid (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — regnskab for sunde år på befolkningsniveau
 - [QALY-underskud og alvorlighedsmodifikatorer](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — hvorfor sygere populationers QALY'er tæller mere
+- [Work Productivity and Activity Impairment (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — fravær vs. nedsat ydeevne ved tilstedeværelse, den skjulte halvdel af omkostningen
 
 ## Typer af økonomisk analyse
 
@@ -39,6 +45,7 @@ Ny her? Begynd med [alternativomkostning](locales/en-gb-oxendict/topics/opportun
 - [Budgetpåvirkningsanalyse (BIA)](locales/en-gb-oxendict/topics/budget-impact-analysis/) — overkommelighed, adskilt fra værdi
 - [Return on investment (ROI)](locales/en-gb-oxendict/topics/return-on-investment/) — det fælles nøgletal, med erklærede parametre
 - [Social return on investment (SROI)](locales/en-gb-oxendict/topics/social-return-on-investment/) — at gøre det, markeder ikke prissætter, op i penge
+- [ICER-sammenligning på tværs af valutaer](locales/en-gb-oxendict/topics/cross-currency-icer-comparison/) — KKP vs. markedsvekselkurs; omregningsvalget, der kan vende en indførelsesbeslutning
 
 ## Sundhedsvæsenets operationelle økonomi
 
@@ -61,12 +68,17 @@ Ny her? Begynd med [alternativomkostning](locales/en-gb-oxendict/topics/opportun
 ## HTA-rammer og forebyggelsesøkonomi
 
 - [Medicinsk teknologivurdering (HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE, ICER (USA), CADTH: hvem afgør, hvad der er værd at købe
+- [Markov-kohortesimulering](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — hvordan en flercyklus-HTA-model faktisk simuleres kohorte for kohorte, cyklus for cyklus
 - [NICEs rammeværk for evidensstandarder](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — risikograduerede evidenskrav til digital sundhed
 - [Tysklands DiGA-hurtigspor](locales/en-gb-oxendict/topics/diga-fast-track/) — apps på recept; foreløbig optagelse med en evidensfrist
 - [Antal, der skal behandles (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — indsats-per-fordel-enheder, der holder påstande ærlige
+- [Populationsattribuerbar andel (PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — hvor stor en sygdomsbyrde en risikofaktor reelt er værd at bekæmpe
 - [Forebyggelsesøkonomi](locales/en-gb-oxendict/topics/prevention-economics/) — hvorfor forebyggelse er omkostningseffektiv, men sjældent omkostningsbesparende
 - [Screeningøkonomi](locales/en-gb-oxendict/topics/screening-economics/) — Wilson–Jungner, PPV-sammenbrud ved lav prævalens, alarmtræthed
+- [Antal, der skal screenes (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — NNT's analog på screeningsprogramniveau
 - [Undgåede nedstrømsomkostninger](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — omkostningskompensationer og reglerne, der gør dem troværdige
+- [Multikriterie-beslutningsanalyse (MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — vægtet scoring, når en enkelt tærskel ikke slår til
+- [CO₂-aftryk pr. QALY](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — NHS' nettonul-tilsagn møder omkostning pr. QALY
 
 ## Softwareudvikling og digital levering
 
@@ -78,6 +90,8 @@ Ny her? Begynd med [alternativomkostning](locales/en-gb-oxendict/topics/opportun
 - [Teknisk gæld](locales/en-gb-oxendict/topics/technical-debt/) — hovedstol, renter og kronisk sygdomsøkonomi for kodebaser
 - [Samlet ejeromkostning (TCO)](locales/en-gb-oxendict/topics/total-cost-of-ownership/) — vedligeholdelse udgør 50–80 %; den naive lægemiddelprisfejl i software
 - [Skyens enhedsøkonomi (FinOps)](locales/en-gb-oxendict/topics/cloud-unit-economics/) — omkostning pr. produceret enhed; den digitale tjenestes referenceomkostning
+- [Cent-præcis omkostningsfordeling](locales/en-gb-oxendict/topics/exact-cents-cost-allocation/) — største rest-metoden; at dele en total, så delene summerer præcist tilbage
+- [Valutasikker omkostningsaggregering](locales/en-gb-oxendict/topics/currency-safe-cost-rollup/) — eksakt decimal `Money`, ikke `f64`, til totaler, der skal stemme af til øre
 - [Bygge kontra købe](locales/en-gb-oxendict/topics/build-vs-buy/) — risikojusteret sammenligning med forsinkelsesleddet prissat
 - [Realisering af gevinster](locales/en-gb-oxendict/topics/benefits-realization/) — at revidere, om forventede gevinster faktisk indtraf
 - [GDS-servicenøgletal](locales/en-gb-oxendict/topics/gds-service-metrics/) — omkostning pr. transaktion, tilfredshed, gennemførelse, anvendelse
@@ -103,6 +117,7 @@ Ny her? Begynd med [alternativomkostning](locales/en-gb-oxendict/topics/opportun
 - [Økonomi for fjernpatientovervågning](locales/en-gb-oxendict/topics/remote-patient-monitoring-economics/) — CPT-kodestakke og erstatning af hospital med hjemmepleje
 - [Sundhedsappens enhedsøkonomi](locales/en-gb-oxendict/topics/health-app-unit-economics/) — CAC, LTV, PMPM og ROI kontra VOI
 - [Rækkevidde og lighed](locales/en-gb-oxendict/topics/reach-and-equity/) — RE-AIM; befolkningspåvirkning = rækkevidde × effektivitet
+- [Koncentrationsindeks](locales/en-gb-oxendict/topics/concentration-index/) — et formelt statistisk mål for socioøkonomisk betinget sundhedsulighed
 
 ## Referenceværdiernes aktualitet
 

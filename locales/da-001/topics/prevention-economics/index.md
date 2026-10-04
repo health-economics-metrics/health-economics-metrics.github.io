@@ -4,7 +4,7 @@ Forebyggelsesøkonomi undersøger, hvorfor forebyggende interventioner næsten a
 
 ## Hvorfor det er vigtigt
 
-Beslutningstagere hævder ofte, at forebyggelse sparer penge, men de fleste forebyggende tiltag tilfører sundhed til en rimelig pris uden at sænke de samlede udgifter.
+Beslutningstagere hævder ofte, at forebyggelse sparer penge, men de fleste forebyggende tiltag tilfører sundhed til en rimelig pris uden at sænke de samlede udgifter. Før man prissætter et forebyggelsesprogram, besvarer [den populationsattribuerbare andel](../population-attributable-fraction/) dimensioneringsspørgsmålet først — hvor stor en del af den tilsigtede sygdomsbyrde den risikofaktor, programmet adresserer, plausibelt kunne fjerne.
 
 ## Matematikken
 

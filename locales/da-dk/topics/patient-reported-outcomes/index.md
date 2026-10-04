@@ -18,7 +18,7 @@ En app til håndtering af kronisk smerte: PROMIS-smertescoren falder fra 58 til 
 
 ## Forbindelse til softwareudvikling
 
-Bruges sammen med [EQ-5D](../eq-5d/) og supplerer [digitale endepunkter og biomarkører](../digital-endpoints-and-biomarkers/).
+Bruges sammen med [EQ-5D](../eq-5d/) og supplerer [digitale endepunkter og biomarkører](../digital-endpoints-and-biomarkers/). For et arbejdsproduktivitetsspecifikt instrument, se [WPAI](../work-productivity-and-activity-impairment/).
 
 ## Faldgruber
 

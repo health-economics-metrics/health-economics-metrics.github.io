@@ -18,7 +18,7 @@ Et klinisk system med 5 års levetid: opbygning £500.000 + drift £150.000/år 
 
 ## Forbindelse til softwareudvikling
 
-TCO er grundlaget for [skyens enhedsøkonomi](../cloud-unit-economics/) og [bygge kontra købe](../build-vs-buy/)-beslutninger.
+TCO er grundlaget for [skyens enhedsøkonomi](../cloud-unit-economics/) og [bygge kontra købe](../build-vs-buy/)-beslutninger. Et flerårigt TCO-tal som det ovenstående er en sum af mange omkostningsposter over tid — se [valutasikker omkostningsaggregering](../currency-safe-cost-rollup/) for hvorfor den sum bør være eksakt decimal frem for flydende komma, så snart en model skal stemme af til øre, og [cent-præcis omkostningsfordeling](../exact-cents-cost-allocation/) for at fordele en TCO-total på omkostningssteder uden at miste øre.
 
 ## Faldgruber
 

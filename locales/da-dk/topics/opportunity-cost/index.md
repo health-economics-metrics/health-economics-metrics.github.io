@@ -27,6 +27,7 @@ Ingeniørkapacitet er også et fast budget — pladser på køreplanen, ikke pun
 
 - **At sammenligne med ingenting.** Det korrekte sammenligningsgrundlag er den næstbedste anvendelse af pengene.
 - **At antage, at sparet tid ikke har nogen alternativomkostning.**
+- **At ignorere, hvilken metode der værdisætter en fortrængt ressource.** For tabt produktivitet specifikt — fra sygdom, handicap eller en medarbejder, der forlader virksomheden — se [humankapitaltilgangen kontra friktionsomkostningsmetoden](../human-capital-and-friction-cost/), den produktivitetsomkostningsspecifikke udgave af denne idé.
 
 ## Kilder
 

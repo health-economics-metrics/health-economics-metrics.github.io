@@ -18,7 +18,7 @@ En ny behandling med en ICER på £15.000/QALY (godt under tærsklen) har allige
 
 ## Forbindelse til softwareudvikling
 
-Ligner det at vurdere, om en teknisk overlegen løsning passer inden for det årlige infrastrukturbudget, uanset om det er den bedste arkitektur.
+Ligner det at vurdere, om en teknisk overlegen løsning passer inden for det årlige infrastrukturbudget, uanset om det er den bedste arkitektur. At opdele en offentliggjort budgetkonsekvenstotal på lokationer, kohorter eller regnskabsår — så delene stemmer præcist med det offentliggjorte tal — er netop [cent-præcis omkostningsfordeling](../exact-cents-cost-allocation/); at summere de mange poster, der overhovedet fødder totalen, er [valutasikker omkostningsaggregering](../currency-safe-cost-rollup/).
 
 ## Faldgruber
 

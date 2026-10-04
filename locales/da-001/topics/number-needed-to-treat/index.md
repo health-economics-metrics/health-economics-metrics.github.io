@@ -18,7 +18,7 @@ Et lægemiddel reducerer risikoen for hjerteanfald fra 10 % til 8 % (absolut ris
 
 ## Forbindelse til softwareudvikling
 
-Ligner det at beregne, hvor mange brugere der skal opleve en ny funktion for at generere én ekstra konvertering.
+Ligner det at beregne, hvor mange brugere der skal opleve en ny funktion for at generere én ekstra konvertering. [Antal, der skal screenes](../number-needed-to-screen/) er det tilsvarende tal ét niveau højere, for et helt screen-og-behandl-program frem for en behandling alene.
 
 ## Faldgruber
 

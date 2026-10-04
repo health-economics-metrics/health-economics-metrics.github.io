@@ -4,7 +4,7 @@ Rækkevidde og lighed måler, hvor retfærdigt en digital sundhedsintervention n
 
 ## Hvorfor det er vigtigt
 
-Digitale interventioner risikerer at forstærke digitale sundhedsforskelle ved uforholdsmæssigt at nå grupper, der allerede har bedre adgang.
+Digitale interventioner risikerer at forstærke digitale sundhedsforskelle ved uforholdsmæssigt at nå grupper, der allerede har bedre adgang. For et formelt statistisk mål for socioøkonomisk betinget sundhedsulighed, se [koncentrationsindeks](../concentration-index/).
 
 ## Matematikken
 
