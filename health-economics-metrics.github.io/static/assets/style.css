@@ -402,9 +402,9 @@ pre {
 }
 
 /* --- Contents --------------------------------------------------------------
- * Parts and their chapters render as one nested list — <ContentsList> (an
+ * Parts and their topics render as one nested list — <ContentsList> (an
  * <ol>) of parts, each a <ContentsListItem> (<li>) containing a further
- * <ContentsList> of that part's chapters — not a grid/table/tile layout.
+ * <ContentsList> of that part's topics — not a grid/table/tile layout.
  * Plain block flow throughout; list markers stay off, matching the rest of
  * the site's list styling (border-line separators instead of bullets).
  * ------------------------------------------------------------------------ */

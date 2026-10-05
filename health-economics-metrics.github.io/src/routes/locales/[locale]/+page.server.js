@@ -33,7 +33,7 @@ export function load({ params }) {
 	const partsStart = source.indexOf('\n## ');
 	const intro = partsStart === -1 ? source : source.slice(0, partsStart);
 
-	// Parts/chapters render as PartsList's numbered nested list, built from
+	// Parts/topics render as PartsList's numbered nested list, built from
 	// `parts` above — not from the raw Markdown — so this only needs whatever
 	// prose follows the last topic-bearing part (e.g. "Benchmark freshness",
 	// "Claude skills": headings with no topic entries under them, which
