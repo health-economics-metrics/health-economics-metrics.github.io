@@ -58,5 +58,5 @@ Det svarer direkte til, hvordan et team værdisætter, at en ingeniør forlader 
 ## Kilder
 
 - Koopmanschap MA, Rutten FFH, van Ineveld BM, van Roijen L. "The friction cost method for measuring indirect costs of disease." Journal of Health Economics 1995;14(2):171-89.
-- Drummond MF, Sculpher MJ, Claxton K, Stoddart GL, Torrance GW. "Methods for the Economic Evaluation of Health Care Programmes." 4th ed. Oxford University Press — kapitel om produktivitetsomkostninger.
+- Drummond MF, Sculpher MJ, Claxton K, Stoddart GL, Torrance GW. "Methods for the Economic Evaluation of Health Care Programmes." 4th ed. Oxford University Press — emne om produktivitetsomkostninger.
 - NICE health technology evaluations manual (PMG36) — referencetilfældets perspektiv og valgfri vejledning om samfundsperspektiv. <https://www.nice.org.uk/process/pmg36>
