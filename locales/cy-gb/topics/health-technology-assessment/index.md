@@ -34,6 +34,8 @@ Roedd dadansoddiad dewisol y noddwr ei hun yn dangos £9,000/QALY; gwthiodd yr a
 
 Yr arteffact trosglwyddadwy yw'r **achos cyfeirio mewnol**: un dull gorfodol ar gyfer holl achosion busnes offer/platfform — cymharydd datganedig, costau uned safonol (gweler [tariff cenedlaethol a chostau uned](../national-tariff-and-unit-costs/) am y patrwm), cyfradd ddisgownt sefydlog, dadansoddiad sensitifrwydd gofynnol, templed safonol. Mae "dosier arddull-AMCP ar gyfer offer" a gyflwynir i gyngor platfform yn gwneud cynigion yn gymharadwy ac yn dinoethi camchwarae, yn union fel y mae HTA yn ei wneud ar gyfer meddyginiaeth. Dechreuwch yn llai uchelgeisiol na NICE: mae templed dwy dudalen ynghyd â llyfr prisiau cyhoeddedig yn well nag unrhyw ddiffyg safon o gwbl.
 
+Am sut mae model HTA aml-gylch yn cael ei efelychu mewn gwirionedd, carfan wrth garfan, cylch wrth gylch, gweler [Efelychu carfan Markov](../markov-cohort-simulation/).
+
 ## Peryglon
 
 - **Trin HTA fel ffurfioldeb ar ôl clirio rheoleiddiol** — mae clirio CE/UKCA/FDA yn dweud bod cynnyrch yn ddiogel; mae HTA yn penderfynu a yw'n *werth ei brynu*. Rhwystr gwahanol, tystiolaeth wahanol.

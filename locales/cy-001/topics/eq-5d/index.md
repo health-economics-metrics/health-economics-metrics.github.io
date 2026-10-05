@@ -46,6 +46,7 @@ O gymharu â newid grŵp rheoli o 0.03 (adferiad naturiol), yr enillion priodola
 - **Rhagfarn goroesiad**: mesur dim ond defnyddwyr a arhosodd yn ymgysylltiedig (gweler [cadw a cholli defnyddwyr](../retention-and-churn/)).
 - **Cymysgu fersiynau 3L a 5L neu setiau gwerthoedd** ar draws astudiaethau — rhifau sy'n wahanol yn systematig.
 - **Effeithiau nenfwd** mewn poblogaethau a effeithiwyd yn ysgafn: mae llawer o ddefnyddwyr yn sgorio'n agos i 1.0 ar y sylfaen, gan adael dim lle i ddangos enillion.
+- **Trin set gwerth fel un hunan-gyfiawnhaol**: cafodd y gwerthoedd defnyddioldeb y mae set gwerth yn eu dychwelyd eu hunain eu cael gan y cyhoedd trwy arolygon cyfnewid amser (neu arolygon dewis cysylltiedig) — gweler [Cael Defnyddioldeb Cyfnewid Amser (TTO)](../time-trade-off-utility/) am sut.
 
 ## Ffynonellau
 

@@ -15,6 +15,9 @@ Yn newydd yma? Dechreuwch gyda [cost cyfle](locales/en-gb-oxendict/topics/opport
 - [Dadansoddiad Sensitifrwydd](locales/en-gb-oxendict/topics/sensitivity-analysis/) — diagramau corwynt; pa dybiaeth sy'n cynnal eich achos
 - [Dadansoddiad Sensitifrwydd Tebygolyddol (PSA)](locales/en-gb-oxendict/topics/probabilistic-sensitivity-analysis/) — Monte Carlo, CEACs, tebygolrwydd o fod yn gywir
 - [Gwerth Disgwyliedig Gwybodaeth Berffaith (EVPI)](locales/en-gb-oxendict/topics/expected-value-of-perfect-information/) — prisio'r peilot cyn ei redeg
+- [Gwerth Disgwyliedig Gwybodaeth Sampl (EVSI)](locales/en-gb-oxendict/topics/expected-value-of-sample-information/) — prisio astudiaeth *benodol a gynigir*, nid dileu pob ansicrwydd
+- [Prisio Opsiynau Real](locales/en-gb-oxendict/topics/real-options-valuation/) — prisio'r opsiwn i ehangu prosiect fesul cam yn ddiweddarach, yn hytrach na'r opsiwn i gasglu gwybodaeth yn gyntaf
+- [Dull Cyfalaf Dynol yn erbyn Dull Cost Ffrithiant](locales/en-gb-oxendict/topics/human-capital-and-friction-cost/) — dwy ffordd o brisio cynhyrchiant a gollwyd, gwahaniaeth 2x+ yn y gost a adroddir
 - [Trechiant a'r Ffin Effeithlonrwydd](locales/en-gb-oxendict/topics/dominance-and-efficiency-frontier/) — dileu opsiynau na ddylai neb eu dewis
 
 ## Mesurau canlyniadau
@@ -22,12 +25,15 @@ Yn newydd yma? Dechreuwch gyda [cost cyfle](locales/en-gb-oxendict/topics/opport
 - [Blwyddyn Bywyd wedi'i Addasu yn ôl Ansawdd (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — arian cyffredin gwerth iechyd
 - [Blwyddyn Bywyd wedi'i Haddasu ar gyfer Anabledd (DALY)](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — yr adlewyrchiad o ochr y baich; metrig iechyd byd-eang
 - [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — yr offeryn y tu ôl i'r rhan fwyaf o bwysau defnyddioldeb QALY
+- [Cael Defnyddioldeb Cyfnewid Amser (TTO)](locales/en-gb-oxendict/topics/time-trade-off-utility/) — sut y cesglir pwysau defnyddioldeb mewn gwirionedd gan ymatebydd
 - [Cymhareb Cost-Effeithiolrwydd Cynyddrannol (ICER)](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — cost ychwanegol am bob uned ychwanegol o iechyd
 - [Trothwyon Parodrwydd i Dalu](locales/en-gb-oxendict/topics/willingness-to-pay-thresholds/) — trothwy NICE o £20–30 mil/QALY a'r llinellau eraill ledled y byd
+- [Gwerth Bywyd Ystadegol (VSL)](locales/en-gb-oxendict/topics/value-of-a-statistical-life/) — dewis arall y farchnad lafur yn lle prisio ar sail trothwy
 - [Budd Ariannol Net (NMB)](locales/en-gb-oxendict/topics/net-monetary-benefit/) — gwerth minws cost, wedi'i wneud yn iawn
 - [Blynyddoedd Bywyd a Enillwyd (LYG)](locales/en-gb-oxendict/topics/life-years-gained/) — mathemateg goroesi, a'r amrywiad tegwch evLYG
 - [Disgwyliad Oes wedi'i Addasu ar gyfer Iechyd (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — cyfrifo blynyddoedd iach ar lefel y boblogaeth
 - [Diffyg QALY ac Addasyddion Difrifoldeb](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — pam mae QALY poblogaethau mwy sâl yn cyfrif mwy
+- [Gwaith Cynhyrchiant a Nam ar Weithgarwch (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — absenoldeb vs presenoldeb dan nam, hanner cudd y gost
 
 ## Mathau o ddadansoddi economaidd
 
@@ -39,6 +45,7 @@ Yn newydd yma? Dechreuwch gyda [cost cyfle](locales/en-gb-oxendict/topics/opport
 - [Dadansoddiad Effaith ar y Gyllideb (BIA)](locales/en-gb-oxendict/topics/budget-impact-analysis/) — fforddiadwyedd, yn wahanol i werth
 - [Adenillion ar Fuddsoddiad (ROI)](locales/en-gb-oxendict/topics/return-on-investment/) — y metrig a rennir, gyda pharamedrau datganedig
 - [Adenillion Cymdeithasol ar Fuddsoddiad (SROI)](locales/en-gb-oxendict/topics/social-return-on-investment/) — rhoi gwerth ariannol i'r hyn nad yw marchnadoedd yn ei brisio
+- [Cymharu ICER Rhwng Arian Cyfred](locales/en-gb-oxendict/topics/cross-currency-icer-comparison/) — PPP vs cyfradd cyfnewid y farchnad; y dewis trosi a all wrthdroi penderfyniad mabwysiadu
 
 ## Economeg weithredol y system iechyd
 
@@ -61,12 +68,17 @@ Yn newydd yma? Dechreuwch gyda [cost cyfle](locales/en-gb-oxendict/topics/opport
 ## Fframweithiau HTA ac economeg atal
 
 - [Asesiad Technoleg Iechyd (HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE, ICER (UDA), CADTH: pwy sy'n penderfynu beth sy'n werth ei brynu
+- [Efelychu Carfan Markov](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — sut mae model HTA aml-gylch yn cael ei efelychu mewn gwirionedd, carfan wrth garfan, cylch wrth gylch
 - [Fframwaith Safonau Tystiolaeth NICE (ESF)](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — gofynion tystiolaeth wedi'u graddio yn ôl risg ar gyfer iechyd digidol
 - [Llwybr Cyflym DiGA yr Almaen](locales/en-gb-oxendict/topics/diga-fast-track/) — apiau ar bresgripsiwn; rhestru dros dro gyda dyddiad cau tystiolaeth
 - [Nifer sy'n Angenrheidiol i'w Trin (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — unedau ymdrech-fesul-budd sy'n cadw honiadau'n onest
+- [Ffracsiwn Priodoladwy i'r Boblogaeth (PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — faint o faich clefyd y mae ffactor risg yn werth mynd ar ei ôl mewn gwirionedd
 - [Economeg Atal](locales/en-gb-oxendict/topics/prevention-economics/) — pam mae atal yn costeffeithiol ond anaml yn arbed costau
 - [Economeg Sgrinio](locales/en-gb-oxendict/topics/screening-economics/) — Wilson–Jungner, chwalfa PPV mewn cyffredinolder isel, blinder rhybuddion
+- [Nifer sy'n Angenrheidiol i'w Sgrinio (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — cyfatebydd lefel rhaglen sgrinio NNT
 - [Costau Diweddarach a Osgowyd](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — gwrthbwyso costau a'r rheolau sy'n eu gwneud yn gredadwy
+- [Dadansoddiad Penderfyniad Aml-Faen Prawf (MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — sgorio pwysol pan na fydd un trothwy yn ddigon
+- [Ôl Troed Carbon fesul QALY](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — ymrwymiad sero net y GIG yn cwrdd â chost fesul QALY
 
 ## Peirianneg feddalwedd a chyflenwi digidol
 
@@ -78,6 +90,8 @@ Yn newydd yma? Dechreuwch gyda [cost cyfle](locales/en-gb-oxendict/topics/opport
 - [Dyled Dechnegol](locales/en-gb-oxendict/topics/technical-debt/) — prifswm, llog, ac economeg clefyd cronig ar gyfer sylfeini cod
 - [Cyfanswm Cost Perchnogaeth (TCO)](locales/en-gb-oxendict/topics/total-cost-of-ownership/) — cynnal a chadw yw 50–80%; y camgymeriad prisio cyffuriau naïf, mewn meddalwedd
 - [Economeg Uned Cwmwl (FinOps)](locales/en-gb-oxendict/topics/cloud-unit-economics/) — cost am bob uned allbwn; cost gyfeirio'r gwasanaeth digidol
+- [Dyrannu Costau i'r Geiniog yn Union](locales/en-gb-oxendict/topics/exact-cents-cost-allocation/) — y dull gweddill mwyaf; rhannu cyfanswm fel bod y rhannau'n adio'n ôl yn union
+- [Cyfuno Costau sy'n Ddiogel o ran Arian Cyfred](locales/en-gb-oxendict/topics/currency-safe-cost-rollup/) — `Money` degol union, nid `f64`, ar gyfer cyfansymiau y mae'n rhaid iddynt gysoni i'r geiniog
 - [Adeiladu vs Prynu](locales/en-gb-oxendict/topics/build-vs-buy/) — cymhariaeth wedi'i haddasu i risg gyda'r term oedi wedi'i brisio
 - [Gwireddu Buddiannau](locales/en-gb-oxendict/topics/benefits-realization/) — archwilio bod y buddion a ragwelwyd wedi digwydd mewn gwirionedd
 - [Metrigau Gwasanaeth GDS](locales/en-gb-oxendict/topics/gds-service-metrics/) — cost fesul trafodiad, boddhad, cwblhad, defnydd
@@ -103,6 +117,7 @@ Yn newydd yma? Dechreuwch gyda [cost cyfle](locales/en-gb-oxendict/topics/opport
 - [Economeg Monitro Cleifion o Bell](locales/en-gb-oxendict/topics/remote-patient-monitoring-economics/) — pentyrrau cod CPT a disodli ysbyty-yn-y-cartref
 - [Economeg Uned Apiau Iechyd](locales/en-gb-oxendict/topics/health-app-unit-economics/) — CAC, LTV, PMPM, a ROI yn erbyn VOI
 - [Cyrhaeddiad a Thegwch](locales/en-gb-oxendict/topics/reach-and-equity/) — RE-AIM; effaith boblogaeth = cyrhaeddiad × effeithiolrwydd
+- [Mynegai Crynodiad](locales/en-gb-oxendict/topics/concentration-index/) — mesur ystadegol ffurfiol o anghydraddoldeb iechyd sy'n gysylltiedig â statws economaidd-gymdeithasol
 
 ## Diweddarwch y ffigurau meincnod
 

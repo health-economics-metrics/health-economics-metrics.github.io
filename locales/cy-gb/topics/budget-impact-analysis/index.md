@@ -35,7 +35,7 @@ Hyd yn oed os yw ICER y cynnyrch yn £8,000/QALY ardderchog, rhaid i'r talwr ddo
 
 ## Cysylltiad â pheirianneg meddalwedd
 
-Mae BIA yn union yr elfen sy'n wynebu'r Prif Swyddog Cyllid ac sy'n cydategu hawliad ROI fesul sedd: "mae'n gost-effeithiol fesul datblygwr, ond a allwn ni fforddio cyflwyno hyn ledled y sefydliad y flwyddyn ariannol hon?" Modelwch haenau trwydded, cromlin fabwysiadu ar siâp S, gwariant offer a ddadleolwyd sydd ond yn rhyddhau arian parod pan fydd hen gontractau'n dod i ben mewn gwirionedd, a defnydd a ysgogwyd (CI rhatach → mwy o CI). Cyflwyno tabl effaith gyllidebol 3 blynedd ochr yn ochr â'r ROI yw'r hyn sy'n gwneud cynnig offer ar gyfer menter yn gredadwy i'r adran gyllid.
+Mae BIA yn union yr elfen sy'n wynebu'r Prif Swyddog Cyllid ac sy'n cydategu hawliad ROI fesul sedd: "mae'n gost-effeithiol fesul datblygwr, ond a allwn ni fforddio cyflwyno hyn ledled y sefydliad y flwyddyn ariannol hon?" Modelwch haenau trwydded, cromlin fabwysiadu ar siâp S, gwariant offer a ddadleolwyd sydd ond yn rhyddhau arian parod pan fydd hen gontractau'n dod i ben mewn gwirionedd, a defnydd a ysgogwyd (CI rhatach → mwy o CI). Cyflwyno tabl effaith gyllidebol 3 blynedd ochr yn ochr â'r ROI yw'r hyn sy'n gwneud cynnig offer ar gyfer menter yn gredadwy i'r adran gyllid. Mae rhannu cyfanswm effaith cyllideb a gyhoeddwyd ar draws safleoedd, carfannau neu flynyddoedd ariannol — a chael i'r rhannau gysoni'n union â'r ffigur a gyhoeddwyd — yn union [ddyrannu costau i'r geiniog yn union](../exact-cents-cost-allocation/); [cyfuno costau sy'n ddiogel o ran arian cyfred](../currency-safe-cost-rollup/) yw adio'r llu o eitemau llinell sy'n bwydo'r cyfanswm yn y lle cyntaf.
 
 ## Peryglon
 

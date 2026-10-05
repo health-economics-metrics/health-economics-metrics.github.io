@@ -4,7 +4,7 @@ EVPI yw'r swm mwyaf y dylai penderfynwr ei dalu i ddileu ansicrwydd cyn penderfy
 
 ## Pam mae'n bwysig
 
-Mae systemau iechyd yn wynebu'r dewis hwn yn gyson: mabwysiadu nawr ar dystiolaeth amherffaith, neu ariannu mwy o ymchwil yn gyntaf. Mae EVPI yn rhoi rhif ar yr ail opsiwn. Os yw EVPI yn £50,000 a bod y treial arfaethedig yn costio £2 filiwn, mabwysiadwch nawr. Os yw EVPI yn £20 miliwn, mae'r treial yn fargen. Mae'r un cwestiwn — "a ddylem beilota hyn cyn ei gyflwyno'n llawn?" — yn codi ar gyfer pob penderfyniad ynghylch offer menter, ac ni fydd bron neb yn ei brisio.
+Mae systemau iechyd yn wynebu'r dewis hwn yn gyson: mabwysiadu nawr ar dystiolaeth amherffaith, neu ariannu mwy o ymchwil yn gyntaf. Mae EVPI yn rhoi rhif ar yr ail opsiwn. Os yw EVPI yn £50,000 a bod y treial arfaethedig yn costio £2 filiwn, mabwysiadwch nawr. Os yw EVPI yn £20 miliwn, mae'r treial yn fargen. Mae'r un cwestiwn — "a ddylem beilota hyn cyn ei gyflwyno'n llawn?" — yn codi ar gyfer pob penderfyniad ynghylch offer menter, ac ni fydd bron neb yn ei brisio. I brisio'r opsiwn i ehangu prosiect yn ddiweddarach, yn hytrach na'r opsiwn i gasglu gwybodaeth yn gyntaf, gweler [Prisio Opsiynau Real](../real-options-valuation/).
 
 ## Y mathemateg
 
@@ -46,7 +46,7 @@ EVPI yw economeg y sbeic, y peilot, y prawf A/B, a'r prawf cysyniad. Mae'n rhoi 
 - **Dim ond yn werth ei ariannu y mae peilot os gallai'r penderfyniad newid mewn gwirionedd.** Os byddech yn cyflwyno beth bynnag y bo canlyniad y peilot, mae EVPI = 0 a'r peilot yn theatr.
 - **Cyfyngwch wariant peilot at EVPI.** Mae gwerth gwybodaeth wedi'i ffinio gan werth y penderfyniad y mae'n ei lywio.
 
-Mae EVPI rhannol (EVPPI) yn ymestyn hyn i baramedrau unigol: "beth yw ei werth i sicrhau'r union ffigwr amser a arbedwyd?" — sy'n dweud wrthych beth ddylai'r peilot ei fesur.
+Mae EVPI rhannol (EVPPI) yn ymestyn hyn i baramedrau unigol: "beth yw ei werth i sicrhau'r union ffigwr amser a arbedwyd?" — sy'n dweud wrthych beth ddylai'r peilot ei fesur. I brisio astudiaeth *benodol* a gynigir yn hytrach na dileu pob ansicrwydd, gweler [EVSI](../expected-value-of-sample-information/).
 
 ## Peryglon
 

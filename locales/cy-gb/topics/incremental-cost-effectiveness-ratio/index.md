@@ -53,6 +53,7 @@ Mae disgyblaeth yr ICER yn trosglwyddo'n gyfan gwbl i benderfyniadau peirianneg:
 - **Cyfartaleddau yn lle cynyddrannau**: nid yw cost fesul QALY rhaglen gyfan yr un peth â'r ICER ar gyfer ei hehangu neu ei mabwysiadu.
 - **Addoli amcangyfrifon pwynt**: mae ICERs yn gymarebau o ddau wahaniaeth ansicr; adroddwch ansicrwydd drwy [PSA a CEACs](../probabilistic-sensitivity-analysis/).
 - **Mae ICERs negyddol yn amwys** (mae rhatach-a-gwell yn erbyn drutach-a-gwaeth yn rhoi'r un arwydd) — peidiwch byth ag adrodd ICER negyddol heb ddweud pa chwarter ydyw.
+- **Cymharu ICER ar draws arian cyfred heb gam trosi penodol**: rhaid trosi ICER a gyfrifwyd yn arian cyfred un wlad gan ddefnyddio dull a ddatganwyd cyn ei gymharu â throthwy gwlad arall — gweler [cymharu ICER rhwng arian cyfred](../cross-currency-icer-comparison/) am pam y gall y dewis o ffactor trosi (cydraddoldeb pŵer prynu vs cyfradd cyfnewid y farchnad) ei hun wrthdroi'r penderfyniad mabwysiadu.
 
 ## Ffynonellau
 

@@ -51,6 +51,8 @@ Mae gan bob sefydliad peirianneg λ ymhlyg: y rhwystr y mae'n ariannu offer yn e
 - **Siopa trothwyon** ar draws awdurdodaethau neu ddyfynnu nenfwd HST ar gyfer cynnyrch cyffredin.
 - **Trin λ fel llawr pris**: mae clirio'r trothwy'n angenrheidiol, nid yn ddigonol — gall [effaith ar y gyllideb](../budget-impact-analysis/) barhau i suddo cynnyrch sy'n fforddiadwy fesul uned.
 - **Anwybyddu bod trothwyon yn symud**: mae addasyddion difrifoldeb NICE (2022) ac adolygiadau cyfnodol yn newid λ effeithiol; dyddiadwch eich honiadau.
+- **Cymharu ICER â throthwy mewn arian cyfred gwahanol heb drosi yn gyntaf**: gweler [cymharu ICER rhwng arian cyfred](../cross-currency-icer-comparison/) — mae'r dull trosi (cydraddoldeb pŵer prynu vs cyfradd cyfnewid y farchnad) yn arwyddocaol yn fethodolegol, nid manylyn talgrynnu.
+- **Cymysgu prisio ar sail λ â thraddodiad VSL/VPF y farchnad lafur**: daw'r rhain o draddodiadau damcaniaethol gwahanol (methodoleg cyllideb iechyd gyfyngedig vs dewis datgelwyd o gyfnewidiadau cyflog-risg) ac nid ydynt bob amser yn gysoni — am y dull dewis datgelwyd amgen o brisio bywyd, gweler [Gwerth Bywyd Ystadegol](../value-of-a-statistical-life/).
 
 ## Ffynonellau
 

@@ -41,6 +41,7 @@ Mae capasiti peirianneg hefyd yn gyllideb sefydlog — slotiau map llwybr, nid p
 - **Cymharu yn erbyn dim byd.** Y cymharydd cywir yw'r defnydd nesaf-orau o'r arian, sy'n anaml yn "peidio â gwneud dim."
 - **Tybio nad oes gan amser a arbedwyd unrhyw gost cyfle.** Nid yw amser a arbedwyd yn werthfawr ond os caiff ei ailddefnyddio ar gyfer rhywbeth gwerthfawr — gweler [arbedion sy'n rhyddhau arian parod yn erbyn rhai nad ydynt](../cash-releasing-vs-non-cash-releasing/).
 - **Anwybyddu dadleoliad.** Mae "bydd y gyllideb yn ehangu i ffitio" bron byth yn wir mewn gwasanaeth iechyd cenedlaethol o fewn blwyddyn.
+- **Anwybyddu pa ddull sy'n prisio adnodd a ddisodlwyd.** Ar gyfer cynhyrchiant a gollwyd yn benodol — o salwch, anabledd, neu weithiwr sy'n gadael — gweler [dull cyfalaf dynol vs dull cost ffrithiant](../human-capital-and-friction-cost/), fersiwn benodol i gost cynhyrchiant y syniad hwn.
 
 ## Ffynonellau
 
