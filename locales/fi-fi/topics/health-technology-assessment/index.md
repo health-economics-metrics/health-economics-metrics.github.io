@@ -20,6 +20,8 @@ NICE arvioi uuden diagnostisen työkalun: ICER £18 000/QALY (kynnyksen alla), k
 
 Muistuttaa virallista arkkitehtuurin hyväksyntäprosessia, joka arvioi kustannuksia, riskiä ja tehokkuuden näyttöä ennen uuden teknologian hyväksymistä koko organisaatiossa.
 
+Siitä, miten monisyklinen HTA-malli todella simuloidaan kohortti kerrallaan, sykli kerrallaan, katso [Markov-kohorttisimulaatio](../markov-cohort-simulation/).
+
 ## Sudenkuopat
 
 - **Oletus, että myönteinen kliininen tutkimus johtaa automaattisesti HTA-hyväksyntään.**

@@ -18,7 +18,7 @@ Uudella hoidolla, jonka ICER on £15 000/QALY (selvästi kynnyksen alla), on sil
 
 ## Yhteys ohjelmistokehitykseen
 
-Muistuttaa arviointia siitä, mahtuuko teknisesti parempi ratkaisu vuotuiseen infrastruktuuribudjettiin riippumatta siitä, onko se paras arkkitehtuuri.
+Muistuttaa arviointia siitä, mahtuuko teknisesti parempi ratkaisu vuotuiseen infrastruktuuribudjettiin riippumatta siitä, onko se paras arkkitehtuuri. Julkaistun budjettivaikutuksen kokonaissumman jakaminen toimipisteille, kohorteille tai tilikausille — niin että osat täsmäävät tarkasti julkaistuun lukuun — on juuri [senttitarkka kustannusten jako](../exact-cents-cost-allocation/); kokonaissummaa alun perin syöttävien lukuisten erien summaaminen on [valuuttaturvallinen kustannusten yhteenveto](../currency-safe-cost-rollup/).
 
 ## Sudenkuopat
 

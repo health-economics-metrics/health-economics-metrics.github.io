@@ -18,7 +18,7 @@ Testi, jonka herkkyys ja spesifisyys ovat 95 %, sovellettuna sairauteen, jonka e
 
 ## Yhteys ohjelmistokehitykseen
 
-Suora analogia hälytysväsymykselle valvontajärjestelmissä: erittäin tarkka ilmaisin sovellettuna harvinaiseen tapahtumaan tuottaa silti pääasiassa vääriä hälytyksiä.
+Suora analogia hälytysväsymykselle valvontajärjestelmissä: erittäin tarkka ilmaisin sovellettuna harvinaiseen tapahtumaan tuottaa silti pääasiassa vääriä hälytyksiä. Koko seulontaohjelman, ei yksittäisen testin, mitoitukseen katso [tarvittava seulontamäärä](../number-needed-to-screen/) — kuinka monen ihmisen on käytävä läpi koko seulonta-ja-hoito -polku yhden tapahtuman ehkäisemiseksi.
 
 ## Sudenkuopat
 

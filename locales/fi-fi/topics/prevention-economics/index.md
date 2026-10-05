@@ -4,7 +4,7 @@ Ennaltaehkäisyn talous tutkii, miksi ennaltaehkäisevät interventiot ovat läh
 
 ## Miksi se on tärkeä
 
-Päätöksentekijät väittävät usein, että ennaltaehkäisy säästää rahaa, mutta useimmat ennaltaehkäisytoimet tuovat terveyttä kohtuulliseen hintaan alentamatta kokonaismenoja.
+Päätöksentekijät väittävät usein, että ennaltaehkäisy säästää rahaa, mutta useimmat ennaltaehkäisytoimet tuovat terveyttä kohtuulliseen hintaan alentamatta kokonaismenoja. Ennen ehkäisyohjelman kustannuslaskentaa [väestön attribuoitava osuus](../population-attributable-fraction/) vastaa ensin mitoituskysymykseen — kuinka suuren osan kohdennetusta tautitaakasta ohjelman käsittelemä riskitekijä voisi uskottavasti poistaa.
 
 ## Matematiikka
 

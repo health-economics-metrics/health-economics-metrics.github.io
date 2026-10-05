@@ -4,7 +4,7 @@ Kattavuus ja tasa-arvo mittaavat, kuinka tasapuolisesti digitaalinen terveysinte
 
 ## Miksi se on tärkeä
 
-Digitaaliset interventiot voivat riskeerata digitaalisten terveyserojen syvenemisen tavoittamalla suhteettoman paljon jo paremman pääsyn omaavia ryhmiä.
+Digitaaliset interventiot voivat riskeerata digitaalisten terveyserojen syvenemisen tavoittamalla suhteettoman paljon jo paremman pääsyn omaavia ryhmiä. Muodollisesta tilastollisesta mittarista sosioekonomiseen asemaan liittyvälle terveyseriarvoisuudelle katso [keskittymisindeksi](../concentration-index/).
 
 ## Matematiikka
 

@@ -24,6 +24,8 @@ Muistuttaa sisäistä "kustannus per estetty häiriö" -kynnystä, joka määrit
 
 - **Kynnysten vertaaminen maiden välillä ottamatta huomioon ostovoimaeroja.**
 - **Kynnyksen käsitteleminen tiukkana rajana ohjeen sijaan.**
+- **ICER:n vertaaminen toisen valuutan kynnykseen ilman ensin tehtyä muunnosta**: katso [ICER-vertailu valuuttojen yli](../cross-currency-icer-comparison/) — muunnosmenetelmä (ostovoimapariteetti vs. markkinavaihtokurssi) on menetelmällisesti merkittävä, ei pyöristysyksityiskohta.
+- **λ-pohjaisen arvotuksen sekoittaminen työmarkkinapohjaiseen VSL/VPF-traditioon**: nämä tulevat eri teoreettisista traditioista (terveysbudjetin rajoittama metodologia vs. palkka–riski-vaihtokaupoista paljastettu preferenssi) eivätkä aina ole yhteensovitettavissa — vaihtoehtoisesta paljastetun preferenssin lähestymistavasta hengen arvottamiseen katso [tilastollisen hengen arvo](../value-of-a-statistical-life/).
 
 ## Lähteet
 

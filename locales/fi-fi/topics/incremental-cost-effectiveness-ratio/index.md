@@ -24,6 +24,7 @@ Muistuttaa lisäinfrastruktuurikustannuksen laskemista lisäluotettavuus- tai su
 
 - **ICER:n laskeminen väärää vertailukohtaa vastaan.**
 - **Negatiivisen ICER:n virhetulkinta ilman kvadrantin määrittelyä.**
+- **ICER:n vertailu valuuttojen yli ilman eksplisiittistä muunnosvaihetta**: yhden maan valuutassa laskettu ICER on muunnettava ilmoitetulla menetelmällä ennen sen vertaamista toisen maan kynnykseen — katso [ICER-vertailu valuuttojen yli](../cross-currency-icer-comparison/), miksi muunnoskertoimen valinta (ostovoimapariteetti vs. markkinavaihtokurssi) voi itsessään kääntää käyttöönottopäätöksen.
 
 ## Lähteet
 

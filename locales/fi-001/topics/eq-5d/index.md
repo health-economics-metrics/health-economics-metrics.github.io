@@ -24,6 +24,7 @@ Muistuttaa yhdistettyä tyytyväisyyspistemäärää, joka on rakennettu useista
 
 - **Väärästä maasta peräisin olevan arvostussarjan käyttäminen.**
 - **Vanhemman EQ-5D-3L:n ja uudemman EQ-5D-5L:n sekoittaminen ilman mukautusta.**
+- **Arvosarjan pitäminen itsestään perustelevana**: arvosarjan palauttamat hyötyluvut on itse selvitetty yleisöltä time-trade-off-kyselyillä (tai niihin liittyvillä valintapohjaisilla kyselyillä) — katso [Time Trade-Off (TTO) -hyötypainon selvittäminen](../time-trade-off-utility/), miten.
 
 ## Lähteet
 

@@ -27,6 +27,7 @@ Insinöörikapasiteetti on myös kiinteä budjetti — tiekarttapaikkoja, ei pun
 
 - **Vertaaminen tyhjään.** Oikea vertailukohta on rahan seuraavaksi paras käyttö.
 - **Oletus, että säästetyllä ajalla ei ole vaihtoehtoiskustannusta.**
+- **Sen sivuuttaminen, mikä menetelmä arvottaa syrjäytetyn resurssin.** Erityisesti menetetylle tuottavuudelle — sairauden, vamman tai lähtevän työntekijän vuoksi — katso [inhimillisen pääoman menetelmä vs. kitkakustannusmenetelmä](../human-capital-and-friction-cost/), tämän ajatuksen tuottavuuskustannuskohtainen versio.
 
 ## Lähteet
 

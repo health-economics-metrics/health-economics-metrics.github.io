@@ -15,6 +15,9 @@ Uusi täällä? Aloita [vaihtoehtoiskustannuksesta](locales/en-gb-oxendict/topic
 - [Herkkyysanalyysi](locales/en-gb-oxendict/topics/sensitivity-analysis/) — tornadokaaviot; mikä oletus kannattelee väitteitäsi
 - [Todennäköisyyspohjainen herkkyysanalyysi](locales/en-gb-oxendict/topics/probabilistic-sensitivity-analysis/) — Monte Carlo, CEAC, oikeassa olemisen todennäköisyys
 - [Täydellisen tiedon odotusarvo](locales/en-gb-oxendict/topics/expected-value-of-perfect-information/) — pilotin hinnoittelu ennen sen toteuttamista
+- [Otostiedon odotusarvo (EVSI)](locales/en-gb-oxendict/topics/expected-value-of-sample-information/) — tietyn *ehdotetun* tutkimuksen hinnoittelu, ei kaiken epävarmuuden poistamisen
+- [Reaalioptioiden arvostus](locales/en-gb-oxendict/topics/real-options-valuation/) — vaiheittaisen hankkeen myöhemmän laajentamisen option hinnoittelu tiedon keräämisen option sijaan
+- [Inhimillisen pääoman menetelmä vs. kitkakustannusmenetelmä](locales/en-gb-oxendict/topics/human-capital-and-friction-cost/) — kaksi tapaa arvottaa menetetty tuottavuus, raportoitujen kustannusten ero 2x+
 - [Dominanssi ja tehokkuusraja](locales/en-gb-oxendict/topics/dominance-and-efficiency-frontier/) — vaihtoehtojen eliminointi, joita kenenkään ei pitäisi valita
 
 ## Tulosmittarit
@@ -22,12 +25,15 @@ Uusi täällä? Aloita [vaihtoehtoiskustannuksesta](locales/en-gb-oxendict/topic
 - [Laatupainotettu elinvuosi (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — terveysarvon yhteinen valuutta
 - [Toimintarajoitteinen elinvuosi (DALY)](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — taakan puolen peilikuva; globaalin terveyden mittari
 - [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — instrumentti useimpien QALY-hyötypainojen takana
+- [Time Trade-Off (TTO) -hyötypainon selvittäminen](locales/en-gb-oxendict/topics/time-trade-off-utility/) — miten hyötypaino todella selvitetään vastaajalta
 - [Inkrementaalinen kustannusvaikuttavuussuhde (ICER)](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — lisäkustannus lisäterveysyksikköä kohden
 - [Maksuhalukkuuskynnykset](locales/en-gb-oxendict/topics/willingness-to-pay-thresholds/) — NICEn 20–30 tuhannen punnan/QALY-kynnys ja maailman muut rajat
+- [Tilastollisen hengen arvo (VSL)](locales/en-gb-oxendict/topics/value-of-a-statistical-life/) — työmarkkinapohjainen vaihtoehto kynnyspohjaiselle arvotukselle
 - [Nettorahallinen hyöty (NMB)](locales/en-gb-oxendict/topics/net-monetary-benefit/) — arvo miinus kustannus, oikein tehtynä
 - [Saavutetut elinvuodet](locales/en-gb-oxendict/topics/life-years-gained/) — eloonjäämismatematiikka ja evLYG-tasa-arvomuunnos
 - [Terveyspainotettu elinajanodote (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — terveiden vuosien kirjanpito väestötasolla
 - [QALY-vaje ja vakavuusmuuntimet](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — miksi sairaampien väestöjen QALY:t painavat enemmän
+- [Työn tuottavuuden ja toimintakyvyn heikentyminen (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — poissaolo vs. sairaana työskentely, kustannuksen piilossa oleva puolikas
 
 ## Taloudellisen analyysin tyypit
 
@@ -39,6 +45,7 @@ Uusi täällä? Aloita [vaihtoehtoiskustannuksesta](locales/en-gb-oxendict/topic
 - [Budjettivaikutusanalyysi (BIA)](locales/en-gb-oxendict/topics/budget-impact-analysis/) — kohtuuhintaisuus, erotettuna arvosta
 - [Sijoitetun pääoman tuotto (ROI)](locales/en-gb-oxendict/topics/return-on-investment/) — jaettu mittari, ilmoitetuin parametrein
 - [Sosiaalinen sijoitetun pääoman tuotto (SROI)](locales/en-gb-oxendict/topics/social-return-on-investment/) — sen rahallistaminen, mitä markkinat eivät hinnoittele
+- [ICER-vertailu valuuttojen yli](locales/en-gb-oxendict/topics/cross-currency-icer-comparison/) — PPP vs. markkinavaihtokurssi; muunnosvalinta, joka voi kääntää käyttöönottopäätöksen
 
 ## Terveydenhuoltojärjestelmän operatiivinen talous
 
@@ -61,12 +68,17 @@ Uusi täällä? Aloita [vaihtoehtoiskustannuksesta](locales/en-gb-oxendict/topic
 ## HTA-viitekehykset ja ennaltaehkäisyn talous
 
 - [Terveysteknologian arviointi (HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE, ICER (Yhdysvallat), CADTH: kuka päättää mitä kannattaa ostaa
+- [Markov-kohorttisimulaatio](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — miten monisyklinen HTA-malli todella simuloidaan kohortti kerrallaan, sykli kerrallaan
 - [NICEn näyttöstandardien viitekehys](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — riskiportaiset näyttövaatimukset digitaaliselle terveydenhuollolle
 - [Saksan DiGA-pikakaista](locales/en-gb-oxendict/topics/diga-fast-track/) — sovellukset reseptillä; väliaikainen listaus näyttöaikataululla
 - [Tarvittava hoitomäärä (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — vaiva-hyöty-yksiköt, jotka pitävät väitteet rehellisinä
+- [Väestön attribuoitava osuus (PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — kuinka suuren tautitaakan riskitekijä on todella arvoinen torjuttavaksi
 - [Ennaltaehkäisyn talous](locales/en-gb-oxendict/topics/prevention-economics/) — miksi ennaltaehkäisy on kustannustehokasta mutta harvoin kustannuksia säästävää
 - [Seulonnan talous](locales/en-gb-oxendict/topics/screening-economics/) — Wilson–Jungner, PPV:n romahdus alhaisella esiintyvyydellä, hälytysväsymys
+- [Tarvittava seulontamäärä (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — NNT:n seulontaohjelmatason vastine
 - [Vältetyt alavirran kustannukset](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — kustannuskompensaatiot ja säännöt, jotka tekevät niistä uskottavia
+- [Monikriteerinen päätösanalyysi (MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — painotettu pisteytys, kun yksittäinen kynnys ei riitä
+- [Hiilijalanjälki per QALY](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — NHS:n nettonollasitoumus kohtaa kustannuksen per QALY
 
 ## Ohjelmistokehitys ja digitaalinen toimitus
 
@@ -78,6 +90,8 @@ Uusi täällä? Aloita [vaihtoehtoiskustannuksesta](locales/en-gb-oxendict/topic
 - [Tekninen velka](locales/en-gb-oxendict/topics/technical-debt/) — pääoma, korko ja kroonisen sairauden talous koodikannoille
 - [Kokonaisomistuskustannus (TCO)](locales/en-gb-oxendict/topics/total-cost-of-ownership/) — ylläpito on 50–80 %; naiivi lääkehinnoitteluvirhe ohjelmistoissa
 - [Pilven yksikkötalous (FinOps)](locales/en-gb-oxendict/topics/cloud-unit-economics/) — kustannus tuotettua yksikköä kohden; digitaalisen palvelun viitekustannus
+- [Senttitarkka kustannusten jako](locales/en-gb-oxendict/topics/exact-cents-cost-allocation/) — suurimman jäännöksen menetelmä; kokonaissumman jako niin, että osat summautuvat täsmälleen takaisin
+- [Valuuttaturvallinen kustannusten yhteenveto](locales/en-gb-oxendict/topics/currency-safe-cost-rollup/) — tarkka desimaalinen `Money`, ei `f64`, summille, joiden on täsmättävä senttiin
 - [Rakenna vastaan osta](locales/en-gb-oxendict/topics/build-vs-buy/) — riskikorjattu vertailu viivästystermi hinnoiteltuna
 - [Hyötyjen toteutuminen](locales/en-gb-oxendict/topics/benefits-realization/) — sen tarkastaminen, toteutuivatko ennustetut hyödyt todella
 - [GDS-palvelumittarit](locales/en-gb-oxendict/topics/gds-service-metrics/) — kustannus per transaktio, tyytyväisyys, valmistuminen, käyttöönotto
@@ -103,6 +117,7 @@ Uusi täällä? Aloita [vaihtoehtoiskustannuksesta](locales/en-gb-oxendict/topic
 - [Etäpotilasseurannan talous](locales/en-gb-oxendict/topics/remote-patient-monitoring-economics/) — CPT-koodipinot ja sairaala-kotiin-korvaaminen
 - [Terveyssovelluksen yksikkötalous](locales/en-gb-oxendict/topics/health-app-unit-economics/) — CAC, LTV, PMPM ja ROI vastaan VOI
 - [Kattavuus ja tasa-arvo](locales/en-gb-oxendict/topics/reach-and-equity/) — RE-AIM; väestövaikutus = kattavuus × vaikuttavuus
+- [Keskittymisindeksi](locales/en-gb-oxendict/topics/concentration-index/) — muodollinen tilastollinen mittari sosioekonomiseen asemaan liittyvälle terveyseriarvoisuudelle
 
 ## Vertailuarvojen ajantasaisuus
 

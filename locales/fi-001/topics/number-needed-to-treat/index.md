@@ -18,7 +18,7 @@ Lääke vähentää sydänkohtauksen riskiä 10 %:sta 8 %:iin (absoluuttinen ris
 
 ## Yhteys ohjelmistokehitykseen
 
-Muistuttaa sen laskemista, kuinka monen käyttäjän on koettava uusi ominaisuus yhden lisäkonversion tuottamiseksi.
+Muistuttaa sen laskemista, kuinka monen käyttäjän on koettava uusi ominaisuus yhden lisäkonversion tuottamiseksi. [Tarvittava seulontamäärä](../number-needed-to-screen/) on vastaava luku yhtä tasoa ylempänä, koko seulonta-ja-sitten-hoito -ohjelmalle pelkän hoidon sijaan.
 
 ## Sudenkuopat
 

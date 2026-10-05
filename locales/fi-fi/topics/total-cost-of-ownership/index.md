@@ -18,7 +18,7 @@ Kliininen järjestelmä, jonka elinkaari on 5 vuotta: rakentaminen £500 000 + k
 
 ## Yhteys ohjelmistokehitykseen
 
-TCO on perusta [pilven yksikkötalouden](../cloud-unit-economics/) ja [rakenna vastaan osta](../build-vs-buy/) -päätöksille.
+TCO on perusta [pilven yksikkötalouden](../cloud-unit-economics/) ja [rakenna vastaan osta](../build-vs-buy/) -päätöksille. Monivuotinen TCO-luku kuten yllä oleva on summa monista ajan yli ulottuvista kustannuseristä — katso [valuuttaturvallinen kustannusten yhteenveto](../currency-safe-cost-rollup/), miksi tuon summan tulisi olla tarkka desimaali eikä liukuluku, kun mallin on täsmättävä senttiin, sekä [senttitarkka kustannusten jako](../exact-cents-cost-allocation/) TCO-kokonaissumman jakamiseen kustannuspaikoille menettämättä senttejä.
 
 ## Sudenkuopat
 

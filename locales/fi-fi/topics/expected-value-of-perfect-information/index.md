@@ -4,7 +4,7 @@ Täydellisen tiedon odotusarvo (EVPI) hinnoittelee, kuinka paljon maksaisi poist
 
 ## Miksi se on tärkeä
 
-EVPI kertoo, kannattaako pilotti tai lisätutkimus kustannuksensa, ennen kuin toteutat sen.
+EVPI kertoo, kannattaako pilotti tai lisätutkimus kustannuksensa, ennen kuin toteutat sen. Option hinnoitteluun hankkeen myöhemmäksi laajentamiseksi, tiedon keräämisen option sijaan, katso [reaalioptioiden arvostus](../real-options-valuation/).
 
 ## Matematiikka
 
@@ -18,7 +18,7 @@ Päätöksellä ottaa käyttöön tekoälypohjainen triage-järjestelmä on EVPI
 
 ## Yhteys ohjelmistokehitykseen
 
-Muistuttaa spike- tai proof-of-concept-hinnoittelua ennen suurta arkkitehtuuripäätöstä.
+Muistuttaa spike- tai proof-of-concept-hinnoittelua ennen suurta arkkitehtuuripäätöstä. *Tietyn* ehdotetun tutkimuksen hinnoitteluun kaiken epävarmuuden poistamisen sijaan katso [EVSI](../expected-value-of-sample-information/).
 
 ## Sudenkuopat
 

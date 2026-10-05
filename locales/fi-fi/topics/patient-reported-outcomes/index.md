@@ -18,7 +18,7 @@ Kroonisen kivun hallintasovellus: PROMIS-kipupistemäärä laskee 58:sta 48:aan,
 
 ## Yhteys ohjelmistokehitykseen
 
-Käytetään yhdessä [EQ-5D:n](../eq-5d/) kanssa ja täydentää [digitaalisia päätepisteitä ja biomarkkereita](../digital-endpoints-and-biomarkers/).
+Käytetään yhdessä [EQ-5D:n](../eq-5d/) kanssa ja täydentää [digitaalisia päätepisteitä ja biomarkkereita](../digital-endpoints-and-biomarkers/). Työn tuottavuuteen keskittyvästä instrumentista katso [WPAI](../work-productivity-and-activity-impairment/).
 
 ## Sudenkuopat
 
