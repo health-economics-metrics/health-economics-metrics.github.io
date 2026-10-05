@@ -18,6 +18,8 @@ Una terapia digitale si presenta a una valutazione in stile NICE: ICER = £15.00
 
 L'artefatto trasferibile è il **caso di riferimento interno**.
 
+Per come un modello HTA multi-ciclo viene realmente simulato coorte per coorte, ciclo per ciclo, si veda la [simulazione di coorte di Markov](../markov-cohort-simulation/).
+
 ## Insidie
 
 - **Trattare l'HTA come una formalità dopo l'approvazione normativa.**

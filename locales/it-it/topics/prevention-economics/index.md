@@ -4,7 +4,7 @@ L'economia dell'intervento prima che una malattia si verifichi o progredisca. La
 
 ## Perché è importante
 
-"La prevenzione fa risparmiare denaro" è l'affermazione falsa più ripetuta nella politica sanitaria.
+"La prevenzione fa risparmiare denaro" è l'affermazione falsa più ripetuta nella politica sanitaria. Prima di quantificare i costi di un programma di prevenzione, la [frazione attribuibile di popolazione](../population-attributable-fraction/) risponde per prima alla questione del dimensionamento — quanta parte del carico di malattia bersaglio il fattore di rischio affrontato dal programma potrebbe plausibilmente eliminare.
 
 ## La matematica
 

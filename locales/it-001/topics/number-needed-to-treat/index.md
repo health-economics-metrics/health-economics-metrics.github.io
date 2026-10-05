@@ -19,7 +19,7 @@ Un sistema di previsione delle cadute in un ospedale: NNT = 125.
 
 ## Collegamento con l'ingegneria del software
 
-L'NNT è l'unità giusta per qualsiasi gate o controllo.
+L'NNT è l'unità giusta per qualsiasi gate o controllo. Il [numero necessario da sottoporre a screening](../number-needed-to-screen/) è la cifra analoga un livello più in alto, per un intero programma di screening-poi-trattamento anziché per un trattamento da solo.
 
 ## Insidie
 

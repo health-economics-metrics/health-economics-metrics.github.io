@@ -4,7 +4,7 @@ RE-AIM — Portata, Efficacia, Adozione, Implementazione, Mantenimento — è il
 
 ## Perché è importante
 
-Le revisioni sistematiche che applicano RE-AIM all'mHealth trovano una firma coerente: forte portata e adozione, **debole efficacia e mantenimento**.
+Le revisioni sistematiche che applicano RE-AIM all'mHealth trovano una firma coerente: forte portata e adozione, **debole efficacia e mantenimento**. Per una misura statistica formale della disuguaglianza di salute legata alla condizione socioeconomica, si veda l'[indice di concentrazione](../concentration-index/).
 
 ## La matematica
 

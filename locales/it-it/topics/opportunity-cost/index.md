@@ -41,6 +41,7 @@ Anche la capacità ingegneristica è un budget fisso — non in sterline, ma in 
 - **Confrontare con il non fare nulla.** Il confronto corretto è il prossimo migliore uso di quel denaro; "non fare nulla" raramente lo è.
 - **Assumere che il costo opportunità del tempo risparmiato sia zero.** Il tempo risparmiato è prezioso solo se reinvestito in qualcosa di valore — vedi [risparmi che liberano cassa vs non liberano cassa](../cash-releasing-vs-non-cash-releasing/).
 - **Ignorare lo spostamento.** "Il budget si espanderà per accomodarlo" è raramente vero in un servizio sanitario nazionale su base annuale.
+- **Ignorare quale metodo valuta una risorsa sostituita.** Per la produttività perduta in particolare — per malattia, disabilità o un dipendente che se ne va — si veda l'[approccio del capitale umano vs metodo dei costi di attrito](../human-capital-and-friction-cost/), la versione di questa idea specifica per i costi di produttività.
 
 ## Fonti
 

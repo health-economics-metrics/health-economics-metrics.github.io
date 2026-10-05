@@ -4,7 +4,7 @@ L'EVPI è l'importo massimo che un decisore dovrebbe pagare per eliminare l'ince
 
 ## Perché è importante
 
-I sistemi sanitari affrontano costantemente questa scelta: adottare subito con prove imperfette, o finanziare prima più ricerca.
+I sistemi sanitari affrontano costantemente questa scelta: adottare subito con prove imperfette, o finanziare prima più ricerca. Per prezzare l'opzione di espandere un progetto in seguito, anziché l'opzione di raccogliere prima informazione, si veda la [Valutazione delle Opzioni Reali](../real-options-valuation/).
 
 ## La matematica
 
@@ -18,7 +18,7 @@ Lanciare un assistente di documentazione IA a 5.000 clinici: EVPI = £1,2 milion
 
 ## Collegamento con l'ingegneria del software
 
-L'EVPI è l'economia dello spike, del pilota e del test A/B.
+L'EVPI è l'economia dello spike, del pilota e del test A/B. Per prezzare uno studio *specifico* proposto anziché eliminare ogni incertezza, si veda l'[EVSI](../expected-value-of-sample-information/).
 
 ## Insidie
 

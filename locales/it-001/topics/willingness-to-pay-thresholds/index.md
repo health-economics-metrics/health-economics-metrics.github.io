@@ -27,6 +27,8 @@ Ogni organizzazione ingegneristica ha un λ interno implicito.
 ## Insidie
 
 - **Fare shopping di soglie tra giurisdizioni.**
+- **Confrontare un ICER con una soglia in un'altra valuta senza convertire prima**: si veda il [confronto dell'ICER tra valute diverse](../cross-currency-icer-comparison/) — il metodo di conversione (parità di potere d'acquisto vs cambio di mercato) è metodologicamente rilevante, non un dettaglio di arrotondamento.
+- **Confondere la valutazione basata su λ con la tradizione VSL/VPF del mercato del lavoro**: provengono da tradizioni teoriche diverse (metodologia vincolata dal budget sanitario vs preferenza rivelata da compromessi salario-rischio) e non sono sempre conciliabili — per l'approccio alternativo di preferenza rivelata alla valutazione della vita, si veda il [Valore di una Vita Statistica](../value-of-a-statistical-life/).
 
 ## Fonti
 

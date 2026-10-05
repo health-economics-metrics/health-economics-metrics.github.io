@@ -18,7 +18,7 @@ Screening retinico IA per una condizione rara, 100.000 persone, prevalenza 0,5%:
 
 ## Collegamento con l'ingegneria del software
 
-L'analisi statica, la scansione di sicurezza sono programmi di screening nelle basi di codice.
+L'analisi statica, la scansione di sicurezza sono programmi di screening nelle basi di codice. Per dimensionare un intero programma di screening anziché un singolo test, si veda il [numero necessario da sottoporre a screening](../number-needed-to-screen/) — quante persone devono percorrere l'intero percorso di screening-e-trattamento per prevenire un esito.
 
 ## Insidie
 

@@ -18,7 +18,7 @@ Un pagatore che copre 2 milioni di persone considera una terapia digitale a £30
 
 ## Collegamento con l'ingegneria del software
 
-La BIA è il complemento perfetto orientato al CFO per un'affermazione di ROI per postazione.
+La BIA è il complemento perfetto orientato al CFO per un'affermazione di ROI per postazione. Suddividere un totale di impatto sul budget pubblicato tra sedi, coorti o esercizi finanziari — facendo quadrare esattamente le parti con la cifra pubblicata — è proprio l'[allocazione dei costi al centesimo esatto](../exact-cents-cost-allocation/); sommare le tante voci che alimentano il totale in primo luogo è l'[aggregazione dei costi sicura per le valute](../currency-safe-cost-rollup/).
 
 ## Insidie
 

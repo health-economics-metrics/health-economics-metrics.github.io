@@ -18,7 +18,7 @@ Due opzioni per un sistema di e-osservazione, orizzonte di 5 anni: TCO non attua
 
 ## Collegamento con l'ingegneria del software
 
-Gli ingegneri sottovalutano i dati di manutenzione del proprio campo quando sostengono la costruzione.
+Gli ingegneri sottovalutano i dati di manutenzione del proprio campo quando sostengono la costruzione. Una cifra TCO pluriennale come quella sopra è la somma di molte voci di costo nel tempo — si veda l'[aggregazione dei costi sicura per le valute](../currency-safe-cost-rollup/) per capire perché quella somma dovrebbe essere decimale esatta anziché in virgola mobile non appena un modello deve quadrare al centesimo, e l'[allocazione dei costi al centesimo esatto](../exact-cents-cost-allocation/) per ripartire un totale TCO tra centri di costo senza perdere centesimi.
 
 ## Insidie
 
