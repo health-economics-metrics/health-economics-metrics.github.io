@@ -15,6 +15,9 @@ Nieuw hier? Begin met [opportuniteitskosten](locales/en-gb-oxendict/topics/oppor
 - [Gevoeligheidsanalyse](locales/en-gb-oxendict/topics/sensitivity-analysis/) — tornadodiagrammen; welke aanname uw zaak draagt
 - [Probabilistische gevoeligheidsanalyse](locales/en-gb-oxendict/topics/probabilistic-sensitivity-analysis/) — Monte Carlo, CEAC's, kans om gelijk te hebben
 - [Verwachte waarde van perfecte informatie](locales/en-gb-oxendict/topics/expected-value-of-perfect-information/) — de pilot prijzen voordat u hem uitvoert
+- [Verwachte waarde van steekproefinformatie (EVSI)](locales/en-gb-oxendict/topics/expected-value-of-sample-information/) — een *specifiek voorgestelde* studie prijzen, niet het wegnemen van alle onzekerheid
+- [Reële-optiewaardering](locales/en-gb-oxendict/topics/real-options-valuation/) — de optie prijzen om een gefaseerd project later uit te breiden, in plaats van de optie om eerst informatie te verzamelen
+- [Humankapitaalmethode versus frictiekostenmethode](locales/en-gb-oxendict/topics/human-capital-and-friction-cost/) — twee manieren om verloren productiviteit te waarderen, een verschil van 2x+ in de gerapporteerde kosten
 - [Dominantie en de efficiëntiegrens](locales/en-gb-oxendict/topics/dominance-and-efficiency-frontier/) — opties elimineren die niemand zou moeten kiezen
 
 ## Uitkomstmaten
@@ -22,12 +25,15 @@ Nieuw hier? Begin met [opportuniteitskosten](locales/en-gb-oxendict/topics/oppor
 - [Voor kwaliteit gecorrigeerd levensjaar (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — de gemeenschappelijke munteenheid van gezondheidswaarde
 - [Voor beperking gecorrigeerd levensjaar (DALY)](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — de spiegel aan de lastenkant; de metriek van de mondiale gezondheid
 - [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — het instrument achter de meeste QALY-nutswaarden
+- [Time-trade-off-(TTO-)utiliteitsmeting](locales/en-gb-oxendict/topics/time-trade-off-utility/) — hoe een utiliteitsgewicht werkelijk van een respondent wordt verkregen
 - [Incrementele kosteneffectiviteitsratio (ICER)](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — extra kosten per extra eenheid gezondheid
 - [Betalingsbereidheidsdrempels](locales/en-gb-oxendict/topics/willingness-to-pay-thresholds/) — NICE £20–30k/QALY en de andere lijnen van de wereld
+- [Waarde van een statistisch leven (VSL)](locales/en-gb-oxendict/topics/value-of-a-statistical-life/) — het arbeidsmarktalternatief voor waardering op basis van drempels
 - [Netto geldelijk voordeel (NMB)](locales/en-gb-oxendict/topics/net-monetary-benefit/) — waarde minus kosten, correct gedaan
 - [Gewonnen levensjaren](locales/en-gb-oxendict/topics/life-years-gained/) — overlevingswiskunde, en de evLYG-billijkheidsvariant
 - [Voor gezondheid gecorrigeerde levensverwachting (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — boekhouding van gezonde jaren op populatieniveau
 - [QALY-tekort en ernstmodifiers](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — waarom QALY's van ziekere populaties zwaarder tellen
+- [Work Productivity and Activity Impairment (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — absenteïsme vs presenteïsme, de verborgen helft van de kosten
 
 ## Soorten economische analyse
 
@@ -39,6 +45,7 @@ Nieuw hier? Begin met [opportuniteitskosten](locales/en-gb-oxendict/topics/oppor
 - [Budgetimpactanalyse (BIA)](locales/en-gb-oxendict/topics/budget-impact-analysis/) — betaalbaarheid, te onderscheiden van waarde
 - [Rendement op investering (ROI)](locales/en-gb-oxendict/topics/return-on-investment/) — de gedeelde metriek, met verklaarde parameters
 - [Sociaal rendement op investering (SROI)](locales/en-gb-oxendict/topics/social-return-on-investment/) — geldelijk waarderen van wat markten niet prijzen
+- [ICER-vergelijking tussen valuta's](locales/en-gb-oxendict/topics/cross-currency-icer-comparison/) — PPP vs marktwisselkoers; de omrekenkeuze die een invoeringsbeslissing kan omkeren
 
 ## Operationele economie van het gezondheidssysteem
 
@@ -61,12 +68,17 @@ Nieuw hier? Begin met [opportuniteitskosten](locales/en-gb-oxendict/topics/oppor
 ## HTA-kaders en preventie-economie
 
 - [Health technology assessment (HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE, ICER (VS), CADTH: wie beslist wat de moeite waard is om te kopen
+- [Markov-cohortsimulatie](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — hoe een multicyclisch HTA-model werkelijk wordt gesimuleerd, cohort voor cohort, cyclus voor cyclus
 - [NICE Evidence Standards Framework](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — risicogelaagde bewijsvereisten voor digitale gezondheid
 - [Duitslands DiGA-snelspoor](locales/en-gb-oxendict/topics/diga-fast-track/) — apps op recept; voorlopige opname met een bewijsdeadline
 - [Number needed to treat (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — eenheden inspanning-per-voordeel die claims eerlijk houden
+- [Populatie-attribueerbare fractie (PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — hoeveel ziektelast een risicofactor werkelijk de moeite waard is om aan te pakken
 - [Preventie-economie](locales/en-gb-oxendict/topics/prevention-economics/) — waarom preventie kosteneffectief is maar zelden kostenbesparend
 - [Screeningseconomie](locales/en-gb-oxendict/topics/screening-economics/) — Wilson–Jungner, instorting van de PPV bij lage prevalentie, alarmmoeheid
+- [Number needed to screen (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — het analogon van NNT op het niveau van een screeningsprogramma
 - [Vermeden downstream kosten](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — kostencompensaties en de regels die ze geloofwaardig maken
+- [Multicriteria-beslisanalyse (MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — gewogen scoren wanneer één enkele drempel niet volstaat
+- [Koolstofvoetafdruk per QALY](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — de netto-nulverplichting van de NHS ontmoet kosten per QALY
 
 ## Software-engineering en digitale dienstverlening
 
@@ -78,6 +90,8 @@ Nieuw hier? Begin met [opportuniteitskosten](locales/en-gb-oxendict/topics/oppor
 - [Technische schuld](locales/en-gb-oxendict/topics/technical-debt/) — hoofdsom, rente en chronische-ziekte-economie voor codebases
 - [Totale eigendomskosten (TCO)](locales/en-gb-oxendict/topics/total-cost-of-ownership/) — onderhoud is 50–80%; de naïeve-medicijnprijs-fout in software
 - [Cloud-eenheidseconomie (FinOps)](locales/en-gb-oxendict/topics/cloud-unit-economics/) — kosten per eenheid output; de referentiekosten van de digitale dienst
+- [Exacte-centen kostentoewijzing](locales/en-gb-oxendict/topics/exact-cents-cost-allocation/) — de grootste-restmethode; een totaal zo verdelen dat de delen exact terugtellen
+- [Valutaveilige kostenaggregatie](locales/en-gb-oxendict/topics/currency-safe-cost-rollup/) — exacte decimale `Money`, niet `f64`, voor totalen die op de cent moeten sluiten
 - [Bouwen versus kopen](locales/en-gb-oxendict/topics/build-vs-buy/) — risicogecorrigeerde vergelijking met de vertragingsterm geprijsd
 - [Realisatie van baten](locales/en-gb-oxendict/topics/benefits-realization/) — controleren of voorspelde baten daadwerkelijk zijn opgetreden
 - [GDS-dienstmetrieken](locales/en-gb-oxendict/topics/gds-service-metrics/) — kosten per transactie, tevredenheid, voltooiing, gebruiksgraad
@@ -103,6 +117,7 @@ Nieuw hier? Begin met [opportuniteitskosten](locales/en-gb-oxendict/topics/oppor
 - [Economie van monitoring op afstand van patiënten](locales/en-gb-oxendict/topics/remote-patient-monitoring-economics/) — CPT-codestapels en substitutie van ziekenhuis-thuis
 - [Eenheidseconomie van gezondheidsapps](locales/en-gb-oxendict/topics/health-app-unit-economics/) — CAC, LTV, PMPM en ROI versus VOI
 - [Bereik en billijkheid](locales/en-gb-oxendict/topics/reach-and-equity/) — RE-AIM; populatie-impact = bereik × effectiviteit
+- [Concentratie-index](locales/en-gb-oxendict/topics/concentration-index/) — een formele statistische maat voor sociaaleconomisch bepaalde gezondheidsongelijkheid
 
 ## Actualiteit van benchmarks
 

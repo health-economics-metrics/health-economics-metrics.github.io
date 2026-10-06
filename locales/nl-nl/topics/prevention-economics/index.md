@@ -4,7 +4,7 @@ Preventie-economie onderzoekt waarom preventieve interventies bijna altijd koste
 
 ## Waarom het ertoe doet
 
-Beleidsmakers claimen vaak dat preventie geld bespaart, maar de meeste preventie voegt gezondheid toe tegen een redelijke prijs zonder de totale uitgaven te verlagen — een cruciaal onderscheid voor realistische businesscases.
+Beleidsmakers claimen vaak dat preventie geld bespaart, maar de meeste preventie voegt gezondheid toe tegen een redelijke prijs zonder de totale uitgaven te verlagen — een cruciaal onderscheid voor realistische businesscases. Voordat je een preventieprogramma doorrekent, beantwoordt de [populatie-attribueerbare fractie](../population-attributable-fraction/) eerst de vraag naar de omvang: hoeveel van de beoogde ziektelast de risicofactor die het programma aanpakt, aannemelijk zou kunnen wegnemen.
 
 ## De wiskunde
 

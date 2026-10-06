@@ -18,7 +18,7 @@ Een nieuwe behandeling met een ICER van £15.000/QALY (goed onder de drempel) he
 
 ## Verbinding met software-engineering
 
-Vergelijkbaar met het beoordelen of een technisch superieure oplossing past binnen het jaarlijkse infrastructuurbudget, los van de vraag of het de beste architectuur is.
+Vergelijkbaar met het beoordelen of een technisch superieure oplossing past binnen het jaarlijkse infrastructuurbudget, los van de vraag of het de beste architectuur is. Een gepubliceerd budgetimpacttotaal verdelen over locaties, cohorten of boekjaren, en de delen exact laten aansluiten op het gepubliceerde cijfer, is precies [exacte-centen kostentoewijzing](../exact-cents-cost-allocation/); de vele posten optellen die het totaal in de eerste plaats voeden is [valutaveilige kostenaggregatie](../currency-safe-cost-rollup/).
 
 ## Valkuilen
 

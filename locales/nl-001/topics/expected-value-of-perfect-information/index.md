@@ -4,7 +4,7 @@ De verwachte waarde van perfecte informatie (EVPI) prijst hoeveel het waard zou 
 
 ## Waarom het ertoe doet
 
-EVPI vertelt u of een pilot of aanvullend onderzoek de kosten ervan waard is, voordat u het uitvoert.
+EVPI vertelt u of een pilot of aanvullend onderzoek de kosten ervan waard is, voordat u het uitvoert. Voor het prijzen van de optie om een project later uit te breiden, in plaats van de optie om eerst informatie te verzamelen, zie [Reële-optiewaardering](../real-options-valuation/).
 
 ## De wiskunde
 
@@ -18,7 +18,7 @@ Een besluit over het al dan niet uitrollen van een AI-triagesysteem heeft een EV
 
 ## Verbinding met software-engineering
 
-Vergelijkbaar met het prijzen van een spike of proof-of-concept vóór een grote architectuurbeslissing — is de onzekerheidsreductie de kosten van het experiment waard?
+Vergelijkbaar met het prijzen van een spike of proof-of-concept vóór een grote architectuurbeslissing — is de onzekerheidsreductie de kosten van het experiment waard? Voor het prijzen van een *specifiek* voorgestelde studie in plaats van het wegnemen van alle onzekerheid, zie [EVSI](../expected-value-of-sample-information/).
 
 ## Valkuilen
 

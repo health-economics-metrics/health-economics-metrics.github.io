@@ -24,6 +24,8 @@ Vergelijkbaar met een interne "kosten per gered incident" drempel die bepaalt we
 
 - **Drempels tussen landen vergelijken zonder rekening te houden met koopkrachtverschillen.**
 - **De drempel behandelen als een harde grens in plaats van een richtlijn.**
+- **Een ICER vergelijken met een drempel in een andere valuta zonder eerst om te rekenen**: zie [ICER-vergelijking tussen valuta's](../cross-currency-icer-comparison/); de omrekenmethode (koopkrachtpariteit vs marktwisselkoers) is methodologisch verstrekkend, geen afrondingsdetail.
+- **Waardering op basis van λ vermengen met de VSL/VPF-traditie van de arbeidsmarkt**: ze komen uit verschillende theoretische tradities (door het gezondheidsbudget beperkte methodologie vs voorkeur onthuld uit afwegingen tussen loon en risico) en zijn niet altijd te verzoenen; voor de alternatieve benadering van onthulde voorkeur bij het waarderen van leven, zie [Waarde van een statistisch leven](../value-of-a-statistical-life/).
 
 ## Bronnen
 

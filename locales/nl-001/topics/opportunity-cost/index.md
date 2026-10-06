@@ -27,6 +27,7 @@ Engineeringcapaciteit is ook een vast budget — roadmapplekken, geen ponden. Ee
 
 - **Vergelijken met niets.** De juiste vergelijking is het op-één-na-beste gebruik van het geld.
 - **Aannemen dat bespaarde tijd geen opportuniteitskosten heeft.**
+- **Negeren welke methode een verdrongen middel waardeert.** Voor verloren productiviteit in het bijzonder, door ziekte, invaliditeit of een vertrekkende werknemer, zie [humankapitaalmethode versus frictiekostenmethode](../human-capital-and-friction-cost/), de productiviteitskostenspecifieke versie van dit idee.
 
 ## Bronnen
 

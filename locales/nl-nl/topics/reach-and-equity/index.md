@@ -4,7 +4,7 @@ Bereik en billijkheid meten hoe eerlijk een digitale gezondheidsinterventie de g
 
 ## Waarom het ertoe doet
 
-Digitale interventies lopen het risico digitale gezondheidsverschillen te verergeren door onevenredig terecht te komen bij groepen die al betere toegang hebben.
+Digitale interventies lopen het risico digitale gezondheidsverschillen te verergeren door onevenredig terecht te komen bij groepen die al betere toegang hebben. Voor een formele statistische maat voor sociaaleconomisch bepaalde gezondheidsongelijkheid, zie [Concentratie-index](../concentration-index/).
 
 ## De wiskunde
 

@@ -18,7 +18,7 @@ Een klinisch systeem met een levensduur van 5 jaar: bouw £500.000 + operatie £
 
 ## Verbinding met software-engineering
 
-TCO is de basis voor [cloud-eenheidseconomie](../cloud-unit-economics/) en [bouwen versus kopen](../build-vs-buy/)-beslissingen.
+TCO is de basis voor [cloud-eenheidseconomie](../cloud-unit-economics/) en [bouwen versus kopen](../build-vs-buy/)-beslissingen. Een meerjarig TCO-cijfer zoals het bovenstaande is een som van veel kostenposten over de tijd; zie [valutaveilige kostenaggregatie](../currency-safe-cost-rollup/) voor waarom die som exact decimaal in plaats van drijvende komma moet zijn zodra een model op de cent moet sluiten, en [exacte-centen kostentoewijzing](../exact-cents-cost-allocation/) voor het verdelen van een TCO-totaal over kostenplaatsen zonder centen te verliezen.
 
 ## Valkuilen
 

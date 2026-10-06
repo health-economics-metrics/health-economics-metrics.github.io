@@ -18,7 +18,7 @@ Een test met 95% sensitiviteit en 95% specificiteit toegepast op een aandoening 
 
 ## Verbinding met software-engineering
 
-Direct analoog aan alarmmoeheid in monitoringsystemen: een detector met hoge nauwkeurigheid gegenereerd tegen een zeldzame gebeurtenis produceert nog steeds overwegend valse alarmen.
+Direct analoog aan alarmmoeheid in monitoringsystemen: een detector met hoge nauwkeurigheid gegenereerd tegen een zeldzame gebeurtenis produceert nog steeds overwegend valse alarmen. Voor het bepalen van de omvang van een heel screeningsprogramma in plaats van één test, zie [number needed to screen](../number-needed-to-screen/): hoeveel mensen het hele screen-en-behandeltraject moeten doorlopen om één uitkomst te voorkomen.
 
 ## Valkuilen
 

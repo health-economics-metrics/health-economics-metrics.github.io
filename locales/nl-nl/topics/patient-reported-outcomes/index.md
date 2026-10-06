@@ -18,7 +18,7 @@ App voor chronische pijnbeheersing: PROMIS-pijnscore daalt van 58 naar 48, een d
 
 ## Verbinding met software-engineering
 
-Gebruikt samen met [EQ-5D](../eq-5d/) en vult [digitale eindpunten en biomarkers](../digital-endpoints-and-biomarkers/) aan.
+Gebruikt samen met [EQ-5D](../eq-5d/) en vult [digitale eindpunten en biomarkers](../digital-endpoints-and-biomarkers/) aan. Voor een instrument dat specifiek op werkproductiviteit is gericht, zie [WPAI](../work-productivity-and-activity-impairment/).
 
 ## Valkuilen
 

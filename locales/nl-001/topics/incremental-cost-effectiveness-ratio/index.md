@@ -24,6 +24,7 @@ Vergelijkbaar met het berekenen van extra infrastructuurkosten per extra eenheid
 
 - **De ICER berekenen tegen de verkeerde comparator.**
 - **Een negatieve ICER verkeerd interpreteren zonder het kwadrant te specificeren.**
+- **Een ICER over valuta's heen vergelijken zonder expliciete omrekenstap**: een ICER die in de valuta van het ene land is berekend, moet met een vermelde methode worden omgerekend voordat hij met de drempel van een ander land wordt vergeleken; zie [ICER-vergelijking tussen valuta's](../cross-currency-icer-comparison/) voor waarom de keuze van de omrekenfactor (koopkrachtpariteit vs marktwisselkoers) zelf de invoeringsbeslissing kan omkeren.
 
 ## Bronnen
 
