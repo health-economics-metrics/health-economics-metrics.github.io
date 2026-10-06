@@ -21,3 +21,11 @@ Do not run `pnpm sync:content` while any locale lacks topics that `README.md` li
 ## Dependencies
 
 Upgrade with `pnpm update --latest`, then run `pnpm build`. Verify the build against known-good content when judging a failure, so content problems aren't blamed on the upgrade.
+
+## llms.txt and llms.json
+
+`pnpm build` runs `scripts/build-llms.mjs` after the search index, writing `build/llms.txt` and `build/llms.json` from `content/README.md` and the locale list. They are generated, not committed; do not hand-edit them. Because they read the vendored `content/`, they only list topics the site actually publishes.
+
+## sitemap.xml
+
+`scripts/build-sitemap.mjs` runs last in `pnpm build` and writes `build/sitemap.xml`, listing every prerendered page (excluding `404.html`). It is generated, not committed. `static/robots.txt` points crawlers at it. A single sitemap file may hold at most 50,000 URLs; split it into a sitemap index if the site grows past that.
