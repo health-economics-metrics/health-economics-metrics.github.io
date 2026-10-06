@@ -179,6 +179,7 @@ pre {
  * the share picker's link/button rows and status message to the theme.
  * ------------------------------------------------------------------------ */
 
+.search-picker,
 .theme-picker,
 .locale-picker,
 .text-size-picker,
@@ -186,6 +187,7 @@ pre {
 	position: relative;
 }
 
+.search-picker-button,
 .theme-picker-button,
 .locale-picker-button,
 .text-size-picker-button,
@@ -193,8 +195,8 @@ pre {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	width: 2.25rem;
-	height: 2.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
 	padding: 0;
 	border: 1px solid var(--lily-border);
 	border-radius: var(--lily-radius-md);
@@ -205,6 +207,7 @@ pre {
 	cursor: pointer;
 }
 
+.search-picker-button:hover,
 .theme-picker-button:hover,
 .locale-picker-button:hover,
 .text-size-picker-button:hover,
@@ -254,6 +257,7 @@ pre {
  * flush with the button's end edge (like the lists), removes the shift. It
  * stays hoverable (WCAG 1.4.13), so no pointer-events override.
  */
+.search-picker-tooltip,
 .theme-picker-tooltip,
 .locale-picker-tooltip,
 .text-size-picker-tooltip,
@@ -273,11 +277,67 @@ pre {
 	box-shadow: var(--lily-shadow-lg);
 }
 
+.search-picker-tooltip[hidden],
 .theme-picker-tooltip[hidden],
 .locale-picker-tooltip[hidden],
 .text-size-picker-tooltip[hidden],
 .share-picker-tooltip[hidden] {
 	display: none;
+}
+
+/* Search picker (picker-bar 0.2.0): the theme stylesheet has no rules for
+ * it, so the panel — a form with an input and a submit button — rendered in
+ * normal flow and stacked under the button. Anchor it like the lists. */
+.search-picker-panel {
+	position: absolute;
+	inset-inline-start: auto;
+	inset-inline-end: 0;
+	top: calc(100% + 0.35rem);
+	z-index: 200;
+	padding: 0.5rem;
+	background-color: var(--lily-surface);
+	border: 1px solid var(--lily-border);
+	border-radius: var(--lily-radius-md);
+	box-shadow: var(--lily-shadow-lg);
+}
+
+.search-picker-panel[hidden] {
+	display: none;
+}
+
+.search-picker-form {
+	display: flex;
+	align-items: center;
+	gap: 0.35rem;
+	margin: 0;
+}
+
+.search-picker-input {
+	width: 14rem;
+	max-width: 60vw;
+	height: 2.5rem;
+	padding: 0 0.6rem;
+	box-sizing: border-box;
+	font: inherit;
+	color: var(--lily-text);
+	background-color: var(--lily-surface);
+	border: 1px solid var(--lily-border-strong);
+	border-radius: var(--lily-radius-md);
+}
+
+.search-picker-submit {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	font: inherit;
+	color: var(--lily-text);
+	background-color: var(--lily-surface);
+	border: 1px solid var(--lily-border-strong);
+	border-radius: var(--lily-radius-md);
+	cursor: pointer;
 }
 
 .theme-picker-list[hidden],
