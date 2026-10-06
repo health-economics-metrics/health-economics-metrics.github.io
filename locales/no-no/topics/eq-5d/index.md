@@ -24,7 +24,7 @@ Ligner på en sammensatt tilfredshetsscore bygget fra flere målte dimensjoner i
 
 - **Å bruke et verdisett fra feil land.**
 - **Å blande den eldre EQ-5D-3L og den nyere EQ-5D-5L uten justering.**
-- **Å behandle et verdisett som selvbegrunnende**: nytteverdiene et verdisett returnerer, er selv hentet fra allmennheten gjennom time trade-off-undersøkelser (eller beslektede valgbaserte undersøkelser); se [Time trade-off (TTO) for utledning av nytteverdi](../time-trade-off-utility/) for hvordan.
+- **Å behandle et verdisett som selvbegrunnende**: nytteverdiene et verdisett returnerer, er selv hentet fra allmennheten gjennom time trade-off-undersøkelser (eller beslektede valgbaserte undersøkelser); se [Time trade-off (TTO) for utledning av nytteverdi](../time-trade-off-tto-for-utledning-av-nytteverdi/) for hvordan.
 
 ## Kilder
 

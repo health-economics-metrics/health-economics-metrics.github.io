@@ -1,0 +1,143 @@
+#!/usr/bin/env python3
+"""Give a locale's topic directories slugs derived from its own translated titles.
+
+    bin/localize-slugs <locale> [--dry-run]
+    bin/localize-slugs <locale> --copy-missing-from <other-locale> [--dry-run]
+
+Slug rule (the one the existing localized locales follow): take the topic's H1,
+drop trailing parenthetical abbreviations, lower-case it, and join the letters,
+digits and combining marks with hyphens. Unicode stays unicode.
+
+Only directories that still carry the canonical English slug are renamed, so
+the command is idempotent and leaves already-localized locales alone. Every
+`../<slug>/` link in the locale's topic files is rewritten to match. Topic
+identity across locales is the `.locale-peer-id` file, never the slug.
+
+--copy-missing-from copies topics this locale lacks from a sibling locale
+(for example es-es into es-001), giving each copy a slug derived from its
+H1 and rewriting its cross-links to this locale's slugs.
+"""
+import os, re, shutil, sys, unicodedata
+
+ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'locales')
+CANON = 'en-gb-oxendict'
+PAREN = re.compile(r'\s*[（(][^（）()]*[）)]\s*$')
+
+
+def slugify(title):
+    t = unicodedata.normalize('NFC', title.lstrip('#').strip())
+    while PAREN.search(t):
+        t = PAREN.sub('', t)
+    out, sep = [], False
+    for ch in t.lower():
+        if unicodedata.category(ch)[0] in 'LNM':
+            if sep and out:
+                out.append('-')
+            out.append(ch)
+            sep = False
+        else:
+            sep = True
+    return ''.join(out)
+
+
+def topics(loc):
+    """{slug: (peer_id, title)} for a locale."""
+    base = os.path.join(ROOT, loc, 'topics')
+    result = {}
+    for s in sorted(os.listdir(base)):
+        d = os.path.join(base, s)
+        pid_file = os.path.join(d, '.locale-peer-id')
+        if os.path.isdir(d) and os.path.exists(pid_file):
+            with open(os.path.join(d, 'index.md'), encoding='utf-8') as f:
+                title = f.readline()
+            result[s] = (open(pid_file).read().strip(), title)
+    return result
+
+
+def rewrite_links(loc, mapping):
+    """mapping: old slug -> new slug, applied to ../slug/ links in the locale."""
+    if not mapping:
+        return 0
+    pat = re.compile(r'\]\(\.\./([^/)#]+)/')
+    n = 0
+    base = os.path.join(ROOT, loc, 'topics')
+    for s in os.listdir(base):
+        p = os.path.join(base, s, 'index.md')
+        if not os.path.isfile(p):
+            continue
+        text = open(p, encoding='utf-8').read()
+        new = pat.sub(lambda m: '](../' + mapping.get(m.group(1), m.group(1)) + '/', text)
+        if new != text:
+            open(p, 'w', encoding='utf-8').write(new)
+            n += 1
+    return n
+
+
+def unique(slug, taken, peer):
+    if slug and slug not in taken:
+        return slug
+    i = 2
+    while f'{slug}-{i}' in taken:
+        i += 1
+    return f'{slug}-{i}'
+
+
+def main():
+    args = [a for a in sys.argv[1:] if not a.startswith('--')]
+    dry = '--dry-run' in sys.argv
+    loc = args[0]
+    canon = {pid: s for s, (pid, _) in topics(CANON).items()}
+    base = os.path.join(ROOT, loc, 'topics')
+
+    if '--copy-missing-from' in sys.argv:
+        src = sys.argv[sys.argv.index('--copy-missing-from') + 1]
+        have = {pid for pid, _ in topics(loc).values()}
+        taken = set(topics(loc))
+        copies = {}  # source slug -> new slug
+        for s, (pid, title) in topics(src).items():
+            if pid in have:
+                continue
+            copies[s] = unique(slugify(title), taken, pid)
+            taken.add(copies[s])
+        # source slug -> this locale's slug, for every topic present or copied
+        by_peer = {pid: s for s, (pid, _) in topics(loc).items()}
+        link_map = {s: by_peer[pid] for s, (pid, _) in topics(src).items() if pid in by_peer}
+        link_map.update(copies)
+        for s, new in copies.items():
+            print(f'  copy {src}/{s} -> {loc}/{new}')
+            if not dry:
+                shutil.copytree(os.path.join(ROOT, src, 'topics', s), os.path.join(base, new), symlinks=True)
+        if not dry:
+            for s, new in copies.items():
+                p = os.path.join(base, new, 'index.md')
+                text = open(p, encoding='utf-8').read()
+                text = re.sub(r'\]\(\.\./([^/)#]+)/', lambda m: '](../' + link_map.get(m.group(1), m.group(1)) + '/', text)
+                open(p, 'w', encoding='utf-8').write(text)
+        print(f'{loc}: {len(copies)} topics copied')
+        return
+
+    mapping, taken = {}, set(topics(loc))
+    for s, (pid, title) in topics(loc).items():
+        if canon.get(pid) != s:
+            continue  # already localized
+        new = slugify(title)
+        if new == s:
+            continue
+        new = unique(new, taken - {s}, pid)
+        taken.discard(s)
+        taken.add(new)
+        mapping[s] = new
+    for s, new in mapping.items():
+        if dry:
+            print(f'  {s} -> {new}')
+    if not dry:
+        for s, new in mapping.items():
+            os.rename(os.path.join(base, s), os.path.join(base, new))
+        n = rewrite_links(loc, mapping)
+        print(f'{loc}: {len(mapping)} directories renamed, {n} files relinked')
+    else:
+        print(f'{loc}: would rename {len(mapping)}')
+
+
+if __name__ == '__main__':
+    main()

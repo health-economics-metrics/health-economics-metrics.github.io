@@ -1,6 +1,6 @@
 # EQ-5D
 
-EQ-5D yw holiadur safonol grŵp EuroQol ar gyfer mesur ansawdd bywyd sy'n gysylltiedig ag iechyd. Dyma'r offeryn sy'n cynhyrchu'r pwysau cyfleustod sydd y tu mewn i'r rhan fwyaf o gyfrifiadau [QALY](../quality-adjusted-life-year/) — mae achos cyfeirio NICE yn ei enwi fel y mesur a ffefrir ar gyfer oedolion.
+EQ-5D yw holiadur safonol grŵp EuroQol ar gyfer mesur ansawdd bywyd sy'n gysylltiedig ag iechyd. Dyma'r offeryn sy'n cynhyrchu'r pwysau cyfleustod sydd y tu mewn i'r rhan fwyaf o gyfrifiadau [QALY](../blwyddyn-fywyd-a-addaswyd-yn-ôl-ansawdd/) — mae achos cyfeirio NICE yn ei enwi fel y mesur a ffefrir ar gyfer oedolion.
 
 ## Pam mae'n bwysig
 
@@ -32,21 +32,21 @@ Cyfleustod cyfartalog ar 6 mis:     0.71
 Enillion parhaus (tybiedig) am 1 flwyddyn: (0.71 − 0.62) × 1.0 = 0.09 QALY fesul defnyddiwr
 ```
 
-O gymharu â newid grŵp rheoli o 0.03 (adferiad naturiol), yr enillion priodoladwy yw 0.06 QALY/defnyddiwr. Wedi'i werthfawrogi ar £20,000–£30,000/QALY: **£1,200–£1,800 o werth iechyd fesul defnyddiwr sy'n cwblhau** — y ffigwr sy'n angori trafodaeth pris yr ap gyda thalwr. (Mae gwahaniaethau clinigol lleiaf-arwyddocaol i fynegai EQ-5D fel arfer yn yr amrediad 0.03–0.08, felly mae 0.06 yn gredadwy ond rhaid iddo glirio'r cymhariaeth grŵp rheoli; gweler [canlyniadau a adroddir gan gleifion](../patient-reported-outcomes/).)
+O gymharu â newid grŵp rheoli o 0.03 (adferiad naturiol), yr enillion priodoladwy yw 0.06 QALY/defnyddiwr. Wedi'i werthfawrogi ar £20,000–£30,000/QALY: **£1,200–£1,800 o werth iechyd fesul defnyddiwr sy'n cwblhau** — y ffigwr sy'n angori trafodaeth pris yr ap gyda thalwr. (Mae gwahaniaethau clinigol lleiaf-arwyddocaol i fynegai EQ-5D fel arfer yn yr amrediad 0.03–0.08, felly mae 0.06 yn gredadwy ond rhaid iddo glirio'r cymhariaeth grŵp rheoli; gweler [canlyniadau a adroddir gan gleifion](../canlyniadau-a-adroddir-gan-gleifion/).)
 
 ## Y cysylltiad â pheirianneg feddalwedd
 
 - **Offeryniwch ef.** Mae EQ-5D wrth gofrestru ac ar gyfnodau dilynol yn ychydig sgriniau o UI; y wobr yw tystiolaeth o safon HTA. Sicrhewch drwydded gan EuroQol (yn ofynnol, am ddim ar gyfer rhai defnyddiau).
 - **Defnyddiwch y set werthoedd gywir** ar gyfer gwlad y defnydd — mae'r un atebion yn sgorio'n wahanol yn y DU o gymharu â'r Almaen a Japan.
-- **Gwers ddylunio**: mae EQ-5D yn dangos sut mae arolwg safonol bach ynghyd â swyddogaeth sgorio gyhoeddedig yn cynhyrchu mynegai unigol cymharadwy. Dyna'r patrwm ar gyfer unrhyw fynegai profiad-datblygwr credadwy hefyd — offeryn safonol, pwysau cyhoeddedig, nid teimladau ad-hoc. Gweler [SPACE a DevEx](../space-and-devex/).
+- **Gwers ddylunio**: mae EQ-5D yn dangos sut mae arolwg safonol bach ynghyd â swyddogaeth sgorio gyhoeddedig yn cynhyrchu mynegai unigol cymharadwy. Dyna'r patrwm ar gyfer unrhyw fynegai profiad-datblygwr credadwy hefyd — offeryn safonol, pwysau cyhoeddedig, nid teimladau ad-hoc. Gweler [SPACE a DevEx](../space-a-devex/).
 
 ## Peryglon
 
 - **Cymhariaeth cyn/ar ôl heb gymharydd** — mae atchweliad i'r cymedr ac adferiad naturiol yn chwyddo enillion naïf.
-- **Rhagfarn goroesiad**: mesur dim ond defnyddwyr a arhosodd yn ymgysylltiedig (gweler [cadw a cholli defnyddwyr](../retention-and-churn/)).
+- **Rhagfarn goroesiad**: mesur dim ond defnyddwyr a arhosodd yn ymgysylltiedig (gweler [cadw a cholli defnyddwyr](../cadw-a-cholli-defnyddwyr/)).
 - **Cymysgu fersiynau 3L a 5L neu setiau gwerthoedd** ar draws astudiaethau — rhifau sy'n wahanol yn systematig.
 - **Effeithiau nenfwd** mewn poblogaethau a effeithiwyd yn ysgafn: mae llawer o ddefnyddwyr yn sgorio'n agos i 1.0 ar y sylfaen, gan adael dim lle i ddangos enillion.
-- **Trin set gwerth fel un hunan-gyfiawnhaol**: cafodd y gwerthoedd cyfleustod y mae set gwerth yn eu dychwelyd eu hunain eu cael gan y cyhoedd trwy arolygon cyfnewid amser (neu arolygon dewis cysylltiedig) — gweler [Cael Cyfleustod drwy Gyfnewid Amser (TTO)](../time-trade-off-utility/) am sut.
+- **Trin set gwerth fel un hunan-gyfiawnhaol**: cafodd y gwerthoedd cyfleustod y mae set gwerth yn eu dychwelyd eu hunain eu cael gan y cyhoedd trwy arolygon cyfnewid amser (neu arolygon dewis cysylltiedig) — gweler [Cael Cyfleustod drwy Gyfnewid Amser (TTO)](../cael-cyfleustod-drwy-gyfnewid-amser/) am sut.
 
 ## Ffynonellau
 

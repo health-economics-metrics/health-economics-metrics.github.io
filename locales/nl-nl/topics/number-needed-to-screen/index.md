@@ -4,7 +4,7 @@ NNS is het aantal mensen dat gescreend, niet alleen behandeld, moet worden om **
 
 ## Waarom het ertoe doet
 
-Rembold introduceerde NNS in 1998 specifiek zodat screeningsprogramma's op dezelfde voet als behandelingen konden worden vergeleken, omdat de relatieve risicoreductie in de kop van een screeningstest twee dingen verbergt die die van een behandeling niet verbergt: het basisrisico van de populatie die werkelijk voor screening wordt uitgenodigd, en het feit dat iedereen die wordt gescreend de kosten en de last van fout-positieven van de test draagt, niet alleen de minderheid die er later baat bij heeft. De kosteneffectiviteitspoort van het Britse National Screening Committee (zie [screeningseconomie](../screening-economics/)) is precies op dit onderscheid gebouwd: een screeningsprogramma met een indrukwekkende relatieve risicoreductie in een populatie met laag basisrisico kan nog steeds een NNS in de duizenden hebben, waarna de programmakosten per voorkomen uitkomst de werkelijke vraag worden.
+Rembold introduceerde NNS in 1998 specifiek zodat screeningsprogramma's op dezelfde voet als behandelingen konden worden vergeleken, omdat de relatieve risicoreductie in de kop van een screeningstest twee dingen verbergt die die van een behandeling niet verbergt: het basisrisico van de populatie die werkelijk voor screening wordt uitgenodigd, en het feit dat iedereen die wordt gescreend de kosten en de last van fout-positieven van de test draagt, niet alleen de minderheid die er later baat bij heeft. De kosteneffectiviteitspoort van het Britse National Screening Committee (zie [screeningseconomie](../screeningseconomie/)) is precies op dit onderscheid gebouwd: een screeningsprogramma met een indrukwekkende relatieve risicoreductie in een populatie met laag basisrisico kan nog steeds een NNS in de duizenden hebben, waarna de programmakosten per voorkomen uitkomst de werkelijke vraag worden.
 
 ## De wiskunde
 
@@ -34,11 +34,11 @@ Bij £50 per screening:
 Programmakosten per voorkomen uitkomst = 200 × £50 = £10.000
 ```
 
-Dat bedrag van £10.000 is wat moet worden afgewogen tegen de kosten van de uitkomst zelf en de QALY's die die zou hebben gekost: dezelfde vergelijking die [preventie-economie](../prevention-economics/) voor preventieprogramma's in het algemeen maakt.
+Dat bedrag van £10.000 is wat moet worden afgewogen tegen de kosten van de uitkomst zelf en de QALY's die die zou hebben gekost: dezelfde vergelijking die [preventie-economie](../preventie-economie/) voor preventieprogramma's in het algemeen maakt.
 
 ## Verbinding met software-engineering
 
-NNS is "hoeveel gebruikers, gebeurtenissen of verzoeken moeten door een detectie- of triagestroom lopen om één echt positief te vangen waarop het de moeite loont te handelen": direct relevant voor op alarmen gebaseerde monitoring- en triagesystemen, waar een doelconditie met lage prevalentie NNS opblaast op dezelfde manier als ze de positief voorspellende waarde laat instorten (zie [screeningseconomie](../screening-economics/) en [klinische AI-evaluatie](../clinical-ai-evaluation/)). Een monitoringregel die 200 gebeurtenissen per echte vangst moet verwerken, is alleen de moeite waard om te draaien als de vangst minstens 200 keer de triagekosten per gebeurtenis waard is: precies dezelfde rekenkunde als in het gezondheidszorgvoorbeeld hierboven.
+NNS is "hoeveel gebruikers, gebeurtenissen of verzoeken moeten door een detectie- of triagestroom lopen om één echt positief te vangen waarop het de moeite loont te handelen": direct relevant voor op alarmen gebaseerde monitoring- en triagesystemen, waar een doelconditie met lage prevalentie NNS opblaast op dezelfde manier als ze de positief voorspellende waarde laat instorten (zie [screeningseconomie](../screeningseconomie/) en [klinische AI-evaluatie](../klinische-ai-evaluatie/)). Een monitoringregel die 200 gebeurtenissen per echte vangst moet verwerken, is alleen de moeite waard om te draaien als de vangst minstens 200 keer de triagekosten per gebeurtenis waard is: precies dezelfde rekenkunde als in het gezondheidszorgvoorbeeld hierboven.
 
 ## Valkuilen
 

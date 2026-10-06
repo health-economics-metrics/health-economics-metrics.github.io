@@ -20,7 +20,7 @@ NICE beoordeelt een nieuw diagnostisch hulpmiddel: ICER van £18.000/QALY (onder
 
 Vergelijkbaar met een formeel architectuurgoedkeuringsproces dat kosten, risico en bewijs van effectiviteit beoordeelt voordat een nieuwe technologie organisatiebreed wordt goedgekeurd.
 
-Voor hoe een multicyclisch HTA-model werkelijk wordt gesimuleerd, cohort voor cohort, cyclus voor cyclus, zie [Markov-cohortsimulatie](../markov-cohort-simulation/).
+Voor hoe een multicyclisch HTA-model werkelijk wordt gesimuleerd, cohort voor cohort, cyclus voor cyclus, zie [Markov-cohortsimulatie](../markov-cohortsimulatie/).
 
 ## Valkuilen
 

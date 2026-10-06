@@ -4,7 +4,7 @@ WPAI er et valideret selvrapporteringsspørgeskema (Reilly, Zbrozek, Dasbach, 19
 
 ## Hvorfor det er vigtigt
 
-Simple optællinger af sygedage ser kun fraværet. En kliniker eller vidensarbejder, der aldrig tager en fridag, men arbejder med 60 % kapacitet gennem en kronisk sygdom, bidrager med nul til et fraværsregister og skaber alligevel et stort, reelt produktivitetstab — WPAI er designet netop til at afsløre den usynlige omkostning. Fordi det er et valideret instrument og ikke en skræddersyet undersøgelse, kan dets scorer bruges i evidenspakker om [patientrapporterede udfald](../patient-reported-outcomes/) og i sygdomsomkostningsstudier uden at en bedømmer skal genvalidere målet. Som selvrapporteringsinstrument er det selv en form for PROM, der især adskiller sig ved sit fokus på arbejde og aktivitet frem for symptomer eller livskvalitet.
+Simple optællinger af sygedage ser kun fraværet. En kliniker eller vidensarbejder, der aldrig tager en fridag, men arbejder med 60 % kapacitet gennem en kronisk sygdom, bidrager med nul til et fraværsregister og skaber alligevel et stort, reelt produktivitetstab — WPAI er designet netop til at afsløre den usynlige omkostning. Fordi det er et valideret instrument og ikke en skræddersyet undersøgelse, kan dets scorer bruges i evidenspakker om [patientrapporterede udfald](../patientrapporterede-resultater/) og i sygdomsomkostningsstudier uden at en bedømmer skal genvalidere målet. Som selvrapporteringsinstrument er det selv en form for PROM, der især adskiller sig ved sit fokus på arbejde og aktivitet frem for symptomer eller livskvalitet.
 
 ## Matematikken
 
@@ -54,7 +54,7 @@ Bemærk, at en naiv optælling af sygedage kun ville have registreret de 4 timer
 Det svarer direkte til sundhedsmålinger for ingeniørteams:
 
 - **Fravær** er sygefravær og betalt fri — synligt, allerede registreret og den nemme del.
-- **Nedsat ydeevne ved tilstedeværelse** er den udbrændte eller af kontekstskift overbelastede ingeniør, der er til stede ved hvert stand-up, men arbejder med nedsat kapacitet — normalt den største og mest skjulte omkostning, usynlig i hoved- eller tilstedeværelsesdata. Den viser sig i stedet som nedsat gennemstrømning i [DORA](../dora-metrics/)- og [flowmålinger](../flow-metrics/) eller som langsommere afvikling af netop den [tekniske gæld](../technical-debt/), hvis "renter" forstærker nedsættelsen yderligere.
+- **Nedsat ydeevne ved tilstedeværelse** er den udbrændte eller af kontekstskift overbelastede ingeniør, der er til stede ved hvert stand-up, men arbejder med nedsat kapacitet — normalt den største og mest skjulte omkostning, usynlig i hoved- eller tilstedeværelsesdata. Den viser sig i stedet som nedsat gennemstrømning i [DORA](../dora-nøgletal/)- og [flowmålinger](../flowmål/) eller som langsommere afvikling af netop den [tekniske gæld](../teknisk-gæld/), hvis "renter" forstærker nedsættelsen yderligere.
 - Ingeniørlærdommen er den samme som den kliniske: kun at måle fravær og kalde det "produktivitetstab" undervurderer systematisk den reelle omkostning, fordi det overser alle, der er til stede, men nedsat.
 
 ## Faldgruber

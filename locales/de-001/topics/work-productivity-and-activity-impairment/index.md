@@ -4,7 +4,7 @@ WPAI ist ein validierter Selbstauskunftsfragebogen (Reilly, Zbrozek, Dasbach, 19
 
 ## Warum es wichtig ist
 
-Einfache Krankentagzählungen sehen nur den Absentismus. Ein Kliniker oder Wissensarbeiter, der nie einen Tag fehlt, aber bei einer chronischen Erkrankung mit 60 % Leistung arbeitet, trägt nichts zu einem Abwesenheitsregister bei und erzeugt dennoch einen großen, realen Produktivitätsverlust — WPAI ist gerade dafür gemacht, diese unsichtbaren Kosten sichtbar zu machen. Weil es ein validiertes Instrument und keine maßgeschneiderte Umfrage ist, lassen sich seine Scores in Evidenzpaketen zu [patientenberichteten Ergebnissen](../patient-reported-outcomes/) und in Krankheitskostenstudien verwenden, ohne dass der Gutachter das Maß neu validieren muss. Als Selbstauskunftsinstrument ist es selbst eine Form von PROM, die sich vor allem durch ihren Fokus auf Arbeit und Aktivität statt auf Symptome oder Lebensqualität auszeichnet.
+Einfache Krankentagzählungen sehen nur den Absentismus. Ein Kliniker oder Wissensarbeiter, der nie einen Tag fehlt, aber bei einer chronischen Erkrankung mit 60 % Leistung arbeitet, trägt nichts zu einem Abwesenheitsregister bei und erzeugt dennoch einen großen, realen Produktivitätsverlust — WPAI ist gerade dafür gemacht, diese unsichtbaren Kosten sichtbar zu machen. Weil es ein validiertes Instrument und keine maßgeschneiderte Umfrage ist, lassen sich seine Scores in Evidenzpaketen zu [patientenberichteten Ergebnissen](../patientenberichtete-endpunkte/) und in Krankheitskostenstudien verwenden, ohne dass der Gutachter das Maß neu validieren muss. Als Selbstauskunftsinstrument ist es selbst eine Form von PROM, die sich vor allem durch ihren Fokus auf Arbeit und Aktivität statt auf Symptome oder Lebensqualität auszeichnet.
 
 ## Die Mathematik
 
@@ -54,7 +54,7 @@ Man beachte, dass eine naive Krankentagzählung nur die 4 versäumten Stunden (1
 Das lässt sich direkt auf Gesundheitskennzahlen von Entwicklungsteams übertragen:
 
 - **Absentismus** sind Krankheitstage und bezahlter Urlaub — sichtbar, bereits erfasst und der leichte Teil.
-- **Präsentismus** ist der ausgebrannte oder durch Kontextwechsel überlastete Entwickler, der in jedem Stand-up anwesend ist, aber mit verminderter Kapazität arbeitet — meist der größere und verborgenere Kostenanteil, unsichtbar für Kopfzahl- oder Anwesenheitsdaten. Er zeigt sich stattdessen als verringerter Durchsatz in [DORA](../dora-metrics/)- und [Flow-Metriken](../flow-metrics/) oder als langsamere Abarbeitung genau jener [technischen Schulden](../technical-debt/), deren „Zinsen" die Beeinträchtigung weiter verstärken.
+- **Präsentismus** ist der ausgebrannte oder durch Kontextwechsel überlastete Entwickler, der in jedem Stand-up anwesend ist, aber mit verminderter Kapazität arbeitet — meist der größere und verborgenere Kostenanteil, unsichtbar für Kopfzahl- oder Anwesenheitsdaten. Er zeigt sich stattdessen als verringerter Durchsatz in [DORA](../dora-metriken/)- und [Flow-Metriken](../flow-metriken/) oder als langsamere Abarbeitung genau jener [technischen Schulden](../technische-schulden/), deren „Zinsen" die Beeinträchtigung weiter verstärken.
 - Die ingenieurtechnische Lehre ist dieselbe wie die klinische: Nur Abwesenheit zu messen und das „Produktivitätsverlust" zu nennen, unterschätzt die wahren Kosten systematisch, weil es alle übersieht, die anwesend, aber beeinträchtigt sind.
 
 ## Fallstricke

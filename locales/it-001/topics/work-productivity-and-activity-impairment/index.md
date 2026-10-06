@@ -4,7 +4,7 @@ Il WPAI è un questionario di autovalutazione validato (Reilly, Zbrozek, Dasbach
 
 ## Perché è importante
 
-I semplici conteggi dei giorni di malattia vedono solo l'assenteismo. Un clinico o un lavoratore della conoscenza che non prende mai un giorno di assenza ma lavora al 60% della capacità per via di una condizione cronica non contribuisce con nulla a un registro delle assenze eppure genera una perdita di produttività ampia e reale — il WPAI è progettato proprio per far emergere quel costo invisibile. Poiché è uno strumento validato e non un'indagine su misura, i suoi punteggi sono utilizzabili nei pacchetti di evidenza sugli [esiti riferiti dai pazienti](../patient-reported-outcomes/) e negli studi di costo della malattia senza che il revisore debba rivalidare la misura. Come strumento di autovalutazione, è esso stesso una forma di PROM, che si distingue soprattutto per l'attenzione al lavoro e all'attività anziché ai sintomi o alla qualità della vita.
+I semplici conteggi dei giorni di malattia vedono solo l'assenteismo. Un clinico o un lavoratore della conoscenza che non prende mai un giorno di assenza ma lavora al 60% della capacità per via di una condizione cronica non contribuisce con nulla a un registro delle assenze eppure genera una perdita di produttività ampia e reale — il WPAI è progettato proprio per far emergere quel costo invisibile. Poiché è uno strumento validato e non un'indagine su misura, i suoi punteggi sono utilizzabili nei pacchetti di evidenza sugli [esiti riferiti dai pazienti](../esiti-riportati-dai-pazienti/) e negli studi di costo della malattia senza che il revisore debba rivalidare la misura. Come strumento di autovalutazione, è esso stesso una forma di PROM, che si distingue soprattutto per l'attenzione al lavoro e all'attività anziché ai sintomi o alla qualità della vita.
 
 ## La matematica
 
@@ -54,7 +54,7 @@ Si noti che un ingenuo conteggio dei giorni di malattia avrebbe registrato solo 
 Si traduce direttamente nelle metriche di salute dei team di ingegneria:
 
 - **L'assenteismo** è il congedo per malattia e le ferie — visibile, già tracciato e la parte facile.
-- **Il presenzialismo** è l'ingegnere esaurito o sovraccarico per i cambi di contesto che è presente a ogni stand-up pur operando a capacità ridotta — di solito il costo più grande e più nascosto, invisibile ai dati di organico o di presenza. Emerge invece come minor throughput nelle [DORA](../dora-metrics/) e nelle [metriche di flusso](../flow-metrics/), o come risoluzione più lenta del [debito tecnico](../technical-debt/) il cui "interesse" aggrava ulteriormente la menomazione.
+- **Il presenzialismo** è l'ingegnere esaurito o sovraccarico per i cambi di contesto che è presente a ogni stand-up pur operando a capacità ridotta — di solito il costo più grande e più nascosto, invisibile ai dati di organico o di presenza. Emerge invece come minor throughput nelle [DORA](../metriche-dora/) e nelle [metriche di flusso](../metriche-di-flusso/), o come risoluzione più lenta del [debito tecnico](../debito-tecnico/) il cui "interesse" aggrava ulteriormente la menomazione.
 - La lezione ingegneristica è la stessa di quella clinica: misurare solo l'assenza e chiamarla "perdita di produttività" sottostima sistematicamente il costo reale, perché trascura tutti coloro che sono presenti ma menomati.
 
 ## Insidie

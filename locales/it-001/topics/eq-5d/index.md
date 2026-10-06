@@ -24,7 +24,7 @@ Un'app di riabilitazione muscoloscheletrica misura l'EQ-5D-5L all'arruolamento e
 ## Insidie
 
 - **Prima/dopo senza un comparatore.**
-- **Trattare un set di valori come autogiustificante**: i valori di utilità restituiti da un set di valori sono stati essi stessi ricavati dalla popolazione tramite indagini di time trade-off (o di scelta correlate) — si veda l'[Elicitazione dell'Utilità con il Time Trade-Off (TTO)](../time-trade-off-utility/) per come.
+- **Trattare un set di valori come autogiustificante**: i valori di utilità restituiti da un set di valori sono stati essi stessi ricavati dalla popolazione tramite indagini di time trade-off (o di scelta correlate) — si veda l'[Elicitazione dell'Utilità con il Time Trade-Off (TTO)](../elicitazione-dell-utilità-con-il-time-trade-off/) per come.
 
 ## Fonti
 

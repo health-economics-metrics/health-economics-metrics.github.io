@@ -4,7 +4,7 @@ WPAI er et validert selvrapporteringsskjema (Reilly, Zbrozek, Dasbach, 1993) som
 
 ## Hvorfor det er viktig
 
-Enkle tellinger av sykedager ser bare fraværet. En kliniker eller kunnskapsarbeider som aldri tar en dag fri, men jobber med 60 % kapasitet gjennom en kronisk tilstand, bidrar med null til et fraværsregister og skaper likevel et stort, reelt produktivitetstap: WPAI er utformet nettopp for å gjøre denne usynlige kostnaden synlig. Fordi det er et validert instrument og ikke en skreddersydd undersøkelse, kan poengsummene brukes i evidenspakker om [pasientrapporterte utfall](../patient-reported-outcomes/) og i sykdomskostnadsstudier uten at vurdereren må validere målet på nytt. Som et selvrapporteringsinstrument er det selv en form for PROM, kjennetegnet først og fremst ved sitt fokus på arbeid og aktivitet fremfor symptomer eller livskvalitet.
+Enkle tellinger av sykedager ser bare fraværet. En kliniker eller kunnskapsarbeider som aldri tar en dag fri, men jobber med 60 % kapasitet gjennom en kronisk tilstand, bidrar med null til et fraværsregister og skaper likevel et stort, reelt produktivitetstap: WPAI er utformet nettopp for å gjøre denne usynlige kostnaden synlig. Fordi det er et validert instrument og ikke en skreddersydd undersøkelse, kan poengsummene brukes i evidenspakker om [pasientrapporterte utfall](../pasientrapporterte-utfall/) og i sykdomskostnadsstudier uten at vurdereren må validere målet på nytt. Som et selvrapporteringsinstrument er det selv en form for PROM, kjennetegnet først og fremst ved sitt fokus på arbeid og aktivitet fremfor symptomer eller livskvalitet.
 
 ## Matematikken
 
@@ -54,7 +54,7 @@ Legg merke til at en naiv telling av sykedager bare ville ha registrert de 4 tim
 Dette kartlegger direkte helsemål for ingeniørteam:
 
 - **Fravær** er sykefravær og betalt ferie: synlig, allerede registrert og den enkle delen.
-- **Tilstedeværelse med nedsatt yteevne** er den utbrente eller kontekstbyttesprengte utvikleren som er til stede på hvert stand-up, men opererer med redusert kapasitet: vanligvis den største og mest skjulte kostnaden, usynlig for hode- eller oppmøtedata. Den dukker i stedet opp som redusert gjennomstrømning i [DORA](../dora-metrics/)- og [flytmål](../flow-metrics/), eller som tregere utbedring av nettopp den [tekniske gjelden](../technical-debt/) hvis «rente» forverrer nedsettelsen ytterligere.
+- **Tilstedeværelse med nedsatt yteevne** er den utbrente eller kontekstbyttesprengte utvikleren som er til stede på hvert stand-up, men opererer med redusert kapasitet: vanligvis den største og mest skjulte kostnaden, usynlig for hode- eller oppmøtedata. Den dukker i stedet opp som redusert gjennomstrømning i [DORA](../dora-mål/)- og [flytmål](../flytmål/), eller som tregere utbedring av nettopp den [tekniske gjelden](../teknisk-gjeld/) hvis «rente» forverrer nedsettelsen ytterligere.
 - Ingeniørlærdommen er den samme som den kliniske: å måle bare fravær og kalle det «produktivitetstap» undervurderer systematisk den reelle kostnaden, fordi det går glipp av alle som er til stede, men nedsatt.
 
 ## Fallgruver

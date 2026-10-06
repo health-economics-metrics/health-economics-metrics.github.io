@@ -4,7 +4,7 @@ WPAI is een gevalideerde vragenlijst met zelfrapportage (Reilly, Zbrozek, Dasbac
 
 ## Waarom het ertoe doet
 
-Eenvoudige tellingen van ziektedagen zien alleen het absenteïsme. Een clinicus of kenniswerker die nooit een dag vrij neemt maar met een chronische aandoening op 60% van zijn capaciteit werkt, draagt niets bij aan een verzuimregister en veroorzaakt toch een groot, echt productiviteitsverlies: WPAI is specifiek ontworpen om die onzichtbare kosten zichtbaar te maken. Omdat het een gevalideerd instrument is en geen op maat gemaakte enquête, zijn de scores bruikbaar in bewijspakketten over [door de patiënt gerapporteerde uitkomsten](../patient-reported-outcomes/) en in ziektekostenstudies zonder dat de beoordelaar de maat opnieuw hoeft te valideren. Als instrument met zelfrapportage is het zelf een vorm van PROM, vooral onderscheiden door zijn focus op werk en activiteit in plaats van symptomen of kwaliteit van leven.
+Eenvoudige tellingen van ziektedagen zien alleen het absenteïsme. Een clinicus of kenniswerker die nooit een dag vrij neemt maar met een chronische aandoening op 60% van zijn capaciteit werkt, draagt niets bij aan een verzuimregister en veroorzaakt toch een groot, echt productiviteitsverlies: WPAI is specifiek ontworpen om die onzichtbare kosten zichtbaar te maken. Omdat het een gevalideerd instrument is en geen op maat gemaakte enquête, zijn de scores bruikbaar in bewijspakketten over [door de patiënt gerapporteerde uitkomsten](../door-de-patiënt-gerapporteerde-uitkomsten/) en in ziektekostenstudies zonder dat de beoordelaar de maat opnieuw hoeft te valideren. Als instrument met zelfrapportage is het zelf een vorm van PROM, vooral onderscheiden door zijn focus op werk en activiteit in plaats van symptomen of kwaliteit van leven.
 
 ## De wiskunde
 
@@ -54,7 +54,7 @@ Merk op dat een naïeve telling van ziektedagen alleen de 4 gemiste uren (10%) z
 Dit sluit rechtstreeks aan op gezondheidsmetrieken van engineeringteams:
 
 - **Absenteïsme** is ziekteverlof en betaald verlof: zichtbaar, al bijgehouden en het makkelijke deel.
-- **Presenteïsme** is de uitgebrande of door contextwisselingen overbelaste engineer die bij elke stand-up aanwezig is maar met verminderde capaciteit werkt: meestal de grotere en meer verborgen kost, onzichtbaar voor hoofdelijke- of aanwezigheidsgegevens. Het verschijnt in plaats daarvan als verminderde doorvoer in [DORA](../dora-metrics/)- en [stroommetrieken](../flow-metrics/), of als tragere afhandeling van juist de [technische schuld](../technical-debt/) waarvan de "rente" de beperking verder verergert.
+- **Presenteïsme** is de uitgebrande of door contextwisselingen overbelaste engineer die bij elke stand-up aanwezig is maar met verminderde capaciteit werkt: meestal de grotere en meer verborgen kost, onzichtbaar voor hoofdelijke- of aanwezigheidsgegevens. Het verschijnt in plaats daarvan als verminderde doorvoer in [DORA](../dora-metrieken/)- en [stroommetrieken](../stroommetrieken/), of als tragere afhandeling van juist de [technische schuld](../technische-schuld/) waarvan de "rente" de beperking verder verergert.
 - De engineeringles is dezelfde als de klinische: alleen afwezigheid meten en dat "productiviteitsverlies" noemen onderschat de werkelijke kosten stelselmatig, omdat het iedereen mist die aanwezig maar beperkt is.
 
 ## Valkuilen
