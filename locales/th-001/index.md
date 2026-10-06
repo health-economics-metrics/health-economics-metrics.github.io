@@ -15,6 +15,9 @@
 - [การวิเคราะห์ความอ่อนไหว](locales/en-gb-oxendict/topics/sensitivity-analysis/) — แผนภูมิพายุทอร์นาโด; สมมติฐานใดที่กำหนดข้อโต้แย้งของคุณ
 - [การวิเคราะห์ความอ่อนไหวเชิงความน่าจะเป็น](locales/en-gb-oxendict/topics/probabilistic-sensitivity-analysis/) — มอนติคาร์โล, CEAC, ความน่าจะเป็นของความคุ้มค่า
 - [มูลค่าคาดหวังของข้อมูลที่สมบูรณ์แบบ](locales/en-gb-oxendict/topics/expected-value-of-perfect-information/) — การตั้งราคาการศึกษานำร่องก่อนที่จะเริ่มดำเนินการ
+- [มูลค่าคาดหวังของข้อมูลตัวอย่าง (EVSI)](locales/en-gb-oxendict/topics/expected-value-of-sample-information/) — ประเมิน *การศึกษาที่เสนอเฉพาะเจาะจง* ไม่ใช่การกำจัดความไม่แน่นอนทั้งหมด
+- [การประเมินมูลค่าออปชันจริง](locales/en-gb-oxendict/topics/real-options-valuation/) — ตีมูลค่าสิทธิ์ที่จะขยายโครงการเป็นระยะภายหลัง ไม่ใช่สิทธิ์ที่จะเก็บข้อมูลก่อน
+- [แนวทางทุนมนุษย์เทียบกับวิธีต้นทุนแรงเสียดทาน](locales/en-gb-oxendict/topics/human-capital-and-friction-cost/) — สองวิธีตีมูลค่าผลิตภาพที่สูญเสีย ต้นทุนที่รายงานต่างกัน 2 เท่าขึ้นไป
 - [ความเหนือกว่าและขอบเขตประสิทธิภาพ](locales/en-gb-oxendict/topics/dominance-and-efficiency-frontier/) — การคัดตัวเลือกที่ไม่ควรมีใครเลือกออกไป
 
 ## ตัวชี้วัดผลลัพธ์
@@ -22,12 +25,15 @@
 - [ปีสุขภาวะที่ปรับคุณภาพแล้ว (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — สกุลเงินร่วมของมูลค่าสุขภาพ
 - [ปีสุขภาวะที่ปรับความพิการแล้ว (DALY)](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — ภาพสะท้อนด้านภาระ; ตัวชี้วัดสุขภาพโลก
 - [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — เครื่องมือที่อยู่เบื้องหลังน้ำหนักอรรถประโยชน์ QALY ส่วนใหญ่
+- [การหาอรรถประโยชน์ด้วยวิธีแลกเปลี่ยนเวลา (TTO)](locales/en-gb-oxendict/topics/time-trade-off-utility/) — น้ำหนักอรรถประโยชน์ถูกหามาจากผู้ตอบอย่างไรจริงๆ
 - [อัตราส่วนความคุ้มทุนส่วนเพิ่ม (ICER)](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — ต้นทุนเพิ่มเติมต่อหน่วยสุขภาพเพิ่มเติมหนึ่งหน่วย
 - [เกณฑ์ความเต็มใจจ่าย](locales/en-gb-oxendict/topics/willingness-to-pay-thresholds/) — เกณฑ์ £20–30 พันต่อ QALY ของ NICE และขีดจำกัดอื่นๆ ทั่วโลก
+- [มูลค่าของชีวิตทางสถิติ (VSL)](locales/en-gb-oxendict/topics/value-of-a-statistical-life/) — ทางเลือกจากตลาดแรงงานแทนการตีมูลค่าด้วยเกณฑ์
 - [ผลประโยชน์สุทธิทางการเงิน (NMB)](locales/en-gb-oxendict/topics/net-monetary-benefit/) — มูลค่าลบต้นทุน ทำอย่างถูกต้อง
 - [ปีชีวิตที่ได้รับ](locales/en-gb-oxendict/topics/life-years-gained/) — คณิตศาสตร์การอยู่รอดและรูปแบบความเสมอภาค evLYG
 - [อายุคาดเฉลี่ยที่ปรับสุขภาพแล้ว (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — การบัญชีปีสุขภาพดีในระดับประชากร
 - [ความขาดแคลน QALY และตัวปรับความรุนแรง](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — เหตุใด QALY ของประชากรที่ป่วยหนักกว่าจึงมีค่ามากกว่า
+- [ผลิตภาพการทำงานและความบกพร่องของกิจกรรม (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — การขาดงานเทียบกับการมาทำงานแต่ประสิทธิภาพลดลง ครึ่งที่ซ่อนอยู่ของต้นทุน
 
 ## ประเภทของการวิเคราะห์เศรษฐศาสตร์
 
@@ -39,6 +45,7 @@
 - [การวิเคราะห์ผลกระทบงบประมาณ (BIA)](locales/en-gb-oxendict/topics/budget-impact-analysis/) — ความสามารถในการจ่าย แตกต่างจากมูลค่า
 - [ผลตอบแทนจากการลงทุน (ROI)](locales/en-gb-oxendict/topics/return-on-investment/) — ตัวชี้วัดที่ใช้ร่วมกันพร้อมพารามิเตอร์ที่ประกาศไว้
 - [ผลตอบแทนทางสังคมจากการลงทุน (SROI)](locales/en-gb-oxendict/topics/social-return-on-investment/) — การแปลงสิ่งที่ตลาดไม่ได้กำหนดราคาให้เป็นเงิน
+- [การเปรียบเทียบ ICER ข้ามสกุลเงิน](locales/en-gb-oxendict/topics/cross-currency-icer-comparison/) — PPP เทียบกับอัตราแลกเปลี่ยนตลาด ตัวเลือกการแปลงที่พลิกการตัดสินใจนำมาใช้ได้
 
 ## เศรษฐศาสตร์การดำเนินงานของระบบสุขภาพ
 
@@ -61,12 +68,17 @@
 ## กรอบการประเมิน HTA และเศรษฐศาสตร์การป้องกัน
 
 - [การประเมินเทคโนโลยีด้านสุขภาพ (HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE, ICER (สหรัฐอเมริกา), CADTH: ใครเป็นผู้ตัดสินว่าอะไรคุ้มค่าที่จะซื้อ
+- [การจำลองกลุ่มประชากรแบบมาร์คอฟ](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — แบบจำลอง HTA หลายรอบถูกจำลองจริงอย่างไร ทีละกลุ่ม ทีละรอบ
 - [กรอบมาตรฐานหลักฐานของ NICE](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — ข้อกำหนดหลักฐานตามระดับความเสี่ยงสำหรับสุขภาพดิจิทัล
 - [เส้นทางด่วน DiGA ของเยอรมนี](locales/en-gb-oxendict/topics/diga-fast-track/) — แอปที่แพทย์สั่งจ่ายได้; รายการชั่วคราวพร้อมกำหนดเวลาพิสูจน์
 - [จำนวนที่ต้องรักษา (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — หน่วยความพยายามต่อผลประโยชน์ที่ทำให้การอ้างสิทธิ์ซื่อสัตย์
+- [สัดส่วนที่เกิดจากสาเหตุในประชากร (PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — ปัจจัยเสี่ยงหนึ่งคุ้มกับการต่อสู้แค่ไหนในแง่ภาระโรค
 - [เศรษฐศาสตร์การป้องกัน](locales/en-gb-oxendict/topics/prevention-economics/) — เหตุใดการป้องกันจึงคุ้มค่าแต่ไม่ค่อยประหยัดต้นทุน
 - [เศรษฐศาสตร์การคัดกรอง](locales/en-gb-oxendict/topics/screening-economics/) — วิลสัน–จุงเนอร์, การล่มสลายของ PPV ในความชุกต่ำ, ความเหนื่อยล้าจากการแจ้งเตือน
+- [จำนวนที่ต้องคัดกรอง (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — คู่เทียบระดับโปรแกรมคัดกรองของ NNT
 - [ต้นทุนปลายน้ำที่หลีกเลี่ยงได้](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — การชดเชยต้นทุนและกฎที่ทำให้เชื่อถือได้
+- [การวิเคราะห์การตัดสินใจหลายเกณฑ์ (MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — การให้คะแนนถ่วงน้ำหนักเมื่อเกณฑ์เดียวไม่พอ
+- [รอยเท้าคาร์บอนต่อ QALY](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — พันธกรณีเป็นศูนย์สุทธิของ NHS พบกับต้นทุนต่อ QALY
 
 ## การพัฒนาซอฟต์แวร์และการให้บริการดิจิทัล
 
@@ -78,6 +90,8 @@
 - [หนี้ทางเทคนิค](locales/en-gb-oxendict/topics/technical-debt/) — เงินต้น ดอกเบี้ย และเศรษฐศาสตร์โรคเรื้อรังสำหรับฐานโค้ด
 - [ต้นทุนรวมของการเป็นเจ้าของ (TCO)](locales/en-gb-oxendict/topics/total-cost-of-ownership/) — การบำรุงรักษาคิดเป็น 50–80%; ข้อผิดพลาดด้านราคายาแบบไร้เดียงสาในซอฟต์แวร์
 - [เศรษฐศาสตร์หน่วยคลาวด์ (FinOps)](locales/en-gb-oxendict/topics/cloud-unit-economics/) — ต้นทุนต่อหน่วยที่ผลิต; ต้นทุนเปรียบเทียบบริการดิจิทัล
+- [การจัดสรรต้นทุนแบบเป๊ะถึงเซ็นต์](locales/en-gb-oxendict/topics/exact-cents-cost-allocation/) — การจัดสรรเศษมากที่สุด แบ่งยอดรวมให้ส่วนแบ่งรวมกันได้พอดี
+- [การรวมต้นทุนที่ปลอดภัยต่อสกุลเงิน](locales/en-gb-oxendict/topics/currency-safe-cost-rollup/) — `Money` ทศนิยมที่แม่นยำ ไม่ใช่ `f64` สำหรับยอดรวมที่ต้องลงตัวถึงเซ็นต์
 - [สร้างเทียบกับซื้อ](locales/en-gb-oxendict/topics/build-vs-buy/) — การเปรียบเทียบที่ปรับตามความเสี่ยงพร้อมองค์ประกอบความล่าช้าที่ตีราคาแล้ว
 - [การตระหนักถึงผลประโยชน์](locales/en-gb-oxendict/topics/benefits-realization/) — การตรวจสอบว่าผลประโยชน์ที่คาดการณ์ไว้เกิดขึ้นจริงหรือไม่
 - [ตัวชี้วัดบริการ GDS](locales/en-gb-oxendict/topics/gds-service-metrics/) — ต้นทุนต่อธุรกรรม ความพึงพอใจ การเสร็จสิ้น การนำไปใช้
@@ -103,6 +117,7 @@
 - [เศรษฐศาสตร์การติดตามผู้ป่วยทางไกล](locales/en-gb-oxendict/topics/remote-patient-monitoring-economics/) — กองรหัส CPT และการทดแทนโรงพยาบาลด้วยการดูแลที่บ้าน
 - [เศรษฐศาสตร์หน่วยแอปสุขภาพ](locales/en-gb-oxendict/topics/health-app-unit-economics/) — CAC, LTV, PMPM และ ROI เทียบกับ VOI
 - [การเข้าถึงและความเสมอภาค](locales/en-gb-oxendict/topics/reach-and-equity/) — RE-AIM; ผลกระทบต่อประชากร = การเข้าถึง × ประสิทธิผล
+- [ดัชนีความเข้มข้น](locales/en-gb-oxendict/topics/concentration-index/) — มาตรวัดทางสถิติอย่างเป็นทางการของความไม่เท่าเทียมด้านสุขภาพตามฐานะทางเศรษฐกิจและสังคม
 
 ## ความทันสมัยของค่าเปรียบเทียบ
 
