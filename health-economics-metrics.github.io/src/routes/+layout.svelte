@@ -91,7 +91,11 @@
 	// search have no per-locale slug). With no locale in the URL at all
 	// (the root picker, /about/), there's nothing to preserve — go to that
 	// locale's home.
+	let restoredOnce = false;
+
 	function navigateToLocale(next) {
+		const restoring = !restoredOnce;
+		restoredOnce = true;
 		const links = page.data?.localeLinks;
 		if (links?.[next]) {
 			goto(resolve(`${links[next]}`.slice(1)), { refreshAll: true });
@@ -104,6 +108,13 @@
 		// A search (/?<target>) is on the root page: the picker's automatic
 		// restore of the stored locale must not navigate away and drop it.
 		if (page.url.pathname === '/' && page.url.search) return;
+		// The URL is the source of truth. The picker's first onChange after a
+		// full page load is its automatic restore of the saved locale, not a
+		// user choice. On the root locale chooser that restore is wanted (it
+		// sends a returning visitor to their language), but any other page
+		// with no locale in its URL (/about/) must stay where the link took
+		// the visitor.
+		if (restoring && page.url.pathname !== '/') return;
 		goto(resolve(`locales/${next}/`), { refreshAll: true });
 	}
 </script>

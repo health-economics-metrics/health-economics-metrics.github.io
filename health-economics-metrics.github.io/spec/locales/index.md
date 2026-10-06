@@ -114,6 +114,13 @@ Override with `BOOK=/path/to/book`.
   with the `-001`/World variant sorted before its regional siblings within
   each group, then alphabetically by label.
 
+- The URL is the source of truth for the picker. On any `/locales/<code>/...`
+  page the picker is seeded with that code (`value: locale`), so a saved
+  locale never overrides a link, and the saved locale is overwritten with the
+  one the visitor actually opened. The picker's automatic restore of the saved
+  locale only navigates on the root chooser (`/`); on `/about/` the first
+  `onChange` after a full page load is ignored, so the page stays put.
+
 ## Bug fixes (regression watch-list)
 
 These were all found and fixed in the same pass of adding new locales
@@ -181,6 +188,17 @@ start, not regressions from a working state.
    anymore, every regional variant grouped as its own one-item "language"
    instead of joining its `-001` sibling. Fixed by stripping from `" - "`
    instead, matching the new label format.
+
+8. **A picker button could not be clicked with a mouse on `/about/`.** Since
+   `@lilydesignsystem/svelte-picker-bar` 0.2.0 each picker renders a hover
+   tooltip as a sibling of its button, and the theme stylesheet predates it,
+   so the tooltip sat in normal flow. Hovering widened the right-aligned
+   control row and shoved the button left by the tooltip's width; on
+   `/about/` the label ("Language") is wider than the button, so the pointer
+   ended up beside the button, `mousedown`/`mouseup` hit different elements,
+   and the `click` fired on the picker's wrapper instead. Fixed in
+   `static/assets/style.css` by taking `.*-picker-tooltip` out of flow
+   (absolute, under the button, end-aligned, still hoverable).
 
 ## Known remaining gaps
 
