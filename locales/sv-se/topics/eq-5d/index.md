@@ -24,6 +24,7 @@ Liknar en sammansatt nöjdhetspoäng byggd från flera uppmätta dimensioner ist
 
 - **Att använda en värderingsuppsättning från fel land.**
 - **Att blanda den äldre EQ-5D-3L och den nyare EQ-5D-5L utan justering.**
+- **Att behandla ett värdeset som självrättfärdigande**: de nyttovärden ett värdeset returnerar har självt tagits fram från allmänheten genom time trade-off-enkäter (eller närliggande valbaserade enkäter) — se [Time trade-off (TTO) för att ta fram nyttovärde](../time-trade-off-tto-för-att-ta-fram-nyttovärde/) för hur.
 
 ## Källor
 
