@@ -15,6 +15,9 @@
 - [Аналіз чутливості](locales/en-gb-oxendict/topics/sensitivity-analysis/) — торнадо-діаграми; яке припущення тримає вашу аргументацію
 - [Імовірнісний аналіз чутливості](locales/en-gb-oxendict/topics/probabilistic-sensitivity-analysis/) — Монте-Карло, CEAC, ймовірність правоти
 - [Очікувана цінність повної інформації](locales/en-gb-oxendict/topics/expected-value-of-perfect-information/) — оцінка пілотного проєкту до його запуску
+- [Очікувана цінність вибіркової інформації (EVSI)](locales/en-gb-oxendict/topics/expected-value-of-sample-information/) — оцінювання *конкретного запропонованого* дослідження, а не усунення всієї невизначеності
+- [Оцінювання реальних опціонів](locales/en-gb-oxendict/topics/real-options-valuation/) — оцінювання опціону на подальше розширення поетапного проєкту замість опціону спершу зібрати інформацію
+- [Підхід людського капіталу проти методу витрат тертя](locales/en-gb-oxendict/topics/human-capital-and-friction-cost/) — два способи оцінити втрачену продуктивність, різниця у 2x+ у звітованих витратах
 - [Домінування та межа ефективності](locales/en-gb-oxendict/topics/dominance-and-efficiency-frontier/) — усунення варіантів, які нікому не слід обирати
 
 ## Показники результатів
@@ -22,12 +25,15 @@
 - [Рік життя з поправкою на якість (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — спільна валюта цінності здоров'я
 - [Рік життя з поправкою на інвалідність (DALY)](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — дзеркало з боку тягаря хвороби; метрика глобального здоров'я
 - [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — інструмент, що лежить в основі більшості вагових коефіцієнтів корисності QALY
+- [Визначення корисності методом обміну часу (TTO)](locales/en-gb-oxendict/topics/time-trade-off-utility/) — як вага корисності насправді визначається від респондента
 - [Інкрементальне співвідношення витрат і ефективності (ICER)](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — додаткові витрати на додаткову одиницю здоров'я
 - [Порогові значення готовності платити](locales/en-gb-oxendict/topics/willingness-to-pay-thresholds/) — поріг NICE £20–30 тис./QALY та інші межі світу
+- [Вартість статистичного життя (VSL)](locales/en-gb-oxendict/topics/value-of-a-statistical-life/) — ринкова альтернатива оцінюванню на основі порогів
 - [Чиста грошова вигода (NMB)](locales/en-gb-oxendict/topics/net-monetary-benefit/) — цінність мінус витрати, зроблено правильно
 - [Отримані роки життя](locales/en-gb-oxendict/topics/life-years-gained/) — математика виживання та варіант справедливості evLYG
 - [Очікувана тривалість життя з поправкою на здоров'я (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — облік здорових років на рівні популяції
 - [Дефіцит QALY та модифікатори тяжкості](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — чому QALY хворіших популяцій важать більше
+- [Work Productivity and Activity Impairment (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — абсентеїзм проти презентеїзму, прихована половина витрат
 
 ## Типи економічного аналізу
 
@@ -39,6 +45,7 @@
 - [Аналіз впливу на бюджет (BIA)](locales/en-gb-oxendict/topics/budget-impact-analysis/) — доступність на відміну від цінності
 - [Рентабельність інвестицій (ROI)](locales/en-gb-oxendict/topics/return-on-investment/) — спільна метрика з заявленими параметрами
 - [Соціальна рентабельність інвестицій (SROI)](locales/en-gb-oxendict/topics/social-return-on-investment/) — монетизація того, що ринки не оцінюють
+- [Порівняння ICER між валютами](locales/en-gb-oxendict/topics/cross-currency-icer-comparison/) — PPP проти ринкового курсу; вибір перерахунку, що може перевернути рішення про впровадження
 
 ## Операційна економіка системи охорони здоров'я
 
@@ -61,12 +68,17 @@
 ## Рамки HTA та економіка профілактики
 
 - [Оцінка медичних технологій (HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE, ICER (США), CADTH: хто вирішує, що варто купувати
+- [Когортне моделювання за Марковим](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — як багатоциклову модель HTA насправді моделюють, когорта за когортою, цикл за циклом
 - [Рамки стандартів доказів NICE](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — вимоги до доказів за рівнем ризику для цифрового здоров'я
 - [Швидкий шлях DiGA Німеччини](locales/en-gb-oxendict/topics/diga-fast-track/) — додатки за рецептом; попереднє включення до реєстру з дедлайном на докази
 - [Кількість, яку потрібно лікувати (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — одиниці зусиль на вигоду, що зберігають чесність заяв
+- [Популяційна атрибутивна частка (PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — скільки тягаря хвороби фактор ризику справді вартий того, щоб із ним боротися
 - [Економіка профілактики](locales/en-gb-oxendict/topics/prevention-economics/) — чому профілактика економічно ефективна, але рідко економить кошти
 - [Економіка скринінгу](locales/en-gb-oxendict/topics/screening-economics/) — Вілсон-Джангнер, крах позитивної прогностичної цінності при низькій поширеності, втома від сповіщень
+- [Кількість, яку потрібно скринувати (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — аналог NNT на рівні програми скринінгу
 - [Уникнені подальші витрати](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — компенсація витрат та правила, що роблять її достовірною
+- [Багатокритеріальний аналіз рішень (MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — зважене оцінювання, коли одного порогу не досить
+- [Вуглецевий слід на QALY](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — зобов'язання NHS щодо нульових чистих викидів зустрічає вартість на QALY
 
 ## Інженерія програмного забезпечення та цифрова доставка
 
@@ -78,6 +90,8 @@
 - [Технічний борг](locales/en-gb-oxendict/topics/technical-debt/) — основна сума, відсотки та економіка хронічного захворювання для кодових баз
 - [Загальна вартість володіння (TCO)](locales/en-gb-oxendict/topics/total-cost-of-ownership/) — обслуговування становить 50–80%; наївна помилка ціни на ліки в програмному забезпеченні
 - [Одинична економіка хмари (FinOps)](locales/en-gb-oxendict/topics/cloud-unit-economics/) — вартість на одиницю продукції; базова вартість цифрової послуги
+- [Точний розподіл витрат до цента](locales/en-gb-oxendict/topics/exact-cents-cost-allocation/) — метод найбільшого залишку; поділ суми так, щоб частини точно сходилися назад
+- [Валютно безпечне агрегування витрат](locales/en-gb-oxendict/topics/currency-safe-cost-rollup/) — точний десятковий `Money`, а не `f64`, для сум, що мають сходитися до копійки
 - [Створювати чи купувати](locales/en-gb-oxendict/topics/build-vs-buy/) — порівняння з урахуванням ризику та ціною терміну затримки
 - [Реалізація вигод](locales/en-gb-oxendict/topics/benefits-realization/) — перевірка того, чи прогнозовані вигоди дійсно відбулися
 - [Метрики послуг GDS](locales/en-gb-oxendict/topics/gds-service-metrics/) — вартість на транзакцію, задоволеність, завершення, прийняття
@@ -103,6 +117,7 @@
 - [Економіка віддаленого моніторингу пацієнтів](locales/en-gb-oxendict/topics/remote-patient-monitoring-economics/) — набори кодів CPT та заміна лікарні домашнім доглядом
 - [Одинична економіка медичних додатків](locales/en-gb-oxendict/topics/health-app-unit-economics/) — CAC, LTV, PMPM та ROI проти VOI
 - [Охоплення та справедливість](locales/en-gb-oxendict/topics/reach-and-equity/) — RE-AIM; вплив на популяцію = охоплення × ефективність
+- [Індекс концентрації](locales/en-gb-oxendict/topics/concentration-index/) — формальна статистична міра соціально-економічної нерівності у здоров'ї
 
 ## Актуальність базових показників
 
