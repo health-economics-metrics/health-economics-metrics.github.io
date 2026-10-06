@@ -4,7 +4,7 @@ NNS yw nifer y bobl y mae'n rhaid eu sgrinio — nid dim ond eu trin — i atal 
 
 ## Pam mae hyn yn bwysig
 
-Cyflwynodd Rembold NNS ym 1998 yn benodol fel y gellid cymharu rhaglenni sgrinio ar yr un sail â thriniaethau, oherwydd bod gostyngiad risg cymharol pennawd prawf sgrinio yn cuddio dau beth nad yw un triniaeth yn eu cuddio: risg sylfaenol y boblogaeth a wahoddir i sgrinio mewn gwirionedd, a'r ffaith bod pawb a sgriniwyd yn dwyn cost y prawf a baich positifau ffug, nid dim ond y lleiafrif sy'n mynd ymlaen i elwa. Mae porth cost-effeithiolrwydd Pwyllgor Sgrinio Cenedlaethol y DU (gweler [economeg sgrinio](../screening-economics/)) wedi'i adeiladu ar yr union wahaniaeth hwn — gall rhaglen sgrinio â gostyngiad risg cymharol trawiadol mewn poblogaeth risg sylfaenol isel gael NNS yn y miloedd o hyd, ac ar yr adeg honno cost y rhaglen fesul canlyniad a atalwyd yw'r cwestiwn go iawn.
+Cyflwynodd Rembold NNS ym 1998 yn benodol fel y gellid cymharu rhaglenni sgrinio ar yr un sail â thriniaethau, oherwydd bod gostyngiad risg cymharol pennawd prawf sgrinio yn cuddio dau beth nad yw un triniaeth yn eu cuddio: risg sylfaenol y boblogaeth a wahoddir i sgrinio mewn gwirionedd, a'r ffaith bod pawb a sgriniwyd yn dwyn cost y prawf a baich canlyniadau positif anghywir, nid dim ond y lleiafrif sy'n mynd ymlaen i elwa. Mae porth costeffeithiolrwydd Pwyllgor Sgrinio Cenedlaethol y DU (gweler [economeg sgrinio](../screening-economics/)) wedi'i adeiladu ar yr union wahaniaeth hwn — gall rhaglen sgrinio â gostyngiad risg cymharol trawiadol mewn poblogaeth risg sylfaenol isel gael NNS yn y miloedd o hyd, ac ar yr adeg honno cost y rhaglen fesul canlyniad a atalwyd yw'r cwestiwn go iawn.
 
 ## Y Fathemateg
 
@@ -38,7 +38,7 @@ Y ffigur £10,000 hwnnw yw'r hyn y dylid ei bwyso yn erbyn cost y canlyniad ei h
 
 ## Cysylltiad Peirianneg Feddalwedd
 
-NNS yw "faint o ddefnyddwyr, digwyddiadau neu geisiadau y mae'n rhaid iddynt redeg drwy lif canfod neu ddosbarthu i ddal un positif gwir sy'n werth gweithredu arno" — yn uniongyrchol berthnasol i systemau monitro a dosbarthu sy'n seiliedig ar rybuddion, lle mae cyflwr targed â mynychder isel yn chwyddo NNS yn yr un modd ag y mae'n chwalu'r gwerth rhagfynegol positif (gweler [economeg sgrinio](../screening-economics/) a [gwerthuso AI clinigol](../clinical-ai-evaluation/)). Dim ond os yw'r dalfa yn werth o leiaf 200 gwaith cost dosbarthu fesul digwyddiad y mae rheol fonitro y mae'n rhaid iddi brosesu 200 digwyddiad fesul dalfa go iawn yn werth ei rhedeg — yr un rhifyddeg yn union â'r enghraifft waith gofal iechyd uchod.
+NNS yw "faint o ddefnyddwyr, digwyddiadau neu geisiadau y mae'n rhaid iddynt redeg drwy lif canfod neu ddosbarthu i ddal un positif gwir sy'n werth gweithredu arno" — yn uniongyrchol berthnasol i systemau monitro a dosbarthu sy'n seiliedig ar rybuddion, lle mae cyflwr targed â cyffredinrwydd isel yn chwyddo NNS yn yr un modd ag y mae'n chwalu'r gwerth rhagfynegol positif (gweler [economeg sgrinio](../screening-economics/) a [gwerthuso AI clinigol](../clinical-ai-evaluation/)). Dim ond os yw'r dalfa yn werth o leiaf 200 gwaith cost dosbarthu fesul digwyddiad y mae rheol fonitro y mae'n rhaid iddi brosesu 200 digwyddiad fesul dalfa go iawn yn werth ei rhedeg — yr un rhifyddeg yn union â'r enghraifft waith gofal iechyd uchod.
 
 ## Peryglon
 

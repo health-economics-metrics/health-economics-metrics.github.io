@@ -51,7 +51,7 @@ Mae hon yn gyffordd fyw, gyfredol ag economeg AI/cwmwl: mae ôl troed carbon cyf
 
 - **Chwarae â ffin y cwmpas**: cyfrif allyriadau uniongyrchol (Cwmpas 1) yn unig a hepgor allyriadau cadwyn gyflenwi (Cwmpas 3), sydd fel arfer yn fwyafrif ôl troed gwirioneddol cynnyrch iechyd digidol.
 - **Defnyddio gwerth carbon hen**: mae'r Llyfr Gwyrdd yn diweddaru ei werthoedd carbon anfasnachedig yn flynyddol, felly rhaid dyddio unrhyw ffigur £/tunnell a ddyfynnir, nid ei ddyfynnu fel cysonyn sefydlog.
-- **Trin "effeithlon o ran carbon" fel dirprwy i "cost-effeithiol"**: mae ymyriad carbon isel, gwerth isel yn dal i fod yn ddefnydd gwael o adnoddau'r GIG. Mae carbon yn bedwerydd piler ochr yn ochr â chost a QALYs, nid yn lle'r un ohonynt.
+- **Trin "effeithlon o ran carbon" fel dirprwy i "costeffeithiol"**: mae ymyriad carbon isel, gwerth isel yn dal i fod yn ddefnydd gwael o adnoddau'r GIG. Mae carbon yn bedwerydd piler ochr yn ochr â chost a QALYs, nid yn lle'r un ohonynt.
 
 ## Ffynonellau
 

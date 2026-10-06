@@ -1,4 +1,4 @@
-# Dadansoddiad Cost-Budd (CBA)
+# Dadansoddiad Cost a Budd (CBA)
 
 Mae CBA yn prisio costau *a* chanlyniadau mewn arian. Dyma'r unig fath o ddadansoddiad sy'n gallu ateb "a yw hyn werth ei wneud o gwbl?" — nid yn unig "pa opsiwn yw'r gorau?" — oherwydd gellir cymharu buddiannau wedi'u prisio'n uniongyrchol yn erbyn costau.
 
@@ -10,7 +10,7 @@ CBA yw safon **Llyfr Gwyrdd** EM Trysorlys y DU ar gyfer pob gwerthusiad gwario 
 
 ```
 NPV (gwerth presennol net cymdeithasol) = Σ_t [ (Buddiannau_t − Costau_t) / (1 + r)^t ]
-CBR (cymhareb cost-budd)                = GP(buddiannau) / GP(costau)
+CBR (cymhareb cost a budd)                = GP(buddiannau) / GP(costau)
 
 Mabwysiadwch os yw NPV > 0 (yn gyfatebol CBR > 1); graddiwch yn ôl NPV, nid CBR.
 r = 3.5% (cyfradd ffafriaeth amser cymdeithasol y Llyfr Gwyrdd)

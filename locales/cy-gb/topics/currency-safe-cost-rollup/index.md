@@ -38,7 +38,7 @@ Dyma'r wers uniongyrchol, sylfaenol y tu ôl i "mae meddalwedd ariannol yn defny
 
 - **Trosi i `float` hanner ffordd drwy'r gadwyn**: mae tynnu gwerth arian allan i rif pwynt arnawf hanner ffordd drwy gyfrifiad (mae rhai llyfrgelloedd `Money` hyd yn oed yn enwi'r dull trosi hwn rhywbeth fel "lossy" fel rhybudd penodol) yn gollwng y warant union yn dawel ar gyfer pob cyfrifiad ar ôl y pwynt hwnnw.
 - **"Mae Decimal yn rhy araf i drafferthu ag ef"**: diystyru rhifyddeg degol union fel gorbenion diangen pan fo cywirdeb ac archwiliadwyedd — nid trwybwn crai — o bwys ar gyfer adrodd ariannol.
-- **Cymhwyso canran wrth gefn heb ddatgan y rheol talgrynnu**: gall hanner-i-fyny yn erbyn hanner-i-eilrif (talgrynnu bancwr) newid y geiniog olaf; rhaid i'r confensiwn talgrynnu ei hun fod yn ddewis a ddatganwyd, y gellir ei archwilio — gweler [dadansoddiad cost-budd](../cost-benefit-analysis/) am ganllawiau Llyfr Gwyrdd Trysorlys EF ar addasiadau wrth gefn a thuedd optimistiaeth, yn union y math o ffigur y cymhwysir y cam talgrynnu hwn ato.
+- **Cymhwyso canran wrth gefn heb ddatgan y rheol talgrynnu**: gall hanner-i-fyny yn erbyn hanner-i-eilrif (talgrynnu bancwr) newid y geiniog olaf; rhaid i'r confensiwn talgrynnu ei hun fod yn ddewis a ddatganwyd, y gellir ei archwilio — gweler [dadansoddiad cost a budd](../cost-benefit-analysis/) am ganllawiau Llyfr Gwyrdd Trysorlys EF ar addasiadau wrth gefn a thuedd optimistiaeth, yn union y math o ffigur y cymhwysir y cam talgrynnu hwn ato.
 
 ## Ffynonellau
 

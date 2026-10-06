@@ -6,7 +6,7 @@ Cost cyfle yw gwerth y dewis amgen gorau rydych yn ei roi i fyny pan fyddwch yn 
 
 Cost cyfle yw'r syniad dyfnaf mewn economeg iechyd, a'r un y mae peirianwyr meddalwedd amlaf yn ei hepgor. Mae cyllidebau iechyd yn sefydlog mewn unrhyw flwyddyn benodol, felly ni chaiff technoleg newydd byth ei hariannu o arian "ychwanegol" — mae'n dadleoli rhywbeth. Nid "a yw hyn yn dda?" yw'r cwestiwn y mae talwr yn ei ofyn mewn gwirionedd, ond "a yw hyn yn well na'r hyn y mae'r un arian yn ei brynu ar hyn o bryd?"
 
-Dyma pam mae trothwyon cost-effeithiolrwydd yn bodoli o gwbl: mae'r trothwy'n amcangyfrif o'r iechyd y mae arian yn ei brynu ar ymyl y system bresennol. Gweler [trothwyon parodrwydd i dalu](../willingness-to-pay-thresholds/).
+Dyma pam mae trothwyon costeffeithiolrwydd yn bodoli o gwbl: mae'r trothwy'n amcangyfrif o'r iechyd y mae arian yn ei brynu ar ymyl y system bresennol. Gweler [trothwyon parodrwydd i dalu](../willingness-to-pay-thresholds/).
 
 ## Y Fathemateg
 

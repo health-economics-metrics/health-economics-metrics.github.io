@@ -10,7 +10,7 @@ Mae ymddiriedolaethau sy'n methu targedau RTT yn wynebu craffu rheoleiddiol, ymy
 
 ```
 Perfformiad RTT = cleifion a drinwyd o fewn 18 wythnos / cyfanswm a drinwyd × 100
-Cost iechyd amser aros fesul claf = hyd aros × (defnyddioldeb_wedi_trin − defnyddioldeb_aros)
+Cost iechyd amser aros fesul claf = hyd aros × (cyfleustod_wedi_trin − cyfleustod_aros)
 
 Golwg llwybr: RTT = Σ hyd pob cam (trearn atgyfeirio → apwyntiad cyntaf →
 diagnosteg → penderfyniad → triniaeth) — gwellwch y ciw hiraf, nid y cam
@@ -19,7 +19,7 @@ mwyaf prysur (gweler flow-metrics.md).
 
 ## Enghraifft Waith
 
-Mae arbenigedd yn trin 5,000 o gleifion llwybr/blwyddyn; aros cymedrig 24 wythnos; defnyddioldeb aros 0.68 yn erbyn wedi'i drin 0.80.
+Mae arbenigedd yn trin 5,000 o gleifion llwybr/blwyddyn; aros cymedrig 24 wythnos; cyfleustod aros 0.68 yn erbyn wedi'i drin 0.80.
 
 Mae trearn digidol ynghyd â phrotocolau syth-i-brawf yn dileu 5 wythnos o giwio pur:
 

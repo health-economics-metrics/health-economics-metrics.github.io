@@ -1,4 +1,4 @@
-# Blwyddyn Bywyd wedi'i Haddasu ar gyfer Anabledd (DALY)
+# Blynyddoedd o Fywyd a Addaswyd yn ôl Anabledd (DALY)
 
 Mae DALY yn flwyddyn goll o fywyd iach — drych ochr y baich o'r [QALY](../quality-adjusted-life-year/). Lle mae QALYs yn cyfrif iechyd sy'n cael ei *ennill*, mae DALYs yn cyfrif iechyd sy'n cael ei *golli* i glefyd; prisir ymyriadau yn ôl DALYs a **osgowyd**.
 

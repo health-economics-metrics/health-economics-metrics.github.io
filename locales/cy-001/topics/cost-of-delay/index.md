@@ -33,7 +33,7 @@ CoD = 200 × 50 = £10,000/wythnos
 Mae oedi caffael o 10 wythnos yn costio 200 × 50 × 10 = £100,000 mewn gwastraff y gellid ei osgoi.
 ```
 
-**Clinigol**: mae gwelliant brysbennu yn dileu 5 wythnos o aros (defnyddioldeb 0.68 → 0.80 yn gynt) i 100 o gleifion yr wythnos:
+**Clinigol**: mae gwelliant brysbennu yn dileu 5 wythnos o aros (cyfleustod 0.68 → 0.80 yn gynt) i 100 o gleifion yr wythnos:
 
 ```
 Enillion QALY fesul claf = (5/52) × 0.12 ≈ 0.0115

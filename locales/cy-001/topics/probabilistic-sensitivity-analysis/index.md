@@ -4,14 +4,14 @@ Mae PSA yn priodoli dosraniad tebygolrwydd i bob paramedr ansicr, yn samplu pob 
 
 ## Pam mae hyn yn bwysig
 
-Mae achos cyfeirio NICE yn *mynnu* PSA. Mae dadansoddiad penderfynol yn ateb "beth os yw un mewnbwn yn anghywir?"; mae PSA yn ateb "o ystyried popeth nad ydym yn ei wybod ar unwaith, pa mor debygol yw hi ein bod yn gwneud y penderfyniad cywir?" Mae ei allbwn nodedig, y **gromlin dderbynioldeb cost-effeithiolrwydd (CEAC)**, yn plotio'r tebygolrwydd bod opsiwn yn gost-effeithiol yn erbyn y trothwy parodrwydd i dalu — gan droi "mae'r ICER yn £24,000/QALY" yn "mae siawns o 78% mai dyma'r dewis cywir am £30,000/QALY."
+Mae achos cyfeirio NICE yn *mynnu* PSA. Mae dadansoddiad penderfynol yn ateb "beth os yw un mewnbwn yn anghywir?"; mae PSA yn ateb "o ystyried popeth nad ydym yn ei wybod ar unwaith, pa mor debygol yw hi ein bod yn gwneud y penderfyniad cywir?" Mae ei allbwn nodedig, y **gromlin dderbynioldeb costeffeithiolrwydd (CEAC)**, yn plotio'r tebygolrwydd bod opsiwn yn gost-effeithiol yn erbyn y trothwy parodrwydd i dalu — gan droi "mae'r ICER yn £24,000/QALY" yn "mae siawns o 78% mai dyma'r dewis cywir am £30,000/QALY."
 
 ## Y Fathemateg
 
 ```
 Ar gyfer pob un o N tynnu (N ≈ 10,000):
   samplwch bob paramedr θ o'i ddosraniad
-    (costau ~ Gamma, tebygolrwyddau ~ Beta, defnyddioldebau ~ Beta, effeithiau ~ Normal/logNormal)
+    (costau ~ Gamma, tebygolrwyddau ~ Beta, cyfleustodau ~ Beta, effeithiau ~ Normal/logNormal)
   cyfrifwch NMB_j(θ) = λ × Effaith_j(θ) − Cost_j(θ) ar gyfer pob opsiwn j
 
 CEAC_j(λ) = cyfran y tynniadau lle mae gan opsiwn j yr NMB uchaf ar drothwy λ

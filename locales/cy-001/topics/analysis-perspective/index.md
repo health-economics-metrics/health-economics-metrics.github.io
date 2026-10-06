@@ -10,7 +10,7 @@ Rhaid i bob gwerthusiad economaidd ddatgan ei bersbectif ymlaen llaw, oherwydd m
 - **Persbectif y darparwr** (e.e. ymddiriedolaeth ysbyty): costau cyflenwi mewnol, staffio, ystadau.
 - **Persbectif cymdeithasol**: popeth — gan gynnwys amser claf, teithio, gofal anffurfiol gan deulu, a cholledion cynhyrchiant i gyflogwyr.
 
-Mae achos cyfeirio NICE yn defnyddio persbectif **y GIG a Gwasanaethau Cymdeithasol Personol (PSS)** ar gyfer costau. Mae Ail Banel Cost-Effeithiolrwydd yr UDA yn argymell adrodd dadansoddiad sector-gofal-iechyd a dadansoddiad cymdeithasol fel ei gilydd gydag "inventori effaith" sy'n rhestru beth sydd wedi'i gynnwys.
+Mae achos cyfeirio NICE yn defnyddio persbectif **y GIG a Gwasanaethau Cymdeithasol Personol (PSS)** ar gyfer costau. Mae Ail Banel Costeffeithiolrwydd yr UDA yn argymell adrodd dadansoddiad sector-gofal-iechyd a dadansoddiad cymdeithasol fel ei gilydd gydag "inventori effaith" sy'n rhestru beth sydd wedi'i gynnwys.
 
 ## Y Fathemateg
 

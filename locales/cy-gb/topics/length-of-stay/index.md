@@ -4,13 +4,13 @@ Hyd arhosiad yw nifer y dyddiau o dderbyniad i'r ysbyty hyd at ryddhau — y pri
 
 ## Pam mae hyn yn bwysig
 
-Mae LOS yn gyrru bron popeth mewn economeg ysbytai acíwt: capasiti gwelyau, trwygyrch dewisol, llif brys, staffio. Mae lleihau'r LOS cyfartalog hyd yn oed o ffracsiynau o ddiwrnod ar raddfa fawr yn rhyddhau capasiti aruthrol (gweler [diwrnodau gwely a arbedwyd](../bed-days-saved/)). Mae LOS hefyd yn arwydd ansawdd yn y ddau gyfeiriad — mae'n rhy hir yn awgrymu methiant proses (diagnosteg oedi, papurau rhyddhau, arosiadau gofal cymdeithasol); gall yn rhy fyr olygu rhyddhau cynamserol, sy'n ymddangos yn ddiweddarach fel [ail-dderbyniadau](../readmission-rate/).
+Mae LOS yn gyrru bron popeth mewn economeg ysbytai acíwt: capasiti gwelyau, trwygyrch dewisol, llif brys, staffio. Mae lleihau'r LOS cyfartalog hyd yn oed o ffracsiynau o ddiwrnod ar raddfa fawr yn rhyddhau capasiti aruthrol (gweler [dyddiau gwely a arbedwyd](../bed-days-saved/)). Mae LOS hefyd yn arwydd ansawdd yn y ddau gyfeiriad — mae'n rhy hir yn awgrymu methiant proses (diagnosteg oedi, papurau rhyddhau, arosiadau gofal cymdeithasol); gall yn rhy fyr olygu rhyddhau cynamserol, sy'n ymddangos yn ddiweddarach fel [ail-dderbyniadau](../readmission-rate/).
 
 ## Y Fathemateg
 
 ```
 LOS (fesul cyfnod) = dyddiad rhyddhau − dyddiad derbyn
-LOS cyfartalog      = diwrnodau gwely a feddiannwyd / rhyddhau (adroddwch y cymedr A'R canolrif;
+LOS cyfartalog      = dyddiau gwely a feddiannwyd / rhyddhau (adroddwch y cymedr A'R canolrif;
                    mae LOS wedi'i sgiwio'n drwm i'r dde gan werthoedd eithafol arhosiad hir)
 
 Mae cymariaethau'n gofyn am addasiad cymysgedd achosion (oedran, diagnosis, difrifoldeb),
@@ -28,7 +28,7 @@ Gwelyau sydd eu hangen = 40 × 5.6 = 224 → 16 gwely wedi'u rhyddhau'n barhaus
             = 16 × 365 = 5,840 diwrnod gwely/blwyddyn
 ```
 
-Prisiwch y 5,840 diwrnod gwely yn ôl mecanwaith (ail-lenwi/cau/llacrwydd) yn unol â [diwrnodau gwely a arbedwyd](../bed-days-saved/). Sylwch beth symudodd: nid meddygaeth, ond *aros* — roedd y claf yn feddygol iach; roedd y system yn dal i wneud papurau. Mae hynny'n broblem ciwio, ac mae meddalwedd yn dda am broblemau ciwio.
+Prisiwch y 5,840 diwrnod gwely yn ôl mecanwaith (ail-lenwi/cau/llacrwydd) yn unol â [dyddiau gwely a arbedwyd](../bed-days-saved/). Sylwch beth symudodd: nid meddygaeth, ond *aros* — roedd y claf yn feddygol iach; roedd y system yn dal i wneud papurau. Mae hynny'n broblem ciwio, ac mae meddalwedd yn dda am broblemau ciwio.
 
 ## Cysylltiad Peirianneg Feddalwedd
 

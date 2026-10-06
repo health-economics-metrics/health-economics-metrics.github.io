@@ -23,7 +23,7 @@ Dyma'r "fformiwla cyfamrywiant gyfleus" (O'Donnell, van Doorslaer, Wagstaff, Lin
 
 ## Enghraifft Waith
 
-Sgôr iechyd da hunan-adroddedig (1 = gwaethaf, 4 = gorau) a arsylwyd ar draws pedwar cwartel economaidd-gymdeithasol o'r un maint, pob un wedi'i gynrychioli gan reng canolbwynt ei gwartel:
+Sgôr iechyd da hunan-adroddedig (1 = gwaethaf, 4 = gorau) a arsylwyd ar draws pedwar chwartel economaidd-gymdeithasol o'r un maint, pob un wedi'i gynrychioli gan reng canolbwynt ei gwartel:
 
 ```
 gwerthoedd_iechyd           = [1.0, 2.0, 3.0, 4.0]

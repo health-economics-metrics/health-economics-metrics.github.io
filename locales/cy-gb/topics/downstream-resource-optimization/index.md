@@ -4,7 +4,7 @@ Mae arbed awr i ymarferydd uwch — meddyg teulu, uwch-gofrestrydd, meddyg ymgyn
 
 ## Pam mae'n bwysig
 
-Mae gofal iechyd yn rhedeg ar gadwyni awdurdodi: mae rhyddhau cleifion yn aros am gymeradwyaeth meddyg ymgynghorol, mae cynlluniau triniaeth yn aros am adolygiad MDT, mae atgyfeiriadau'n aros am frysbennu. Pan fo'r rôl giatio wedi'i hoedi, nid awr un person yw'r gost — mae'n amser segur neu wedi'i rwystro ar draws pob rôl ddibynnol, ynghyd ag amser claf mewn limbo (mwy o [ddiwrnodau gwely](../bed-days-saved/), aros [RTT](../referral-to-treatment/) hwy). Dyma theori cyfyngiadau wedi'i chymhwyso i lwybrau clinigol: mae awr a arbedwyd *wrth y cyfyngiad* yn werth trwybwn ymylol y system gyfan; mae awr a arbedwyd yn rhywle arall yn werth llawer llai.
+Mae gofal iechyd yn rhedeg ar gadwyni awdurdodi: mae rhyddhau cleifion yn aros am gymeradwyaeth meddyg ymgynghorol, mae cynlluniau triniaeth yn aros am adolygiad MDT, mae atgyfeiriadau'n aros am frysbennu. Pan fo'r rôl giatio wedi'i hoedi, nid awr un person yw'r gost — mae'n amser segur neu wedi'i rwystro ar draws pob rôl ddibynnol, ynghyd ag amser claf mewn limbo (mwy o [ddyddiau gwely](../bed-days-saved/), aros [RTT](../referral-to-treatment/) hwy). Dyma theori cyfyngiadau wedi'i chymhwyso i lwybrau clinigol: mae awr a arbedwyd *wrth y cyfyngiad* yn werth trwybwn ymylol y system gyfan; mae awr a arbedwyd yn rhywle arall yn werth llawer llai.
 
 ## Y fathemateg
 
@@ -31,7 +31,7 @@ Datgloi i lawr yr afon: 2 gydgysylltydd rhyddhau + fferyllfa + trafnidiaeth
                         ~3 awr-staff/dydd o amser wedi'i rwystro a ryddhawyd ≈ 1,100 awr/flwyddyn
 ```
 
-70 munud y meddyg ymgynghorol ei hun yw'r rhan *leiaf* o'r gwerth — dyna bwynt y metrig hwn. Priswch y diwrnodau gwely yn ôl mecanwaith (gweler [diwrnodau gwely a arbedwyd](../bed-days-saved/)) a'r oriau staff fel capasiti.
+70 munud y meddyg ymgynghorol ei hun yw'r rhan *leiaf* o'r gwerth — dyna bwynt y metrig hwn. Priswch y dyddiau gwely yn ôl mecanwaith (gweler [dyddiau gwely a arbedwyd](../bed-days-saved/)) a'r oriau staff fel capasiti.
 
 ## Cysylltiad â pheirianneg meddalwedd
 

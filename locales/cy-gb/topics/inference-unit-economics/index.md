@@ -4,7 +4,7 @@ Mae economeg uned casgliad yn prisio nodweddion AI yn ôl eu cyfrifiadureg ymylo
 
 ## Pam mae hyn yn bwysig
 
-Mae dau ganlyniad yn dilyn cwymp y prisiau. Yn fasnachol, gall nodwedd AI sy'n ymylol heddiw fod yn broffidiol yn ddibwys mewn 18 mis — a bydd cystadleuydd sy'n prisio yn ôl costau heddiw yn cael ei danbrisio. O safbwynt gwerthuso economaidd, mae unrhyw fodel cost-effeithiolrwydd ar gyfer gwasanaeth clinigol sy'n galluogi AI ac sy'n rhewi prisiau casgliad 2024 yn **gorddatgan y gost barhaus yn sylweddol** — mae angen senarios gostyngiad pris ar y dadansoddiad, yn yr un modd ag y mae modelau cyffuriau'n trin darfodiad patent a mynediad generig. (Pwyntiau cyfeirio o'r ymchwil: tocynnau allbwn blaengar ~$15–75/M ganol 2026, modelau haen ganol gradd maint yn rhatach, gallu ar lefel GPT-4 wedi gostwng o ~$20/M yn 2022 i ~$0.40/M; mesurodd Epoch AI ostyngiadau 9×–900×/blwyddyn yn dibynnu ar y garreg filltir allu.)
+Mae dau ganlyniad yn dilyn cwymp y prisiau. Yn fasnachol, gall nodwedd AI sy'n ymylol heddiw fod yn broffidiol yn ddibwys mewn 18 mis — a bydd cystadleuydd sy'n prisio yn ôl costau heddiw yn cael ei danbrisio. O safbwynt gwerthuso economaidd, mae unrhyw fodel costeffeithiolrwydd ar gyfer gwasanaeth clinigol sy'n galluogi AI ac sy'n rhewi prisiau casgliad 2024 yn **gorddatgan y gost barhaus yn sylweddol** — mae angen senarios gostyngiad pris ar y dadansoddiad, yn yr un modd ag y mae modelau cyffuriau'n trin darfodiad patent a mynediad generig. (Pwyntiau cyfeirio o'r ymchwil: tocynnau allbwn blaengar ~$15–75/M ganol 2026, modelau haen ganol gradd maint yn rhatach, gallu ar lefel GPT-4 wedi gostwng o ~$20/M yn 2022 i ~$0.40/M; mesurodd Epoch AI ostyngiadau 9×–900×/blwyddyn yn dibynnu ar y garreg filltir allu.)
 
 ## Y Fathemateg
 

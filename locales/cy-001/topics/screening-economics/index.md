@@ -4,7 +4,7 @@ Mae economeg sgrinio'n llywodraethu gwerth profi poblogaethau asymptomatig. Y ff
 
 ## Pam mae'n bwysig
 
-Ers 1968, mae meini prawf Wilson–Jungner WHO wedi gosod y safon ar gyfer sgrinio poblogaeth: rhaid i'r cyflwr fod yn bwysig, y prawf yn dderbyniol ac yn gywir, rhaid bod triniaeth effeithiol ar gael, a rhaid i'r economeg fantoli. Mae UK National Screening Committee yn cymhwyso dadansoddiad cost-effeithiolrwydd ffurfiol cyn cymeradwyo unrhyw raglen genedlaethol — ac yn gwrthod y rhan fwyaf o gynigion. Mae pob cynnig "bydd AI yn sgrinio pawb am bopeth" yn taro'r peirianwaith hwn, ac fel arfer yn colli i'r rhifyddeg isod.
+Ers 1968, mae meini prawf Wilson–Jungner WHO wedi gosod y safon ar gyfer sgrinio poblogaeth: rhaid i'r cyflwr fod yn bwysig, y prawf yn dderbyniol ac yn gywir, rhaid bod triniaeth effeithiol ar gael, a rhaid i'r economeg fantoli. Mae UK National Screening Committee yn cymhwyso dadansoddiad costeffeithiolrwydd ffurfiol cyn cymeradwyo unrhyw raglen genedlaethol — ac yn gwrthod y rhan fwyaf o gynigion. Mae pob cynnig "bydd AI yn sgrinio pawb am bopeth" yn taro'r peirianwaith hwn, ac fel arfer yn colli i'r rhifyddeg isod.
 
 ## Y fathemateg
 

@@ -16,7 +16,7 @@ Haen C — trin, diagnosio, neu arwain rheolaeth glinigol yn weithredol
            ddelfrydol) a dadansoddiad economaidd
 ```
 
-Ar gyfer tystiolaeth economaidd, mae [dadansoddiad canlyniad cost](../cost-consequence-analysis/) yn dderbyniol ar gyfer y rhan fwyaf o haenau; disgwylir [dadansoddiad cost-ddefnyddioldeb](../cost-utility-analysis/) ar y risg uchaf. Mae'r ESF yn diffinio eich **cost tystiolaeth mynediad i'r farchnad** — cyllidebwch ar ei chyfer fel unrhyw gost adeiladu arall.
+Ar gyfer tystiolaeth economaidd, mae [dadansoddiad canlyniad cost](../cost-consequence-analysis/) yn dderbyniol ar gyfer y rhan fwyaf o haenau; disgwylir [dadansoddiad cost-dcyfleustod](../cost-utility-analysis/) ar y risg uchaf. Mae'r ESF yn diffinio eich **cost tystiolaeth mynediad i'r farchnad** — cyllidebwch ar ei chyfer fel unrhyw gost adeiladu arall.
 
 ## Y Fathemateg
 

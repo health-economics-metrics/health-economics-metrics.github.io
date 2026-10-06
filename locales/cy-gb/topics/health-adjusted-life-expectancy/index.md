@@ -1,4 +1,4 @@
-# Disgwyliad Oes wedi'i Addasu ar gyfer Iechyd (HALE)
+# Disgwyliad Oes a Addaswyd yn ôl Iechyd (HALE)
 
 Mae HALE yn grynodeb ar lefel poblogaeth: nifer y blynyddoedd y gall unigolyn ddisgwyl byw *mewn iechyd llawn*, gan ddidynnu blynyddoedd a dreuliwyd mewn salwch neu anabledd. Roedd HALE byd-eang adeg genedigaeth tua 61.9 mlynedd o gymharu â disgwyliad oes o 73.3 (data WHO, 2019) — mae dynoliaeth yn byw ei degawd olaf, ar gyfartaledd, mewn iechyd llai na llawn.
 

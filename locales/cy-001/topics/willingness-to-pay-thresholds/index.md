@@ -56,7 +56,7 @@ Mae gan bob sefydliad peirianneg λ ymhlyg: y rhwystr y mae'n ariannu offer yn e
 
 ## Ffynonellau
 
-- NICE: newidiadau i drothwyon cost-effeithiolrwydd. <https://www.nice.org.uk/news/articles/changes-to-nice-s-cost-effectiveness-thresholds-confirmed>
+- NICE: newidiadau i drothwyon costeffeithiolrwydd. <https://www.nice.org.uk/news/articles/changes-to-nice-s-cost-effectiveness-thresholds-confirmed>
 - Dadansoddiad empirig o drothwy NICE, Value in Health 2024. <https://www.sciencedirect.com/science/article/pii/S1098301524000858>
 - Claxton K, et al. HTA 2015;19(14). <https://www.journalslibrary.nihr.ac.uk/hta/hta19140/>
 - Fframwaith Asesu Gwerth ICER 2023. <https://icer.org/wp-content/uploads/2023/09/ICER_2023_VAF_For-Publication_092523.pdf>

@@ -1,6 +1,6 @@
-# Dadansoddiad Penderfyniad Aml-Faen Prawf (MCDA)
+# Dadansoddi Penderfyniadau Aml-faen Prawf (MCDA)
 
-Model sgorio cyfanswm pwysol yw dadansoddiad penderfyniad aml-faen prawf (MCDA) a ddefnyddir mewn asesu technoleg iechyd pan nad yw un trothwy ICER/parodrwydd i dalu yn dal popeth y mae penderfynwr yn poeni amdano: tegwch, angen heb ei ddiwallu, arloesedd, effaith cyllideb, difrifoldeb clefyd. Mae pob maen prawf yn cael pwysau sy'n adlewyrchu ei bwysigrwydd (wedi'i gael gan randdeiliaid, pwysau'n adio i 1), mae pob opsiwn yn cael sgôr normaleiddiedig fesul maen prawf (fel arfer 0–1), a'r sgôr gyffredinol yw'r cyfanswm pwysol — yr un siâp mathemategol â cherdyn sgorio dewis cyflenwr meddalwedd.
+Model sgorio cyfanswm pwysol yw dadansoddi penderfyniadau aml-faen prawf (MCDA) a ddefnyddir mewn asesu technoleg iechyd pan nad yw un trothwy ICER/parodrwydd i dalu yn dal popeth y mae penderfynwr yn poeni amdano: tegwch, angen heb ei ddiwallu, arloesedd, effaith cyllideb, difrifoldeb clefyd. Mae pob maen prawf yn cael pwysau sy'n adlewyrchu ei bwysigrwydd (wedi'i gael gan randdeiliaid, pwysau'n adio i 1), mae pob opsiwn yn cael sgôr normaleiddiedig fesul maen prawf (fel arfer 0–1), a'r sgôr gyffredinol yw'r cyfanswm pwysol — yr un siâp mathemategol â cherdyn sgorio dewis cyflenwr meddalwedd.
 
 ## Pam mae hyn yn bwysig
 
@@ -38,7 +38,7 @@ Dyma'r un fathemateg yn union â cherdyn sgorio dewis cyflenwr pwysol, matrics g
 ## Peryglon
 
 - **Tuedd wrth gael pwysau**: mae pwy bynnag sy'n gosod y pwysau i bob pwrpas yn rhagbenderfynu'r safle, felly gall "fformiwla" olchi penderfyniad gwleidyddol neu fasnachol fel cyfrifiad gwrthrychol. Dogfennwch pwy osododd y pwysau a sut.
-- **Cyfrif dwbl maen prawf a ddaliwyd eisoes mewn man arall**: mae sgorio "cost-effeithiolrwydd" fel un maen prawf tra'n *hefyd* sgorio "effaith cost" ar wahân yn gorbwysoli arian o'i gymharu â'r meini prawf eraill heb i neb fwriadu hynny.
+- **Cyfrif dwbl maen prawf a ddaliwyd eisoes mewn man arall**: mae sgorio "costeffeithiolrwydd" fel un maen prawf tra'n *hefyd* sgorio "effaith cost" ar wahân yn gorbwysoli arian o'i gymharu â'r meini prawf eraill heb i neb fwriadu hynny.
 - **Manylder ffug**: mae sgôr bwysol dau le degol (0.71) yn awgrymu mwy o drylwyredd nag y gall y graddfeydd rhanddeiliaid 0–10 sylfaenol ei gynnal mewn gwirionedd, ac yn aml nid adroddir amrywioldeb rhwng graddwyr yn y graddfeydd hynny o gwbl.
 
 ## Ffynonellau

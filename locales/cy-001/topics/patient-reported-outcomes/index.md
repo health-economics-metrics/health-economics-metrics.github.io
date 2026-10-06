@@ -4,7 +4,7 @@ Offerynnau safonedig yw PROMs lle mae cleifion yn adrodd eu statws iechyd eu hun
 
 ## Pam mae hyn yn bwysig
 
-PROMs yw'r arian effeithlonrwydd cynradd ar gyfer iechyd digidol: yn anaml y mae apiau'n symud marwolaethau, ond gallant symud sgorau symptomau dilysedig yn gredadwy. Ychydig ac safonedig yw'r offerynnau sy'n bwysig — **PHQ-9** (iselder, 0–27; bandiau difrifoldeb ar 5/10/15/20), **GAD-7** (pryder, 0–21; bandiau ar 5/10/15), **EQ-5D** (defnyddioldeb ar gyfer [QALYs](../quality-adjusted-life-year/)) — ac mae rheoleiddwyr, cyrff HTA, a thalwyr yn eu derbyn yn union oherwydd eu bod yn gymaradwy ar draws cynhyrchion a threialon. Y MCID yw'r porth gonestrwydd: MCID PHQ-9 ≈ 5 pwynt, GAD-7 ≈ 4, mynegai EQ-5D fel arfer ~0.03–0.08 — mae newid PHQ-9 o 1.5 pwynt sy'n ystadegol arwyddocaol ar sampl fawr yn *real ond yn ddiystyr yn glinigol*, a bydd adolygydd tystiolaeth yn dweud hynny.
+PROMs yw'r arian effeithlonrwydd cynradd ar gyfer iechyd digidol: yn anaml y mae apiau'n symud marwolaethau, ond gallant symud sgorau symptomau dilysedig yn gredadwy. Ychydig ac safonedig yw'r offerynnau sy'n bwysig — **PHQ-9** (iselder, 0–27; bandiau difrifoldeb ar 5/10/15/20), **GAD-7** (pryder, 0–21; bandiau ar 5/10/15), **EQ-5D** (cyfleustod ar gyfer [QALYs](../quality-adjusted-life-year/)) — ac mae rheoleiddwyr, cyrff HTA, a thalwyr yn eu derbyn yn union oherwydd eu bod yn gymaradwy ar draws cynhyrchion a threialon. Y MCID yw'r porth gonestrwydd: MCID PHQ-9 ≈ 5 pwynt, GAD-7 ≈ 4, mynegai EQ-5D fel arfer ~0.03–0.08 — mae newid PHQ-9 o 1.5 pwynt sy'n ystadegol arwyddocaol ar sampl fawr yn *real ond yn ddiystyr yn glinigol*, a bydd adolygydd tystiolaeth yn dweud hynny.
 
 ## Y Fathemateg
 

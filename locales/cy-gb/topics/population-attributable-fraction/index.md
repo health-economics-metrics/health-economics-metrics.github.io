@@ -9,19 +9,19 @@ Cyflwynodd Levin PAF ym 1953 i ateb cwestiwn cul, concrid: pe na bai neb yn ysmy
 ## Y Fathemateg
 
 ```
-PAF = mynychder_amlygiad × (risg_gymharol − 1) / (1 + mynychder_amlygiad × (risg_gymharol − 1))
+PAF = cyffredinrwydd_amlygiad × (risg_gymharol − 1) / (1 + cyffredinrwydd_amlygiad × (risg_gymharol − 1))
 
-mynychder_amlygiad = ffracsiwn y boblogaeth sy'n agored i'r ffactor risg (0–1)
+cyffredinrwydd_amlygiad = ffracsiwn y boblogaeth sy'n agored i'r ffactor risg (0–1)
 risg_gymharol      = risg y canlyniad mewn rhai agored o'i gymharu â rhai nad ydynt (e.e. 2.5 = 2.5×)
 
 Achosion priodoladwy = cyfanswm_achosion × PAF
 ```
 
-Mae PAF yn codi gyda mynychder amlygiad a risg gymharol — gall risg gymharol gymedrol uwch (dyweder 1.5×) ynghlwm wrth amlygiad cyffredin iawn gynhyrchu PAF mwy na risg gymharol ddramatig (dyweder 5×) ynghlwm wrth un prin. Dyna'r rheswm cyfan pam ei fod yn bodoli fel rhif ar wahân i risg gymharol.
+Mae PAF yn codi gyda cyffredinrwydd amlygiad a risg gymharol — gall risg gymharol gymedrol uwch (dyweder 1.5×) ynghlwm wrth amlygiad cyffredin iawn gynhyrchu PAF mwy na risg gymharol ddramatig (dyweder 5×) ynghlwm wrth un prin. Dyna'r rheswm cyfan pam ei fod yn bodoli fel rhif ar wahân i risg gymharol.
 
 ## Enghraifft Waith
 
-Mae ffactor risg yn bresennol mewn 30% o boblogaeth (`mynychder_amlygiad = 0.3`) ac yn codi risg y canlyniad 2.5 gwaith (`risg_gymharol = 2.5`):
+Mae ffactor risg yn bresennol mewn 30% o boblogaeth (`cyffredinrwydd_amlygiad = 0.3`) ac yn codi risg y canlyniad 2.5 gwaith (`risg_gymharol = 2.5`):
 
 ```
 PAF = 0.3 × (2.5 − 1) / (1 + 0.3 × (2.5 − 1))
@@ -42,7 +42,7 @@ PAF yw fersiwn epidemiolegol "faint o'n cyfaint digwyddiadau sy'n briodoladwy i'
 ## Peryglon
 
 - **Adio PAFs ar draws ffactorau risg**: nid yw PAFs ar gyfer ffactorau lluosog sy'n effeithio ar yr un canlyniad yn adio i 100% — gallant ragori arno'n gyfan gwbl, oherwydd bod ffactorau'n rhyngweithio ac yn rhannu llwybrau achosol. Trin pob PAF fel "pe bai'r ffactor hwn yn unig yn cael ei ddileu", byth fel rhaniad o gyfanswm y risg.
-- **Trawsblannu risg gymharol ar draws poblogaethau**: mae risg gymharol a amcangyfrifwyd mewn un boblogaeth (mynychder amlygiad sylfaenol gwahanol, cymysgwyr gwahanol) yn cyfrifo PAF camarweiniol pan gaiff ei chymhwyso at fynychder amlygiad poblogaeth wahanol.
+- **Trawsblannu risg gymharol ar draws poblogaethau**: mae risg gymharol a amcangyfrifwyd mewn un boblogaeth (cyffredinrwydd amlygiad sylfaenol gwahanol, cymysgwyr gwahanol) yn cyfrifo PAF camarweiniol pan gaiff ei chymhwyso at fynychder amlygiad poblogaeth wahanol.
 - **Cymysgu PAF â risg briodoladwy ymhlith y rhai agored**: mae PAF ar lefel poblogaeth ac yn dibynnu ar fynychder amlygiad; mae risg briodoladwy ymhlith y rhai agored ar lefel unigolyn ac nid yw. Maent yn ateb cwestiynau gwahanol — peidiwch â dyfynnu un i ateb y llall.
 
 ## Ffynonellau

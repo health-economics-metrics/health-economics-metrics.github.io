@@ -1,6 +1,6 @@
-# Pwyntiau Terfyn a Biofarcwyr Digidol
+# Pwyntiau Terfyn a Bioddangosyddion Digidol
 
-Mae biofarcwr digidol yn fesur ffisiolegol neu ymddygiadol gwrthrychol a gesglir trwy synwyryddion (cyflymder cerdded o ffôn, cwsg o ddyfais wisgadwy, cryndod o gyflymiadaeth). Mae pwynt terfyn digidol yn fesur o'r fath wedi'i ddyrchafu'n **ganlyniad treial** — a ddefnyddir i ddangos effaith triniaeth. Mae'r dyrchafiad o "ddata y mae'r ddyfais yn ei allyrru" i "dystiolaeth y mae rheoleiddiwr yn ei derbyn" yn rhedeg trwy ysgol ddilysu ddiffiniedig.
+Mae bioddangosydd digidol yn fesur ffisiolegol neu ymddygiadol gwrthrychol a gesglir trwy synwyryddion (cyflymder cerdded o ffôn, cwsg o ddyfais wisgadwy, cryndod o gyflymiadaeth). Mae pwynt terfyn digidol yn fesur o'r fath wedi'i ddyrchafu'n **ganlyniad treial** — a ddefnyddir i ddangos effaith triniaeth. Mae'r dyrchafiad o "ddata y mae'r ddyfais yn ei allyrru" i "dystiolaeth y mae rheoleiddiwr yn ei derbyn" yn rhedeg trwy ysgol ddilysu ddiffiniedig.
 
 ## Pam mae'n bwysig
 

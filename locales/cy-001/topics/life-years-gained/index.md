@@ -4,7 +4,7 @@ Blynyddoedd bywyd a enillwyd yw'r goroesiad ychwanegol y gellir ei briodoli i ym
 
 ## Pam mae hyn yn bwysig
 
-LYG yw'r canlyniad iechyd mwyaf crai: pa mor hirach y mae pobl yn byw? Mae'n bwysig pan fo data ansawdd ar goll, wrth gymharu â chynulleidfaoedd sy'n amheus o QALYs, ac mewn oncoleg lle mae cromliniau goroesiad yn brif allbwn treial. Mae'r **evLYG** (a ddefnyddir gan sefydliad ICER UDA ochr yn ochr â chost/QALY) yn bodoli am reswm moesegol: mae QALYs yn gwerthfawrogi blwyddyn o fywyd estynedig yn ôl defnyddioldeb y claf, felly mae estyn bywyd rhywun ag anabledd yn "cyfrif yn llai" — mae evLYG yn gwerthfawrogi pob blwyddyn estynedig ar ddefnyddioldeb sefydlog, gan ddileu'r gwahaniaethu hwnnw.
+LYG yw'r canlyniad iechyd mwyaf crai: pa mor hirach y mae pobl yn byw? Mae'n bwysig pan fo data ansawdd ar goll, wrth gymharu â chynulleidfaoedd sy'n amheus o QALYs, ac mewn oncoleg lle mae cromliniau goroesiad yn brif allbwn treial. Mae'r **evLYG** (a ddefnyddir gan sefydliad ICER UDA ochr yn ochr â chost/QALY) yn bodoli am reswm moesegol: mae QALYs yn gwerthfawrogi blwyddyn o fywyd estynedig yn ôl cyfleustod y claf, felly mae estyn bywyd rhywun ag anabledd yn "cyfrif yn llai" — mae evLYG yn gwerthfawrogi pob blwyddyn estynedig ar dcyfleustod sefydlog, gan ddileu'r gwahaniaethu hwnnw.
 
 ## Y Fathemateg
 
@@ -12,16 +12,16 @@ LYG yw'r canlyniad iechyd mwyaf crai: pa mor hirach y mae pobl yn byw? Mae'n bwy
 LYG = goroesiad cymedrig_newydd − goroesiad cymedrig_cymharydd
     = arwynebedd rhwng cromliniau goroesiad (wedi'i gyfyngu i'r gorwel amser)
 
-Golwg QALY o estyniad bywyd:  estyniad × defnyddioldeb claf
-Golwg evLYG o estyniad bywyd: estyniad × defnyddioldeb sefydlog (mae ICER yn defnyddio ~0.851,
-                              cyfartaledd defnyddioldeb poblogaeth UDA)
+Golwg QALY o estyniad bywyd:  estyniad × cyfleustod claf
+Golwg evLYG o estyniad bywyd: estyniad × cyfleustod sefydlog (mae ICER yn defnyddio ~0.851,
+                              cyfartaledd cyfleustod poblogaeth UDA)
 ```
 
 Mae'r ddau wedi'u [disgowntio](../discounting-and-time-preference/) mewn modelau economaidd.
 
 ## Enghraifft Waith
 
-Algorithm rhybudd cynnar sepsis mewn ysbyty: mae modelu'n dangos bod gwrthfiotigau cynharach yn atal 12 marwolaeth/blwyddyn; mae oedran cyfartalog y cleifion hynny'n rhoi 8 mlynedd bywyd sy'n weddill yr un ar ddefnyddioldeb 0.7.
+Algorithm rhybudd cynnar sepsis mewn ysbyty: mae modelu'n dangos bod gwrthfiotigau cynharach yn atal 12 marwolaeth/blwyddyn; mae oedran cyfartalog y cleifion hynny'n rhoi 8 mlynedd bywyd sy'n weddill yr un ar dcyfleustod 0.7.
 
 ```
 LYG   = 12 × 8            = 96 blwyddyn bywyd/blwyddyn
@@ -29,7 +29,7 @@ QALYs = 96 × 0.7          = 67.2
 evLYG = 96 × 0.851        = 81.7
 ```
 
-Ar £20,000 y QALY, mae fframio QALY yn gwerthfawrogi'r goroesiad ar £1.34M/blwyddyn; fframio evLYG ar £1.63M. Y bwlch yw'n union y farn foesegol ynghylch a yw blwyddyn bywyd ar ddefnyddioldeb 0.7 yn werth 70% o un "lawn". Mae dosieri difrifol yn adrodd y ddau.
+Ar £20,000 y QALY, mae fframio QALY yn gwerthfawrogi'r goroesiad ar £1.34M/blwyddyn; fframio evLYG ar £1.63M. Y bwlch yw'n union y farn foesegol ynghylch a yw blwyddyn bywyd ar dcyfleustod 0.7 yn werth 70% o un "lawn". Mae dosieri difrifol yn adrodd y ddau.
 
 ## Cysylltiad Peirianneg Feddalwedd
 

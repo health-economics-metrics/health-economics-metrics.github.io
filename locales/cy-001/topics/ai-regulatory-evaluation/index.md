@@ -19,7 +19,7 @@ Economeg diweddaru dros oes cynnyrch:
   yn erbyn cost ysgrifennu PCCP unwaith-am-byth + N × gweithrediadau protocol
 ```
 
-Ar gyfer patrwm Gwobr AI y GIG, mae'r set fetrigau'n ehangach na chywirdeb yn unig: mae gwerthusiadau byd-go-iawn annibynnol yn asesu perfformiad clinigol, effeithiau llif gwaith/gweithredu, ac effaith economaidd — y bibell lawn [effeithiolrwydd damcaniaethol → effeithiolrwydd ymarferol → cost-effeithiolrwydd](../ai-developer-productivity/) wedi'i sefydliadoli.
+Ar gyfer patrwm Gwobr AI y GIG, mae'r set fetrigau'n ehangach na chywirdeb yn unig: mae gwerthusiadau byd-go-iawn annibynnol yn asesu perfformiad clinigol, effeithiau llif gwaith/gweithredu, ac effaith economaidd — y bibell lawn [effeithiolrwydd damcaniaethol → effeithiolrwydd ymarferol → costeffeithiolrwydd](../ai-developer-productivity/) wedi'i sefydliadoli.
 
 ## Enghraifft Waith
 

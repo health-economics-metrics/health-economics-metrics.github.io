@@ -17,7 +17,7 @@ Enillion amser aros  = gwelliant ciwio o gyfradd wasanaeth uwch
                         gan ΔN ar gyfradd wasanaeth μ yn tynnu pawb ymlaen ~ΔN/μ)
 ```
 
-Gwerth iechyd arosiadau byrrach: mae cleifion yn treulio llai o wythnosau yn y cyflwr defnyddioldeb is cyn-triniaeth — y rhifyddeg QALY yn [atgyfeirio i driniaeth](../referral-to-treatment/).
+Gwerth iechyd arosiadau byrrach: mae cleifion yn treulio llai o wythnosau yn y cyflwr cyfleustod is cyn-triniaeth — y rhifyddeg QALY yn [atgyfeirio i driniaeth](../referral-to-treatment/).
 
 ## Enghraifft Waith
 

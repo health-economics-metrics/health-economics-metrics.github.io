@@ -1,6 +1,6 @@
 # Budd Ariannol Net (NMB)
 
-Mae NMB yn trosi canlyniad cost-effeithiolrwydd yn un gwerth ariannol: enillion iechyd wedi'u prisio ar y trothwy parodrwydd i dalu, minws cost. Mae ei efaill, Budd Iechyd Net (NHB), yn mynegi'r un rheol mewn unedau iechyd.
+Mae NMB yn trosi canlyniad costeffeithiolrwydd yn un gwerth ariannol: enillion iechyd wedi'u prisio ar y trothwy parodrwydd i dalu, minws cost. Mae ei efaill, Budd Iechyd Net (NHB), yn mynegi'r un rheol mewn unedau iechyd.
 
 ## Pam mae hyn yn bwysig
 
@@ -53,4 +53,4 @@ Golwg NHB o'r enillydd: 30 − 400,000/20,000 = 30 − 20 = **10 QALY net** — 
 ## Ffynonellau
 
 - Geirfa Consortiwm Economeg Iechyd Efrog: budd ariannol net. <https://yhec.co.uk/glossary/net-monetary-benefit/>
-- Stinnett AA, Mullahy J. "Buddion iechyd net: fframwaith newydd ar gyfer dadansoddi ansicrwydd mewn dadansoddiad cost-effeithiolrwydd." <https://pmc.ncbi.nlm.nih.gov/articles/PMC2528971/>
+- Stinnett AA, Mullahy J. "Buddion iechyd net: fframwaith newydd ar gyfer dadansoddi ansicrwydd mewn dadansoddiad costeffeithiolrwydd." <https://pmc.ncbi.nlm.nih.gov/articles/PMC2528971/>

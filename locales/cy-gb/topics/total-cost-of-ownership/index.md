@@ -4,7 +4,7 @@ TCO yw cost lawn system dros ei hoes: caffael neu adeiladu, integreiddio, gweith
 
 ## Pam mae'n bwysig
 
-Dysgodd asesu technoleg iechyd ers talwm nad pris cyffur yw ei gost — mae gweinyddu, monitro, a rheoli sgil-effeithiau i gyd yn perthyn yn y model. Mae achosion busnes meddalwedd sy'n cyfrif dim ond cost adeiladu/trwydded yn ailadrodd camgymeriad pris-cyffur naïf ac yn tanddatgan ochr gost pob [ICER](../incremental-cost-effectiveness-ratio/) ac [effaith cyllideb](../budget-impact-analysis/) y maent yn ei bwydo, yn systematig. O ran caffael y GIG, disgyblaeth TCO sy'n gwneud honiad cost-effeithiolrwydd cynnyrch digidol yn onest — a dyna lle mae dewisiadau sy'n edrych yn rhad yn colli.
+Dysgodd asesu technoleg iechyd ers talwm nad pris cyffur yw ei gost — mae gweinyddu, monitro, a rheoli sgil-effeithiau i gyd yn perthyn yn y model. Mae achosion busnes meddalwedd sy'n cyfrif dim ond cost adeiladu/trwydded yn ailadrodd camgymeriad pris-cyffur naïf ac yn tanddatgan ochr gost pob [ICER](../incremental-cost-effectiveness-ratio/) ac [effaith cyllideb](../budget-impact-analysis/) y maent yn ei bwydo, yn systematig. O ran caffael y GIG, disgyblaeth TCO sy'n gwneud honiad costeffeithiolrwydd cynnyrch digidol yn onest — a dyna lle mae dewisiadau sy'n edrych yn rhad yn colli.
 
 ## Y fathemateg
 

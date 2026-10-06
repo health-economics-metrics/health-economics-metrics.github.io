@@ -1,6 +1,6 @@
 # Dadansoddiad Effaith ar y Gyllideb (BIA)
 
-Mae BIA yn amcangyfrif beth mae mabwysiadu ymyriad yn ei wneud i **gyllideb** talwr penodol dros y 1–5 mlynedd nesaf. Mae'n ateb cwestiwn *fforddiadwyedd*; mae cost-effeithiolrwydd yn ateb cwestiwn *gwerth*. Gall technoleg fod yn werth ardderchog ac eto'n anfforddiadwy — neu'n fforddiadwy ac o werth gwael. Mae gwerthusiadau trylwyr angen y ddau.
+Mae BIA yn amcangyfrif beth mae mabwysiadu ymyriad yn ei wneud i **gyllideb** talwr penodol dros y 1–5 mlynedd nesaf. Mae'n ateb cwestiwn *fforddiadwyedd*; mae costeffeithiolrwydd yn ateb cwestiwn *gwerth*. Gall technoleg fod yn werth ardderchog ac eto'n anfforddiadwy — neu'n fforddiadwy ac o werth gwael. Mae gwerthusiadau trylwyr angen y ddau.
 
 ## Pam mae'n bwysig
 

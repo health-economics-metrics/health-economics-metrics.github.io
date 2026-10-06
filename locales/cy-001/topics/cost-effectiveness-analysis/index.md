@@ -1,10 +1,10 @@
-# Dadansoddiad Cost-Effeithiolrwydd (CEA)
+# Dadansoddiad Costeffeithiolrwydd (CEA)
 
 Mae CEA yn cymharu costau ymyriadau amgen yn erbyn un canlyniad wedi'i fesur mewn **unedau naturiol** — blynyddoedd bywyd, achosion wedi'u canfod, derbyniadau wedi'u hosgoi, mmHg o ostyngiad pwysedd gwaed. Ei allbwn yw cost fesul uned o ganlyniad.
 
 ## Pam mae'n bwysig
 
-CEA yw'r gymhariaeth waith caib-a-rhaw pan fo pob opsiwn yn targedu'r un canlyniad. Mae'n ateb "pa un o'r ffyrdd hyn o gyflawni X sydd orau i ddefnyddio arian?" — ond *nid* "a yw X werth ei gyflawni o gwbl?" (mae angen [dadansoddiad cost-budd](../cost-benefit-analysis/) am hynny) a *nid* "sut mae X yn cymharu â blaenoriaethau anghysylltiedig?" (mae angen [dadansoddiad cost-cyfleustod](../cost-utility-analysis/) a chanlyniad generig fel y QALY am hynny).
+CEA yw'r gymhariaeth waith caib-a-rhaw pan fo pob opsiwn yn targedu'r un canlyniad. Mae'n ateb "pa un o'r ffyrdd hyn o gyflawni X sydd orau i ddefnyddio arian?" — ond *nid* "a yw X werth ei gyflawni o gwbl?" (mae angen [dadansoddiad cost a budd](../cost-benefit-analysis/) am hynny) a *nid* "sut mae X yn cymharu â blaenoriaethau anghysylltiedig?" (mae angen [dadansoddiad cost-cyfleustod](../cost-utility-analysis/) a chanlyniad generig fel y QALY am hynny).
 
 ## Y mathemateg
 
@@ -40,10 +40,10 @@ CEA yw'r templed cywir pryd bynnag y bydd opsiynau'n rhannu un canlyniad: cost f
 ## Peryglon
 
 - **Cymharu opsiynau â chanlyniadau gwahanol** ("achosion a ganfuwyd" yn erbyn "boddhad") mewn un CEA — mae angen [dadansoddiad cost-canlyniad](../cost-consequence-analysis/) neu ganlyniad generig am hynny.
-- **Cymarebau cost-effeithiolrwydd cyfartalog** wedi'u cyflwyno lle mae angen rhai cynyddrannol (yr enghraifft dyfais wisgadwy uchod).
+- **Cymarebau costeffeithiolrwydd cyfartalog** wedi'u cyflwyno lle mae angen rhai cynyddrannol (yr enghraifft dyfais wisgadwy uchod).
 - **Unedau canlyniad wedi'u dewis i wenieithu**: allbwn yw "rhybuddion a gynhyrchwyd," nid canlyniad; mynnwch unedau sy'n cario gwerth.
 
 ## Ffynonellau
 
-- CDC POLARIS: dadansoddiad cost-effeithiolrwydd. <https://www.cdc.gov/policy/polaris/economics/cost-effectiveness/index.html>
+- CDC POLARIS: dadansoddiad costeffeithiolrwydd. <https://www.cdc.gov/policy/polaris/economics/cost-effectiveness/index.html>
 - Geirfa York Health Economics Consortium. <https://yhec.co.uk/glossary/cost-effectiveness-analysis/>

@@ -16,7 +16,7 @@ Cost net atal (fesul person) =
    discounting-and-time-preference.md)
 
 Mae angen ar gyfer arbed cost: cost ymyriad < P(gwaethygu) × cost a osgowyd × ffactor disgownt
-Mae angen ar gyfer cost-effeithiolrwydd yn unig: cost net / QALYs a enillwyd < trothwy
+Mae angen ar gyfer costeffeithiolrwydd yn unig: cost net / QALYs a enillwyd < trothwy
 ```
 
 Paradocs atal: mae cost ymyriad yn lluosi dros y boblogaeth gyfan; nid yw buddion yn cronni ond i'r ychydig gwrthffeithiol.
@@ -42,7 +42,7 @@ Mae ansawdd shift-left yn economeg atal, gyda rhybudd wedi'i gynnwys. Mae adolyg
 
 ## Peryglon
 
-- **Honni arbedion cost pan fo'r dystiolaeth yn cefnogi cost-effeithiolrwydd yn unig** — camgymeriad diffiniol eiriolaeth atal yn y ddau faes.
+- **Honni arbedion cost pan fo'r dystiolaeth yn cefnogi costeffeithiolrwydd yn unig** — camgymeriad diffiniol eiriolaeth atal yn y ddau faes.
 - **Gwrthbwysau dyfodol heb eu disgowntio**: buddion 15 mlynedd i ffwrdd ar werth wyneb.
 - **Anwybyddu costau gorddiagnosis/gorddrin**: mae atal yn dod o hyd i ffug-glefyd hefyd — gweler [economeg sgrinio](../screening-economics/).
 

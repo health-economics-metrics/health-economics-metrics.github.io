@@ -4,7 +4,7 @@ Model carfan Markov yw'r dechneg fodelu HTA safonol ar gyfer ymyriadau y mae eu 
 
 ## Pam mae hyn yn bwysig
 
-Nid cymariaethau un-ergyd o gost a chanlyniad un cyfnod yw'r rhan fwyaf o benderfyniadau technoleg iechyd go iawn. Mae cyflwr cronig yn datblygu, yn ailymddangos, yn ymateb i driniaeth, neu'n lladd, dros flynyddoedd — ac ni all [dadansoddiad cost-effeithiolrwydd](../cost-effectiveness-analysis/) un cyfnod gynrychioli hynny. Mae cyflwyniadau NICE, ICER a CADTH ar gyfer ymyriadau clefydau cronig, a aseswyd trwy [asesiad technoleg iechyd](../health-technology-assessment/), bron bob amser wedi'u hadeiladu fel modelau carfan Markov gydag gorwel amser oes, oherwydd bod yr dewis arall — modelu pob llwybr claf unigol posibl — yn anhydrin ar raddfa. Mae'r model Markov lefel carfan yn cyfnewid peth realaeth lefel unigolyn (ni all gynrychioli cof am gyflyrau blaenorol yn hawdd, a dyna pam "Markov": mae'r dyfodol yn dibynnu ar y cyflwr presennol yn unig) am fodel sy'n dryloyw, yn archwiliadwy ac yn ddigon cyflym i'w redeg filoedd o weithiau mewn [dadansoddiad sensitifrwydd tebygolyddol](../probabilistic-sensitivity-analysis/).
+Nid cymariaethau un-ergyd o gost a chanlyniad un cyfnod yw'r rhan fwyaf o benderfyniadau technoleg iechyd go iawn. Mae cyflwr cronig yn datblygu, yn ailymddangos, yn ymateb i driniaeth, neu'n lladd, dros flynyddoedd — ac ni all [dadansoddiad costeffeithiolrwydd](../cost-effectiveness-analysis/) un cyfnod gynrychioli hynny. Mae cyflwyniadau NICE, ICER a CADTH ar gyfer ymyriadau clefydau cronig, a aseswyd trwy [asesiad technoleg iechyd](../health-technology-assessment/), bron bob amser wedi'u hadeiladu fel modelau carfan Markov gydag gorwel amser oes, oherwydd bod yr dewis arall — modelu pob llwybr claf unigol posibl — yn anhydrin ar raddfa. Mae'r model Markov lefel carfan yn cyfnewid peth realaeth lefel unigolyn (ni all gynrychioli cof am gyflyrau blaenorol yn hawdd, a dyna pam "Markov": mae'r dyfodol yn dibynnu ar y cyflwr presennol yn unig) am fodel sy'n dryloyw, yn archwiliadwy ac yn ddigon cyflym i'w redeg filoedd o weithiau mewn [dadansoddiad sensitifrwydd tebygolyddol](../probabilistic-sensitivity-analysis/).
 
 ## Y Fathemateg
 
@@ -16,7 +16,7 @@ Cost un cylch:
   cost_cylch = swm_s cyflwr[s] * cost_fesul_cylch[s]
 
 QALYs un cylch:
-  qalys_cylch = swm_s cyflwr[s] * defnyddioldeb[s] * hyd_cylch_blynyddoedd
+  qalys_cylch = swm_s cyflwr[s] * cyfleustod[s] * hyd_cylch_blynyddoedd
 
 Efelychiad llawn dros `cylchoedd` cylch, wedi'i ddisgowntio ar `cyfradd_disgownt`:
   cyfanswm_cost_disgowntiedig  = swm_{t=0}^{cylchoedd-1} cost_cylch(cyflwr_t)  / (1 + cyfradd_disgownt)^t
@@ -51,7 +51,7 @@ Cyflwr pob cylch yw cyflwr y cylch blaenorol wedi'i gario drwy'r matrics trawsne
 
 ## Cysylltiad Peirianneg Feddalwedd
 
-I weld sut mae model HTA aml-gylch yn cael ei ddefnyddio mewn asesiad go iawn, gweler [asesiad technoleg iechyd](../health-technology-assessment/) — yr achos cyfeirio sy'n llywodraethu pa gyfradd ddisgownt, ffynhonnell defnyddioldeb a gorwel amser y mae'n rhaid i fodel Markov a gyflwynir eu defnyddio.
+I weld sut mae model HTA aml-gylch yn cael ei ddefnyddio mewn asesiad go iawn, gweler [asesiad technoleg iechyd](../health-technology-assessment/) — yr achos cyfeirio sy'n llywodraethu pa gyfradd ddisgownt, ffynhonnell cyfleustod a gorwel amser y mae'n rhaid i fodel Markov a gyflwynir eu defnyddio.
 
 Mae model carfan Markov yn strwythurol yn beiriant cyflwr gyda throsiannau tebygolyddol, wedi'i redeg am nifer sefydlog o dicio, gan ddisgowntio gwerth pob ticio. Mae'r un siâp yn efelychu trawsnewidiadau cadw/cyflwr carfan defnyddwyr dros amser — gweler [metrigau DORA](../dora-metrics/) am fersiwn dibynadwyedd gweithredol "pa ffracsiwn o'r system sydd mewn cyflwr diraddiedig y cyfnod hwn, a beth mae hynny'n ei gostio". Yn benodol:
 

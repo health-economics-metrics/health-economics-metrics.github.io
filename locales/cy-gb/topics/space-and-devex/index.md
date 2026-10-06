@@ -41,7 +41,7 @@ naill ai ar ei ben ei hun yn agored i gemio; gyda'i gilydd maen nhw'n triongli.
 
 ## Cysylltiad â Pheirianneg Meddalwedd
 
-Y ddogfen hon *yw'r* ochr feddalwedd; mae'r trosglwyddiad yn rhedeg tuag at economeg iechyd. Mae "blwyddyn peiriannydd wedi'i haddasu am ansawdd" — amser wedi'i bwysoli gan fynegai profiad safonedig — yn adeiladwaith y [QALY](../quality-adjusted-life-year/) wedi'i gymhwyso i gapasiti peirianneg, ac mae'n etifeddu rheolau'r QALY: pwysau o offeryn dilysedig (arolwg cyson, sgorio cyhoeddedig), wedi'u codi *cyn* y gymhariaeth, byth wedi'u tiwnio i wenieithu offeryn ffafriedig. Mae gwers [SF-6D yn erbyn EQ-5D](../eq-5d/) yn berthnasol hefyd: mae gwahanol offerynnau'n rhoi rhifau sy'n systematig wahanol, felly peidiwch byth â chymharu mynegeion DevEx ar draws offerynnau gwahanol werthwyr.
+Y ddogfen hon *yw'r* ochr feddalwedd; mae'r trosglwyddiad yn rhedeg tuag at economeg iechyd. Mae "blwyddyn peiriannydd a addaswyd yn ôl ansawdd" — amser wedi'i bwysoli gan fynegai profiad safonedig — yn adeiladwaith y [QALY](../quality-adjusted-life-year/) wedi'i gymhwyso i gapasiti peirianneg, ac mae'n etifeddu rheolau'r QALY: pwysau o offeryn dilysedig (arolwg cyson, sgorio cyhoeddedig), wedi'u codi *cyn* y gymhariaeth, byth wedi'u tiwnio i wenieithu offeryn ffafriedig. Mae gwers [SF-6D yn erbyn EQ-5D](../eq-5d/) yn berthnasol hefyd: mae gwahanol offerynnau'n rhoi rhifau sy'n systematig wahanol, felly peidiwch byth â chymharu mynegeion DevEx ar draws offerynnau gwahanol werthwyr.
 
 ## Peryglon
 

@@ -1,10 +1,10 @@
 # Gwerthuso AI Clinigol
 
-Y ystadegau craidd ar gyfer gwerthuso model AI clinigol neu ddiagnostig: sensitifedd, penodolrwydd, AUROC, gwerthoedd rhagfynegol, a'r nifer sydd angen eu sgrinio. Y wers economaidd ganolog: **nid yw AUROC gwych yn golygu defnydd cost-effeithiol** — mae gwerth yn dibynnu ar y pwynt gweithredu, y cyffredinedd, a'r hyn sy'n digwydd i lawr yr afon o bob canlyniad positif.
+Y ystadegau craidd ar gyfer gwerthuso model AI clinigol neu ddiagnostig: sensitifedd, penodolrwydd, AUROC, gwerthoedd rhagfynegol, a'r nifer sydd angen eu sgrinio. Y wers economaidd ganolog: **nid yw AUROC gwych yn golygu defnydd costeffeithiol** — mae gwerth yn dibynnu ar y pwynt gweithredu, y cyffredinedd, a'r hyn sy'n digwydd i lawr yr afon o bob canlyniad positif.
 
 ## Pam mae'n bwysig
 
-Mae rheoleiddwyr (FDA, MHRA) yn awdurdodi AI clinigol ar **bwynt gweithredu wedi'i gloi** — pâr penodol o sensitifedd/penodolrwydd (e.e., y system awtonomaidd retinopathi diabetig gyntaf a gliriwyd gan yr FDA: sensitifedd 87.2%, penodolrwydd 90.7% yn ei threial arloesol). Yna mae economegwyr iechyd yn gofyn y cwestiwn na all metrigau cywirdeb ei ateb: ar gyffredinedd poblogaeth eich defnydd, faint mae pob canfyddiad yn ei *gostio*, ac a yw gweithredu arno werth chweil? Dangosodd gwerthusiad economaidd o AI sgrinio retinopathi (npj Digital Medicine 2024) nad oedd cywirdeb uwch ar ei ben ei hun yn gwarantu cost-effeithiolrwydd unwaith y cyfrifwyd costau atgyfeirio.
+Mae rheoleiddwyr (FDA, MHRA) yn awdurdodi AI clinigol ar **bwynt gweithredu wedi'i gloi** — pâr penodol o sensitifedd/penodolrwydd (e.e., y system awtonomaidd retinopathi diabetig gyntaf a gliriwyd gan yr FDA: sensitifedd 87.2%, penodolrwydd 90.7% yn ei threial arloesol). Yna mae economegwyr iechyd yn gofyn y cwestiwn na all metrigau cywirdeb ei ateb: ar gyffredinedd poblogaeth eich defnydd, faint mae pob canfyddiad yn ei *gostio*, ac a yw gweithredu arno werth chweil? Dangosodd gwerthusiad economaidd o AI sgrinio retinopathi (npj Digital Medicine 2024) nad oedd cywirdeb uwch ar ei ben ei hun yn gwarantu costeffeithiolrwydd unwaith y cyfrifwyd costau atgyfeirio.
 
 ## Y mathemateg
 

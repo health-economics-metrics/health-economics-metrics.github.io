@@ -2,7 +2,7 @@
 
 Cyflwyniad cynhwysfawr i fathemateg, enghreifftiau, a rhesymu economeg iechyd, wedi'i ysgrifennu ar gyfer peirianwyr meddalwedd sy'n adeiladu ar gyfer sefydliadau gwasanaeth iechyd cenedlaethol ledled y byd. Mae pob ffeil yn ymdrin ag un metrig neu gysyniad: diffiniad, pam mae'n bwysig, y fathemateg, enghraifft wedi'i datrys, y cysylltiad â pheirianneg feddalwedd, peryglon, a ffynonellau.
 
-Yn newydd yma? Dechreuwch gyda [cost cyfle](locales/en-gb-oxendict/topics/opportunity-cost/), [blwyddyn bywyd wedi'i haddasu yn ôl ansawdd](locales/en-gb-oxendict/topics/quality-adjusted-life-year/), a [chost oedi](locales/en-gb-oxendict/topics/cost-of-delay/) — y tri syniad y mae popeth arall yn adeiladu arnynt.
+Yn newydd yma? Dechreuwch gyda [cost cyfle](locales/en-gb-oxendict/topics/opportunity-cost/), [blwyddyn fywyd a addaswyd yn ôl ansawdd](locales/en-gb-oxendict/topics/quality-adjusted-life-year/), a [chost oedi](locales/en-gb-oxendict/topics/cost-of-delay/) — y tri syniad y mae popeth arall yn adeiladu arnynt.
 
 ## Sylfeini rhesymu economaidd
 
@@ -22,24 +22,24 @@ Yn newydd yma? Dechreuwch gyda [cost cyfle](locales/en-gb-oxendict/topics/opport
 
 ## Mesurau canlyniadau
 
-- [Blwyddyn Bywyd wedi'i Addasu yn ôl Ansawdd (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — arian cyffredin gwerth iechyd
-- [Blwyddyn Bywyd wedi'i Haddasu ar gyfer Anabledd (DALY)](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — yr adlewyrchiad o ochr y baich; metrig iechyd byd-eang
-- [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — yr offeryn y tu ôl i'r rhan fwyaf o bwysau defnyddioldeb QALY
-- [Cael Defnyddioldeb Cyfnewid Amser (TTO)](locales/en-gb-oxendict/topics/time-trade-off-utility/) — sut y cesglir pwysau defnyddioldeb mewn gwirionedd gan ymatebydd
-- [Cymhareb Cost-Effeithiolrwydd Cynyddrannol (ICER)](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — cost ychwanegol am bob uned ychwanegol o iechyd
+- [Blwyddyn Fywyd a Addaswyd yn ôl Ansawdd (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — arian cyffredin gwerth iechyd
+- [Blynyddoedd o Fywyd a Addaswyd yn ôl Anabledd (DALY)](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — yr adlewyrchiad o ochr y baich; metrig iechyd byd-eang
+- [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — yr offeryn y tu ôl i'r rhan fwyaf o bwysau cyfleustod QALY
+- [Cael Cyfleustod drwy Gyfnewid Amser (TTO)](locales/en-gb-oxendict/topics/time-trade-off-utility/) — sut y cesglir pwysau cyfleustod mewn gwirionedd gan ymatebydd
+- [Cymhareb Costeffeithiolrwydd Cynyddrannol (ICER)](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — cost ychwanegol am bob uned ychwanegol o iechyd
 - [Trothwyon Parodrwydd i Dalu](locales/en-gb-oxendict/topics/willingness-to-pay-thresholds/) — trothwy NICE o £20–30 mil/QALY a'r llinellau eraill ledled y byd
 - [Gwerth Bywyd Ystadegol (VSL)](locales/en-gb-oxendict/topics/value-of-a-statistical-life/) — dewis arall y farchnad lafur yn lle prisio ar sail trothwy
 - [Budd Ariannol Net (NMB)](locales/en-gb-oxendict/topics/net-monetary-benefit/) — gwerth minws cost, wedi'i wneud yn iawn
 - [Blynyddoedd Bywyd a Enillwyd (LYG)](locales/en-gb-oxendict/topics/life-years-gained/) — mathemateg goroesi, a'r amrywiad tegwch evLYG
-- [Disgwyliad Oes wedi'i Addasu ar gyfer Iechyd (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — cyfrifo blynyddoedd iach ar lefel y boblogaeth
+- [Disgwyliad Oes a Addaswyd yn ôl Iechyd (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — cyfrifo blynyddoedd iach ar lefel y boblogaeth
 - [Diffyg QALY ac Addasyddion Difrifoldeb](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — pam mae QALY poblogaethau mwy sâl yn cyfrif mwy
-- [Gwaith Cynhyrchiant a Nam ar Weithgarwch (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — absenoldeb vs presenoldeb dan nam, hanner cudd y gost
+- [Gwaith Cynhyrchiant a Nam ar Weithgarwch (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — absenoliaeth vs presenoliaeth, hanner cudd y gost
 
 ## Mathau o ddadansoddi economaidd
 
-- [Dadansoddiad Cost-Effeithiolrwydd (CEA)](locales/en-gb-oxendict/topics/cost-effectiveness-analysis/) — cost am bob uned naturiol o ganlyniad
+- [Dadansoddiad Costeffeithiolrwydd (CEA)](locales/en-gb-oxendict/topics/cost-effectiveness-analysis/) — cost am bob uned naturiol o ganlyniad
 - [Dadansoddiad Cost-Cyfleustod (CUA)](locales/en-gb-oxendict/topics/cost-utility-analysis/) — cost am bob QALY; cymharu ymyriadau gwahanol
-- [Dadansoddiad Cost-Budd (CBA)](locales/en-gb-oxendict/topics/cost-benefit-analysis/) — popeth mewn arian; VPN Green Book
+- [Dadansoddiad Cost a Budd (CBA)](locales/en-gb-oxendict/topics/cost-benefit-analysis/) — popeth mewn arian; VPN Green Book
 - [Dadansoddiad Lleihau Cost (CMA)](locales/en-gb-oxendict/topics/cost-minimization-analysis/) — yr opsiwn rhataf, ar ôl profi cyfatebiaeth
 - [Dadansoddiad Cost-Canlyniad (CCA)](locales/en-gb-oxendict/topics/cost-consequence-analysis/) — y tabl datgyfunol; dewis NICE ar gyfer iechyd digidol
 - [Dadansoddiad Effaith ar y Gyllideb (BIA)](locales/en-gb-oxendict/topics/budget-impact-analysis/) — fforddiadwyedd, yn wahanol i werth
@@ -49,9 +49,9 @@ Yn newydd yma? Dechreuwch gyda [cost cyfle](locales/en-gb-oxendict/topics/opport
 
 ## Economeg weithredol y system iechyd
 
-- [Diwrnodau Gwely a Arbedwyd](locales/en-gb-oxendict/topics/bed-days-saved/) — y budd gwaith caib a rhaw, a'i faglau prisio
+- [Dyddiau Gwely a Arbedwyd](locales/en-gb-oxendict/topics/bed-days-saved/) — y budd gwaith caib a rhaw, a'i faglau prisio
 - [Hyd Arhosiad (LOS)](locales/en-gb-oxendict/topics/length-of-stay/) — amser cylchred yr ysbyty
-- [Cyfradd Ailddderbyn](locales/en-gb-oxendict/topics/readmission-rate/) — cyfradd methiant newid y system iechyd
+- [Cyfradd Ailderbyn](locales/en-gb-oxendict/topics/readmission-rate/) — cyfradd methiant newid y system iechyd
 - [Cyfradd Peidio â Mynychu (DNA)](locales/en-gb-oxendict/topics/did-not-attend-rate/) — apwyntiadau a gollwyd; y metrig gwastraff puraf
 - [Osgoi Presenoldeb Brys](locales/en-gb-oxendict/topics/emergency-attendance-avoidance/) — economeg ymyrryd yn gynnar yn y llif
 - [Tariff Cenedlaethol a Chostau Uned](locales/en-gb-oxendict/topics/national-tariff-and-unit-costs/) — llyfr prisiau'r GIG a'r seilwaith costio
@@ -77,7 +77,7 @@ Yn newydd yma? Dechreuwch gyda [cost cyfle](locales/en-gb-oxendict/topics/opport
 - [Economeg Sgrinio](locales/en-gb-oxendict/topics/screening-economics/) — Wilson–Jungner, chwalfa PPV mewn cyffredinolder isel, blinder rhybuddion
 - [Nifer sy'n Angenrheidiol i'w Sgrinio (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — cyfatebydd lefel rhaglen sgrinio NNT
 - [Costau Diweddarach a Osgowyd](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — gwrthbwyso costau a'r rheolau sy'n eu gwneud yn gredadwy
-- [Dadansoddiad Penderfyniad Aml-Faen Prawf (MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — sgorio pwysol pan na fydd un trothwy yn ddigon
+- [Dadansoddi Penderfyniadau Aml-faen Prawf (MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — sgorio pwysol pan na fydd un trothwy yn ddigon
 - [Ôl Troed Carbon fesul QALY](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — ymrwymiad sero net y GIG yn cwrdd â chost fesul QALY
 
 ## Peirianneg feddalwedd a chyflenwi digidol
@@ -112,7 +112,7 @@ Yn newydd yma? Dechreuwch gyda [cost cyfle](locales/en-gb-oxendict/topics/opport
 - [Actifadu a Derbyniad](locales/en-gb-oxendict/topics/activation-and-uptake/) — gatiau blaen twndis gwerth
 - [Cydymffurfiaeth a Dyfalbarhad](locales/en-gb-oxendict/topics/adherence-and-persistence/) — MPR, PDC, ymgysylltiad effeithiol, dos effeithiol lleiaf
 - [Canlyniadau a Adroddir gan Gleifion (PROMs, PREMs, MCID)](locales/en-gb-oxendict/topics/patient-reported-outcomes/) — PROMs, PREMs, a bar gonestrwydd MCID
-- [Pwyntiau Terfyn a Biofarcwyr Digidol](locales/en-gb-oxendict/topics/digital-endpoints-and-biomarkers/) — o delemetreg synhwyrydd i dystiolaeth ar lefel reoleiddiol
+- [Pwyntiau Terfyn a Bioddangosyddion Digidol](locales/en-gb-oxendict/topics/digital-endpoints-and-biomarkers/) — o delemetreg synhwyrydd i dystiolaeth ar lefel reoleiddiol
 - [Dilysu Dyfeisiau Gwisgadwy](locales/en-gb-oxendict/topics/wearable-validation/) — MAPE, ystadegau cytundeb, amser gwisgo, cyflawnrwydd
 - [Economeg Monitro Cleifion o Bell](locales/en-gb-oxendict/topics/remote-patient-monitoring-economics/) — pentyrrau cod CPT a disodli ysbyty-yn-y-cartref
 - [Economeg Uned Apiau Iechyd](locales/en-gb-oxendict/topics/health-app-unit-economics/) — CAC, LTV, PMPM, a ROI yn erbyn VOI

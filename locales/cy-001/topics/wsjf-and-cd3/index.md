@@ -4,7 +4,7 @@ Mae CD3 (Cost Oedi wedi'i Rannu â Hyd) a WSJF (Y Swydd Fyrraf sydd wedi'i Phwys
 
 ## Pam mae hyn yn bwysig
 
-Mae pob ôl-groniad yn broblem ddogni: llawer o eitemau teilwng, un bibell. Datryswyd yr un broblem gan economeg iechyd ar gyfer cyllidebau iechyd gyda thablau cynghrair cost-effeithiolrwydd — graddio ymyriadau yn ôl iechyd a enillwyd fesul punt, ariannu i lawr y rhestr nes bod y gyllideb yn dihysbyddu. Mae CD3 yr un rhesymeg yn union ar gyfer gallu cyflenwi: budd fesul uned o'r *adnodd cyfyngedig*, wedi'i ariannu yn nhrefn y rhestr. Mae cael y drefn yn iawn yn arian am ddim — yr un gwaith, yr un gallu, llai o gyfanswm cost oedi.
+Mae pob ôl-groniad yn broblem ddogni: llawer o eitemau teilwng, un bibell. Datryswyd yr un broblem gan economeg iechyd ar gyfer cyllidebau iechyd gyda thablau cynghrair costeffeithiolrwydd — graddio ymyriadau yn ôl iechyd a enillwyd fesul punt, ariannu i lawr y rhestr nes bod y gyllideb yn dihysbyddu. Mae CD3 yr un rhesymeg yn union ar gyfer gallu cyflenwi: budd fesul uned o'r *adnodd cyfyngedig*, wedi'i ariannu yn nhrefn y rhestr. Mae cael y drefn yn iawn yn arian am ddim — yr un gwaith, yr un gallu, llai o gyfanswm cost oedi.
 
 ## Y Fathemateg
 
@@ -16,7 +16,7 @@ WSJF = (gwerth defnyddiwr-busnes + brys amser + lleihau risg/galluogi
                                                        SAFe, sgoriau Fibonacci wedi'u haddasu
 ```
 
-Mae CD3 gydag arian cyfred go iawn ([cost oedi](../cost-of-delay/)) yn gryfach yn llym na phwyntiau di-uned WSJF — mae WSJF i CD3 yr un fath ag y mae sgorio aml-faen prawf i [ddadansoddiad cost-defnyddioldeb](../cost-utility-analysis/) llawn: yn ddefnyddiadwy pan fo ariannu'n anymarferol, yn agored i chwarae pan nad oes gan y sgoriau angor.
+Mae CD3 gydag arian cyfred go iawn ([cost oedi](../cost-of-delay/)) yn gryfach yn llym na phwyntiau di-uned WSJF — mae WSJF i CD3 yr un fath ag y mae sgorio aml-faen prawf i [ddadansoddiad cost-cyfleustod](../cost-utility-analysis/) llawn: yn ddefnyddiadwy pan fo ariannu'n anymarferol, yn agored i chwarae pan nad oes gan y sgoriau angor.
 
 ## Enghraifft Waith
 

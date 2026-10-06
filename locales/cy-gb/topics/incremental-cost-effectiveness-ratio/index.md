@@ -1,6 +1,6 @@
-# Cymhareb Cost-Effeithiolrwydd Cynyddrannol (ICER)
+# Cymhareb Costeffeithiolrwydd Cynyddrannol (ICER)
 
-Yr ICER yw'r gost ychwanegol fesul uned ychwanegol o effaith iechyd wrth ddewis un opsiwn yn hytrach na'r dewis arall gorau nesaf. Dyma'r prif rif mewn asesiad technoleg iechyd. (Pan fo'r uned effaith yn QALYs, gelwir hefyd yn gymhareb cost-defnyddioldeb cynyddrannol, ICUR.)
+Yr ICER yw'r gost ychwanegol fesul uned ychwanegol o effaith iechyd wrth ddewis un opsiwn yn hytrach na'r dewis arall gorau nesaf. Dyma'r prif rif mewn asesiad technoleg iechyd. (Pan fo'r uned effaith yn QALYs, gelwir hefyd yn gymhareb cost-cyfleustod cynyddrannol, ICUR.)
 
 ## Pam mae hyn yn bwysig
 
@@ -57,6 +57,6 @@ Mae disgyblaeth yr ICER yn trosglwyddo'n gyfan gwbl i benderfyniadau peirianneg:
 
 ## Ffynonellau
 
-- NICE: cwestiynau cyffredin trothwyon cost-effeithiolrwydd. <https://www.nice.org.uk/what-nice-does/faqs/changes-to-nice-s-cost-effectiveness-thresholds>
+- NICE: cwestiynau cyffredin trothwyon costeffeithiolrwydd. <https://www.nice.org.uk/what-nice-does/faqs/changes-to-nice-s-cost-effectiveness-thresholds>
 - Fframwaith Asesu Gwerth ICER 2023. <https://icer.org/wp-content/uploads/2023/09/ICER_2023_VAF_For-Publication_092523.pdf>
 - Geirfa Consortiwm Economeg Iechyd Efrog: ICER. <https://yhec.co.uk/glossary/incremental-cost-effectiveness-ratio-icer/>

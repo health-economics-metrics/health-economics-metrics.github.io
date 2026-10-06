@@ -12,7 +12,7 @@ Os ydych yn gwerthu i wasanaeth iechyd cenedlaethol, gall corff HTA benderfynu, 
 
 ## Y Fathemateg
 
-Nid fformiwla yw grym HTA ond **dull gorfodol**: mae pob cyflwyniad yn cyfrifo'r un [ICER](../incremental-cost-effectiveness-ratio/) o dan yr un rheolau achos cyfeirio, felly mae canlyniadau'n gymharadwy ar draws cynhyrchion a blynyddoedd. Mae'r achos cyfeirio yn nodi'r mesur canlyniad, yr offeryn defnyddioldeb, y persbectif, y dewis cymharydd, y gyfradd ddisgownt, y gorwel amser, a'r dadansoddiad ansicrwydd — gan ddileu pob gradd o ryddid y gallai noddwr ei chamddefnyddio.
+Nid fformiwla yw grym HTA ond **dull gorfodol**: mae pob cyflwyniad yn cyfrifo'r un [ICER](../incremental-cost-effectiveness-ratio/) o dan yr un rheolau achos cyfeirio, felly mae canlyniadau'n gymharadwy ar draws cynhyrchion a blynyddoedd. Mae'r achos cyfeirio yn nodi'r mesur canlyniad, yr offeryn cyfleustod, y persbectif, y dewis cymharydd, y gyfradd ddisgownt, y gorwel amser, a'r dadansoddiad ansicrwydd — gan ddileu pob gradd o ryddid y gallai noddwr ei chamddefnyddio.
 
 ## Enghraifft Waith
 
@@ -21,9 +21,9 @@ Mae therapiwtig digidol yn cyflwyno ar gyfer gwerthusiad ar ffurf NICE:
 ```
 Model: ΔC = +£450/claf, ΔE = +0.03 QALY → ICER = £15,000/QALY ✓ o dan £20k
 Gwiriadau'r achos cyfeirio:
-  defnyddioldebau o EQ-5D-5L gyda set werthoedd y DU               ✓
+  cyfleustodau o EQ-5D-5L gyda set werthoedd y DU               ✓
   cymharydd = llwybr gofal presennol (nid "dim triniaeth")         ✓
-  PSA: 71% tebygolrwydd cost-effeithiol ar £20k                    ✓ (adroddwyd)
+  PSA: 71% tebygolrwydd costeffeithiol ar £20k                    ✓ (adroddwyd)
   addasydd difrifoldeb: diffyg islaw ffiniau ×1.2                  — dim honiad
 Argymhelliad: comisiynu arferol, gyda chasglu data byd-go-iawn.
 ```

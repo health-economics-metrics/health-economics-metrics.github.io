@@ -23,19 +23,19 @@ Rhaid i wrthbwyso dilys fod yn:
 
 ## Enghraifft Waith
 
-"Yr honiad risg-mudo hwn, wedi'i wneud yn iawn": mae ap monitro clwyfau ar gyfer 5,000 o gleifion ôl-lawdriniaeth yn honni ei fod yn osgoi ailddderbyniadau sy'n gysylltiedig â haint.
+"Yr honiad risg-mudo hwn, wedi'i wneud yn iawn": mae ap monitro clwyfau ar gyfer 5,000 o gleifion ôl-lawdriniaeth yn honni ei fod yn osgoi ailderbyniadau sy'n gysylltiedig â haint.
 
 ```
-Ailddderbyniad llinell sylfaen ar gyfer haint: 4.0% ; gyda'r ap (RCT): 3.1%
+Ailderbyniad llinell sylfaen ar gyfer haint: 4.0% ; gyda'r ap (RCT): 3.1%
 Digwyddiadau a osgowyd yn briodoladwy = 5,000 × 0.009 = 45/blwyddyn
-Cost fesul cyfnod ailddderbyn (ymylol, yr ymddiriedolaeth hon): £3,200
+Cost fesul cyfnod ailderbyn (ymylol, yr ymddiriedolaeth hon): £3,200
 Gwrthbwyso = 45 × 3,200 = £144,000/blwyddyn
 Cost yr ap = 5,000 × £20 = £100,000/blwyddyn
 Cost net = −£44,000 → yn arbed cost yn wirioneddol, gyda:
   priodoliad o RCT ✓  costio ymylol ✓  tebygolrwydd o ddata treial ✓
 ```
 
-Mae'r un honiad wedi'i adeiladu ar "mae ailddderbyniadau'n costio £5,800 ar gyfartaledd, byddwn yn atal llwythi ohonynt" yn methu'r pedwar prawf ac yn haeddu'r wrthodiad y mae'n ei chael.
+Mae'r un honiad wedi'i adeiladu ar "mae ailderbyniadau'n costio £5,800 ar gyfartaledd, byddwn yn atal llwythi ohonynt" yn methu'r pedwar prawf ac yn haeddu'r wrthodiad y mae'n ei chael.
 
 ## Cysylltiad Peirianneg Feddalwedd
 
@@ -50,7 +50,7 @@ Mae "mae'r mudo hwn yn osgoi'r ailysgrifennu yn y dyfodol" yn honiad gwrthbwyso,
 
 ## Peryglon
 
-- **Cyfrif dwbl** — yr un derbyniad a osgowyd wedi'i hawlio fel gwrthbwyso, diwrnodau gwely, a QALYs gyda chost ynghlwm.
+- **Cyfrif dwbl** — yr un derbyniad a osgowyd wedi'i hawlio fel gwrthbwyso, dyddiau gwely, a QALYs gyda chost ynghlwm.
 - **Gwrthbwysau cost gyfartalog** ar gyfer digwyddiadau y mae eu costau sefydlog yn parhau beth bynnag.
 - **Tebygolrwydd 100% distaw** ar ddigwyddiadau diweddarach nad oeddent ond yn bosibl.
 - **Gwrthbwysau i gyllidebau eraill** wedi'u cyflwyno fel arbedion i'r talwr sy'n cael ei ofyn i dalu — gweler [persbectif dadansoddi](../analysis-perspective/).
