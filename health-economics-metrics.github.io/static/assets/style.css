@@ -244,6 +244,42 @@ pre {
 	box-shadow: var(--lily-shadow-lg);
 }
 
+/* Tooltips (picker-bar 0.2.0). The components render each tooltip as a
+ * sibling of the button and leave its placement to the stylesheet; the theme
+ * stylesheet predates them, so unstyled they sit in normal flow. A visible
+ * tooltip then widens the right-aligned control row and shoves the button
+ * away from the pointer — on a wide label ("Language") the button moved more
+ * than its own width, so a mouse click never landed on it and the list never
+ * opened. Taking the tooltip out of flow, directly under its button and
+ * flush with the button's end edge (like the lists), removes the shift. It
+ * stays hoverable (WCAG 1.4.13), so no pointer-events override.
+ */
+.theme-picker-tooltip,
+.locale-picker-tooltip,
+.text-size-picker-tooltip,
+.share-picker-tooltip {
+	position: absolute;
+	inset-inline-start: auto;
+	inset-inline-end: 0;
+	top: 100%;
+	z-index: 190;
+	padding: 0.25rem 0.5rem;
+	white-space: nowrap;
+	font-size: 0.85em;
+	background-color: var(--lily-surface);
+	color: var(--lily-text);
+	border: 1px solid var(--lily-border);
+	border-radius: var(--lily-radius-sm);
+	box-shadow: var(--lily-shadow-lg);
+}
+
+.theme-picker-tooltip[hidden],
+.locale-picker-tooltip[hidden],
+.text-size-picker-tooltip[hidden],
+.share-picker-tooltip[hidden] {
+	display: none;
+}
+
 .theme-picker-list[hidden],
 .locale-picker-list[hidden],
 .text-size-picker-list[hidden],
