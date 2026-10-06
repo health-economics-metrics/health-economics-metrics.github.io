@@ -1,0 +1,23 @@
+# Locales
+
+## Layout
+
+- `en-gb-oxendict` is the canonical locale. `README.md` and all cross-references point at it.
+- English variants: `en-us`, `en-gb`, `en-001`, `en-150`. Dialect-spelled slugs differ by locale (for example `...-defense` and `...-defence`); the shared `.locale-peer-id` identifies the topic.
+- Full-language locales keep the English (`en-gb-oxendict`) slug for every topic. Only content is translated.
+- `xx-001` ("World") is usually an exact copy of `xx-xx`: `rsync -a locales/xx-xx/ locales/xx-001/`, then `diff -rq` to confirm.
+- Exceptions with their own translations and localized directory names: ar, bn, es, fr, hi, id, pt, ru, ur, zh.
+- `et-001`, `th-001` and `vi-001` have no `-xx` sibling.
+
+## Adding a locale
+
+1. Create `locales/<locale>/` (home page `index.md`, `README.md` symlink, `.locale-peer-id`, `topics/`), by copying a sibling or translating.
+2. Add a row to `spec/locales-for-global-sharing-with-svelte/locales.tsv`.
+3. In the site: `src/lib/i18n.js` (translations map), `src/lib/locales.js` (label), `spec/locales/index.md` (list and count).
+4. `pnpm sync:content`, then `pnpm build`.
+
+Use separate commits: the locale content, the site registration, the spec row.
+
+## Home pages
+
+`locales/<locale>/index.md` mirrors the root `README.md`: same parts, same bullets in the same order, links to `locales/en-gb-oxendict/topics/<slug>/`, translated titles and hooks. A new topic's bullet goes after the same neighbour as in `README.md`.
