@@ -18,7 +18,7 @@ PRO 변화 점수 = 사후 개입 점수 − 사전 개입 점수 (최소 임상
 
 ## 소프트웨어 공학과의 연관성
 
-[EQ-5D](../eq-5d/)와 함께 사용되며 [디지털 엔드포인트와 바이오마커](../digital-endpoints-and-biomarkers/)를 보완합니다.
+[EQ-5D](../eq-5d/)와 함께 사용되며 [디지털 엔드포인트와 바이오마커](../digital-endpoints-and-biomarkers/)를 보완합니다. 업무 생산성에 특화된 도구는 [WPAI](../work-productivity-and-activity-impairment/)를 참고하세요.
 
 ## 함정
 
