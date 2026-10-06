@@ -4,7 +4,7 @@ Rekkevidde og rettferdighet måler hvor rettferdig en digital helseintervensjon 
 
 ## Hvorfor det er viktig
 
-Digitale intervensjoner risikerer å forsterke digitale helseforskjeller ved å nå uforholdsmessig mange grupper som allerede har bedre tilgang.
+Digitale intervensjoner risikerer å forsterke digitale helseforskjeller ved å nå uforholdsmessig mange grupper som allerede har bedre tilgang. For et formelt statistisk mål på sosioøkonomisk betinget helseulikhet, se [konsentrasjonsindeks](../concentration-index/).
 
 ## Matematikken
 

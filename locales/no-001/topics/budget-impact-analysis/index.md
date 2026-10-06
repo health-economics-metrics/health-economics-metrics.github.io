@@ -18,7 +18,7 @@ En ny behandling med en ICER på £15 000/QALY (godt under terskelen) har likeve
 
 ## Kobling til programvareutvikling
 
-Ligner på å vurdere om en teknisk overlegen løsning passer innenfor det årlige infrastrukturbudsjettet, uavhengig av om det er den beste arkitekturen.
+Ligner på å vurdere om en teknisk overlegen løsning passer innenfor det årlige infrastrukturbudsjettet, uavhengig av om det er den beste arkitekturen. Å dele en publisert totalsum for budsjettvirkning på lokasjoner, kohorter eller regnskapsår, slik at delene går opp eksakt mot det publiserte tallet, er nettopp [eksakt cent-fordeling av kostnader](../exact-cents-cost-allocation/); å summere de mange postene som mater totalsummen i utgangspunktet, er [valutasikker kostnadsaggregering](../currency-safe-cost-rollup/).
 
 ## Fallgruver
 

@@ -20,6 +20,8 @@ NICE vurderer et nytt diagnostisk verktøy: ICER £18 000/QALY (under terskelen)
 
 Ligner på en formell arkitekturgodkjenningsprosess som vurderer kostnad, risiko og dokumentasjon på effektivitet før en ny teknologi godkjennes organisasjonsbredt.
 
+For hvordan en flersyklusmodell i HTA faktisk simuleres kohort for kohort, syklus for syklus, se [Markov-kohortsimulering](../markov-cohort-simulation/).
+
 ## Fallgruver
 
 - **Å anta at en positiv klinisk studie automatisk fører til HTA-godkjenning.**

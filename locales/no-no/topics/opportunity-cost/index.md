@@ -27,6 +27,7 @@ Ingeniørkapasitet er også et fast budsjett — veikartplasser, ikke pund. Et p
 
 - **Å sammenligne mot ingenting.** Det korrekte sammenligningsgrunnlaget er den nest beste bruken av pengene.
 - **Å anta at spart tid ikke har alternativkostnad.**
+- **Å se bort fra hvilken metode som verdsetter en fortrengt ressurs.** For tapt produktivitet spesielt, fra sykdom, funksjonsnedsettelse eller en ansatt som slutter, se [humankapitalmetoden kontra friksjonskostnadsmetoden](../human-capital-and-friction-cost/), den produktivitetskostnadsspesifikke versjonen av denne ideen.
 
 ## Kilder
 

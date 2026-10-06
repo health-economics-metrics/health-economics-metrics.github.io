@@ -18,7 +18,7 @@ Et legemiddel reduserer risikoen for hjerteinfarkt fra 10 % til 8 % (absolutt ri
 
 ## Kobling til programvareutvikling
 
-Ligner på å beregne hvor mange brukere som må oppleve en ny funksjon for å generere én ekstra konvertering.
+Ligner på å beregne hvor mange brukere som må oppleve en ny funksjon for å generere én ekstra konvertering. [Antall som må screenes](../number-needed-to-screen/) er det tilsvarende tallet ett nivå opp, for et helt screen-og-deretter-behandle-program i stedet for en behandling alene.
 
 ## Fallgruver
 

@@ -18,7 +18,7 @@ En test med 95 % sensitivitet og 95 % spesifisitet anvendt på en sykdom med 0,1
 
 ## Kobling til programvareutvikling
 
-Direkte analogi til alarmtretthet i overvåkingssystemer: en detektor med høy nøyaktighet anvendt på en sjelden hendelse produserer fortsatt overveiende falske alarmer.
+Direkte analogi til alarmtretthet i overvåkingssystemer: en detektor med høy nøyaktighet anvendt på en sjelden hendelse produserer fortsatt overveiende falske alarmer. For å dimensjonere et helt screeningprogram i stedet for én enkelt test, se [antall som må screenes](../number-needed-to-screen/): hvor mange mennesker som må gjennom hele screen-og-behandle-løpet for å forebygge ett utfall.
 
 ## Fallgruver
 

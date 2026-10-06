@@ -24,6 +24,8 @@ Ligner på en intern "kostnad per unngått hendelse"-terskel som avgjør hvilke 
 
 - **Å sammenligne terskler mellom land uten å ta hensyn til kjøpekraftforskjeller.**
 - **Å behandle terskelen som en absolutt grense i stedet for en retningslinje.**
+- **Å sammenligne en ICER mot en terskel i en annen valuta uten å omregne først**: se [ICER-sammenligning på tvers av valutaer](../cross-currency-icer-comparison/); omregningsmetoden (kjøpekraftsparitet vs. markedsvalutakurs) er metodisk avgjørende, ikke en avrundingsdetalj.
+- **Å blande λ-basert verdsetting med arbeidsmarkedets VSL/VPF-tradisjon**: disse kommer fra ulike teoretiske tradisjoner (helsebudsjettbegrenset metodikk vs. preferanse avslørt gjennom avveininger mellom lønn og risiko) og lar seg ikke alltid forene; for den alternative tilnærmingen med avslørt preferanse til å verdsette liv, se [Verdien av et statistisk liv](../value-of-a-statistical-life/).
 
 ## Kilder
 

@@ -4,7 +4,7 @@ Forventet verdi av perfekt informasjon (EVPI) prissetter hvor mye det ville vær
 
 ## Hvorfor det er viktig
 
-EVPI forteller deg om en pilot eller ytterligere forskning er verdt kostnaden, før du gjennomfører den.
+EVPI forteller deg om en pilot eller ytterligere forskning er verdt kostnaden, før du gjennomfører den. For å prise opsjonen til å utvide et prosjekt senere, i stedet for opsjonen til å samle informasjon først, se [verdsetting av realopsjoner](../real-options-valuation/).
 
 ## Matematikken
 
@@ -18,7 +18,7 @@ En beslutning om hvorvidt man skal innføre et KI-triagesystem har en EVPI på �
 
 ## Kobling til programvareutvikling
 
-Ligner på å prissette en spike eller proof-of-concept før en stor arkitekturbeslutning.
+Ligner på å prissette en spike eller proof-of-concept før en stor arkitekturbeslutning. For å prise en *bestemt* foreslått studie i stedet for å fjerne all usikkerhet, se [EVSI](../expected-value-of-sample-information/).
 
 ## Fallgruver
 

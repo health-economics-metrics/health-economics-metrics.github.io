@@ -24,6 +24,7 @@ Ligner på å beregne ekstra infrastrukturkostnad per ekstra enhet pålitelighet
 
 - **Å beregne ICER mot feil sammenligningsgrunnlag.**
 - **Å feiltolke en negativ ICER uten å angi kvadranten.**
+- **Å sammenligne en ICER på tvers av valutaer uten et eksplisitt omregningstrinn**: en ICER beregnet i ett lands valuta må omregnes med en oppgitt metode før den sammenlignes med et annet lands terskel; se [ICER-sammenligning på tvers av valutaer](../cross-currency-icer-comparison/) for hvorfor valget av omregningsfaktor (kjøpekraftsparitet vs. markedsvalutakurs) i seg selv kan snu innføringsbeslutningen.
 
 ## Kilder
 

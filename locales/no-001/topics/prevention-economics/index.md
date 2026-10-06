@@ -4,7 +4,7 @@ Forebyggingsøkonomi undersøker hvorfor forebyggende intervensjoner nesten allt
 
 ## Hvorfor det er viktig
 
-Beslutningstakere hevder ofte at forebygging sparer penger, men de fleste forebyggende tiltak tilfører helse til en rimelig pris uten å senke de totale utgiftene.
+Beslutningstakere hevder ofte at forebygging sparer penger, men de fleste forebyggende tiltak tilfører helse til en rimelig pris uten å senke de totale utgiftene. Før man kostnadsberegner et forebyggingsprogram, besvarer [populasjonsattribuerbar andel](../population-attributable-fraction/) først dimensjoneringsspørsmålet: hvor stor del av den tiltenkte sykdomsbyrden risikofaktoren programmet adresserer, plausibelt kunne eliminere.
 
 ## Matematikken
 
