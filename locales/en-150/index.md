@@ -15,6 +15,9 @@ New here? Start with [opportunity cost](locales/en-gb-oxendict/topics/opportunit
 - [Sensitivity analysis](locales/en-gb-oxendict/topics/sensitivity-analysis/) — tornado diagrams; which assumption carries your case
 - [Probabilistic sensitivity analysis](locales/en-gb-oxendict/topics/probabilistic-sensitivity-analysis/) — Monte Carlo, CEACs, probability of being right
 - [Expected value of perfect information](locales/en-gb-oxendict/topics/expected-value-of-perfect-information/) — pricing the pilot before you run it
+- [Expected Value of Sample Information (EVSI)](locales/en-gb-oxendict/topics/expected-value-of-sample-information/) — pricing a *specific* proposed study, not eliminating all uncertainty
+- [Real Options Valuation](locales/en-gb-oxendict/topics/real-options-valuation/) — pricing the option to expand a phased project later, rather than the option to gather information first
+- [Human Capital Approach vs Friction Cost Method](locales/en-gb-oxendict/topics/human-capital-and-friction-cost/) — two ways to value lost productivity, a 2x+ difference in reported cost
 - [Dominance and the efficiency frontier](locales/en-gb-oxendict/topics/dominance-and-efficiency-frontier/) — eliminating options nobody should pick
 
 ## Outcome measures
@@ -22,12 +25,15 @@ New here? Start with [opportunity cost](locales/en-gb-oxendict/topics/opportunit
 - [Quality-adjusted life year (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — the common currency of health value
 - [Disability-adjusted life year (DALY)](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — the burden-side mirror; global health's metric
 - [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — the instrument behind most QALY utility weights
+- [Time Trade-Off (TTO) Utility Elicitation](locales/en-gb-oxendict/topics/time-trade-off-utility/) — how a utility weight is actually elicited from a respondent
 - [Incremental cost-effectiveness ratio (ICER)](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — extra cost per extra unit of health
 - [Willingness-to-pay thresholds](locales/en-gb-oxendict/topics/willingness-to-pay-thresholds/) — NICE £20–30k/QALY and the world's other lines
+- [Value of a Statistical Life (VSL)](locales/en-gb-oxendict/topics/value-of-a-statistical-life/) — the labour-market alternative to threshold-based valuation
 - [Net monetary benefit (NMB)](locales/en-gb-oxendict/topics/net-monetary-benefit/) — value minus cost, done properly
 - [Life-years gained](locales/en-gb-oxendict/topics/life-years-gained/) — survival maths, and the evLYG equity variant
 - [Health-adjusted life expectancy (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — population-level healthy-years accounting
 - [QALY shortfall and severity modifiers](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — why sicker populations' QALYs count more
+- [Work Productivity and Activity Impairment (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — absenteeism vs presenteeism, the hidden half of the cost
 
 ## Economic analysis types
 
@@ -39,6 +45,7 @@ New here? Start with [opportunity cost](locales/en-gb-oxendict/topics/opportunit
 - [Budget impact analysis (BIA)](locales/en-gb-oxendict/topics/budget-impact-analysis/) — affordability, as distinct from value
 - [Return on investment (ROI)](locales/en-gb-oxendict/topics/return-on-investment/) — the shared metric, with declared parameters
 - [Social return on investment (SROI)](locales/en-gb-oxendict/topics/social-return-on-investment/) — monetising what markets don't price
+- [Cross-Currency ICER Comparison](locales/en-gb-oxendict/topics/cross-currency-icer-comparison/) — PPP vs market FX; the conversion choice that can flip an adoption decision
 
 ## Health system operational economics
 
@@ -61,12 +68,17 @@ New here? Start with [opportunity cost](locales/en-gb-oxendict/topics/opportunit
 ## HTA frameworks and prevention economics
 
 - [Health technology assessment (HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE, ICER (US), CADTH: who decides what's worth buying
+- [Markov Cohort Simulation](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — how a multi-cycle HTA model is actually simulated cohort-by-cycle
 - [NICE Evidence Standards Framework](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — risk-tiered evidence requirements for digital health
 - [Germany's DiGA fast-track](locales/en-gb-oxendict/topics/diga-fast-track/) — apps on prescription; provisional listing with an evidence deadline
 - [Number needed to treat (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — effort-per-benefit units that keep claims honest
+- [Population Attributable Fraction (PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — how much disease burden a risk factor is really worth chasing
 - [Prevention economics](locales/en-gb-oxendict/topics/prevention-economics/) — why prevention is cost-effective but rarely cost-saving
 - [Screening economics](locales/en-gb-oxendict/topics/screening-economics/) — Wilson–Jungner, PPV collapse at low prevalence, alert fatigue
+- [Number Needed to Screen (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — NNT's screening-programme-level analogue
 - [Avoided downstream costs](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — cost offsets and the rules that make them credible
+- [Multi-Criteria Decision Analysis (MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — weighted scoring when a single threshold isn't enough
+- [Carbon Footprint per QALY](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — the NHS net-zero commitment meets cost-per-QALY
 
 ## Software engineering and digital delivery
 
@@ -78,6 +90,8 @@ New here? Start with [opportunity cost](locales/en-gb-oxendict/topics/opportunit
 - [Technical debt](locales/en-gb-oxendict/topics/technical-debt/) — principal, interest, and chronic-disease economics for codebases
 - [Total cost of ownership (TCO)](locales/en-gb-oxendict/topics/total-cost-of-ownership/) — maintenance is 50–80%; the naive-drug-price error in software
 - [Cloud unit economics (FinOps)](locales/en-gb-oxendict/topics/cloud-unit-economics/) — cost per unit of output; the digital service's reference cost
+- [Exact-Cents Cost Allocation](locales/en-gb-oxendict/topics/exact-cents-cost-allocation/) — the largest-remainder method; splitting a total so the parts sum exactly back
+- [Currency-Safe Cost Rollup](locales/en-gb-oxendict/topics/currency-safe-cost-rollup/) — exact-decimal `Money`, not `f64`, for totals that must reconcile to the penny
 - [Build vs buy](locales/en-gb-oxendict/topics/build-vs-buy/) — risk-adjusted comparison with the delay term priced
 - [Benefits realisation](locales/en-gb-oxendict/topics/benefits-realization/) — auditing that forecast benefits actually happened
 - [GDS service metrics](locales/en-gb-oxendict/topics/gds-service-metrics/) — cost per transaction, satisfaction, completion, take-up
@@ -103,6 +117,7 @@ New here? Start with [opportunity cost](locales/en-gb-oxendict/topics/opportunit
 - [Remote patient monitoring economics](locales/en-gb-oxendict/topics/remote-patient-monitoring-economics/) — CPT code stacks and hospital-at-home substitution
 - [Health app unit economics](locales/en-gb-oxendict/topics/health-app-unit-economics/) — CAC, LTV, PMPM, and ROI vs VOI
 - [Reach and equity](locales/en-gb-oxendict/topics/reach-and-equity/) — RE-AIM; population impact = reach × effectiveness
+- [Concentration Index](locales/en-gb-oxendict/topics/concentration-index/) — a formal statistical measure of socioeconomic-related health inequality
 
 ## Benchmark freshness
 
