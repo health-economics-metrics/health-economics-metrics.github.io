@@ -33,6 +33,6 @@ bin/test                           structure checks (sh)
 ## Commands
 
 ```sh
-sh bin/test                         # locale directories, peer-ids, README symlinks
+sh bin/test                         # locale names, peer-ids, topic sets, README symlinks, cross-links
 cd health-economics-metrics.github.io && pnpm install && pnpm build
 ```

@@ -30,7 +30,19 @@ defaults:
     working-directory: health-economics-metrics.github.io
 
 jobs:
+  # Structure checks on the book itself (locale names, peer-ids, topic sets,
+  # cross-links) run before anything is built or published.
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .
+    steps:
+      - uses: actions/checkout@v4
+      - run: sh bin/test
+
   build:
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -46,12 +58,14 @@ jobs:
           cache-dependency-path: health-economics-metrics.github.io/pnpm-lock.yaml
 
       # The book's Markdown is vendored into content/ ahead of time (`pnpm
-      # run sync:content`, run and committed by a maintainer) rather than
-      # here in CI: this repo's own locales/ currently has content ahead of
-      # content/'s last vendor snapshot with a broken cross-locale link
-      # (ar-001's EQ-5D topic links to a "time-trade-off-utility" translation
-      # that doesn't exist yet), which would fail every build if synced live.
+      # run sync:content`, run and committed by a maintainer). CI re-runs the
+      # sync and fails if it changes anything, so a stale content/ can't ship.
       - run: pnpm install --frozen-lockfile
+
+      - name: Vendored content is up to date
+        run: |
+          pnpm run sync:content > /dev/null
+          test -z "$(git status --porcelain -- content)" || { git status --short -- content | head -20; echo 'content/ is stale: run pnpm run sync:content and commit'; exit 1; }
 
       # https://svelte.dev/docs/kit/adapter-static#GitHub-Pages
       # BASE_PATH is deliberately left unset. The docs set it to the repository

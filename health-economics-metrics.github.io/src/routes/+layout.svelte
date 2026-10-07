@@ -181,11 +181,15 @@
 		<PickerBar
 			class="site-controls"
 			labels={{
+				search: t.navSearch,
+				searchInput: t.searchInputLabel,
+				searchSubmit: t.navSearch,
 				theme: t.pickerTheme,
 				locale: t.pickerLanguage,
 				textSize: t.pickerTextSize,
 				share: t.pickerShare
 			}}
+			searchProps={{ placeholder: t.searchPlaceholder }}
 			themesUrl={resolve('assets/themes/')}
 			themeProps={{
 				defaultValue: 'light',

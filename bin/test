@@ -3,7 +3,8 @@ set -euf
 
 ## https://github.com/sixarm/unix-shell-script-kit
 
-err() { >&2 printf %s\\n "Error: ${*}"; }
+failed=0
+err() { failed=1; >&2 printf %s\\n "Error: ${*}"; }
 
 directory_exists_or_err() { test -d "$1" || err "Directory should exist: $1"; }
 file_exists_or_err() { test -f "$1" || err "File should exist: $1"; }
@@ -41,16 +42,60 @@ test_locales() {
 }
 
 test_locales_subdirectories() {
-    for dir in $(find "$top/locales" -type d -mindepth 2); do
+    # Only the per-topic directories: locales/<locale>/topics/<slug>.
+    for dir in "$top"/locales/*/topics/*/; do
+        dir="${dir%/}"
         file_exists_or_err "$dir/.locale-peer-id"
         file_exists_or_err "$dir/index.md"
         symlink_exists_or_err "$dir/README.md"
     done
 }
 
+# Every locale directory is <language>-<region> (lowercase), and has a
+# home page.
+test_locale_names() {
+    for dir in "$top"/locales/*/; do
+        name="$(basename "$dir")"
+        printf %s\\n "$name" | grep -Eq '^[a-z]{2,3}-[a-z0-9]{2,8}(-[a-z0-9]+)*$' ||
+            err "Locale directory should be <language>-<region>: $name"
+        file_exists_or_err "$dir/index.md"
+    done
+}
+
+# Every locale has exactly the canonical locale's set of topics, matched by
+# .locale-peer-id (slugs differ by locale).
+test_locale_topics_complete() {
+    canonical="en-gb-oxendict"
+    peer_ids() { cat "$top"/locales/"$1"/topics/*/.locale-peer-id 2>/dev/null | sort; }
+    peer_ids "$canonical" > "${TMPDIR:-/tmp}/hem-canonical-ids.$$"
+    for dir in "$top"/locales/*/; do
+        name="$(basename "$dir")"
+        peer_ids "$name" > "${TMPDIR:-/tmp}/hem-locale-ids.$$"
+        cmp -s "${TMPDIR:-/tmp}/hem-canonical-ids.$$" "${TMPDIR:-/tmp}/hem-locale-ids.$$" ||
+            err "Locale topics should match $canonical: $name"
+    done
+    rm -f "${TMPDIR:-/tmp}/hem-canonical-ids.$$" "${TMPDIR:-/tmp}/hem-locale-ids.$$"
+}
+
+# Every ../<slug>/ link in a topic points at a topic in the same locale.
+test_topic_links() {
+    for topics in "$top"/locales/*/topics; do
+        for file in "$topics"/*/index.md; do
+            for slug in $(grep -o '](\.\./[^/)#]*/' "$file" | sed 's#](\.\./##; s#/$##' | sort -u); do
+                test -d "$topics/$slug" || err "Broken link ../$slug/ in $file"
+            done
+        done
+    done
+}
+
 main() {
+    set +f  # globbing is off by default (set -f above); the tests below use globs
     test_locales
+    test_locale_names
     test_locales_subdirectories
+    test_locale_topics_complete
+    test_topic_links
+    exit "$failed"
 }
 
 main
