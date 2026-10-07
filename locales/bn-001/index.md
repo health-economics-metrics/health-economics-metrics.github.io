@@ -15,6 +15,9 @@
 - [সংবেদনশীলতা বিশ্লেষণ](locales/en-gb-oxendict/topics/sensitivity-analysis/) — টর্নেডো চিত্র; কোন অনুমান আপনার যুক্তিকে টিকিয়ে রাখে
 - [সম্ভাব্যতা সংবেদনশীলতা বিশ্লেষণ (PSA)](locales/en-gb-oxendict/topics/probabilistic-sensitivity-analysis/) — মন্টে কার্লো, CEAC, সঠিক হওয়ার সম্ভাবনা
 - [নিখুঁত তথ্যের প্রত্যাশিত মূল্য (ওসিপিআই)](locales/en-gb-oxendict/topics/expected-value-of-perfect-information/) — পাইলট চালানোর আগে তার মূল্য নির্ধারণ
+- [নমুনা তথ্যের প্রত্যাশিত মূল্য (EVSI)](locales/en-gb-oxendict/topics/expected-value-of-sample-information/) — *একটি নির্দিষ্ট প্রস্তাবিত গবেষণা*-র মূল্যায়ন, সব অনিশ্চয়তা দূর করার নয়
+- [রিয়েল অপশন মূল্যায়ন](locales/en-gb-oxendict/topics/real-options-valuation/) — পরে পর্যায়ক্রমিক প্রকল্প সম্প্রসারণের অপশনের মূল্য নির্ধারণ, আগে তথ্য সংগ্রহের অপশনের নয়
+- [মানব পুঁজি পদ্ধতি বনাম ঘর্ষণ ব্যয় পদ্ধতি](locales/en-gb-oxendict/topics/human-capital-and-friction-cost/) — হারানো উৎপাদনশীলতার মূল্য নির্ধারণের দুটি উপায়, প্রতিবেদিত ব্যয়ে ২ গুণ বা বেশি পার্থক্য
 - [প্রাধান্য ও দক্ষতা সীমান্ত](locales/en-gb-oxendict/topics/dominance-and-efficiency-frontier/) — যে বিকল্পগুলো কারো বেছে নেওয়া উচিত নয় তা বাদ দেওয়া
 
 ## ফলাফল পরিমাপ
@@ -22,12 +25,15 @@
 - [মান-সামঞ্জস্যপূর্ণ জীবন বছর (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — স্বাস্থ্য মূল্যের সাধারণ মুদ্রা
 - [অক্ষমতা-সামঞ্জস্যপূর্ণ জীবন বছর (DALY)](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — বোঝার দিক থেকে প্রতিচ্ছবি; বৈশ্বিক স্বাস্থ্যের মেট্রিক
 - [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — অধিকাংশ QALY উপযোগিতা ওজনের পেছনের যন্ত্র
+- [সময়-বিনিময় (TTO) উপযোগিতা আহরণ](locales/en-gb-oxendict/topics/time-trade-off-utility/) — উত্তরদাতার কাছ থেকে উপযোগিতা ওজন আসলে কীভাবে আহরিত হয়
 - [ইনক্রিমেন্টাল খরচ-কার্যকারিতা অনুপাত (ICER)](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — স্বাস্থ্যের প্রতিটি অতিরিক্ত এককের জন্য অতিরিক্ত ব্যয়
 - [পরিশোধ করার ইচ্ছার প্রান্তসীমা](locales/en-gb-oxendict/topics/willingness-to-pay-thresholds/) — NICE-এর £20–30 হাজার/QALY এবং বিশ্বের অন্যান্য সীমারেখা
+- [পরিসংখ্যানিক জীবনের মূল্য (VSL)](locales/en-gb-oxendict/topics/value-of-a-statistical-life/) — সীমা-ভিত্তিক মূল্যায়নের শ্রমবাজার-ভিত্তিক বিকল্প
 - [নিট আর্থিক সুবিধা (NMB)](locales/en-gb-oxendict/topics/net-monetary-benefit/) — মূল্য বিয়োগ ব্যয়, সঠিকভাবে করা
 - [অর্জিত জীবন-বছর (এলওয়াইজি)](locales/en-gb-oxendict/topics/life-years-gained/) — বেঁচে থাকার গণিত, এবং সমতা-সংক্রান্ত evLYG ধরন
 - [স্বাস্থ্য-সামঞ্জস্যপূর্ণ আয়ু (ওপিজে)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — জনসংখ্যা-স্তরে স্বাস্থ্যকর বছরের হিসাব
 - [QALY ঘাটতি ও তীব্রতা মডিফায়ার](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — কেন অসুস্থতর জনগোষ্ঠীর QALY বেশি গণনা করা হয়
+- [কাজের উৎপাদনশীলতা ও কার্যকলাপ ক্ষতি (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — অনুপস্থিতি বনাম উপস্থিত কিন্তু হ্রাসপ্রাপ্ত কর্মক্ষমতা, ব্যয়ের লুকানো অর্ধেক
 
 ## অর্থনৈতিক বিশ্লেষণের ধরন
 
@@ -39,6 +45,7 @@
 - [বাজেট প্রভাব বিশ্লেষণ (BIA)](locales/en-gb-oxendict/topics/budget-impact-analysis/) — সামর্থ্য, মূল্য থেকে ভিন্ন
 - [বিনিয়োগের প্রতিদান (ROI)](locales/en-gb-oxendict/topics/return-on-investment/) — ঘোষিত প্যারামিটারসহ ভাগ করা মেট্রিক
 - [সামাজিক বিনিয়োগের প্রতিদান (SROI)](locales/en-gb-oxendict/topics/social-return-on-investment/) — বাজার যা মূল্য দেয় না তার আর্থিকীকরণ
+- [মুদ্রা-বহির্ভূত ICER তুলনা](locales/en-gb-oxendict/topics/cross-currency-icer-comparison/) — PPP বনাম বাজার বিনিময় হার; যে রূপান্তর পছন্দ গ্রহণের সিদ্ধান্ত উল্টে দিতে পারে
 
 ## স্বাস্থ্য ব্যবস্থার পরিচালন অর্থনীতি
 
@@ -61,12 +68,17 @@
 ## HTA কাঠামো ও প্রতিরোধ অর্থনীতি
 
 - [স্বাস্থ্য প্রযুক্তি মূল্যায়ন (HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE, ICER (মার্কিন যুক্তরাষ্ট্র), CADTH: কে ঠিক করে কী কেনার যোগ্য
+- [মার্কভ কোহর্ট সিমুলেশন](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — একটি বহু-চক্র HTA মডেল আসলে কীভাবে সিমুলেট হয়, কোহর্ট ধরে ধরে, চক্র ধরে ধরে
 - [NICE প্রমাণ মান কাঠামো (ESF)](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — ডিজিটাল স্বাস্থ্যের জন্য ঝুঁকি-স্তরভিত্তিক প্রমাণের প্রয়োজনীয়তা
 - [জার্মানির DiGA দ্রুত-পথ](locales/en-gb-oxendict/topics/diga-fast-track/) — প্রেসক্রিপশনে অ্যাপ; প্রমাণের সময়সীমাসহ অস্থায়ী তালিকাভুক্তি
 - [চিকিৎসার জন্য প্রয়োজনীয় সংখ্যা (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — প্রচেষ্টা-প্রতি-সুবিধার একক যা দাবিগুলোকে সৎ রাখে
+- [জনসংখ্যা আরোপযোগ্য ভগ্নাংশ (PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — একটি ঝুঁকি কারণ রোগের বোঝার দিক থেকে কতটা লড়াইয়ের যোগ্য
 - [প্রতিরোধ অর্থনীতি](locales/en-gb-oxendict/topics/prevention-economics/) — কেন প্রতিরোধ ব্যয়-কার্যকর কিন্তু খুব কমই ব্যয়-সাশ্রয়ী
 - [স্ক্রিনিং অর্থনীতি](locales/en-gb-oxendict/topics/screening-economics/) — উইলসন–জাংনার, কম প্রাদুর্ভাবে PPV-র পতন, সতর্কতা ক্লান্তি
+- [স্ক্রিনিংয়ের প্রয়োজনীয় সংখ্যা (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — NNT-র স্ক্রিনিং-কর্মসূচি-স্তরের সমতুল্য
 - [এড়ানো নিম্নমুখী খরচ](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — ব্যয় সমন্বয় এবং সেগুলোকে বিশ্বাসযোগ্য করার নিয়ম
+- [বহু-মানদণ্ড সিদ্ধান্ত বিশ্লেষণ (MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — একক সীমা যথেষ্ট না হলে ওজনযুক্ত স্কোরিং
+- [QALY প্রতি কার্বন ফুটপ্রিন্ট](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — NHS-এর নিট-শূন্য প্রতিশ্রুতি QALY প্রতি ব্যয়ের সাথে মিলিত
 
 ## সফটওয়্যার প্রকৌশল ও ডিজিটাল ডেলিভারি
 
@@ -78,6 +90,8 @@
 - [প্রযুক্তিগত ঋণ](locales/en-gb-oxendict/topics/technical-debt/) — মূলধন, সুদ, এবং কোডবেসের জন্য দীর্ঘস্থায়ী রোগের অর্থনীতি
 - [মালিকানার সম্পূর্ণ খরচ (TCO)](locales/en-gb-oxendict/topics/total-cost-of-ownership/) — রক্ষণাবেক্ষণ ৫০–৮০%; সফটওয়্যারে সরল ওষুধ-মূল্যের ভুল
 - [ক্লাউড ইউনিট অর্থনীতি (FinOps)](locales/en-gb-oxendict/topics/cloud-unit-economics/) — প্রতি এককে উৎপাদন ব্যয়; ডিজিটাল সেবার রেফারেন্স ব্যয়
+- [নিখুঁত-সেন্ট ব্যয় বণ্টন](locales/en-gb-oxendict/topics/exact-cents-cost-allocation/) — বৃহত্তম অবশিষ্ট বণ্টন; মোট ভাগ করা যাতে অংশগুলো হুবহু ফিরে যোগ হয়
+- [মুদ্রা-নিরাপদ ব্যয় সংকলন](locales/en-gb-oxendict/topics/currency-safe-cost-rollup/) — সেন্ট পর্যন্ত মিলতে হবে এমন মোটের জন্য নিখুঁত দশমিক `Money`, `f64` নয়
 - [নির্মাণ বনাম ক্রয়](locales/en-gb-oxendict/topics/build-vs-buy/) — বিলম্বের মূল্যসহ ঝুঁকি-সামঞ্জস্যপূর্ণ তুলনা
 - [সুবিধা বাস্তবায়ন](locales/en-gb-oxendict/topics/benefits-realization/) — পূর্বাভাসিত সুবিধা প্রকৃতপক্ষে ঘটেছে কিনা তা নিরীক্ষা করা
 - [GDS পরিষেবা মেট্রিক](locales/en-gb-oxendict/topics/gds-service-metrics/) — প্রতি লেনদেনের ব্যয়, সন্তুষ্টি, সম্পূর্ণতা, গ্রহণযোগ্যতা
@@ -103,6 +117,7 @@
 - [দূরবর্তী রোগী পর্যবেক্ষণ অর্থনীতি](locales/en-gb-oxendict/topics/remote-patient-monitoring-economics/) — CPT কোড স্ট্যাক এবং বাড়িতে-হাসপাতাল বিকল্প
 - [স্বাস্থ্য অ্যাপ ইউনিট অর্থনীতি](locales/en-gb-oxendict/topics/health-app-unit-economics/) — CAC, LTV, PMPM, এবং ROI বনাম VOI
 - [পরিধি ও ন্যায্যতা](locales/en-gb-oxendict/topics/reach-and-equity/) — RE-AIM; জনসংখ্যাগত প্রভাব = নাগাল × কার্যকারিতা
+- [কেন্দ্রীভবন সূচক](locales/en-gb-oxendict/topics/concentration-index/) — আর্থ-সামাজিক স্বাস্থ্য বৈষম্যের আনুষ্ঠানিক পরিসংখ্যানিক পরিমাপ
 
 ## বেঞ্চমার্কের সাম্প্রতিকতা
 
