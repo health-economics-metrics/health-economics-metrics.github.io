@@ -15,6 +15,9 @@
 - [敏感性分析](locales/en-gb-oxendict/topics/sensitivity-analysis/) — 龙卷风图；哪个假设决定了你的论证
 - [概率敏感性分析（PSA）](locales/en-gb-oxendict/topics/probabilistic-sensitivity-analysis/) — 蒙特卡洛模拟、CEAC、正确的概率
 - [完美信息期望价值（EVPI）](locales/en-gb-oxendict/topics/expected-value-of-perfect-information/) — 在运行试点之前先为其定价
+- [样本信息期望价值 (Expected Value of Sample Information, EVSI)](locales/en-gb-oxendict/topics/expected-value-of-sample-information/) — 评估*某一项具体拟议研究*，而不是消除全部不确定性
+- [实物期权估值 (Real Options Valuation)](locales/en-gb-oxendict/topics/real-options-valuation/) — 为日后扩张分阶段项目的期权定价，而不是为先收集信息的期权定价
+- [人力资本法与摩擦成本法 (Human Capital vs Friction Cost)](locales/en-gb-oxendict/topics/human-capital-and-friction-cost/) — 为损失的生产率估值的两种方法，报告的成本相差 2 倍或更多
 - [占优关系与效率前沿](locales/en-gb-oxendict/topics/dominance-and-efficiency-frontier/) — 剔除任何人都不应选择的方案
 
 ## 结果衡量指标
@@ -22,12 +25,15 @@
 - [质量调整生命年（QALY）](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — 健康价值的通用货币
 - [伤残调整生命年（DALY）](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — 疾病负担一侧的镜像；全球卫生的指标
 - [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — 支撑大多数 QALY 效用权重的工具
+- [时间权衡效用获取法 (Time Trade-Off Utility Elicitation, TTO)](locales/en-gb-oxendict/topics/time-trade-off-utility/) — 效用权重究竟是如何从受访者那里获取的
 - [增量成本效果比（ICER）](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — 每多获得一单位健康所需的额外成本
 - [支付意愿阈值](locales/en-gb-oxendict/topics/willingness-to-pay-thresholds/) — NICE 的每 QALY 2 万至 3 万英镑，以及世界其他地区的标准线
+- [统计生命价值 (Value of a Statistical Life, VSL)](locales/en-gb-oxendict/topics/value-of-a-statistical-life/) — 基于劳动力市场的、与按阈值估值相对的替代方法
 - [净货币效益（NMB）](locales/en-gb-oxendict/topics/net-monetary-benefit/) — 价值减去成本，正确地计算
 - [获得的生命年（LYG）](locales/en-gb-oxendict/topics/life-years-gained/) — 生存数学，以及体现公平性的 evLYG 变体
 - [健康调整预期寿命（HALE）](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — 人群层面的健康年数核算
 - [QALY缺口与严重程度调整因子](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — 为何病情更重人群的 QALY 应计入更多权重
+- [工作效率与活动受损量表 (Work Productivity and Activity Impairment, WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — 缺勤与出勤但效率下降，成本中隐蔽的那一半
 
 ## 经济分析类型
 
@@ -39,6 +45,7 @@
 - [预算影响分析（BIA）](locales/en-gb-oxendict/topics/budget-impact-analysis/) — 可负担性，有别于价值本身
 - [投资回报率（ROI）](locales/en-gb-oxendict/topics/return-on-investment/) — 共用的指标，附带明确声明的参数
 - [社会投资回报率（SROI）](locales/en-gb-oxendict/topics/social-return-on-investment/) — 为市场未定价的事物赋予货币价值
+- [跨币种 ICER 比较 (Cross-Currency ICER Comparison)](locales/en-gb-oxendict/topics/cross-currency-icer-comparison/) — PPP 与市场汇率；可能颠覆采纳决定的换算选择
 
 ## 卫生系统运营经济学
 
@@ -61,12 +68,17 @@
 ## 卫生技术评估框架与预防经济学
 
 - [卫生技术评估（HTA）](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE、ICER（美国）、CADTH：谁来决定什么值得购买
+- [马尔可夫队列模拟 (Markov Cohort Simulation)](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — 多周期 HTA 模型究竟如何模拟，逐队列、逐周期
 - [NICE证据标准框架（ESF）](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — 面向数字健康、按风险分级的证据要求
 - [德国DiGA快速通道](locales/en-gb-oxendict/topics/diga-fast-track/) — 可凭处方使用的应用；附带证据截止日期的临时收录
 - [需治疗人数（NNT）](locales/en-gb-oxendict/topics/number-needed-to-treat/) — 让说法保持诚实的单位效益投入量
+- [人群归因分数 (Population Attributable Fraction, PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — 就疾病负担而言，一个危险因素值得多大力度去对抗
 - [预防经济学](locales/en-gb-oxendict/topics/prevention-economics/) — 为何预防具有成本效益，却很少能真正节省开支
 - [筛查经济学](locales/en-gb-oxendict/topics/screening-economics/) — Wilson–Jungner 标准、低患病率下阳性预测值的崩塌、警报疲劳
+- [需要筛查人数 (Number Needed to Screen, NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — NNT 在筛查项目层面的对应物
 - [规避的下游成本](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — 成本抵消及使其可信的规则
+- [多准则决策分析 (Multi-Criteria Decision Analysis, MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — 单一阈值不够用时的加权评分
+- [每 QALY 碳足迹 (Carbon Footprint per QALY)](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — NHS 的净零承诺遇上每 QALY 成本
 
 ## 软件工程与数字化交付
 
@@ -78,6 +90,8 @@
 - [技术债务](locales/en-gb-oxendict/topics/technical-debt/) — 本金、利息，以及适用于代码库的慢性病经济学
 - [总拥有成本（TCO）](locales/en-gb-oxendict/topics/total-cost-of-ownership/) — 维护成本占 50%–80%；将药品定价的天真误区套用到软件上
 - [云单位经济学（FinOps）](locales/en-gb-oxendict/topics/cloud-unit-economics/) — 每单位产出的成本；数字服务的参考成本
+- [精确到分的成本分摊 (Exact-Cents Cost Allocation)](locales/en-gb-oxendict/topics/exact-cents-cost-allocation/) — 最大余数分摊；拆分总额，使各份恰好加回总额
+- [币种安全的成本汇总 (Currency-Safe Cost Rollup)](locales/en-gb-oxendict/topics/currency-safe-cost-rollup/) — 用精确十进制 `Money` 而非 `f64`，处理必须对到分的总额
 - [自建与外购](locales/en-gb-oxendict/topics/build-vs-buy/) — 计入延迟成本项的风险调整比较
 - [效益兑现](locales/en-gb-oxendict/topics/benefits-realization/) — 审计预测的收益是否真正实现
 - [GDS服务指标](locales/en-gb-oxendict/topics/gds-service-metrics/) — 每笔交易成本、满意度、完成率、使用率
@@ -103,6 +117,7 @@
 - [远程患者监测经济学](locales/en-gb-oxendict/topics/remote-patient-monitoring-economics/) — CPT 编码组合与居家医院替代方案
 - [健康应用单位经济学](locales/en-gb-oxendict/topics/health-app-unit-economics/) — CAC、LTV、PMPM，以及 ROI 与 VOI 的对比
 - [触达与公平](locales/en-gb-oxendict/topics/reach-and-equity/) — RE-AIM；人群影响 = 覆盖率 × 有效性
+- [集中指数 (Concentration Index)](locales/en-gb-oxendict/topics/concentration-index/) — 衡量社会经济健康不平等的正式统计量
 
 ## 基准数据的时效性
 
