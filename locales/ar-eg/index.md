@@ -15,6 +15,9 @@
 - [تحليل الحساسية](locales/en-gb-oxendict/topics/sensitivity-analysis/) — مخططات الإعصار؛ أي افتراض يحمل حجتك
 - [تحليل الحساسية الاحتمالي (PSA)](locales/en-gb-oxendict/topics/probabilistic-sensitivity-analysis/) — مونت كارلو، منحنيات CEAC، احتمال أن تكون على صواب
 - [القيمة المتوقعة للمعلومات الكاملة (EVPI)](locales/en-gb-oxendict/topics/expected-value-of-perfect-information/) — تسعير التجربة الاستطلاعية قبل تشغيلها
+- [القيمة المتوقعة لمعلومات العيّنة (EVSI)](locales/en-gb-oxendict/topics/expected-value-of-sample-information/) — تقييم *دراسة مقترحة محددة*، لا إزالة كل عدم اليقين
+- [تقييم الخيارات الحقيقية](locales/en-gb-oxendict/topics/real-options-valuation/) — تسعير خيار توسيع المشروع المرحلي لاحقًا، لا خيار جمع المعلومات أولًا
+- [نهج رأس المال البشري مقابل طريقة تكلفة الاحتكاك](locales/en-gb-oxendict/topics/human-capital-and-friction-cost/) — طريقتان لتقدير الإنتاجية المفقودة، والتكلفة المبلَّغ عنها تختلف بمقدار الضعف أو أكثر
 - [الهيمنة وحد الكفاءة](locales/en-gb-oxendict/topics/dominance-and-efficiency-frontier/) — استبعاد الخيارات التي لا ينبغي لأحد اختيارها
 
 ## مقاييس النتائج
@@ -22,12 +25,15 @@
 - [سنة العمر المعدَّلة بالجودة (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — العملة المشتركة لقيمة الصحة
 - [سنة العمر المعدَّلة بالإعاقة (DALY)](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — المرآة من جانب العبء؛ مقياس الصحة العالمية
 - [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — الأداة التي تقوم عليها معظم أوزان منفعة QALY
+- [استخلاص المنفعة بأسلوب المبادلة الزمنية (TTO)](locales/en-gb-oxendict/topics/time-trade-off-utility/) — كيف يُستخلص وزن المنفعة فعليًا من المستجيب
 - [نسبة فعالية التكلفة التزايدية (ICER)](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — التكلفة الإضافية لكل وحدة إضافية من الصحة
 - [عتبات الاستعداد للدفع](locales/en-gb-oxendict/topics/willingness-to-pay-thresholds/) — حدود NICE من 20 إلى 30 ألف جنيه إسترليني لكل QALY، والخطوط الأخرى حول العالم
+- [قيمة الحياة الإحصائية (VSL)](locales/en-gb-oxendict/topics/value-of-a-statistical-life/) — البديل القائم على سوق العمل للتقييم بالعتبات
 - [الفائدة النقدية الصافية (NMB)](locales/en-gb-oxendict/topics/net-monetary-benefit/) — القيمة ناقص التكلفة، محسوبة بشكل صحيح
 - [سنوات العمر المكتسَبة (LYG)](locales/en-gb-oxendict/topics/life-years-gained/) — رياضيات البقاء، ومتغير الإنصاف evLYG
 - [العمر المتوقع المعدَّل بالصحة (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — احتساب السنوات الصحية على مستوى السكان
 - [عجز QALY ومعدِّلات الشدة](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — لماذا تُحتسب سنوات QALY للفئات الأكثر مرضاً بوزن أكبر
+- [إنتاجية العمل واعتلال النشاط (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — الغياب مقابل الحضور مع تدنٍّ في الأداء، النصف الخفي من التكلفة
 
 ## أنواع التحليل الاقتصادي
 
@@ -39,6 +45,7 @@
 - [تحليل الأثر على الميزانية (BIA)](locales/en-gb-oxendict/topics/budget-impact-analysis/) — القدرة على تحمّل التكلفة، بخلاف القيمة
 - [عائد الاستثمار (ROI)](locales/en-gb-oxendict/topics/return-on-investment/) — المقياس المشترك، بمعايير مُعلَنة
 - [العائد الاجتماعي على الاستثمار (SROI)](locales/en-gb-oxendict/topics/social-return-on-investment/) — تحويل ما لا تُسعّره الأسواق إلى قيمة نقدية
+- [مقارنة ICER عبر العملات](locales/en-gb-oxendict/topics/cross-currency-icer-comparison/) — PPP مقابل سعر الصرف السوقي؛ خيار التحويل الذي قد يقلب قرار الاعتماد
 
 ## الاقتصاديات التشغيلية لنظام الصحة
 
@@ -61,12 +68,17 @@
 ## أطر تقييم التكنولوجيا الصحية واقتصاديات الوقاية
 
 - [تقييم التقنيات الصحية (HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE وICER (الولايات المتحدة) وCADTH: من يقرر ما يستحق الشراء
+- [محاكاة أتراب ماركوف](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — كيف يُحاكى نموذج HTA متعدد الدورات فعليًا، ترب بعد ترب، ودورة بعد دورة
 - [إطار معايير الأدلة لدى NICE (ESF)](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — متطلبات أدلة متدرجة حسب المخاطر للصحة الرقمية
 - [المسار السريع الألماني DiGA](locales/en-gb-oxendict/topics/diga-fast-track/) — تطبيقات بوصفة طبية؛ إدراج مؤقت بموعد نهائي لتقديم الأدلة
 - [العدد اللازم علاجه (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — وحدات الجهد لكل فائدة تُبقي الادعاءات صادقة
+- [الكسر المنسوب إلى السكان (PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — إلى أي مدى يستحق عامل خطر أن يُحارَب من حيث عبء المرض
 - [اقتصاديات الوقاية](locales/en-gb-oxendict/topics/prevention-economics/) — لماذا الوقاية فعّالة من حيث التكلفة لكنها نادراً ما توفر المال
 - [اقتصاديات الفحص](locales/en-gb-oxendict/topics/screening-economics/) — معايير ويلسون–يونغنر، وانهيار القيمة التنبؤية الإيجابية عند انخفاض الانتشار، وإرهاق التنبيهات
+- [العدد اللازم فحصه (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — نظير NNT على مستوى برنامج الفحص
 - [التكاليف اللاحقة المتجنَّبة](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — تعويضات التكلفة والقواعد التي تجعلها موثوقة
+- [تحليل القرار متعدد المعايير (MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — تسجيل نقاط موزون حين لا تكفي عتبة واحدة
+- [البصمة الكربونية لكل QALY](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — التزام NHS بصافي الصفر يلتقي بالتكلفة لكل QALY
 
 ## هندسة البرمجيات والتسليم الرقمي
 
@@ -78,6 +90,8 @@
 - [الدين التقني](locales/en-gb-oxendict/topics/technical-debt/) — أصل الدين، الفائدة، واقتصاديات الأمراض المزمنة لقواعد الشيفرة
 - [التكلفة الإجمالية للملكية (TCO)](locales/en-gb-oxendict/topics/total-cost-of-ownership/) — الصيانة تمثل 50–80%؛ خطأ تسعير الدواء الساذج، مُطبَّقاً على البرمجيات
 - [اقتصاديات وحدة الحوسبة السحابية (FinOps)](locales/en-gb-oxendict/topics/cloud-unit-economics/) — التكلفة لكل وحدة إنتاج؛ التكلفة المرجعية للخدمة الرقمية
+- [التخصيص الدقيق للتكاليف إلى السنت](locales/en-gb-oxendict/topics/exact-cents-cost-allocation/) — تخصيص أكبر باقٍ؛ تقسيم إجمالي بحيث تجمع الحصص إليه تمامًا
+- [تجميع التكاليف الآمن للعملات](locales/en-gb-oxendict/topics/currency-safe-cost-rollup/) — `Money` عشري دقيق، لا `f64`، للإجماليات التي يجب أن تتطابق إلى آخر سنت
 - [البناء مقابل الشراء](locales/en-gb-oxendict/topics/build-vs-buy/) — مقارنة معدّلة حسب المخاطر مع تسعير عامل التأخير
 - [تحقيق الفوائد](locales/en-gb-oxendict/topics/benefits-realization/) — التدقيق للتأكد من أن الفوائد المتوقعة تحققت فعلاً
 - [مقاييس خدمة GDS](locales/en-gb-oxendict/topics/gds-service-metrics/) — التكلفة لكل معاملة، الرضا، الإتمام، معدل الإقبال
@@ -103,6 +117,7 @@
 - [اقتصاديات المراقبة عن بُعد للمرضى](locales/en-gb-oxendict/topics/remote-patient-monitoring-economics/) — حزم رموز CPT والاستبدال بالاستشفاء المنزلي
 - [اقتصاديات وحدة تطبيقات الصحة](locales/en-gb-oxendict/topics/health-app-unit-economics/) — CAC وLTV وPMPM وROI مقابل VOI
 - [الوصول والإنصاف](locales/en-gb-oxendict/topics/reach-and-equity/) — RE-AIM؛ الأثر السكاني = الوصول × الفعالية
+- [مؤشر التركّز](locales/en-gb-oxendict/topics/concentration-index/) — المقياس الإحصائي الرسمي لعدم المساواة الصحية الاجتماعية الاقتصادية
 
 ## حداثة الأرقام المرجعية
 
