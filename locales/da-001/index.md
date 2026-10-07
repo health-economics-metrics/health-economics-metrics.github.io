@@ -33,7 +33,7 @@ Ny her? Begynd med [alternativomkostning](locales/en-gb-oxendict/topics/opportun
 - [Opnåede leveår](locales/en-gb-oxendict/topics/life-years-gained/) — overlevelsesmatematik og retfærdighedsvarianten evLYG
 - [Sundhedsjusteret forventet levetid (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — regnskab for sunde år på befolkningsniveau
 - [QALY-underskud og alvorlighedsmodifikatorer](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — hvorfor sygere populationers QALY'er tæller mere
-- [Work Productivity and Activity Impairment (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — fravær vs. nedsat ydeevne ved tilstedeværelse, den skjulte halvdel af omkostningen
+- [Arbejdsproduktivitet og aktivitetsnedsættelse (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — fravær vs. nedsat ydeevne ved tilstedeværelse, den skjulte halvdel af omkostningen
 
 ## Typer af økonomisk analyse
 
@@ -43,8 +43,8 @@ Ny her? Begynd med [alternativomkostning](locales/en-gb-oxendict/topics/opportun
 - [Omkostningsminimeringsanalyse (CMA)](locales/en-gb-oxendict/topics/cost-minimization-analysis/) — billigste mulighed, efter ækvivalens er bevist
 - [Omkostnings-konsekvensanalyse (CCA)](locales/en-gb-oxendict/topics/cost-consequence-analysis/) — den opdelte tabel; NICEs foretrukne metode til digital sundhed
 - [Budgetpåvirkningsanalyse (BIA)](locales/en-gb-oxendict/topics/budget-impact-analysis/) — overkommelighed, adskilt fra værdi
-- [Return on investment (ROI)](locales/en-gb-oxendict/topics/return-on-investment/) — det fælles nøgletal, med erklærede parametre
-- [Social return on investment (SROI)](locales/en-gb-oxendict/topics/social-return-on-investment/) — at gøre det, markeder ikke prissætter, op i penge
+- [Afkast af investering (ROI)](locales/en-gb-oxendict/topics/return-on-investment/) — det fælles nøgletal, med erklærede parametre
+- [Socialt afkast af investering (SROI)](locales/en-gb-oxendict/topics/social-return-on-investment/) — at gøre det, markeder ikke prissætter, op i penge
 - [ICER-sammenligning på tværs af valutaer](locales/en-gb-oxendict/topics/cross-currency-icer-comparison/) — KKP vs. markedsvekselkurs; omregningsvalget, der kan vende en indførelsesbeslutning
 
 ## Sundhedsvæsenets operationelle økonomi

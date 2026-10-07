@@ -18,7 +18,7 @@ KI til opsummering af klinisk dokumentation: udvikling £300.000 + drift £100.0
 
 ## Forbindelse til softwareudvikling
 
-Kombinerer [return on investment](../return-on-investment/) med [inferensens enhedsøkonomi](../inferensens-enhedsøkonomi/).
+Kombinerer [return on investment](../afkast-af-investering/) med [inferensens enhedsøkonomi](../inferensens-enhedsøkonomi/).
 
 ## Faldgruber
 

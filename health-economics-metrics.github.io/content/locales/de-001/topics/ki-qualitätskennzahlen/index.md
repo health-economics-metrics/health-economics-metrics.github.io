@@ -44,7 +44,7 @@ Verbesserungsfall: Retrieval-Grundierung senkt die Fehlerrate auf 0,8 %
 
 ## Bezug zur Softwareentwicklung
 
-Modellqualität wie Testabdeckungs-Ökonomie behandeln, mit Disziplin auf Gesundheitsniveau: **Evaluationssets sind Ihre klinische Studie** — vorab registriert, repräsentativ für den *eigenen* Fallmix, gegen Drift aufgefrischt; **Grundierung schlägt Skalierung bei faktischen Aufgaben** (Retrieval + zitierpflichtiges Prompting ist meist die günstigste verfügbare Halluzinationsreduktion — vgl. [Einheitsökonomie der Inferenz](../einheitsökonomie-der-inferenz/) für ihren Token-Overhead); und **den Betriebspunkt veröffentlichen**: wie [Sensitivität/Spezifität](../klinische-ki-evaluation/) bedeutet "97 % treu" nichts ohne die Aufgabenverteilung und die Erkennungsschwelle. Die Überprüfungsebenen-Rechnung oben ist dieselbe [NNT/NNH](../number-needed-to-treat/)-Rechnung wie bei jedem Screening-Gate.
+Modellqualität wie Testabdeckungs-Ökonomie behandeln, mit Disziplin auf Gesundheitsniveau: **Evaluationssets sind Ihre klinische Studie** — vorab registriert, repräsentativ für den *eigenen* Fallmix, gegen Drift aufgefrischt; **Grundierung schlägt Skalierung bei faktischen Aufgaben** (Retrieval + zitierpflichtiges Prompting ist meist die günstigste verfügbare Halluzinationsreduktion — vgl. [Einheitsökonomie der Inferenz](../einheitsökonomie-der-inferenz/) für ihren Token-Overhead); und **den Betriebspunkt veröffentlichen**: wie [Sensitivität/Spezifität](../klinische-ki-evaluation/) bedeutet "97 % treu" nichts ohne die Aufgabenverteilung und die Erkennungsschwelle. Die Überprüfungsebenen-Rechnung oben ist dieselbe [NNT/NNH](../anzahl-der-notwendigen-behandlungen/)-Rechnung wie bei jedem Screening-Gate.
 
 ## Fallstricke
 

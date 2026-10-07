@@ -18,7 +18,7 @@ En app för hantering av kronisk smärta: PROMIS-smärtpoängen sjunker från 58
 
 ## Koppling till mjukvaruutveckling
 
-Används tillsammans med [EQ-5D](../eq-5d/) och kompletterar [digitala slutpunkter och biomarkörer](../digitala-slutpunkter-och-biomarkörer/). För ett instrument specifikt för arbetsproduktivitet, se [WPAI](../work-productivity-and-activity-impairment/).
+Används tillsammans med [EQ-5D](../eq-5d/) och kompletterar [digitala slutpunkter och biomarkörer](../digitala-slutpunkter-och-biomarkörer/). För ett instrument specifikt för arbetsproduktivitet, se [WPAI](../arbetsproduktivitet-och-aktivitetsnedsättning/).
 
 ## Fallgropar
 

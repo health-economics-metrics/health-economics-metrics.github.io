@@ -33,7 +33,7 @@ Sei nuovo qui? Inizia con [costo opportunità](locales/en-gb-oxendict/topics/opp
 - [Anni di vita guadagnati](locales/en-gb-oxendict/topics/life-years-gained/) — la matematica della sopravvivenza, e la variante di equità evLYG
 - [Aspettativa di vita corretta per la salute (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — contabilità degli anni sani a livello di popolazione
 - [Deficit di QALY e modificatori di gravità](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — perché i QALY delle popolazioni più malate contano di più
-- [Work Productivity and Activity Impairment (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — assenteismo vs presenzialismo, la metà nascosta del costo
+- [Produttività lavorativa e compromissione dell'attività (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — assenteismo vs presenzialismo, la metà nascosta del costo
 
 ## Tipi di analisi economica
 

@@ -33,7 +33,7 @@ Kas olete siin esimest korda? Alustage teemadest [alternatiivkulu](locales/en-gb
 - [Saadud eluaastad](locales/en-gb-oxendict/topics/life-years-gained/) — elulemuse matemaatika ja õigluse variant evLYG
 - [Terviskohandatud eeldatav eluiga (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — tervete aastate arvestus populatsiooni tasandil
 - [QALY puudujääk ja raskusastme modifikaatorid](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — miks haigemate populatsioonide QALY-d loevad rohkem
-- [Work Productivity and Activity Impairment (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — töölt puudumine vs töölolek halvenenud võimekusega, kulu varjatud pool
+- [Töö tootlikkus ja tegevuse piirangud (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — töölt puudumine vs töölolek halvenenud võimekusega, kulu varjatud pool
 
 ## Majandusanalüüsi liigid
 

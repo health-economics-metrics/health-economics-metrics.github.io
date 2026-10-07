@@ -16,7 +16,7 @@ Puusaliigese asendusoperatsioon näitab PROM skoori paranemist 40 punktilt 80 pu
 
 ## Seos tarkvaraarendusega
 
-Sarnaneb kasutajarahulolu uuringutega (NPS, CSAT), mis täiendavad tehnilisi tulemusnäitajaid subjektiivse kasutajakogemusega. Töötootlikkuse-spetsiifilise instrumendi kohta vaata [WPAI-d](../work-productivity-and-activity-impairment/).
+Sarnaneb kasutajarahulolu uuringutega (NPS, CSAT), mis täiendavad tehnilisi tulemusnäitajaid subjektiivse kasutajakogemusega. Töötootlikkuse-spetsiifilise instrumendi kohta vaata [WPAI-d](../töö-tootlikkus-ja-tegevuse-piirangud/).
 
 ## Lõksud
 

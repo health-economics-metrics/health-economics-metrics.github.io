@@ -18,7 +18,7 @@ Aplikacja do zarządzania bólem przewlekłym: wynik bólu PROMIS spada z 58 do 
 
 ## Powiązanie z inżynierią oprogramowania
 
-Używane wraz z [EQ-5D](../eq-5d/) i uzupełnia [cyfrowe punkty końcowe i biomarkery](../cyfrowe-punkty-końcowe-i-biomarkery/). Instrument specyficzny dla produktywności pracy zobacz w [WPAI](../work-productivity-and-activity-impairment/).
+Używane wraz z [EQ-5D](../eq-5d/) i uzupełnia [cyfrowe punkty końcowe i biomarkery](../cyfrowe-punkty-końcowe-i-biomarkery/). Instrument specyficzny dla produktywności pracy zobacz w [WPAI](../produktywność-w-pracy-i-ograniczenie-aktywności/).
 
 ## Pułapki
 

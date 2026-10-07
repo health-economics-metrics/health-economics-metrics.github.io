@@ -41,7 +41,7 @@ Identisches Modell, radikal unterschiedliche Ökonomie — deshalb ist standorts
 
 ## Bezug zur Softwareentwicklung
 
-Für Entwickler, die klinische KI bauen oder kaufen: **die Konfusionsmatrix bei der Einsatzprävalenz ausliefern**, nicht nur die ROC-Kurve; **den Schwellenwert als ökonomische Entscheidung behandeln lassen** — der Sens/Spez-Kompromiss sollte erwartete Kosten minimieren (verpasste Fälle × Verpasskosten vs. Fehlalarme × Abklärungskosten), nicht eine Benchmark-Statistik maximieren; und dieselbe Rechnung im eigenen Tooling erkennen — Alarmsysteme, Anomalieerkenner und Sicherheitsscanner sind diagnostische Tests über Ereignisströme mit niedriger Prävalenz, mit Alarmmüdigkeit als [NNH](../number-needed-to-treat/). Modell-Updates, die den Betriebspunkt verschieben, öffnen die Ökonomie neu (und die regulatorische Zulassung — siehe [Regulatorische KI-Evaluation](../regulatorische-ki-evaluation/)).
+Für Entwickler, die klinische KI bauen oder kaufen: **die Konfusionsmatrix bei der Einsatzprävalenz ausliefern**, nicht nur die ROC-Kurve; **den Schwellenwert als ökonomische Entscheidung behandeln lassen** — der Sens/Spez-Kompromiss sollte erwartete Kosten minimieren (verpasste Fälle × Verpasskosten vs. Fehlalarme × Abklärungskosten), nicht eine Benchmark-Statistik maximieren; und dieselbe Rechnung im eigenen Tooling erkennen — Alarmsysteme, Anomalieerkenner und Sicherheitsscanner sind diagnostische Tests über Ereignisströme mit niedriger Prävalenz, mit Alarmmüdigkeit als [NNH](../anzahl-der-notwendigen-behandlungen/). Modell-Updates, die den Betriebspunkt verschieben, öffnen die Ökonomie neu (und die regulatorische Zulassung — siehe [Regulatorische KI-Evaluation](../regulatorische-ki-evaluation/)).
 
 ## Fallstricke
 

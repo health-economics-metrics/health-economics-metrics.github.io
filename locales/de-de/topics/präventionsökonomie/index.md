@@ -39,7 +39,7 @@ Dasselbe Programm, beide Wahrheiten zugleich: Es verliert 2,8 Mio. £ an Bargeld
 
 ## Bezug zur Softwareentwicklung
 
-Shift-Left-Qualität ist Präventionsökonomie, samt Vorbehalt. Reviews, Tests und statische Analyse wenden auf *jede* Änderung Kosten an, um Probleme bei den wenigen zu fangen, die zu Produktionsvorfällen fortgeschritten wären. Die Fehlerkostenkurve (10–100-fach je nach Phase) spielt die Rolle der Schlaganfallkosten — und die ehrliche Schlussfolgerung spiegelt die gesundheitliche: Shift-Left ist meist kosten*effektiv*, nicht automatisch kosten*sparend*, weil die meisten markierten Probleme nie zu Vorfällen geworden wären (das Problem der wenigen des Kontrafaktischen). Berechnen: Gesamtkosten des Gates pro Zeitraum gegenüber tatsächlich vermiedenen Vorfällen × Vorfallkosten — dieselbe Struktur wie im durchgerechneten Beispiel, mit [NNT](../number-needed-to-treat/) als Einheit pro Fang.
+Shift-Left-Qualität ist Präventionsökonomie, samt Vorbehalt. Reviews, Tests und statische Analyse wenden auf *jede* Änderung Kosten an, um Probleme bei den wenigen zu fangen, die zu Produktionsvorfällen fortgeschritten wären. Die Fehlerkostenkurve (10–100-fach je nach Phase) spielt die Rolle der Schlaganfallkosten — und die ehrliche Schlussfolgerung spiegelt die gesundheitliche: Shift-Left ist meist kosten*effektiv*, nicht automatisch kosten*sparend*, weil die meisten markierten Probleme nie zu Vorfällen geworden wären (das Problem der wenigen des Kontrafaktischen). Berechnen: Gesamtkosten des Gates pro Zeitraum gegenüber tatsächlich vermiedenen Vorfällen × Vorfallkosten — dieselbe Struktur wie im durchgerechneten Beispiel, mit [NNT](../anzahl-der-notwendigen-behandlungen/) als Einheit pro Fang.
 
 ## Fallstricke
 

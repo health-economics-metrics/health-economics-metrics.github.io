@@ -18,7 +18,7 @@ Et digitalt triageværktøj: planlagt besparelse £500.000/år; efter 12 månede
 
 ## Forbindelse til softwareudvikling
 
-Verificerer efterfølgende påstande om [ROI](../return-on-investment/) og [social return on investment](../social-return-on-investment/).
+Verificerer efterfølgende påstande om [ROI](../afkast-af-investering/) og [social return on investment](../socialt-afkast-af-investering/).
 
 ## Faldgruber
 

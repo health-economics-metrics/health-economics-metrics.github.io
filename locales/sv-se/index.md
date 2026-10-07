@@ -33,7 +33,7 @@ Ny här? Börja med [alternativkostnad](locales/en-gb-oxendict/topics/opportunit
 - [Vunna levnadsår](locales/en-gb-oxendict/topics/life-years-gained/) — överlevnadsmatematik, och rättvisevarianten evLYG
 - [Hälsojusterad livslängd (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — redovisning av friska år på befolkningsnivå
 - [QALY-underskott och allvarlighetsmodifierare](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — varför sjukare populationers QALY räknas högre
-- [Work Productivity and Activity Impairment (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — frånvaro vs presentism, kostnadens dolda hälft
+- [Arbetsproduktivitet och aktivitetsnedsättning (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — frånvaro vs presentism, kostnadens dolda hälft
 
 ## Typer av ekonomisk analys
 
@@ -69,7 +69,7 @@ Ny här? Börja med [alternativkostnad](locales/en-gb-oxendict/topics/opportunit
 
 - [Medicinsk teknikutvärdering (HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE, ICER (USA), CADTH: vem beslutar vad som är värt att köpa
 - [Markov-kohortsimulering](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — hur en flercykelmodell i HTA faktiskt simuleras, kohort för kohort, cykel för cykel
-- [NICE Evidence Standards Framework](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — riskgraderade evidenskrav för digital hälsa
+- [NICE:s ramverk för evidensstandarder](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — riskgraderade evidenskrav för digital hälsa
 - [Tysklands DiGA-snabbspår](locales/en-gb-oxendict/topics/diga-fast-track/) — appar på recept; provisorisk listning med en evidensdeadline
 - [Antal som behöver behandlas (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — insats-per-nytta-enheter som håller påståenden ärliga
 - [Populationsattribuerbar andel (PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — hur stor sjukdomsbörda en riskfaktor verkligen är värd att bekämpa

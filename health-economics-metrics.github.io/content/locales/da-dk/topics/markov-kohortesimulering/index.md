@@ -4,7 +4,7 @@ En Markov-kohortemodel er den gængse HTA-modelleringsteknik til interventioner,
 
 ## Hvorfor det er vigtigt
 
-De fleste reelle beslutninger om sundhedsteknologi er ikke engangssammenligninger af én periodes omkostning og udfald. En kronisk sygdom skrider frem, vender tilbage, reagerer på behandling eller dræber over år — og en [omkostningseffektivitetsanalyse](../omkostningseffektivitetsanalyse/) for én periode kan ikke repræsentere det. Indsendelser til NICE, ICER og CADTH for interventioner mod kroniske sygdomme, vurderet via [health technology assessment](../medicinsk-teknologivurdering/), er næsten altid bygget som Markov-kohortemodeller med en livslang tidshorisont, fordi alternativet — at modellere hver eneste mulige individuelle patientforløb — er uhåndterligt i stor skala. Kohorte-Markov-modellen bytter noget realisme på individniveau (den kan vanskeligt repræsentere hukommelse om tidligere tilstande, deraf "Markov": fremtiden afhænger kun af den nuværende tilstand) for en model, der er gennemsigtig, kan revideres og er hurtig nok til at køre tusindvis af gange i en [probabilistisk følsomhedsanalyse](../probabilistisk-følsomhedsanalyse/).
+De fleste reelle beslutninger om sundhedsteknologi er ikke engangssammenligninger af én periodes omkostning og udfald. En kronisk sygdom skrider frem, vender tilbage, reagerer på behandling eller dræber over år — og en [omkostningseffektivitetsanalyse](../omkostningseffektivitetsanalyse/) for én periode kan ikke repræsentere det. Indsendelser til NICE, ICER og CADTH for interventioner mod kroniske sygdomme, vurderet via [medicinsk teknologivurdering](../medicinsk-teknologivurdering/), er næsten altid bygget som Markov-kohortemodeller med en livslang tidshorisont, fordi alternativet — at modellere hver eneste mulige individuelle patientforløb — er uhåndterligt i stor skala. Kohorte-Markov-modellen bytter noget realisme på individniveau (den kan vanskeligt repræsentere hukommelse om tidligere tilstande, deraf "Markov": fremtiden afhænger kun af den nuværende tilstand) for en model, der er gennemsigtig, kan revideres og er hurtig nok til at køre tusindvis af gange i en [probabilistisk følsomhedsanalyse](../probabilistisk-følsomhedsanalyse/).
 
 ## Matematikken
 
@@ -51,7 +51,7 @@ Hver cyklus' tilstand er sidste cyklus' tilstand ført gennem overgangsmatricen 
 
 ## Forbindelse til softwareudvikling
 
-For hvordan en flercyklus-HTA-model bruges i en reel vurdering, se [health technology assessment](../medicinsk-teknologivurdering/) — referencetilfældet, som styrer, hvilken diskonteringsrente, nyttekilde og tidshorisont en indsendt Markov-model skal bruge.
+For hvordan en flercyklus-HTA-model bruges i en reel vurdering, se [medicinsk teknologivurdering](../medicinsk-teknologivurdering/) — referencetilfældet, som styrer, hvilken diskonteringsrente, nyttekilde og tidshorisont en indsendt Markov-model skal bruge.
 
 En Markov-kohortemodel er strukturelt en tilstandsmaskine med sandsynlighedsbaserede overgange, kørt i et fast antal tik og med diskontering af hvert tiks værdi. Samme form simulerer en brugerkohortes fastholdelses-/tilstandsovergange over tid — se [DORA-målinger](../dora-nøgletal/) for driftssikkerhedsudgaven af "hvor stor en del af systemet er i en forringet tilstand i denne periode, og hvad koster det". Konkret:
 

@@ -33,7 +33,7 @@ Nieuw hier? Begin met [opportuniteitskosten](locales/en-gb-oxendict/topics/oppor
 - [Gewonnen levensjaren](locales/en-gb-oxendict/topics/life-years-gained/) — overlevingswiskunde, en de evLYG-billijkheidsvariant
 - [Voor gezondheid gecorrigeerde levensverwachting (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — boekhouding van gezonde jaren op populatieniveau
 - [QALY-tekort en ernstmodifiers](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — waarom QALY's van ziekere populaties zwaarder tellen
-- [Work Productivity and Activity Impairment (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — absenteïsme vs presenteïsme, de verborgen helft van de kosten
+- [Werkproductiviteit en activiteitsbeperking (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — absenteïsme vs presenteïsme, de verborgen helft van de kosten
 
 ## Soorten economische analyse
 
@@ -67,15 +67,15 @@ Nieuw hier? Begin met [opportuniteitskosten](locales/en-gb-oxendict/topics/oppor
 
 ## HTA-kaders en preventie-economie
 
-- [Health technology assessment (HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE, ICER (VS), CADTH: wie beslist wat de moeite waard is om te kopen
+- [Beoordeling van gezondheidstechnologie (HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE, ICER (VS), CADTH: wie beslist wat de moeite waard is om te kopen
 - [Markov-cohortsimulatie](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — hoe een multicyclisch HTA-model werkelijk wordt gesimuleerd, cohort voor cohort, cyclus voor cyclus
-- [NICE Evidence Standards Framework](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — risicogelaagde bewijsvereisten voor digitale gezondheid
+- [Kader voor bewijsstandaarden van NICE](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — risicogelaagde bewijsvereisten voor digitale gezondheid
 - [Duitslands DiGA-snelspoor](locales/en-gb-oxendict/topics/diga-fast-track/) — apps op recept; voorlopige opname met een bewijsdeadline
-- [Number needed to treat (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — eenheden inspanning-per-voordeel die claims eerlijk houden
+- [Aantal te behandelen patiënten (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — eenheden inspanning-per-voordeel die claims eerlijk houden
 - [Populatie-attribueerbare fractie (PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — hoeveel ziektelast een risicofactor werkelijk de moeite waard is om aan te pakken
 - [Preventie-economie](locales/en-gb-oxendict/topics/prevention-economics/) — waarom preventie kosteneffectief is maar zelden kostenbesparend
 - [Screeningseconomie](locales/en-gb-oxendict/topics/screening-economics/) — Wilson–Jungner, instorting van de PPV bij lage prevalentie, alarmmoeheid
-- [Number needed to screen (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — het analogon van NNT op het niveau van een screeningsprogramma
+- [Aantal te screenen personen (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — het analogon van NNT op het niveau van een screeningsprogramma
 - [Vermeden downstream kosten](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — kostencompensaties en de regels die ze geloofwaardig maken
 - [Multicriteria-beslisanalyse (MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — gewogen scoren wanneer één enkele drempel niet volstaat
 - [Koolstofvoetafdruk per QALY](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — de netto-nulverplichting van de NHS ontmoet kosten per QALY

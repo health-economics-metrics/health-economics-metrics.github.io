@@ -4,7 +4,7 @@ Een Markov-cohortmodel is de standaardmodelleertechniek in HTA voor interventies
 
 ## Waarom het ertoe doet
 
-De meeste echte beslissingen over gezondheidstechnologie zijn geen eenmalige vergelijkingen van de kosten en uitkomst van één periode. Een chronische aandoening verergert, keert terug, reageert op behandeling of doodt, over jaren, en een [kosteneffectiviteitsanalyse](../kosteneffectiviteitsanalyse/) voor één periode kan dat niet weergeven. Indieningen bij NICE, ICER en CADTH voor interventies bij chronische ziekten, beoordeeld via [health technology assessment](../health-technology-assessment/), zijn vrijwel altijd gebouwd als Markov-cohortmodellen met een levenslange tijdshorizon, omdat het alternatief, elk mogelijk individueel patiëntentraject modelleren, op schaal onwerkbaar is. Het Markov-model op cohortniveau ruilt wat realisme op individueel niveau in (het kan het geheugen van eerdere toestanden moeilijk weergeven, vandaar "Markov": de toekomst hangt alleen af van de huidige toestand) voor een model dat transparant, controleerbaar en snel genoeg is om duizenden keren te draaien in een [probabilistische gevoeligheidsanalyse](../probabilistische-gevoeligheidsanalyse/).
+De meeste echte beslissingen over gezondheidstechnologie zijn geen eenmalige vergelijkingen van de kosten en uitkomst van één periode. Een chronische aandoening verergert, keert terug, reageert op behandeling of doodt, over jaren, en een [kosteneffectiviteitsanalyse](../kosteneffectiviteitsanalyse/) voor één periode kan dat niet weergeven. Indieningen bij NICE, ICER en CADTH voor interventies bij chronische ziekten, beoordeeld via [beoordeling van gezondheidstechnologie](../beoordeling-van-gezondheidstechnologie/), zijn vrijwel altijd gebouwd als Markov-cohortmodellen met een levenslange tijdshorizon, omdat het alternatief, elk mogelijk individueel patiëntentraject modelleren, op schaal onwerkbaar is. Het Markov-model op cohortniveau ruilt wat realisme op individueel niveau in (het kan het geheugen van eerdere toestanden moeilijk weergeven, vandaar "Markov": de toekomst hangt alleen af van de huidige toestand) voor een model dat transparant, controleerbaar en snel genoeg is om duizenden keren te draaien in een [probabilistische gevoeligheidsanalyse](../probabilistische-gevoeligheidsanalyse/).
 
 ## De wiskunde
 
@@ -51,7 +51,7 @@ De toestand van elke cyclus is de toestand van de vorige cyclus doorgevoerd door
 
 ## Verbinding met software-engineering
 
-Voor hoe een multicyclisch HTA-model in een echte beoordeling wordt gebruikt, zie [health technology assessment](../health-technology-assessment/): de referentiecasus die bepaalt welke disconteringsvoet, utiliteitsbron en tijdshorizon een ingediend Markov-model moet gebruiken.
+Voor hoe een multicyclisch HTA-model in een echte beoordeling wordt gebruikt, zie [beoordeling van gezondheidstechnologie](../beoordeling-van-gezondheidstechnologie/): de referentiecasus die bepaalt welke disconteringsvoet, utiliteitsbron en tijdshorizon een ingediend Markov-model moet gebruiken.
 
 Een Markov-cohortmodel is structureel een toestandsmachine met probabilistische overgangen, voor een vast aantal ticks gedraaid, waarbij de waarde van elke tick wordt verdisconteerd. Dezelfde vorm simuleert de retentie-/toestandsovergangen van een gebruikerscohort in de tijd; zie [DORA-metrieken](../dora-metrieken/) voor de operationele-betrouwbaarheidsversie van "welk deel van het systeem verkeert in deze periode in een gedegradeerde toestand en wat kost dat". Concreet:
 

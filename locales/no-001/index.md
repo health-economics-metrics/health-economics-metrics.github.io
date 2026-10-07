@@ -33,7 +33,7 @@ Ny her? Begynn med [alternativkostnad](locales/en-gb-oxendict/topics/opportunity
 - [Oppnådde leveår](locales/en-gb-oxendict/topics/life-years-gained/) — overlevelsesmatematikk, og rettferdighetsvarianten evLYG
 - [Helsejustert forventet levealder (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — regnskap for friske år på befolkningsnivå
 - [QALY-underskudd og alvorlighetsmodifikatorer](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — hvorfor sykere populasjoners QALY-er teller mer
-- [Work Productivity and Activity Impairment (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — fravær vs. tilstedeværelse med nedsatt yteevne, kostnadens skjulte halvdel
+- [Arbeidsproduktivitet og aktivitetsnedsettelse (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — fravær vs. tilstedeværelse med nedsatt yteevne, kostnadens skjulte halvdel
 
 ## Typer økonomisk analyse
 

@@ -69,7 +69,7 @@ Nouveau ici ? Commencez par [coût d'opportunité](locales/en-gb-oxendict/topics
 
 - [Évaluation des technologies de santé (Health Technology Assessment, HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE, ICER (États-Unis), CADTH : qui décide de ce qui mérite d'être acheté
 - [Simulation de cohorte de Markov](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — comment un modèle d'ETS à plusieurs cycles est réellement simulé, cohorte par cohorte, cycle par cycle
-- [NICE Evidence Standards Framework (ESF)](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — exigences de preuves graduées selon le risque pour la santé numérique
+- [Cadre de normes de preuves du NICE (ESF)](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — exigences de preuves graduées selon le risque pour la santé numérique
 - [La voie rapide DiGA en Allemagne](locales/en-gb-oxendict/topics/diga-fast-track/) — applications sur ordonnance ; inscription provisoire avec échéance de preuves
 - [Nombre de sujets à traiter (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — des unités d'effort par bénéfice qui gardent les affirmations honnêtes
 - [Fraction attribuable en population (PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — combien un facteur de risque vaut la peine d'être combattu en charge de morbidité

@@ -20,7 +20,7 @@ Un'app di supporto alla depressione, RCT vs lista d'attesa: NNT ≈ 4.
 
 ## Collegamento con l'ingegneria del software
 
-I PROM sono un problema di raccolta dati che il software può risolvere in modo unico. Per uno strumento specifico sulla produttività lavorativa, si veda il [WPAI](../work-productivity-and-activity-impairment/).
+I PROM sono un problema di raccolta dati che il software può risolvere in modo unico. Per uno strumento specifico sulla produttività lavorativa, si veda il [WPAI](../produttività-lavorativa-e-compromissione-dell-attività/).
 
 ## Insidie
 

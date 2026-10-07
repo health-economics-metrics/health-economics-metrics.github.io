@@ -33,7 +33,7 @@
 - [Отримані роки життя](locales/en-gb-oxendict/topics/life-years-gained/) — математика виживання та варіант справедливості evLYG
 - [Очікувана тривалість життя з поправкою на здоров'я (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — облік здорових років на рівні популяції
 - [Дефіцит QALY та модифікатори тяжкості](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — чому QALY хворіших популяцій важать більше
-- [Work Productivity and Activity Impairment (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — абсентеїзм проти презентеїзму, прихована половина витрат
+- [Продуктивність праці та обмеження активності (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — абсентеїзм проти презентеїзму, прихована половина витрат
 
 ## Типи економічного аналізу
 

@@ -33,7 +33,7 @@ Neu hier? Beginnen Sie mit [Opportunitätskosten](locales/en-gb-oxendict/topics/
 - [Gewonnene Lebensjahre](locales/en-gb-oxendict/topics/life-years-gained/) — Überlebensmathematik und die evLYG-Gerechtigkeitsvariante
 - [Gesundheitsbereinigte Lebenserwartung (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — gesunde Lebensjahre auf Bevölkerungsebene
 - [QALY-Defizit und Schweregrad-Modifikatoren](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — warum die QALYs kränkerer Bevölkerungsgruppen mehr zählen
-- [Work Productivity and Activity Impairment (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — Absentismus vs. Präsentismus, die verborgene Hälfte der Kosten
+- [Arbeitsproduktivität und Aktivitätsbeeinträchtigung (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — Absentismus vs. Präsentismus, die verborgene Hälfte der Kosten
 
 ## Arten der ökonomischen Analyse
 
@@ -71,11 +71,11 @@ Neu hier? Beginnen Sie mit [Opportunitätskosten](locales/en-gb-oxendict/topics/
 - [Markov-Kohortensimulation](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — wie ein mehrzyklisches HTA-Modell tatsächlich Kohorte für Kohorte und Zyklus für Zyklus simuliert wird
 - [NICE-Evidenzstandards-Rahmenwerk](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — risikogestufte Evidenzanforderungen für digitale Gesundheit
 - [Deutschlands DiGA-Schnellverfahren](locales/en-gb-oxendict/topics/diga-fast-track/) — Apps auf Rezept; vorläufige Listung mit Evidenzfrist
-- [Number Needed to Treat (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — Aufwand-pro-Nutzen-Einheiten, die Behauptungen ehrlich halten
+- [Anzahl der notwendigen Behandlungen (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — Aufwand-pro-Nutzen-Einheiten, die Behauptungen ehrlich halten
 - [Populationsattributabler Anteil (PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — wie viel Krankheitslast ein Risikofaktor wirklich zu bekämpfen wert ist
 - [Präventionsökonomie](locales/en-gb-oxendict/topics/prevention-economics/) — warum Prävention kosteneffektiv, aber selten kostensparend ist
 - [Screening-Ökonomie](locales/en-gb-oxendict/topics/screening-economics/) — Wilson–Jungner, PPV-Kollaps bei niedriger Prävalenz, Alarmmüdigkeit
-- [Number Needed to Screen (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — das Analogon des NNT auf Ebene des Screening-Programms
+- [Anzahl der notwendigen Screenings (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — das Analogon des NNT auf Ebene des Screening-Programms
 - [Vermiedene nachgelagerte Kosten](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — Kostenausgleiche und die Regeln, die sie glaubwürdig machen
 - [Multikriterielle Entscheidungsanalyse (MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — gewichtetes Scoring, wenn eine einzelne Schwelle nicht genügt
 - [CO₂-Fußabdruck pro QALY](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — die Netto-Null-Verpflichtung des NHS trifft auf Kosten pro QALY

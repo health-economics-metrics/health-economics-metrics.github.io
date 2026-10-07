@@ -33,7 +33,7 @@ Nowy tutaj? Zacznij od [kosztu alternatywnego](locales/en-gb-oxendict/topics/opp
 - [Uzyskane lata życia](locales/en-gb-oxendict/topics/life-years-gained/) — matematyka przeżycia i wariant sprawiedliwości evLYG
 - [Oczekiwana długość życia skorygowana zdrowiem (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — rozliczanie zdrowych lat na poziomie populacji
 - [Deficyt QALY i modyfikatory ciężkości](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — dlaczego QALY chorszych populacji liczą się bardziej
-- [Work Productivity and Activity Impairment (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — absencja vs prezenteizm, ukryta połowa kosztu
+- [Produktywność w pracy i ograniczenie aktywności (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — absencja vs prezenteizm, ukryta połowa kosztu
 
 ## Rodzaje analizy ekonomicznej
 
