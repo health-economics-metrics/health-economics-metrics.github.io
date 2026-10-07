@@ -15,6 +15,9 @@
 - [حساسیت کا تجزیہ](locales/en-gb-oxendict/topics/sensitivity-analysis/) — ٹورنیڈو خاکے؛ کون سا مفروضہ آپ کے کیس کو سہارا دیتا ہے
 - [احتمالی حساسیت کا تجزیہ](locales/en-gb-oxendict/topics/probabilistic-sensitivity-analysis/) — مونٹے کارلو، CEACs، درست ہونے کا امکان
 - [کامل معلومات کی متوقع قدر](locales/en-gb-oxendict/topics/expected-value-of-perfect-information/) — پائلٹ چلانے سے پہلے اس کی قیمت لگانا
+- [نمونے کی معلومات کی متوقع قدر (EVSI)](locales/en-gb-oxendict/topics/expected-value-of-sample-information/) — *ایک مخصوص تجویز کردہ مطالعے* کا جائزہ، تمام غیر یقینی کو ختم کرنے کا نہیں
+- [حقیقی اختیارات کی قدر پیمائی](locales/en-gb-oxendict/topics/real-options-valuation/) — بعد میں مرحلہ وار منصوبہ بڑھانے کے اختیار کی قیمت، پہلے معلومات جمع کرنے کے اختیار کی نہیں
+- [انسانی سرمائے کا طریقہ بمقابلہ رگڑ کی لاگت کا طریقہ](locales/en-gb-oxendict/topics/human-capital-and-friction-cost/) — ضائع پیداواریت کی قدر لگانے کے دو طریقے، رپورٹ شدہ لاگت میں 2 گنا یا زیادہ فرق
 - [برتری اور کارکردگی کی حد](locales/en-gb-oxendict/topics/dominance-and-efficiency-frontier/) — ایسے اختیارات کو ختم کرنا جنہیں کسی کو نہیں چننا چاہیے
 
 ## نتائج کی پیمائش
@@ -22,12 +25,15 @@
 - [معیار کے لحاظ سے ایڈجسٹ شدہ زندگی کا سال (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — صحت کی قدر کی مشترکہ کرنسی
 - [معذوری کے لحاظ سے ایڈجسٹ شدہ زندگی کا سال (DALY)](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — بوجھ کی طرف کا عکس؛ عالمی صحت کا میٹرک
 - [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — زیادہ تر QALY افادیت کے وزن کے پیچھے کا آلہ
+- [وقت کے تبادلے (TTO) سے افادیت کا استخراج](locales/en-gb-oxendict/topics/time-trade-off-utility/) — افادیت کا وزن جواب دہندہ سے دراصل کیسے نکالا جاتا ہے
 - [بتدریج قیمت-تاثیر کا تناسب (ICER)](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — صحت کی اضافی اکائی کے لیے اضافی قیمت
 - [ادائیگی کی رضامندی کی حدیں](locales/en-gb-oxendict/topics/willingness-to-pay-thresholds/) — NICE £20–30k/QALY اور دنیا کی دیگر حدیں
+- [شماریاتی زندگی کی قدر (VSL)](locales/en-gb-oxendict/topics/value-of-a-statistical-life/) — حدوں پر مبنی تشخیص کا مزدور منڈی پر مبنی متبادل
 - [خالص مالیاتی فائدہ (NMB)](locales/en-gb-oxendict/topics/net-monetary-benefit/) — قدر مائنس قیمت، صحیح طریقے سے کی گئی
 - [حاصل شدہ زندگی کے سال](locales/en-gb-oxendict/topics/life-years-gained/) — بقا کی ریاضی، اور evLYG مساوات کی قسم
 - [صحت کے لحاظ سے ایڈجسٹ شدہ متوقع زندگی (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — آبادی کی سطح پر صحت مند سالوں کا حساب
 - [QALY کی کمی اور شدت کے تبدیل کنندگان](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — کیوں زیادہ بیمار آبادیوں کے QALY زیادہ شمار ہوتے ہیں
+- [کام کی پیداواریت اور سرگرمی کی خرابی (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — غیر حاضری بمقابلہ حاضری مگر گھٹی کارکردگی، لاگت کا پوشیدہ آدھا حصہ
 
 ## معاشی تجزیہ کی اقسام
 
@@ -39,6 +45,7 @@
 - [بجٹ کے اثرات کا تجزیہ (BIA)](locales/en-gb-oxendict/topics/budget-impact-analysis/) — استطاعت، قدر سے الگ
 - [سرمایہ کاری پر منافع (ROI)](locales/en-gb-oxendict/topics/return-on-investment/) — اعلان کردہ پیرامیٹرز کے ساتھ مشترکہ میٹرک
 - [سماجی سرمایہ کاری پر منافع (SROI)](locales/en-gb-oxendict/topics/social-return-on-investment/) — جو بازار قیمت نہیں لگاتا اسے پیسے میں تبدیل کرنا
+- [کرنسیوں کے پار ICER کا موازنہ](locales/en-gb-oxendict/topics/cross-currency-icer-comparison/) — PPP بمقابلہ منڈی کی شرحِ تبادلہ؛ تبدیلی کا وہ انتخاب جو اپنانے کا فیصلہ الٹ سکتا ہے
 
 ## صحت کے نظام کی آپریشنل معاشیات
 
@@ -61,12 +68,17 @@
 ## HTA فریم ورک اور روک تھام کی معاشیات
 
 - [صحت کی ٹیکنالوجی کی تشخیص (HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE، ICER (US)، CADTH: کون فیصلہ کرتا ہے کہ کیا خریدنے کے قابل ہے
+- [مارکوف کوہورٹ سمولیشن](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — کثیر چکر HTA ماڈل کا دراصل سمولیشن کیسے ہوتا ہے، کوہورٹ بہ کوہورٹ، چکر بہ چکر
 - [NICE ثبوت کے معیارات کا فریم ورک](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — ڈیجیٹل صحت کے لیے خطرے کی سطح پر مبنی ثبوت کی ضروریات
 - [جرمنی کا DiGA فاسٹ ٹریک](locales/en-gb-oxendict/topics/diga-fast-track/) — نسخے پر ایپس؛ ثبوت کی آخری تاریخ کے ساتھ عارضی فہرست سازی
 - [علاج کے لیے درکار تعداد (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — کوشش فی فائدہ کی اکائیاں جو دعووں کو ایماندار رکھتی ہیں
+- [آبادی سے منسوب کسر (PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — بیماری کے بوجھ کے لحاظ سے خطرے کا عنصر کتنا لڑنے کے قابل ہے
 - [روک تھام کی معاشیات](locales/en-gb-oxendict/topics/prevention-economics/) — کیوں روک تھام قیمت کے لحاظ سے موثر ہے لیکن شاذ و نادر ہی قیمت بچانے والی
 - [اسکریننگ کی معاشیات](locales/en-gb-oxendict/topics/screening-economics/) — ولسن-جنگنر، کم پھیلاؤ پر PPV کا خاتمہ، الرٹ کی تھکاوٹ
+- [اسکریننگ کے لیے درکار تعداد (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — NNT کا اسکریننگ پروگرام کی سطح کا ہم منصب
 - [بچائی گئی ڈاؤن اسٹریم لاگت](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — لاگت کی ایڈجسٹمنٹ اور انہیں قابل اعتماد بنانے والے اصول
+- [کثیر معیاری فیصلہ تجزیہ (MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — وزنی اسکورنگ جب ایک حد کافی نہ ہو
+- [فی QALY کاربن فٹ پرنٹ](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — NHS کا خالص صفر کا عزم فی QALY لاگت سے ملتا ہے
 
 ## سافٹ ویئر انجینئرنگ اور ڈیجیٹل ترسیل
 
@@ -78,6 +90,8 @@
 - [تکنیکی قرض](locales/en-gb-oxendict/topics/technical-debt/) — اصل رقم، سود، اور کوڈ بیسز کے لیے دائمی بیماری کی معاشیات
 - [ملکیت کی کل قیمت (TCO)](locales/en-gb-oxendict/topics/total-cost-of-ownership/) — دیکھ بھال 50–80% ہے؛ سافٹ ویئر میں سادہ دوا کی قیمت کی غلطی
 - [کلاؤڈ یونٹ اکنامکس (FinOps)](locales/en-gb-oxendict/topics/cloud-unit-economics/) — پیداوار کی اکائی کے لیے قیمت؛ ڈیجیٹل سروس کی حوالہ قیمت
+- [سینٹ تک درست لاگت کی تقسیم](locales/en-gb-oxendict/topics/exact-cents-cost-allocation/) — سب سے بڑے بقیہ کی تقسیم؛ کل کو یوں بانٹنا کہ حصے بالکل واپس جمع ہوں
+- [کرنسی کے لحاظ سے محفوظ لاگت کا مجموعہ](locales/en-gb-oxendict/topics/currency-safe-cost-rollup/) — سینٹ تک ملنے والے کل کے لیے درست اعشاری `Money`، `f64` نہیں
 - [بنانا بمقابلہ خریدنا](locales/en-gb-oxendict/topics/build-vs-buy/) — تاخیر کی قیمت کے ساتھ خطرے کے لحاظ سے ایڈجسٹ شدہ موازنہ
 - [فوائد کا حصول](locales/en-gb-oxendict/topics/benefits-realization/) — یہ آڈٹ کرنا کہ متوقع فوائد واقعی ہوئے یا نہیں
 - [GDS سروس میٹرکس](locales/en-gb-oxendict/topics/gds-service-metrics/) — فی لین دین قیمت، اطمینان، تکمیل، اپنانا
@@ -103,6 +117,7 @@
 - [دور دراز مریض کی نگرانی کی معاشیات](locales/en-gb-oxendict/topics/remote-patient-monitoring-economics/) — CPT کوڈ اسٹیکس اور ہسپتال-ایٹ-ہوم متبادل
 - [صحت ایپ یونٹ اکنامکس](locales/en-gb-oxendict/topics/health-app-unit-economics/) — CAC، LTV، PMPM، اور ROI بمقابلہ VOI
 - [رسائی اور مساوات](locales/en-gb-oxendict/topics/reach-and-equity/) — RE-AIM؛ آبادی کا اثر = رسائی × تاثیر
+- [ارتکاز کا اشاریہ](locales/en-gb-oxendict/topics/concentration-index/) — سماجی و اقتصادی صحت کی عدم مساوات کا باضابطہ شماریاتی پیمانہ
 
 ## معیار کی تازگی
 
