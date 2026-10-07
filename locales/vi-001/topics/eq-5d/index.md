@@ -24,6 +24,7 @@ Giống như một điểm hài lòng tổng hợp được xây dựng từ nhi
 
 - **Sử dụng bộ giá trị từ sai quốc gia.**
 - **Trộn lẫn phiên bản EQ-5D-3L cũ hơn và EQ-5D-5L mới hơn mà không điều chỉnh.**
+- **Coi bộ giá trị là điều hiển nhiên không cần giải thích**: các giá trị độ thỏa dụng mà bộ giá trị trả về tự chúng được lấy từ công chúng qua các nghiên cứu đánh đổi thời gian (hoặc khảo sát lựa chọn liên quan) — xem [Thu thập độ thỏa dụng bằng phương pháp đánh đổi thời gian (TTO)](../thu-thập-độ-thỏa-dụng-bằng-phương-pháp-đánh-đổi-thời-gian/) để biết cách thực hiện.
 
 ## Nguồn tham khảo
 

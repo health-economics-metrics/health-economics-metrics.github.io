@@ -15,6 +15,9 @@ Mới ở đây? Hãy bắt đầu với [chi phí cơ hội](locales/en-gb-oxen
 - [Phân tích độ nhạy](locales/en-gb-oxendict/topics/sensitivity-analysis/) — biểu đồ lốc xoáy; giả định nào quyết định lập luận của bạn
 - [Phân tích độ nhạy xác suất](locales/en-gb-oxendict/topics/probabilistic-sensitivity-analysis/) — Monte Carlo, CEAC, xác suất đúng
 - [Giá trị kỳ vọng của thông tin hoàn hảo](locales/en-gb-oxendict/topics/expected-value-of-perfect-information/) — định giá dự án thí điểm trước khi thực hiện nó
+- [Giá trị kỳ vọng của thông tin mẫu (EVSI)](locales/en-gb-oxendict/topics/expected-value-of-sample-information/) — đánh giá *một nghiên cứu cụ thể được đề xuất*, không phải việc loại bỏ mọi bất định
+- [Định giá quyền chọn thực](locales/en-gb-oxendict/topics/real-options-valuation/) — định giá quyền chọn mở rộng dự án theo giai đoạn sau này, không phải quyền chọn thu thập thông tin trước
+- [Phương pháp vốn con người so với phương pháp chi phí ma sát](locales/en-gb-oxendict/topics/human-capital-and-friction-cost/) — hai cách định giá năng suất bị mất, chi phí báo cáo chênh 2 lần hoặc hơn
 - [Tính trội và biên giới hiệu quả](locales/en-gb-oxendict/topics/dominance-and-efficiency-frontier/) — loại bỏ các lựa chọn mà không ai nên chọn
 
 ## Các thước đo kết quả
@@ -22,12 +25,15 @@ Mới ở đây? Hãy bắt đầu với [chi phí cơ hội](locales/en-gb-oxen
 - [Năm sống điều chỉnh theo chất lượng (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — đơn vị tiền tệ chung của giá trị sức khỏe
 - [Năm sống điều chỉnh theo khuyết tật (DALY)](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — hình ảnh phản chiếu từ phía gánh nặng bệnh tật; thước đo của sức khỏe toàn cầu
 - [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — công cụ đứng sau hầu hết các trọng số tiện ích QALY
+- [Thu thập độ thỏa dụng bằng phương pháp đánh đổi thời gian (TTO)](locales/en-gb-oxendict/topics/time-trade-off-utility/) — trọng số độ thỏa dụng thực sự được thu thập từ người trả lời như thế nào
 - [Tỷ số hiệu quả chi phí gia tăng (ICER)](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — chi phí tăng thêm cho mỗi đơn vị sức khỏe tăng thêm
 - [Ngưỡng sẵn sàng chi trả](locales/en-gb-oxendict/topics/willingness-to-pay-thresholds/) — ngưỡng £20–30 nghìn/QALY của NICE và các giới hạn khác trên thế giới
+- [Giá trị của một sinh mạng thống kê (VSL)](locales/en-gb-oxendict/topics/value-of-a-statistical-life/) — phương án dựa trên thị trường lao động thay cho định giá theo ngưỡng
 - [Lợi ích tiền tệ ròng (NMB)](locales/en-gb-oxendict/topics/net-monetary-benefit/) — giá trị trừ chi phí, thực hiện đúng cách
 - [Số năm sống đạt được](locales/en-gb-oxendict/topics/life-years-gained/) — toán học sống còn, và biến thể công bằng evLYG
 - [Tuổi thọ điều chỉnh theo sức khỏe (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — hạch toán số năm khỏe mạnh ở cấp độ dân số
 - [Thiếu hụt QALY và hệ số điều chỉnh mức độ nghiêm trọng](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — tại sao QALY của các quần thể bệnh nặng hơn được tính cao hơn
+- [Năng suất làm việc và suy giảm hoạt động (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — vắng mặt so với có mặt nhưng giảm hiệu suất, nửa ẩn của chi phí
 
 ## Các loại phân tích kinh tế
 
@@ -39,6 +45,7 @@ Mới ở đây? Hãy bắt đầu với [chi phí cơ hội](locales/en-gb-oxen
 - [Phân tích tác động ngân sách (BIA)](locales/en-gb-oxendict/topics/budget-impact-analysis/) — khả năng chi trả, tách biệt với giá trị
 - [Lợi tức đầu tư (ROI)](locales/en-gb-oxendict/topics/return-on-investment/) — chỉ số chung, với các tham số được khai báo
 - [Lợi tức đầu tư xã hội (SROI)](locales/en-gb-oxendict/topics/social-return-on-investment/) — quy đổi thành tiền những gì thị trường không định giá
+- [So sánh ICER giữa các đồng tiền](locales/en-gb-oxendict/topics/cross-currency-icer-comparison/) — PPP so với tỷ giá thị trường; lựa chọn quy đổi có thể đảo ngược quyết định chấp nhận
 
 ## Kinh tế vận hành của hệ thống y tế
 
@@ -61,12 +68,17 @@ Mới ở đây? Hãy bắt đầu với [chi phí cơ hội](locales/en-gb-oxen
 ## Khung HTA và kinh tế học phòng ngừa
 
 - [Đánh giá công nghệ y tế (HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE, ICER (Hoa Kỳ), CADTH: ai quyết định điều gì đáng mua
+- [Mô phỏng thuần tập Markov](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — mô hình HTA nhiều chu kỳ thực sự được mô phỏng thế nào, từng thuần tập, từng chu kỳ
 - [Khung tiêu chuẩn bằng chứng của NICE](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — yêu cầu bằng chứng phân cấp theo rủi ro cho y tế số
 - [Lộ trình nhanh DiGA của Đức](locales/en-gb-oxendict/topics/diga-fast-track/) — ứng dụng theo đơn thuốc; danh sách tạm thời với hạn chót về bằng chứng
 - [Số lượng cần điều trị (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — đơn vị nỗ lực trên lợi ích giữ cho các tuyên bố trung thực
+- [Tỷ phần quy trách nhiệm quần thể (PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — một yếu tố nguy cơ đáng để chống lại đến đâu về gánh nặng bệnh
 - [Kinh tế học phòng ngừa](locales/en-gb-oxendict/topics/prevention-economics/) — tại sao phòng ngừa hiệu quả về chi phí nhưng hiếm khi tiết kiệm chi phí
 - [Kinh tế học sàng lọc](locales/en-gb-oxendict/topics/screening-economics/) — Wilson–Jungner, sự sụp đổ của PPV khi tỷ lệ hiện mắc thấp, mệt mỏi vì cảnh báo
+- [Số người cần sàng lọc (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — phiên bản ở cấp chương trình sàng lọc của NNT
 - [Chi phí hạ nguồn tránh được](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — bù trừ chi phí và các quy tắc khiến chúng đáng tin cậy
+- [Phân tích quyết định đa tiêu chí (MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — chấm điểm có trọng số khi một ngưỡng duy nhất không đủ
+- [Dấu chân carbon trên mỗi QALY](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — cam kết phát thải ròng bằng không của NHS gặp chi phí trên mỗi QALY
 
 ## Kỹ thuật phần mềm và triển khai số
 
@@ -78,6 +90,8 @@ Mới ở đây? Hãy bắt đầu với [chi phí cơ hội](locales/en-gb-oxen
 - [Nợ kỹ thuật](locales/en-gb-oxendict/topics/technical-debt/) — vốn gốc, lãi suất, và kinh tế học bệnh mạn tính cho các cơ sở mã nguồn
 - [Tổng chi phí sở hữu (TCO)](locales/en-gb-oxendict/topics/total-cost-of-ownership/) — bảo trì chiếm 50–80%; sai lầm định giá thuốc ngây thơ trong phần mềm
 - [Kinh tế đơn vị của đám mây (FinOps)](locales/en-gb-oxendict/topics/cloud-unit-economics/) — chi phí cho mỗi đơn vị sản xuất; chi phí tham chiếu của dịch vụ số
+- [Phân bổ chi phí chính xác đến từng xu](locales/en-gb-oxendict/topics/exact-cents-cost-allocation/) — phân bổ phần dư lớn nhất; chia một tổng sao cho các phần cộng lại đúng bằng nó
+- [Cộng gộp chi phí an toàn tiền tệ](locales/en-gb-oxendict/topics/currency-safe-cost-rollup/) — `Money` thập phân chính xác, không dùng `f64`, cho các tổng phải khớp đến từng xu
 - [Xây dựng so với mua](locales/en-gb-oxendict/topics/build-vs-buy/) — so sánh điều chỉnh theo rủi ro với yếu tố trì hoãn được định giá
 - [Hiện thực hóa lợi ích](locales/en-gb-oxendict/topics/benefits-realization/) — kiểm toán xem các lợi ích dự báo có thực sự xảy ra hay không
 - [Các chỉ số dịch vụ GDS](locales/en-gb-oxendict/topics/gds-service-metrics/) — chi phí cho mỗi giao dịch, mức độ hài lòng, hoàn thành, mức độ sử dụng
@@ -103,6 +117,7 @@ Mới ở đây? Hãy bắt đầu với [chi phí cơ hội](locales/en-gb-oxen
 - [Kinh tế học giám sát bệnh nhân từ xa](locales/en-gb-oxendict/topics/remote-patient-monitoring-economics/) — chồng mã CPT và thay thế bệnh viện bằng chăm sóc tại nhà
 - [Kinh tế đơn vị của ứng dụng y tế](locales/en-gb-oxendict/topics/health-app-unit-economics/) — CAC, LTV, PMPM, và ROI so với VOI
 - [Độ phủ và công bằng](locales/en-gb-oxendict/topics/reach-and-equity/) — RE-AIM; tác động dân số = độ phủ × hiệu quả
+- [Chỉ số tập trung](locales/en-gb-oxendict/topics/concentration-index/) — thước đo thống kê chính thức của bất bình đẳng sức khỏe theo kinh tế-xã hội
 
 ## Tính cập nhật của các giá trị tham chiếu
 
