@@ -51,6 +51,8 @@ Toute organisation d'ingénierie a un λ implicite : le seuil auquel elle financ
 - **Magasinage de seuils** à travers les juridictions ou citer le plafond HST pour un produit ordinaire.
 - **Traiter λ comme un plancher de prix** : franchir le seuil est nécessaire, pas suffisant — l'[impact budgétaire](../analyse-d-impact-budgétaire/) peut toujours couler un produit abordable par unité.
 - **Ignorer que les seuils bougent** : les modulateurs de sévérité de NICE (2022) et les revues périodiques changent le λ effectif ; datez vos allégations.
+- **Comparer un ICER exprimé dans une autre devise au seuil sans le convertir d'abord** : voir [Comparaison de l'ICER entre devises](../comparaison-de-l-icer-entre-devises/) — la méthode de conversion (parité de pouvoir d'achat contre taux de change du marché) est déterminante sur le plan méthodologique, et non un détail d'arrondi.
+- **Mélanger la valorisation fondée sur λ et la tradition VSL/VPF du marché du travail** : elles proviennent de traditions théoriques différentes (méthodologie contrainte par le budget de santé contre préférence révélée par des arbitrages salaire-risque) et ne sont pas toujours compatibles — pour l'approche alternative par préférence révélée de la valorisation de la vie, voir [Valeur d'une vie statistique](../valeur-d-une-vie-statistique/).
 
 ## Sources
 

@@ -41,6 +41,7 @@ La capacité d'ingénierie est aussi un budget fixe — des créneaux de feuille
 - **Comparer à rien.** Le comparateur correct est le meilleur usage suivant de l'argent, qui est rarement « ne rien faire ».
 - **Supposer que le temps économisé a un coût d'opportunité nul.** Le temps économisé n'est précieux que s'il est redéployé vers quelque chose de précieux — voir [économies libératrices de trésorerie contre non libératrices](../économies-libératrices-de-trésorerie-contre-non-libératrices/).
 - **Ignorer le déplacement.** « Le budget s'étendra pour s'adapter » n'est presque jamais vrai dans un service de santé national en cours d'année.
+- **Ignorer la méthode qui valorise la ressource déplacée.** En particulier pour la productivité perdue du fait d'une maladie, d'un handicap ou d'un salarié qui part — voir [Approche du capital humain contre méthode des coûts de friction](../approche-du-capital-humain-contre-méthode-des-coûts-de-friction/), la version de cette idée propre au coût de productivité.
 
 ## Sources
 

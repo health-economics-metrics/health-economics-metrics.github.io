@@ -34,6 +34,8 @@ L'analyse préférée du promoteur lui-même montrait 9 000 £/QALY ; le cas de 
 
 L'artefact transférable est le **cas de référence interne** : une méthode obligatoire pour tous les dossiers de décision d'outillage/plateforme — comparateur déclaré, coûts unitaires standards (voir [tarif national et coûts unitaires](../tarif-national-et-coûts-unitaires/) pour le modèle), taux d'actualisation fixe, analyse de sensibilité requise, modèle standard. Un « dossier style AMCP pour outils » soumis à un conseil de plateforme rend les propositions comparables et la manipulation visible, exactement comme le fait l'ETS pour la médecine. Commencez plus petit que ne l'a fait NICE : un modèle de deux pages plus un catalogue de prix publié bat l'absence totale de norme.
 
+Pour voir comment un modèle d'ETS à plusieurs cycles est réellement simulé, cohorte par cohorte et cycle par cycle, voir [Simulation de cohorte de Markov](../simulation-de-cohorte-de-markov/).
+
 ## Pièges
 
 - **Traiter l'ETS comme une formalité après l'homologation réglementaire** — l'homologation CE/UKCA/FDA dit qu'un produit est sûr ; l'ETS décide s'il *vaut la peine d'être acheté*. Obstacle différent, preuve différente.

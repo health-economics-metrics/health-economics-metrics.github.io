@@ -4,7 +4,7 @@ La VEIP est le montant maximal qu'un décideur devrait payer pour éliminer l'in
 
 ## Pourquoi c'est important
 
-Les systèmes de santé font constamment face au choix : adopter maintenant sur une preuve imparfaite, ou financer d'abord plus de recherche. La VEIP met un chiffre sur la seconde option. Si la VEIP est de 50 000 £ et que l'essai proposé coûte 2 millions £, adoptez maintenant. Si la VEIP est de 20 millions £, l'essai est une bonne affaire. La même question — « devrions-nous piloter cela avant de le déployer ? » — se pose pour chaque décision d'outil d'entreprise, et presque personne ne la chiffre.
+Les systèmes de santé font constamment face au choix : adopter maintenant sur une preuve imparfaite, ou financer d'abord plus de recherche. La VEIP met un chiffre sur la seconde option. Si la VEIP est de 50 000 £ et que l'essai proposé coûte 2 millions £, adoptez maintenant. Si la VEIP est de 20 millions £, l'essai est une bonne affaire. La même question — « devrions-nous piloter cela avant de le déployer ? » — se pose pour chaque décision d'outil d'entreprise, et presque personne ne la chiffre. Pour valoriser l'option d'étendre un projet plus tard, plutôt que l'option de recueillir d'abord de l'information, voir [Valorisation par options réelles](../valorisation-par-options-réelles/).
 
 ## Le calcul
 
@@ -46,7 +46,7 @@ La VEIP est l'économie du sprint exploratoire, du pilote, du test A/B et de la 
 - **Un pilote ne mérite d'être financé que si la décision pourrait réellement changer.** Si vous déploieriez de toute façon quel que soit le résultat du pilote, la VEIP = 0 et le pilote est du théâtre.
 - **Plafonnez la dépense du pilote à la VEIP.** La valeur de l'information est bornée par la valeur de la décision qu'elle informe.
 
-La VEIP partielle (VEIPP) étend cela aux paramètres individuels : « que vaut le fait de préciser spécifiquement le chiffre de temps économisé ? » — ce qui vous indique ce que le pilote devrait mesurer.
+La VEIP partielle (VEIPP) étend cela aux paramètres individuels : « que vaut le fait de préciser spécifiquement le chiffre de temps économisé ? » — ce qui vous indique ce que le pilote devrait mesurer. Pour évaluer *une étude précise proposée* plutôt que l'élimination de toute l'incertitude, voir l'[EVSI](../valeur-espérée-de-l-information-d-échantillon/).
 
 ## Pièges
 

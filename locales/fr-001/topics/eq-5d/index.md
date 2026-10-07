@@ -46,6 +46,7 @@ Face à un changement de groupe témoin de 0,03 (récupération naturelle), le g
 - **Biais de survie** : mesurer uniquement les utilisateurs qui sont restés engagés (voir [rétention et attrition](../rétention-et-attrition/)).
 - **Mélanger les versions 3L et 5L ou les ensembles de valeurs** entre les études — des chiffres systématiquement différents.
 - **Effets de plafond** dans les populations légèrement affectées : de nombreux utilisateurs notent près de 1,0 à la ligne de base, ne laissant aucune marge pour démontrer un gain.
+- **Considérer le jeu de valeurs comme allant de soi** : les valeurs d'utilité qu'un jeu de valeurs renvoie ont elles-mêmes été obtenues auprès du public par des études d'arbitrage temporel (ou des enquêtes de choix apparentées) — voir [Élicitation des utilités par arbitrage temporel (TTO)](../élicitation-des-utilités-par-arbitrage-temporel/) pour savoir comment.
 
 ## Sources
 
