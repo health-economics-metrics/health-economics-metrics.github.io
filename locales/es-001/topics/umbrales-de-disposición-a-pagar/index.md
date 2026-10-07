@@ -51,6 +51,8 @@ Cada organización de ingeniería tiene una λ implícita: el obstáculo al cual
 - **Compra de umbrales** entre jurisdicciones o citar el techo HST para un producto ordinario.
 - **Tratar λ como un piso de precio**: superar el umbral es necesario, no suficiente — el [impacto presupuestario](../análisis-de-impacto-presupuestario/) todavía puede hundir un producto asequible por unidad.
 - **Ignorar que los umbrales se mueven**: los moduladores de gravedad de NICE (2022) y las revisiones periódicas cambian la λ efectiva; fecha tus reclamaciones.
+- **Comparar un ICER en otra moneda con el umbral sin convertir antes**: véase [comparación del ICER entre monedas](../comparación-del-icer-entre-monedas/); el método de conversión (paridad de poder adquisitivo frente a tipo de cambio de mercado) es metodológicamente decisivo, no un detalle de redondeo.
+- **Mezclar la valoración basada en λ con la tradición del VSL/VPF del mercado laboral**: proceden de tradiciones teóricas distintas (metodología limitada por el presupuesto sanitario frente a preferencia revelada por compensaciones salario-riesgo) y no siempre son compatibles; para el enfoque alternativo de preferencia revelada para valorar la vida, véase [valor de una vida estadística](../valor-de-una-vida-estadística/).
 
 ## Fuentes
 

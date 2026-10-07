@@ -41,6 +41,7 @@ La capacidad de ingeniería también es un presupuesto fijo — franjas de hoja 
 - **Comparar contra nada.** El comparador correcto es el siguiente mejor uso del dinero, que rara vez es "no hacer nada".
 - **Asumir que el tiempo ahorrado tiene coste de oportunidad cero.** El tiempo ahorrado solo es valioso si se redespliega a algo valioso — ver [ahorros liberadores de efectivo frente a no liberadores de efectivo](../ahorros-liberadores-de-efectivo-frente-a-no-liberadores-de-efectivo/).
 - **Ignorar el desplazamiento.** "El presupuesto se expandirá para encajar" casi nunca es cierto en un servicio de salud nacional dentro del año.
+- **Ignorar qué método valora el recurso desplazado.** En particular para la productividad perdida por enfermedad, discapacidad o la salida de un empleado; véase [enfoque del capital humano frente al método del coste de fricción](../enfoque-del-capital-humano-frente-al-método-del-coste-de-fricción/), la versión de esta idea específica del coste de productividad.
 
 ## Fuentes
 

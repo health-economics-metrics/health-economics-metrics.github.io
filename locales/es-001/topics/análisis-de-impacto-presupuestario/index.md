@@ -35,7 +35,7 @@ Incluso si el RCEI del producto es un estelar £8.000/AVAC, el pagador debe enco
 
 ## Conexión con la ingeniería de software
 
-El AIP es exactamente el complemento orientado al CFO de una reclamación de ROI por asiento: "es coste-efectivo por desarrollador, pero ¿podemos permitirnos el despliegue en toda la organización este año fiscal?" Modela niveles de licencia, una curva de adopción en S, gasto en herramientas desplazado que solo libera efectivo cuando los contratos antiguos realmente terminan, y uso inducido (CI más barato → más CI). Presentar una tabla de impacto presupuestario de 3 años junto al ROI es lo que hace que una propuesta de herramientas empresarial sea creíble financieramente.
+El AIP es exactamente el complemento orientado al CFO de una reclamación de ROI por asiento: "es coste-efectivo por desarrollador, pero ¿podemos permitirnos el despliegue en toda la organización este año fiscal?" Modela niveles de licencia, una curva de adopción en S, gasto en herramientas desplazado que solo libera efectivo cuando los contratos antiguos realmente terminan, y uso inducido (CI más barato → más CI). Presentar una tabla de impacto presupuestario de 3 años junto al ROI es lo que hace que una propuesta de herramientas empresarial sea creíble financieramente. Repartir una cifra publicada de impacto presupuestario por emplazamiento, grupo de población o ejercicio fiscal, de modo que las partes cuadren exactamente con la cifra publicada, es la [asignación exacta de costes al céntimo](../asignación-exacta-de-costes-al-céntimo/); sumar las muchas partidas que alimentan ese total es la [agregación de costes segura para monedas](../agregación-de-costes-segura-para-monedas/).
 
 ## Errores comunes
 

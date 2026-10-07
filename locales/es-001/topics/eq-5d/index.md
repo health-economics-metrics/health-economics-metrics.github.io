@@ -46,6 +46,7 @@ Frente a un cambio de grupo de control de 0,03 (recuperación natural), la ganan
 - **Sesgo de supervivencia**: medir solo a los usuarios que permanecieron comprometidos (ver [retención y abandono](../retención-y-abandono/)).
 - **Mezclar versiones 3L y 5L o conjuntos de valores** entre estudios — cifras sistemáticamente diferentes.
 - **Efectos de techo** en poblaciones levemente afectadas: muchos usuarios puntúan cerca de 1,0 en la línea base, sin dejar margen para demostrar ganancia.
+- **Dar el conjunto de valores por autoexplicativo**: los valores de utilidad que devuelve un conjunto de valores se obtuvieron a su vez del público mediante estudios de intercambio de tiempo (o encuestas de elección afines); véase [Obtención de utilidades con el método de intercambio de tiempo (TTO)](../obtención-de-utilidades-con-el-método-de-intercambio-de-tiempo/) para saber cómo.
 
 ## Fuentes
 
