@@ -24,6 +24,7 @@ Sebuah aplikasi rehabilitasi muskuloskeletal mengukur EQ-5D-5L pada pendaftaran 
 ## Jebakan
 
 - **Sebelum/sesudah tanpa pembanding.**
+- **Menganggap himpunan nilai sebagai sesuatu yang tak perlu dijelaskan**: nilai utilitas yang dikembalikan himpunan nilai itu sendiri digali dari masyarakat melalui studi time trade-off (atau survei pilihan terkait) — lihat [Penggalian utilitas dengan time trade-off (TTO)](../penggalian-utilitas-dengan-time-trade-off/) untuk caranya.
 
 ## Sumber
 

@@ -41,6 +41,7 @@ Kapasitas rekayasa juga anggaran tetap — slot roadmap, bukan pound. Sebuah tim
 - **Membandingkan terhadap tidak-ada-apa-apa.** Pembanding yang benar adalah penggunaan-terbaik-berikutnya dari uang, yang jarang "tidak melakukan apa-apa".
 - **Mengasumsikan waktu yang dihemat memiliki biaya-peluang nol.** Waktu yang dihemat hanya berharga jika dipekerjakan-kembali ke sesuatu yang berharga — lihat [penghematan pelepas-kas vs bukan-pelepas-kas](../penghematan-pelepas-kas-vs-bukan-pelepas-kas/).
 - **Mengabaikan penggantian.** "Anggaran akan berkembang untuk menampungnya" hampir tidak pernah benar dalam sistem kesehatan nasional dalam-tahun.
+- **Mengabaikan metode mana yang menilai sumber daya yang tergeser.** Terutama untuk produktivitas yang hilang akibat penyakit, disabilitas, atau karyawan yang pergi — lihat [pendekatan modal manusia vs metode biaya friksi](../pendekatan-modal-manusia-vs-metode-biaya-friksi/), versi gagasan ini yang khusus biaya produktivitas.
 
 ## Sumber
 

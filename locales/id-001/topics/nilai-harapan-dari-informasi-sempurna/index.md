@@ -4,7 +4,7 @@ EVPI adalah jumlah maksimum yang seharusnya dibayar pengambil keputusan untuk me
 
 ## Mengapa Ini Penting
 
-Sistem kesehatan terus-menerus menghadapi pilihan: mengadopsi sekarang dengan bukti yang tidak sempurna, atau mendanai lebih banyak penelitian dulu. EVPI memberikan angka pada pilihan kedua. Jika EVPI adalah £50.000 dan uji coba yang diusulkan berbiaya £2 juta, adopsi sekarang. Jika EVPI adalah £20 juta, uji cobanya murah. Pertanyaan yang sama — "haruskah kita mengujicobakan ini sebelum meluncurkannya?" — muncul untuk setiap keputusan alat perusahaan, dan hampir tidak ada yang memberi harga padanya.
+Sistem kesehatan terus-menerus menghadapi pilihan: mengadopsi sekarang dengan bukti yang tidak sempurna, atau mendanai lebih banyak penelitian dulu. EVPI memberikan angka pada pilihan kedua. Jika EVPI adalah £50.000 dan uji coba yang diusulkan berbiaya £2 juta, adopsi sekarang. Jika EVPI adalah £20 juta, uji cobanya murah. Pertanyaan yang sama — "haruskah kita mengujicobakan ini sebelum meluncurkannya?" — muncul untuk setiap keputusan alat perusahaan, dan hampir tidak ada yang memberi harga padanya. Untuk menghargai opsi memperluas proyek di kemudian hari, bukan opsi mengumpulkan informasi lebih dulu, lihat [penilaian opsi riil](../penilaian-opsi-riil/).
 
 ## Perhitungan
 
@@ -46,7 +46,7 @@ EVPI adalah ekonomi dari spike, uji coba, uji A/B, dan bukti-konsep. Ia menghasi
 - **Uji coba hanya layak didanai jika keputusan benar-benar dapat berubah.** Jika Anda akan meluncurkan terlepas dari hasil uji coba, EVPI = 0 dan uji cobanya adalah teater.
 - **Batasi pengeluaran uji coba pada EVPI.** Nilai informasi dibatasi oleh nilai keputusan yang diinformasikannya.
 
-EVPI parsial (EVPPI) memperluas ini ke parameter tunggal: "berapa nilai untuk memastikan angka waktu-yang-dihemat secara spesifik?" — yang memberi tahu Anda apa yang harus diukur uji coba.
+EVPI parsial (EVPPI) memperluas ini ke parameter tunggal: "berapa nilai untuk memastikan angka waktu-yang-dihemat secara spesifik?" — yang memberi tahu Anda apa yang harus diukur uji coba. Untuk menilai *satu studi spesifik yang diusulkan* alih-alih penghapusan seluruh ketidakpastian, lihat [EVSI](../nilai-harapan-informasi-sampel/).
 
 ## Jebakan
 

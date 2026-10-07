@@ -34,6 +34,8 @@ Analisis yang disukai sponsor sendiri menunjukkan £9.000/QALY; kasus rujukan me
 
 Artefak yang dapat ditransfer adalah **kasus rujukan internal**: satu metode yang diwajibkan untuk semua kasus bisnis alat/platform — pembanding yang dinyatakan, biaya unit standar (lihat [tarif nasional dan biaya unit](../tarif-nasional-dan-biaya-unit/) untuk polanya), tingkat diskon tetap, analisis sensitivitas yang diperlukan, template standar. "Dosier gaya-AMCP untuk alat" yang diajukan ke dewan platform membuat proposal dapat dibandingkan dan manipulasi terlihat, persis seperti HTA lakukan untuk kedokteran. Mulai lebih kecil daripada NICE: template dua-halaman ditambah buku-harga yang dipublikasikan mengalahkan tidak-ada-standar-sama-sekali.
 
+Untuk bagaimana model HTA multisiklus sebenarnya disimulasikan, kohort demi kohort dan siklus demi siklus, lihat [simulasi kohort Markov](../simulasi-kohort-markov/).
+
 ## Jebakan
 
 - **Memperlakukan HTA sebagai formalitas setelah izin regulasi** — izin CE/UKCA/FDA mengatakan sebuah produk aman; HTA memutuskan apakah *layak dibeli*. Rintangan berbeda, bukti berbeda.

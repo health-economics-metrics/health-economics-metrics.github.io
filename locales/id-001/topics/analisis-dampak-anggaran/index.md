@@ -35,7 +35,7 @@ Bahkan jika ICER produk adalah £8.000/QALY yang bagus, pembayar harus menemukan
 
 ## Hubungan dengan Rekayasa Perangkat Lunak
 
-BIA adalah pelengkap yang menghadap-CFO persis dari klaim ROI per-kursi: "ini efektif biaya per pengembang, tetapi mampukah kita membiayai peluncuran seluruh organisasi tahun fiskal ini?" Modelkan tingkatan lisensi, kurva-S adopsi, pengeluaran perkakas yang dipindahkan yang hanya melepaskan kas ketika kontrak lama benar-benar berakhir, dan penggunaan yang diinduksi (CI lebih murah → lebih banyak CI). Menyajikan tabel dampak-anggaran 3-tahun di samping ROI adalah apa yang membuat proposal perkakas perusahaan kredibel secara finansial.
+BIA adalah pelengkap yang menghadap-CFO persis dari klaim ROI per-kursi: "ini efektif biaya per pengembang, tetapi mampukah kita membiayai peluncuran seluruh organisasi tahun fiskal ini?" Modelkan tingkatan lisensi, kurva-S adopsi, pengeluaran perkakas yang dipindahkan yang hanya melepaskan kas ketika kontrak lama benar-benar berakhir, dan penggunaan yang diinduksi (CI lebih murah → lebih banyak CI). Menyajikan tabel dampak-anggaran 3-tahun di samping ROI adalah apa yang membuat proposal perkakas perusahaan kredibel secara finansial. Membagi angka dampak anggaran yang dipublikasikan per lokasi, kelompok populasi, atau tahun fiskal — sehingga bagian-bagiannya cocok persis dengan angka yang dipublikasikan — adalah [alokasi biaya tepat hingga sen](../alokasi-biaya-tepat-hingga-sen/); menjumlahkan banyak butir yang mengumpan total itu adalah [agregasi biaya yang aman terhadap mata uang](../agregasi-biaya-yang-aman-terhadap-mata-uang/).
 
 ## Jebakan
 
