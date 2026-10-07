@@ -46,6 +46,7 @@ Face a uma mudança do grupo de controlo de 0,03 (recuperação natural), o ganh
 - **Viés de sobrevivência**: medir apenas os utilizadores que permaneceram envolvidos (ver [retenção e abandono](../retenção-e-abandono/)).
 - **Misturar versões 3L e 5L ou conjuntos de valores** entre estudos — números sistematicamente diferentes.
 - **Efeitos de teto** em populações levemente afetadas: muitos utilizadores pontuam perto de 1,0 na base, sem margem para demonstrar ganho.
+- **Dar o conjunto de valores por autoexplicativo**: os valores de utilidade que um conjunto de valores devolve foram eles próprios obtidos junto do público por estudos de troca de tempo (ou inquéritos de escolha afins) — veja-se a [Obtenção de utilidades por troca de tempo (TTO)](../obtenção-de-utilidades-por-troca-de-tempo/) para saber como.
 
 ## Fontes
 
