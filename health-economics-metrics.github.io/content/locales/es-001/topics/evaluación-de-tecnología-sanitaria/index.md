@@ -34,6 +34,8 @@ El análisis preferido del propio patrocinador mostró £9.000/AVAC; el caso de 
 
 El artefacto transferible es el **caso de referencia interno**: un método obligatorio para todos los casos de negocio de herramientas/plataforma — comparador declarado, costes unitarios estándar (ver [tarifa nacional y costes unitarios](../tarifa-nacional-y-costes-unitarios/) para el patrón), tasa de descuento fija, análisis de sensibilidad requerido, plantilla estándar. Un "dossier estilo AMCP para herramientas" presentado a un consejo de plataforma hace que las propuestas sean comparables y la manipulación visible, exactamente como lo hace la ETS para la medicina. Empieza más pequeño de lo que hizo NICE: una plantilla de dos páginas más un libro de precios publicado supera a ningún estándar en absoluto.
 
+Para ver cómo se simula realmente un modelo de ETS de varios ciclos, cohorte a cohorte y ciclo a ciclo, véase [simulación de cohortes de Markov](../simulación-de-cohortes-de-markov/).
+
 ## Errores comunes
 
 - **Tratar la ETS como formalidad después de la autorización regulatoria** — la autorización CE/UKCA/FDA dice que un producto es seguro; la ETS decide si *merece la pena comprarlo*. Obstáculo diferente, evidencia diferente.

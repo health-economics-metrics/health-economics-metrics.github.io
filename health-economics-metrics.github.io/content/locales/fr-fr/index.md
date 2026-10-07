@@ -15,6 +15,9 @@ Nouveau ici ? Commencez par [coût d'opportunité](locales/en-gb-oxendict/topics
 - [Analyse de sensibilité](locales/en-gb-oxendict/topics/sensitivity-analysis/) — diagrammes en tornade ; quelle hypothèse porte votre dossier
 - [Analyse de sensibilité probabiliste (PSA)](locales/en-gb-oxendict/topics/probabilistic-sensitivity-analysis/) — Monte-Carlo, CEAC, probabilité d'avoir raison
 - [Valeur espérée de l'information parfaite (EVPI)](locales/en-gb-oxendict/topics/expected-value-of-perfect-information/) — chiffrer le pilote avant de le lancer
+- [Valeur espérée de l'information d'échantillon (EVSI)](locales/en-gb-oxendict/topics/expected-value-of-sample-information/) — évaluer *une étude précise proposée*, et non l'élimination de toute l'incertitude
+- [Valorisation par options réelles](locales/en-gb-oxendict/topics/real-options-valuation/) — chiffrer l'option d'étendre plus tard un projet échelonné, et non celle de recueillir d'abord de l'information
+- [Approche du capital humain contre méthode des coûts de friction](locales/en-gb-oxendict/topics/human-capital-and-friction-cost/) — deux façons de valoriser la productivité perdue, avec un coût rapporté qui diffère d'un facteur 2 ou plus
 - [Dominance et frontière d'efficience](locales/en-gb-oxendict/topics/dominance-and-efficiency-frontier/) — éliminer les options que personne ne devrait choisir
 
 ## Mesures de résultats
@@ -22,12 +25,15 @@ Nouveau ici ? Commencez par [coût d'opportunité](locales/en-gb-oxendict/topics
 - [Année de vie ajustée sur la qualité (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — la monnaie commune de la valeur en santé
 - [Année de vie corrigée du facteur invalidité (DALY)](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — le miroir côté fardeau ; l'indicateur de la santé mondiale
 - [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — l'instrument derrière la plupart des poids d'utilité du QALY
+- [Élicitation des utilités par arbitrage temporel (TTO)](locales/en-gb-oxendict/topics/time-trade-off-utility/) — comment une pondération d'utilité est réellement obtenue auprès d'un répondant
 - [Ratio coût-efficacité incrémental (ICER)](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — coût supplémentaire par unité de santé supplémentaire
 - [Seuils de disposition à payer](locales/en-gb-oxendict/topics/willingness-to-pay-thresholds/) — les 20 000–30 000 £/QALY de NICE et les autres seuils dans le monde
+- [Valeur d'une vie statistique (VSL)](locales/en-gb-oxendict/topics/value-of-a-statistical-life/) — l'alternative fondée sur le marché du travail à la valorisation par seuils
 - [Bénéfice monétaire net (Net Monetary Benefit, NMB)](locales/en-gb-oxendict/topics/net-monetary-benefit/) — la valeur moins le coût, fait correctement
 - [Années de vie gagnées (Life-Years Gained, LYG)](locales/en-gb-oxendict/topics/life-years-gained/) — mathématiques de survie, et la variante d'équité evLYG
 - [Espérance de vie ajustée sur la santé (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — comptabilité des années en bonne santé au niveau de la population
 - [Déficit de QALY et modificateurs de sévérité](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — pourquoi les QALY des populations plus malades comptent davantage
+- [Productivité au travail et altération de l'activité (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — absentéisme contre présentéisme, la moitié cachée du coût
 
 ## Types d'analyse économique
 
@@ -39,6 +45,7 @@ Nouveau ici ? Commencez par [coût d'opportunité](locales/en-gb-oxendict/topics
 - [Analyse d'impact budgétaire (BIA)](locales/en-gb-oxendict/topics/budget-impact-analysis/) — l'abordabilité, distincte de la valeur
 - [Retour sur investissement (ROI)](locales/en-gb-oxendict/topics/return-on-investment/) — l'indicateur partagé, avec des paramètres déclarés
 - [Retour social sur investissement (SROI)](locales/en-gb-oxendict/topics/social-return-on-investment/) — monétiser ce que les marchés ne valorisent pas
+- [Comparaison de l'ICER entre devises](locales/en-gb-oxendict/topics/cross-currency-icer-comparison/) — PPA contre taux de change du marché ; le choix de conversion qui peut inverser une décision d'adoption
 
 ## Économie opérationnelle du système de santé
 
@@ -61,12 +68,17 @@ Nouveau ici ? Commencez par [coût d'opportunité](locales/en-gb-oxendict/topics
 ## Cadres HTA et économie de la prévention
 
 - [Évaluation des technologies de santé (Health Technology Assessment, HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE, ICER (États-Unis), CADTH : qui décide de ce qui mérite d'être acheté
+- [Simulation de cohorte de Markov](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — comment un modèle d'ETS à plusieurs cycles est réellement simulé, cohorte par cohorte, cycle par cycle
 - [NICE Evidence Standards Framework (ESF)](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — exigences de preuves graduées selon le risque pour la santé numérique
 - [La voie rapide DiGA en Allemagne](locales/en-gb-oxendict/topics/diga-fast-track/) — applications sur ordonnance ; inscription provisoire avec échéance de preuves
 - [Nombre de sujets à traiter (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — des unités d'effort par bénéfice qui gardent les affirmations honnêtes
+- [Fraction attribuable en population (PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — combien un facteur de risque vaut la peine d'être combattu en charge de morbidité
 - [Économie de la prévention](locales/en-gb-oxendict/topics/prevention-economics/) — pourquoi la prévention est coût-efficace mais rarement source d'économies
 - [Économie du dépistage](locales/en-gb-oxendict/topics/screening-economics/) — Wilson–Jungner, l'effondrement de la VPP à faible prévalence, la fatigue des alertes
+- [Nombre de sujets à dépister (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — l'analogue du NNT au niveau du programme de dépistage
 - [Coûts en aval évités](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — compensations de coûts et les règles qui les rendent crédibles
+- [Analyse décisionnelle multicritère (MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — notation pondérée quand un seuil unique ne suffit pas
+- [Empreinte carbone par QALY](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — l'engagement de neutralité carbone du NHS rencontre le coût par QALY
 
 ## Ingénierie logicielle et livraison numérique
 
@@ -78,6 +90,8 @@ Nouveau ici ? Commencez par [coût d'opportunité](locales/en-gb-oxendict/topics
 - [Dette technique](locales/en-gb-oxendict/topics/technical-debt/) — principal, intérêts, et économie de la maladie chronique pour les bases de code
 - [Coût total de possession (TCO)](locales/en-gb-oxendict/topics/total-cost-of-ownership/) — la maintenance représente 50 à 80 % ; l'erreur du prix naïf du médicament, appliquée au logiciel
 - [Économie unitaire du cloud (FinOps)](locales/en-gb-oxendict/topics/cloud-unit-economics/) — coût par unité de production ; le coût de référence du service numérique
+- [Allocation de coûts exacte au centime](locales/en-gb-oxendict/topics/exact-cents-cost-allocation/) — allocation au plus fort reste ; répartir un total pour que les parts s'additionnent exactement
+- [Agrégation de coûts sûre vis-à-vis des devises](locales/en-gb-oxendict/topics/currency-safe-cost-rollup/) — `Money` décimal exact, et non `f64`, pour les totaux qui doivent tomber juste au centime
 - [Construire ou acheter](locales/en-gb-oxendict/topics/build-vs-buy/) — comparaison ajustée au risque avec le terme de délai chiffré
 - [Réalisation des bénéfices](locales/en-gb-oxendict/topics/benefits-realization/) — auditer que les bénéfices prévus se sont réellement produits
 - [Indicateurs de service GDS](locales/en-gb-oxendict/topics/gds-service-metrics/) — coût par transaction, satisfaction, achèvement, adoption
@@ -103,6 +117,7 @@ Nouveau ici ? Commencez par [coût d'opportunité](locales/en-gb-oxendict/topics
 - [Économie de la télésurveillance des patients](locales/en-gb-oxendict/topics/remote-patient-monitoring-economics/) — ensembles de codes CPT et substitution par l'hospitalisation à domicile
 - [Économie unitaire des applications de santé](locales/en-gb-oxendict/topics/health-app-unit-economics/) — CAC, LTV, PMPM, et ROI contre VOI
 - [Portée et équité](locales/en-gb-oxendict/topics/reach-and-equity/) — RE-AIM ; impact populationnel = portée × efficacité
+- [Indice de concentration](locales/en-gb-oxendict/topics/concentration-index/) — la mesure statistique formelle de l'inégalité socio-économique en santé
 
 ## Fraîcheur des repères chiffrés
 

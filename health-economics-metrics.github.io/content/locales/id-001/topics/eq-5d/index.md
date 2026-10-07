@@ -46,6 +46,7 @@ Terhadap perubahan grup-kontrol 0,03 (pemulihan alami), keuntungan teratribusi a
 - **Bias kelangsungan-hidup**: hanya mengukur pengguna yang tetap terlibat (lihat [retensi dan churn](../retensi-dan-churn/)).
 - **Mencampur versi 3L dan 5L atau set nilai** antar studi — angka yang berbeda secara sistematis.
 - **Efek plafon** pada populasi yang terpengaruh ringan: banyak pengguna mendapat skor dekat 1,0 pada dasar, tidak menyisakan ruang untuk menunjukkan keuntungan.
+- **Menganggap himpunan nilai sebagai sesuatu yang tak perlu dijelaskan**: nilai utilitas yang dikembalikan himpunan nilai itu sendiri digali dari masyarakat melalui studi time trade-off (atau survei pilihan terkait) — lihat [Penggalian utilitas dengan time trade-off (TTO)](../penggalian-utilitas-dengan-time-trade-off/) untuk caranya.
 
 ## Sumber
 

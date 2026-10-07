@@ -5,7 +5,7 @@
 - Every locale directory is `<language>-<region>` (for example `en-us`, `fr-001`). Never create a language-only directory such as `locales/en/`.
 - `en-gb-oxendict` is the canonical locale. `README.md` and all cross-references point at it.
 - English variants: `en-us`, `en-gb`, `en-001`, `en-150`. Dialect-spelled slugs differ by locale (for example `...-defense` and `...-defence`); the shared `.locale-peer-id` identifies the topic.
-- Full-language locales keep the English (`en-gb-oxendict`) slug for every topic. Only content is translated.
+- Full-language locales translate the topic slug too: each directory name is derived from that locale's own H1 by `bin/localize-slugs`. The English dialects (`en-us`, `en-gb`, `en-001`, `en-150`, `en-gb-oxendict`) keep English slugs.
 - `xx-001` ("World") is usually an exact copy of `xx-xx`: `rsync -a locales/xx-xx/ locales/xx-001/`, then `diff -rq` to confirm.
 - Exceptions with their own translations and localized directory names: ar, bn, es, fr, hi, id, pt, ru, ur, zh.
 - `et-001`, `th-001` and `vi-001` have no `-xx` sibling.

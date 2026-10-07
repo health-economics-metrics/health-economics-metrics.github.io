@@ -26,6 +26,7 @@ Vergelijkbaar met een samengestelde gebruikerstevredenheidsscore die is opgebouw
 
 - **Een waarderingsset uit het verkeerde land gebruiken.**
 - **De oudere EQ-5D-3L en nieuwere EQ-5D-5L-versies door elkaar gebruiken zonder aanpassing.**
+- **Een waardenset als zelfrechtvaardigend behandelen**: de utiliteitswaarden die een waardenset teruggeeft, zijn zelf bij het publiek verkregen via time-trade-off-enquêtes (of verwante keuzegebaseerde enquêtes); zie [Time-trade-off-(TTO-)utiliteitsmeting](../time-trade-off-tto-utiliteitsmeting/) voor hoe.
 
 ## Bronnen
 

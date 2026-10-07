@@ -18,7 +18,7 @@ Palier C — traiter, diagnostiquer ou guider activement la prise en charge
            (idéalement un essai randomisé) et analyse économique
 ```
 
-Pour les preuves économiques, l'[analyse coût-conséquence](../cost-consequence-analysis/) est acceptable pour la plupart des paliers ; l'[analyse coût-utilité](../cost-utility-analysis/) est attendue au niveau de risque le plus élevé. L'ESF définit votre **coût de preuve d'entrée sur le marché** — budgétez-le comme tout autre coût de construction.
+Pour les preuves économiques, l'[analyse coût-conséquence](../analyse-coût-conséquence/) est acceptable pour la plupart des paliers ; l'[analyse coût-utilité](../analyse-coût-utilité/) est attendue au niveau de risque le plus élevé. L'ESF définit votre **coût de preuve d'entrée sur le marché** — budgétez-le comme tout autre coût de construction.
 
 ## Le calcul
 
@@ -48,13 +48,13 @@ Si l'essai randomisé coûte £600k et que le revenu incrémental de la fonction
 
 ## Lien avec l'ingénierie logicielle
 
-L'ESF est le modèle de gouvernance le plus transposable de ce dépôt : **des exigences de preuves graduées selon le risque pour l'adoption d'outils**. Version interne : un formateur de code a besoin d'une démonstration (Palier A) ; un outil de productivité revendiquant des heures économisées a besoin d'un pilote mesuré (Palier B) ; une porte d'IA qui bloque automatiquement des déploiements ou écrit automatiquement du code clinique a besoin de preuves de niveau essai contrôlé avant un déploiement à l'échelle de l'organisation (Palier C). Des preuves proportionnées empêchent les deux dérives : la bureaucratie qui étouffe des outils triviaux, et le déploiement à l'instinct d'outils lourds de conséquences. Voir aussi [DiGA fast-track](../diga-fast-track/) pour le complément « adoption provisoire avec échéance de preuve ».
+L'ESF est le modèle de gouvernance le plus transposable de ce dépôt : **des exigences de preuves graduées selon le risque pour l'adoption d'outils**. Version interne : un formateur de code a besoin d'une démonstration (Palier A) ; un outil de productivité revendiquant des heures économisées a besoin d'un pilote mesuré (Palier B) ; une porte d'IA qui bloque automatiquement des déploiements ou écrit automatiquement du code clinique a besoin de preuves de niveau essai contrôlé avant un déploiement à l'échelle de l'organisation (Palier C). Des preuves proportionnées empêchent les deux dérives : la bureaucratie qui étouffe des outils triviaux, et le déploiement à l'instinct d'outils lourds de conséquences. Voir aussi [DiGA fast-track](../la-voie-rapide-diga-en-allemagne/) pour le complément « adoption provisoire avec échéance de preuve ».
 
 ## Pièges
 
 - **Mauvaise classification du palier par pensée magique** — les régulateurs et acheteurs classent selon ce que le produit *fait*, pas selon ce que dit le marketing.
 - **Preuves construites après le produit** : greffer un essai randomisé sur un produit déjà livré, sans instrumentation ni équilibre clinique, est lent et souvent impossible.
-- **Satisfaire l'ESF en oubliant le reste** : l'ESF coexiste avec le DTAC (sécurité clinique, protection des données, interopérabilité) et, pour l'IA, l'homologation réglementaire — voir [évaluation réglementaire de l'IA](../ai-regulatory-evaluation/).
+- **Satisfaire l'ESF en oubliant le reste** : l'ESF coexiste avec le DTAC (sécurité clinique, protection des données, interopérabilité) et, pour l'IA, l'homologation réglementaire — voir [évaluation réglementaire de l'IA](../évaluation-réglementaire-de-l-ia/).
 
 ## Sources
 

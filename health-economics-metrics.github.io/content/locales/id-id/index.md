@@ -15,6 +15,9 @@ Baru di sini? Mulai dengan [biaya peluang](locales/en-gb-oxendict/topics/opportu
 - [Analisis sensitivitas](locales/en-gb-oxendict/topics/sensitivity-analysis/) — diagram tornado; asumsi mana yang menopang kasus Anda
 - [Analisis sensitivitas probabilistik](locales/en-gb-oxendict/topics/probabilistic-sensitivity-analysis/) — Monte Carlo, CEAC, probabilitas benar
 - [Nilai harapan informasi sempurna](locales/en-gb-oxendict/topics/expected-value-of-perfect-information/) — menetapkan harga percontohan sebelum menjalankannya
+- [Nilai Harapan Informasi Sampel (EVSI)](locales/en-gb-oxendict/topics/expected-value-of-sample-information/) — menilai *satu studi spesifik yang diusulkan*, bukan penghapusan seluruh ketidakpastian
+- [Penilaian Opsi Riil](locales/en-gb-oxendict/topics/real-options-valuation/) — menghargai opsi memperluas proyek bertahap di kemudian hari, bukan opsi mengumpulkan informasi lebih dulu
+- [Pendekatan Modal Manusia vs Metode Biaya Friksi](locales/en-gb-oxendict/topics/human-capital-and-friction-cost/) — dua cara menilai produktivitas yang hilang, biaya terlapor berbeda 2 kali lipat atau lebih
 - [Dominasi dan batas efisiensi](locales/en-gb-oxendict/topics/dominance-and-efficiency-frontier/) — menghilangkan opsi yang seharusnya tidak dipilih siapa pun
 
 ## Ukuran hasil
@@ -22,12 +25,15 @@ Baru di sini? Mulai dengan [biaya peluang](locales/en-gb-oxendict/topics/opportu
 - [Tahun hidup yang disesuaikan kualitas (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — mata uang umum nilai kesehatan
 - [Tahun hidup yang disesuaikan disabilitas (DALY)](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — cerminan sisi beban; metrik kesehatan global
 - [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — instrumen di balik sebagian besar bobot utilitas QALY
+- [Penggalian Utilitas dengan Time Trade-Off (TTO)](locales/en-gb-oxendict/topics/time-trade-off-utility/) — bagaimana bobot utilitas sebenarnya digali dari responden
 - [Rasio efektivitas biaya inkremental (ICER)](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — biaya ekstra per unit kesehatan ekstra
 - [Ambang batas kesediaan membayar](locales/en-gb-oxendict/topics/willingness-to-pay-thresholds/) — NICE £20–30k/QALY dan garis-garis lain di dunia
+- [Nilai Nyawa Statistik (VSL)](locales/en-gb-oxendict/topics/value-of-a-statistical-life/) — alternatif berbasis pasar tenaga kerja untuk penilaian berbasis ambang
 - [Manfaat moneter bersih (NMB)](locales/en-gb-oxendict/topics/net-monetary-benefit/) — nilai dikurangi biaya, dilakukan dengan benar
 - [Tahun hidup yang diperoleh](locales/en-gb-oxendict/topics/life-years-gained/) — matematika kelangsungan hidup, dan varian kesetaraan evLYG
 - [Harapan hidup yang disesuaikan kesehatan (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — akuntansi tahun sehat tingkat populasi
 - [Kekurangan QALY dan pengubah keparahan](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — mengapa QALY populasi yang lebih sakit dihitung lebih tinggi
+- [Produktivitas Kerja dan Gangguan Aktivitas (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — absen versus hadir namun kinerja menurun, separuh biaya yang tersembunyi
 
 ## Jenis analisis ekonomi
 
@@ -39,6 +45,7 @@ Baru di sini? Mulai dengan [biaya peluang](locales/en-gb-oxendict/topics/opportu
 - [Analisis dampak anggaran (BIA)](locales/en-gb-oxendict/topics/budget-impact-analysis/) — keterjangkauan, berbeda dari nilai
 - [Pengembalian investasi (ROI)](locales/en-gb-oxendict/topics/return-on-investment/) — metrik bersama, dengan parameter yang dideklarasikan
 - [Pengembalian investasi sosial (SROI)](locales/en-gb-oxendict/topics/social-return-on-investment/) — memonetisasi apa yang tidak dihargai pasar
+- [Perbandingan ICER Lintas Mata Uang](locales/en-gb-oxendict/topics/cross-currency-icer-comparison/) — PPP versus kurs pasar; pilihan konversi yang dapat membalik keputusan adopsi
 
 ## Ekonomi operasional sistem kesehatan
 
@@ -61,12 +68,17 @@ Baru di sini? Mulai dengan [biaya peluang](locales/en-gb-oxendict/topics/opportu
 ## Kerangka kerja HTA dan ekonomi pencegahan
 
 - [Penilaian teknologi kesehatan (HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE, ICER (AS), CADTH: siapa yang memutuskan apa yang layak dibeli
+- [Simulasi Kohort Markov](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — bagaimana model HTA multisiklus sebenarnya disimulasikan, kohort demi kohort, siklus demi siklus
 - [Kerangka kerja standar bukti NICE](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — persyaratan bukti berjenjang risiko untuk kesehatan digital
 - [Jalur cepat DiGA Jerman](locales/en-gb-oxendict/topics/diga-fast-track/) — aplikasi dengan resep; pendaftaran sementara dengan batas waktu bukti
 - [Jumlah yang perlu diobati (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — unit usaha per manfaat yang menjaga klaim tetap jujur
+- [Fraksi yang Dapat Diatribusikan pada Populasi (PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — seberapa layak sebuah faktor risiko dilawan dari segi beban penyakit
 - [Ekonomi pencegahan](locales/en-gb-oxendict/topics/prevention-economics/) — mengapa pencegahan hemat biaya tetapi jarang menghemat biaya
 - [Ekonomi skrining](locales/en-gb-oxendict/topics/screening-economics/) — Wilson–Jungner, keruntuhan PPV pada prevalensi rendah, kelelahan peringatan
+- [Jumlah yang Perlu Diskrining (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — padanan NNT pada tingkat program skrining
 - [Biaya hilir yang dihindari](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — penyesuaian biaya dan aturan yang membuatnya kredibel
+- [Analisis Keputusan Multikriteria (MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — penilaian berbobot ketika satu ambang saja tidak cukup
+- [Jejak Karbon per QALY](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — komitmen nol bersih NHS bertemu biaya per QALY
 
 ## Rekayasa perangkat lunak dan pengiriman digital
 
@@ -78,6 +90,8 @@ Baru di sini? Mulai dengan [biaya peluang](locales/en-gb-oxendict/topics/opportu
 - [Utang teknis](locales/en-gb-oxendict/topics/technical-debt/) — pokok, bunga, dan ekonomi penyakit kronis untuk basis kode
 - [Total biaya kepemilikan (TCO)](locales/en-gb-oxendict/topics/total-cost-of-ownership/) — pemeliharaan 50–80%; kesalahan harga obat naif dalam perangkat lunak
 - [Ekonomi unit cloud (FinOps)](locales/en-gb-oxendict/topics/cloud-unit-economics/) — biaya per unit output; biaya referensi layanan digital
+- [Alokasi Biaya Tepat hingga Sen](locales/en-gb-oxendict/topics/exact-cents-cost-allocation/) — alokasi sisa terbesar; membagi total agar bagian-bagiannya kembali berjumlah persis
+- [Agregasi Biaya yang Aman terhadap Mata Uang](locales/en-gb-oxendict/topics/currency-safe-cost-rollup/) — `Money` desimal eksak, bukan `f64`, untuk total yang harus cocok hingga ke sen
 - [Membangun vs membeli](locales/en-gb-oxendict/topics/build-vs-buy/) — perbandingan yang disesuaikan risiko dengan istilah penundaan yang diberi harga
 - [Realisasi manfaat](locales/en-gb-oxendict/topics/benefits-realization/) — mengaudit apakah manfaat yang diperkirakan benar-benar terjadi
 - [Metrik layanan GDS](locales/en-gb-oxendict/topics/gds-service-metrics/) — biaya per transaksi, kepuasan, penyelesaian, penerimaan
@@ -103,6 +117,7 @@ Baru di sini? Mulai dengan [biaya peluang](locales/en-gb-oxendict/topics/opportu
 - [Ekonomi pemantauan pasien jarak jauh](locales/en-gb-oxendict/topics/remote-patient-monitoring-economics/) — tumpukan kode CPT dan substitusi rumah sakit di rumah
 - [Ekonomi unit aplikasi kesehatan](locales/en-gb-oxendict/topics/health-app-unit-economics/) — CAC, LTV, PMPM, dan ROI vs VOI
 - [Jangkauan dan kesetaraan](locales/en-gb-oxendict/topics/reach-and-equity/) — RE-AIM; dampak populasi = jangkauan × efektivitas
+- [Indeks Konsentrasi](locales/en-gb-oxendict/topics/concentration-index/) — ukuran statistik formal ketimpangan kesehatan sosial-ekonomi
 
 ## Kesegaran tolok ukur
 

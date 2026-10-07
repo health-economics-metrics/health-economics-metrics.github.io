@@ -53,6 +53,7 @@ The ICER discipline transfers wholesale to engineering decisions:
 - **Averages instead of increments**: cost per QALY of a whole program is not the ICER of expanding or adopting it.
 - **Point-estimate worship**: ICERs are ratios of two uncertain differences; report uncertainty via [PSA and CEACs](../probabilistic-sensitivity-analysis/).
 - **Negative ICERs are ambiguous** (cheaper-and-better vs costlier-and-worse give the same sign) — never report a negative ICER without saying which quadrant it is.
+- **Comparing an ICER across currencies without an explicit conversion step**: an ICER computed in one country's currency must be converted with a stated method before comparing it to another country's threshold — see [cross-currency ICER comparison](../cross-currency-icer-comparison/) for why the choice of conversion factor (purchasing power parity vs market exchange rate) can itself flip the adoption decision.
 
 ## Sources
 

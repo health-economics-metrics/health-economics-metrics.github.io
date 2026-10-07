@@ -15,6 +15,9 @@
 - [민감도 분석](locales/en-gb-oxendict/topics/sensitivity-analysis/) — 토네이도 다이어그램; 어떤 가정이 당신의 주장을 뒷받침하는가
 - [확률적 민감도 분석](locales/en-gb-oxendict/topics/probabilistic-sensitivity-analysis/) — 몬테카를로, CEAC, 옳을 확률
 - [완전정보의 기대가치](locales/en-gb-oxendict/topics/expected-value-of-perfect-information/) — 파일럿을 실행하기 전에 가격을 매기기
+- [표본정보의 기대가치(EVSI)](locales/en-gb-oxendict/topics/expected-value-of-sample-information/) — 모든 불확실성을 없애는 것이 아니라 *특정하게 제안된* 연구의 가격 책정
+- [리얼옵션 가치평가](locales/en-gb-oxendict/topics/real-options-valuation/) — 먼저 정보를 수집하는 옵션이 아니라 단계적 프로젝트를 나중에 확장하는 옵션의 가격 책정
+- [인적자본 접근법 대 마찰비용 방법](locales/en-gb-oxendict/topics/human-capital-and-friction-cost/) — 손실된 생산성을 평가하는 두 방법 — 보고되는 비용에 2배 이상의 차이
 - [지배와 효율성 경계](locales/en-gb-oxendict/topics/dominance-and-efficiency-frontier/) — 아무도 선택해서는 안 되는 옵션 제거하기
 
 ## 결과 측정
@@ -22,12 +25,15 @@
 - [질보정 생존연수(QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — 건강 가치의 공통 통화
 - [장애보정 생존연수(DALY)](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — 부담 측면의 거울상; 국제 보건의 지표
 - [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — 대부분의 QALY 효용 가중치 뒤에 있는 도구
+- [시간교환(TTO) 효용 도출](locales/en-gb-oxendict/topics/time-trade-off-utility/) — 효용 가중치가 실제로 응답자로부터 어떻게 도출되는가
 - [점증적 비용효과비(ICER)](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — 건강의 추가 단위당 추가 비용
 - [지불의사 임계값](locales/en-gb-oxendict/topics/willingness-to-pay-thresholds/) — NICE £20–30k/QALY와 세계의 다른 기준선들
+- [통계적 생명가치(VSL)](locales/en-gb-oxendict/topics/value-of-a-statistical-life/) — 임계값 기반 평가에 대한 노동시장 기반 대안
 - [순금전편익(NMB)](locales/en-gb-oxendict/topics/net-monetary-benefit/) — 가치에서 비용을 뺀 것, 제대로 계산하기
 - [획득 생존연수](locales/en-gb-oxendict/topics/life-years-gained/) — 생존 수학, 그리고 evLYG 형평성 변형
 - [건강보정 기대수명(HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — 인구 수준의 건강한 연수 회계
 - [QALY 부족분과 중증도 수정자](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — 더 아픈 인구의 QALY가 더 높게 계산되는 이유
+- [업무 생산성 및 활동 장애(WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — 결근 대 출근 중 저하, 비용의 숨겨진 절반
 
 ## 경제 분석 유형
 
@@ -39,6 +45,7 @@
 - [예산영향분석(BIA)](locales/en-gb-oxendict/topics/budget-impact-analysis/) — 가치와 구별되는 감당 가능성
 - [투자수익률(ROI)](locales/en-gb-oxendict/topics/return-on-investment/) — 공유 지표, 선언된 매개변수와 함께
 - [사회적투자수익률(SROI)](locales/en-gb-oxendict/topics/social-return-on-investment/) — 시장이 가격을 매기지 않는 것을 화폐화하기
+- [통화 간 ICER 비교](locales/en-gb-oxendict/topics/cross-currency-icer-comparison/) — PPP 대 시장 환율, 도입 결정을 뒤집을 수 있는 환산의 선택
 
 ## 보건 시스템 운영 경제학
 
@@ -61,12 +68,17 @@
 ## HTA 프레임워크와 예방 경제학
 
 - [보건기술평가(HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE, ICER(미국), CADTH: 무엇이 구매할 가치가 있는지 누가 결정하는가
+- [마르코프 코호트 시뮬레이션](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — 다주기 HTA 모델이 실제로 코호트별, 주기별로 어떻게 시뮬레이션되는가
 - [NICE 근거 표준 프레임워크](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — 디지털 헬스를 위한 위험 등급별 근거 요건
 - [독일의 DiGA 신속 경로](locales/en-gb-oxendict/topics/diga-fast-track/) — 처방전상의 앱; 근거 마감일이 있는 잠정 등재
 - [필요치료수(NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — 주장을 정직하게 유지하는 노력 대 편익 단위
+- [인구기여분율(PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — 위험요인이 실제로 얼마의 질병 부담을 쫓을 만한 가치가 있는가
 - [예방 경제학](locales/en-gb-oxendict/topics/prevention-economics/) — 예방이 비용효과적이지만 비용절감적이지는 않은 이유
 - [선별검사 경제학](locales/en-gb-oxendict/topics/screening-economics/) — Wilson–Jungner, 낮은 유병률에서의 PPV 붕괴, 경보 피로
+- [필요선별수(NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — NNT의 선별 프로그램 수준 유사물
 - [회피된 하류 비용](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — 비용 상쇄와 이를 신뢰할 수 있게 만드는 규칙
+- [다기준 의사결정 분석(MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — 단일 임계값으로 충분하지 않을 때의 가중 점수화
+- [QALY당 탄소 발자국](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — NHS의 넷제로 약속과 QALY당 비용의 만남
 
 ## 소프트웨어 공학과 디지털 전달
 
@@ -78,6 +90,8 @@
 - [기술 부채](locales/en-gb-oxendict/topics/technical-debt/) — 원금, 이자, 그리고 코드베이스를 위한 만성질환 경제학
 - [총소유비용(TCO)](locales/en-gb-oxendict/topics/total-cost-of-ownership/) — 유지보수가 50–80%; 소프트웨어에서의 순진한 약가 오류
 - [클라우드 단위 경제학(FinOps)](locales/en-gb-oxendict/topics/cloud-unit-economics/) — 산출물 단위당 비용; 디지털 서비스의 기준 비용
+- [센트 단위 정확한 비용 배분](locales/en-gb-oxendict/topics/exact-cents-cost-allocation/) — 최대 잉여 방식, 각 부분의 합이 정확히 총액이 되도록 분할
+- [통화 안전 비용 집계](locales/en-gb-oxendict/topics/currency-safe-cost-rollup/) — 센트 단위까지 맞아야 하는 합계에는 `f64`가 아닌 정확한 십진 `Money`
 - [자체 개발 대 구매](locales/en-gb-oxendict/topics/build-vs-buy/) — 지연 조건이 가격에 반영된 위험조정 비교
 - [편익 실현](locales/en-gb-oxendict/topics/benefits-realization/) — 예측된 편익이 실제로 발생했는지 감사하기
 - [GDS 서비스 지표](locales/en-gb-oxendict/topics/gds-service-metrics/) — 거래당 비용, 만족도, 완료율, 채택률
@@ -103,6 +117,7 @@
 - [원격 환자 모니터링 경제학](locales/en-gb-oxendict/topics/remote-patient-monitoring-economics/) — CPT 코드 스택과 재택병원 대체
 - [헬스 앱 단위 경제학](locales/en-gb-oxendict/topics/health-app-unit-economics/) — CAC, LTV, PMPM, 그리고 ROI 대 VOI
 - [도달범위와 형평성](locales/en-gb-oxendict/topics/reach-and-equity/) — RE-AIM; 인구 영향 = 도달범위 × 효과성
+- [집중도 지수](locales/en-gb-oxendict/topics/concentration-index/) — 사회경제적 건강 불평등을 나타내는 공식 통계 지표
 
 ## 기준값의 신선도
 

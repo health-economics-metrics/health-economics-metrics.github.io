@@ -18,7 +18,7 @@ Een medicijn vermindert het risico op een hartaanval van 10% naar 8% (absolute r
 
 ## Verbinding met software-engineering
 
-Vergelijkbaar met het berekenen van hoeveel gebruikers een nieuwe functie moeten ervaren om één extra conversie te genereren — een intuïtieve maatstaf voor impact per inspanning.
+Vergelijkbaar met het berekenen van hoeveel gebruikers een nieuwe functie moeten ervaren om één extra conversie te genereren — een intuïtieve maatstaf voor impact per inspanning. [Number needed to screen](../number-needed-to-screen/) is het analoge getal een niveau hoger, voor een heel screen-en-dan-behandelprogramma in plaats van alleen een behandeling.
 
 ## Valkuilen
 

@@ -15,6 +15,9 @@
 - [संवेदनशीलता विश्लेषण](locales/en-gb-oxendict/topics/sensitivity-analysis/) — टॉरनेडो आरेख; कौन सी धारणा आपके मामले को टिकाए रखती है
 - [संभाव्य संवेदनशीलता विश्लेषण (PSA)](locales/en-gb-oxendict/topics/probabilistic-sensitivity-analysis/) — मोंटे कार्लो, CEAC, सही होने की संभावना
 - [पूर्ण सूचना का अपेक्षित मूल्य (EVPI)](locales/en-gb-oxendict/topics/expected-value-of-perfect-information/) — पायलट चलाने से पहले उसकी कीमत तय करना
+- [नमूना जानकारी का अपेक्षित मूल्य (EVSI)](locales/en-gb-oxendict/topics/expected-value-of-sample-information/) — *एक विशिष्ट प्रस्तावित अध्ययन* का मूल्यांकन, सारी अनिश्चितता हटाने का नहीं
+- [रियल ऑप्शन मूल्यांकन](locales/en-gb-oxendict/topics/real-options-valuation/) — बाद में चरणबद्ध परियोजना बढ़ाने के ऑप्शन का मूल्य, पहले जानकारी जुटाने के ऑप्शन का नहीं
+- [मानव पूँजी दृष्टिकोण बनाम घर्षण लागत विधि](locales/en-gb-oxendict/topics/human-capital-and-friction-cost/) — खोई उत्पादकता का मूल्य आँकने के दो तरीक़े, रिपोर्ट की गई लागत में 2 गुना या अधिक अंतर
 - [प्रभुत्व और दक्षता सीमा](locales/en-gb-oxendict/topics/dominance-and-efficiency-frontier/) — उन विकल्पों को हटाना जिन्हें किसी को नहीं चुनना चाहिए
 
 ## परिणाम माप
@@ -22,12 +25,15 @@
 - [गुणवत्ता-समायोजित जीवन-वर्ष (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — स्वास्थ्य मूल्य की साझा मुद्रा
 - [विकलांगता-समायोजित जीवन-वर्ष (DALY)](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — बोझ-पक्ष का दर्पण; वैश्विक स्वास्थ्य का मीट्रिक
 - [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — अधिकांश QALY उपयोगिता भार के पीछे का उपकरण
+- [समय-विनिमय (TTO) उपयोगिता निष्कर्षण](locales/en-gb-oxendict/topics/time-trade-off-utility/) — उपयोगिता भार वास्तव में उत्तरदाता से कैसे निकाला जाता है
 - [वृद्धिशील लागत-प्रभावशीलता अनुपात (ICER)](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — स्वास्थ्य की प्रत्येक अतिरिक्त इकाई के लिए अतिरिक्त लागत
 - [भुगतान-इच्छा सीमाएँ](locales/en-gb-oxendict/topics/willingness-to-pay-thresholds/) — NICE की £20–30 हज़ार/QALY सीमा और दुनिया की अन्य रेखाएँ
+- [सांख्यिकीय जीवन का मूल्य (VSL)](locales/en-gb-oxendict/topics/value-of-a-statistical-life/) — सीमा-आधारित मूल्यांकन का श्रम-बाज़ार-आधारित विकल्प
 - [शुद्ध मौद्रिक लाभ (NMB)](locales/en-gb-oxendict/topics/net-monetary-benefit/) — मूल्य घटा लागत, सही तरीके से किया गया
 - [प्राप्त जीवन-वर्ष (LYG)](locales/en-gb-oxendict/topics/life-years-gained/) — जीवित रहने का गणित, और समानता वाला evLYG प्रकार
 - [स्वास्थ्य-समायोजित जीवन-प्रत्याशा (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — जनसंख्या-स्तर पर स्वस्थ वर्षों का हिसाब
 - [QALY कमी और गंभीरता संशोधक](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — बीमार आबादियों के QALY अधिक क्यों गिने जाते हैं
+- [कार्य उत्पादकता और गतिविधि क्षति (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — अनुपस्थिति बनाम उपस्थित पर घटी कार्यक्षमता, लागत का छिपा आधा हिस्सा
 
 ## आर्थिक विश्लेषण के प्रकार
 
@@ -39,6 +45,7 @@
 - [बजट प्रभाव विश्लेषण (BIA)](locales/en-gb-oxendict/topics/budget-impact-analysis/) — वहनीयता, मूल्य से अलग
 - [निवेश पर प्रतिफल (ROI)](locales/en-gb-oxendict/topics/return-on-investment/) — घोषित मापदंडों के साथ साझा मीट्रिक
 - [सामाजिक निवेश पर प्रतिफल (SROI)](locales/en-gb-oxendict/topics/social-return-on-investment/) — जिसे बाज़ार कीमत नहीं देते, उसका मुद्रीकरण
+- [मुद्राओं के पार ICER तुलना](locales/en-gb-oxendict/topics/cross-currency-icer-comparison/) — PPP बनाम बाज़ार विनिमय दर; रूपांतरण का वह चुनाव जो अपनाने का निर्णय पलट सकता है
 
 ## स्वास्थ्य प्रणाली की परिचालन अर्थव्यवस्था
 
@@ -61,12 +68,17 @@
 ## HTA ढाँचे और रोकथाम अर्थशास्त्र
 
 - [स्वास्थ्य प्रौद्योगिकी मूल्यांकन (HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE, ICER (अमेरिका), CADTH: कौन तय करता है कि क्या खरीदने लायक है
+- [मार्कोव समूह अनुकरण](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — बहु-चक्र HTA मॉडल का वास्तव में अनुकरण कैसे होता है, समूह-दर-समूह, चक्र-दर-चक्र
 - [NICE साक्ष्य मानक ढाँचा (ESF)](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — डिजिटल स्वास्थ्य के लिए जोखिम-स्तरीय साक्ष्य आवश्यकताएँ
 - [जर्मनी का DiGA फ़ास्ट-ट्रैक](locales/en-gb-oxendict/topics/diga-fast-track/) — नुस्खे पर ऐप्स; साक्ष्य की अंतिम तिथि के साथ अस्थायी सूचीकरण
 - [उपचार के लिए आवश्यक संख्या (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — प्रयास-प्रति-लाभ इकाइयाँ जो दावों को ईमानदार रखती हैं
+- [जनसंख्या आरोप्य अंश (PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — रोग बोझ के लिहाज़ से एक जोखिम कारक कितना लड़ने लायक है
 - [रोकथाम अर्थशास्त्र](locales/en-gb-oxendict/topics/prevention-economics/) — रोकथाम लागत-प्रभावी क्यों है लेकिन शायद ही कभी लागत-बचत करती है
 - [स्क्रीनिंग अर्थशास्त्र](locales/en-gb-oxendict/topics/screening-economics/) — विल्सन–जंगनर, कम प्रसार पर PPV का पतन, अलर्ट थकान
+- [स्क्रीनिंग के लिए आवश्यक संख्या (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — NNT का स्क्रीनिंग-कार्यक्रम-स्तर का समतुल्य
 - [परिहृत डाउनस्ट्रीम लागतें](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — लागत समायोजन और उन्हें विश्वसनीय बनाने वाले नियम
+- [बहु-मानदंड निर्णय विश्लेषण (MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — जब एकल सीमा पर्याप्त न हो तब भारित अंकन
+- [प्रति QALY कार्बन फुटप्रिंट](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — NHS की नेट-ज़ीरो प्रतिबद्धता प्रति QALY लागत से मिलती है
 
 ## सॉफ़्टवेयर इंजीनियरिंग और डिजिटल डिलीवरी
 
@@ -78,6 +90,8 @@
 - [तकनीकी ऋण](locales/en-gb-oxendict/topics/technical-debt/) — मूलधन, ब्याज, और कोडबेस के लिए दीर्घकालिक रोग अर्थशास्त्र
 - [स्वामित्व की कुल लागत (TCO)](locales/en-gb-oxendict/topics/total-cost-of-ownership/) — रखरखाव 50–80% है; सॉफ़्टवेयर में भोली दवा-कीमत की गलती
 - [क्लाउड इकाई अर्थशास्त्र (FinOps)](locales/en-gb-oxendict/topics/cloud-unit-economics/) — प्रति इकाई उत्पादन लागत; डिजिटल सेवा की संदर्भ लागत
+- [यथार्थ-सेंट लागत आवंटन](locales/en-gb-oxendict/topics/exact-cents-cost-allocation/) — सबसे बड़े शेष का आवंटन; कुल को ऐसे बाँटना कि हिस्से ठीक-ठीक वापस जुड़ें
+- [मुद्रा-सुरक्षित लागत संकलन](locales/en-gb-oxendict/topics/currency-safe-cost-rollup/) — सेंट तक मिलने वाले कुल के लिए यथार्थ दशमलव `Money`, `f64` नहीं
 - [निर्माण बनाम क्रय](locales/en-gb-oxendict/topics/build-vs-buy/) — विलंब पद की कीमत के साथ जोखिम-समायोजित तुलना
 - [लाभ-प्राप्ति](locales/en-gb-oxendict/topics/benefits-realization/) — यह जाँचना कि पूर्वानुमानित लाभ वास्तव में हुए
 - [GDS सेवा मापदंड](locales/en-gb-oxendict/topics/gds-service-metrics/) — प्रति लेनदेन लागत, संतुष्टि, पूर्णता, उपयोग
@@ -103,6 +117,7 @@
 - [दूरस्थ रोगी निगरानी अर्थशास्त्र](locales/en-gb-oxendict/topics/remote-patient-monitoring-economics/) — CPT कोड समूह और घर-पर-अस्पताल विकल्प
 - [स्वास्थ्य ऐप इकाई अर्थशास्त्र](locales/en-gb-oxendict/topics/health-app-unit-economics/) — CAC, LTV, PMPM, और ROI बनाम VOI
 - [पहुँच और समता](locales/en-gb-oxendict/topics/reach-and-equity/) — RE-AIM; जनसंख्या प्रभाव = पहुँच × प्रभावशीलता
+- [सांद्रता सूचकांक](locales/en-gb-oxendict/topics/concentration-index/) — सामाजिक-आर्थिक स्वास्थ्य असमानता का औपचारिक सांख्यिकीय माप
 
 ## बेंचमार्क की ताज़गी
 

@@ -51,6 +51,8 @@ Setiap organisasi rekayasa memiliki λ implisit: rintangan di mana ia mendanai p
 - **Belanja ambang** antar yurisdiksi atau mengutip plafon-HST untuk produk biasa.
 - **Memperlakukan λ sebagai lantai-harga**: melewati ambang diperlukan, tidak cukup — [dampak-anggaran](../analisis-dampak-anggaran/) masih dapat menenggelamkan produk yang terjangkau-per-unit.
 - **Mengabaikan bahwa ambang bergerak**: modifier keparahan NICE (2022) dan tinjauan periodik mengubah λ efektif; beri-tanggal klaim Anda.
+- **Membandingkan ICER dalam mata uang lain dengan ambang tanpa mengonversinya lebih dulu**: lihat [perbandingan ICER lintas mata uang](../perbandingan-icer-lintas-mata-uang/) — metode konversi (paritas daya beli versus kurs pasar) menentukan secara metodologis, bukan detail pembulatan.
+- **Mencampur penilaian berbasis λ dengan tradisi VSL/VPF pasar tenaga kerja**: keduanya berasal dari tradisi teoretis berbeda (metodologi yang dibatasi anggaran kesehatan versus preferensi terungkap dari pertukaran upah-risiko) dan tidak selalu kompatibel — untuk pendekatan preferensi terungkap alternatif dalam menilai nyawa, lihat [Nilai nyawa statistik](../nilai-nyawa-statistik/).
 
 ## Sumber
 

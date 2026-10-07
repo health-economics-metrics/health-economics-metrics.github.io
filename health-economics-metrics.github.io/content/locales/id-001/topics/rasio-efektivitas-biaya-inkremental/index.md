@@ -53,6 +53,7 @@ Disiplin ICER ditransfer utuh ke keputusan rekayasa:
 - **Rata-rata alih-alih inkremen**: biaya per QALY dari seluruh program bukanlah ICER dari memperluas atau mengadopsinya.
 - **Pemujaan estimasi-titik**: ICER adalah rasio dua perbedaan yang tidak pasti; laporkan ketidakpastian melalui [PSA dan CEAC](../analisis-sensitivitas-probabilistik/).
 - **ICER negatif bersifat ambigu** (lebih-murah-dan-lebih-baik vs lebih-mahal-dan-lebih-buruk memberikan tanda yang sama) — jangan pernah melaporkan ICER negatif tanpa mengatakan kuadran mana itu.
+- **Membandingkan ICER lintas mata uang tanpa langkah konversi yang eksplisit**: ICER yang dihitung dalam mata uang suatu negara harus dikonversi dengan metode yang dinyatakan sebelum dibandingkan dengan ambang negara lain — lihat [perbandingan ICER lintas mata uang](../perbandingan-icer-lintas-mata-uang/) untuk alasan mengapa pilihan faktor konversi (paritas daya beli versus kurs pasar) dapat membalik keputusan adopsi dengan sendirinya.
 
 ## Sumber
 

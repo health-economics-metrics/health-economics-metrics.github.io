@@ -4,7 +4,7 @@ El VECI es la cantidad máxima que un tomador de decisiones debería pagar para 
 
 ## Por qué importa
 
-Los sistemas de salud enfrentan constantemente la elección: adoptar ahora con evidencia imperfecta, o financiar más investigación primero. El VECI pone una cifra a la segunda opción. Si el VECI es £50.000 y el ensayo propuesto cuesta £2 millones, adopta ahora. Si el VECI es £20 millones, el ensayo es una ganga. La misma pregunta — "¿deberíamos pilotar esto antes de desplegarlo?" — surge para cada decisión de herramienta empresarial, y casi nadie la tasa.
+Los sistemas de salud enfrentan constantemente la elección: adoptar ahora con evidencia imperfecta, o financiar más investigación primero. El VECI pone una cifra a la segunda opción. Si el VECI es £50.000 y el ensayo propuesto cuesta £2 millones, adopta ahora. Si el VECI es £20 millones, el ensayo es una ganga. La misma pregunta — "¿deberíamos pilotar esto antes de desplegarlo?" — surge para cada decisión de herramienta empresarial, y casi nadie la tasa. Para valorar la opción de ampliar un proyecto más adelante, en lugar de la opción de reunir información primero, véase [valoración de opciones reales](../valoración-de-opciones-reales/).
 
 ## El cálculo
 
@@ -46,7 +46,7 @@ El VECI es la economía del sprint exploratorio, el piloto, la prueba A/B y la p
 - **Un piloto solo vale la pena financiarlo si la decisión realmente podría cambiar.** Si desplegarías de todos modos independientemente del resultado del piloto, el VECI = 0 y el piloto es teatro.
 - **Limita el gasto del piloto al VECI.** El valor de la información está acotado por el valor de la decisión que informa.
 
-El VECI parcial (VEIPP) extiende esto a parámetros individuales: "¿qué vale fijar específicamente la cifra de tiempo ahorrado?" — lo que te dice qué debería medir el piloto.
+El VECI parcial (VEIPP) extiende esto a parámetros individuales: "¿qué vale fijar específicamente la cifra de tiempo ahorrado?" — lo que te dice qué debería medir el piloto. Para valorar *un estudio concreto propuesto* en lugar de la eliminación de toda la incertidumbre, véase [EVSI](../valor-esperado-de-la-información-muestral/).
 
 ## Errores comunes
 

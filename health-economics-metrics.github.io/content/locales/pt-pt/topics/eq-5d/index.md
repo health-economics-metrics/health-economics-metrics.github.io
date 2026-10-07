@@ -1,6 +1,6 @@
 # EQ-5D
 
-O EQ-5D é o questionário padronizado do grupo EuroQol para medir a qualidade de vida relacionada com a saúde. É o instrumento que produz os pesos de utilidade dentro da maioria dos cálculos de [QALY](../quality-adjusted-life-year/) — o caso de referência do NICE nomeia-o como a medida preferida para adultos.
+O EQ-5D é o questionário padronizado do grupo EuroQol para medir a qualidade de vida relacionada com a saúde. É o instrumento que produz os pesos de utilidade dentro da maioria dos cálculos de [QALY](../ano-de-vida-ajustado-pela-qualidade/) — o caso de referência do NICE nomeia-o como a medida preferida para adultos.
 
 ## Porque é importante
 
@@ -32,20 +32,21 @@ Utilidade média aos 6 meses: 0,71
 Ganho sustentado (assumido) 1 ano: (0,71 − 0,62) × 1,0 = 0,09 QALYs por utilizador
 ```
 
-Face a uma mudança do grupo de controlo de 0,03 (recuperação natural), o ganho atribuível é 0,06 QALYs/utilizador. Monetizado a £20.000–£30.000/QALY: **£1.200–£1.800 de valor em saúde por utilizador concluinte** — o número que ancora a negociação de preço da aplicação com um pagador. (As diferenças mínimas clinicamente importantes para o índice EQ-5D estão comummente na gama 0,03–0,08, pelo que 0,06 é plausível mas tem de passar a comparação de controlo; ver [resultados relatados pelo doente](../patient-reported-outcomes/).)
+Face a uma mudança do grupo de controlo de 0,03 (recuperação natural), o ganho atribuível é 0,06 QALYs/utilizador. Monetizado a £20.000–£30.000/QALY: **£1.200–£1.800 de valor em saúde por utilizador concluinte** — o número que ancora a negociação de preço da aplicação com um pagador. (As diferenças mínimas clinicamente importantes para o índice EQ-5D estão comummente na gama 0,03–0,08, pelo que 0,06 é plausível mas tem de passar a comparação de controlo; ver [resultados relatados pelo doente](../resultados-relatados-pelo-doente/).)
 
 ## Ligação à engenharia de software
 
 - **Instrumente-o.** O EQ-5D no registo e em intervalos de seguimento é alguns ecrãs de UI; o retorno é evidência de grau HTA. Obtenha licenciamento da EuroQol (necessário, gratuito para alguns usos).
 - **Use o conjunto de valores correto** para o país de implementação — as mesmas respostas pontuam de forma diferente no Reino Unido vs Alemanha vs Japão.
-- **Lição de design**: o EQ-5D mostra como um pequeno inquérito padronizado mais uma função de pontuação publicada produz um índice único comparável. Esse é o padrão para qualquer índice credível de experiência de programador também — instrumento padronizado, pesos publicados, não vibrações ad-hoc. Ver [SPACE e DevEx](../space-and-devex/).
+- **Lição de design**: o EQ-5D mostra como um pequeno inquérito padronizado mais uma função de pontuação publicada produz um índice único comparável. Esse é o padrão para qualquer índice credível de experiência de programador também — instrumento padronizado, pesos publicados, não vibrações ad-hoc. Ver [SPACE e DevEx](../space-e-devex/).
 
 ## Armadilhas
 
 - **Antes/depois sem comparador** — a regressão para a média e a recuperação natural inflam os ganhos ingénuos.
-- **Viés de sobrevivência**: medir apenas os utilizadores que permaneceram envolvidos (ver [retenção e abandono](../retention-and-churn/)).
+- **Viés de sobrevivência**: medir apenas os utilizadores que permaneceram envolvidos (ver [retenção e abandono](../retenção-e-abandono/)).
 - **Misturar versões 3L e 5L ou conjuntos de valores** entre estudos — números sistematicamente diferentes.
 - **Efeitos de teto** em populações levemente afetadas: muitos utilizadores pontuam perto de 1,0 na base, sem margem para demonstrar ganho.
+- **Dar o conjunto de valores por autoexplicativo**: os valores de utilidade que um conjunto de valores devolve foram eles próprios obtidos junto do público por estudos de troca de tempo (ou inquéritos de escolha afins) — veja-se a [Obtenção de utilidades por troca de tempo (TTO)](../obtenção-de-utilidades-por-troca-de-tempo/) para saber como.
 
 ## Fontes
 

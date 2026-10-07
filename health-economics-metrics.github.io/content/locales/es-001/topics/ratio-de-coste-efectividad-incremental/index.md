@@ -53,6 +53,7 @@ La disciplina del RCEI se traslada íntegramente a las decisiones de ingeniería
 - **Promedios en lugar de incrementos**: el coste por AVAC de un programa completo no es el RCEI de expandirlo o adoptarlo.
 - **Adoración de la estimación puntual**: los RCEI son razones de dos diferencias inciertas; informa la incertidumbre vía [ASP y CEAC](../análisis-de-sensibilidad-probabilístico/).
 - **Los RCEI negativos son ambiguos** (más barato-y-mejor frente a más caro-y-peor dan el mismo signo) — nunca informes un RCEI negativo sin decir qué cuadrante es.
+- **Comparar ICER entre monedas sin un paso de conversión explícito**: un ICER calculado en la moneda de un país debe convertirse con un método declarado antes de compararlo con el umbral de otro; véase [comparación del ICER entre monedas](../comparación-del-icer-entre-monedas/) para saber por qué la elección del factor de conversión (paridad de poder adquisitivo frente a tipo de cambio de mercado) puede invertir por sí sola una decisión de adopción.
 
 ## Fuentes
 

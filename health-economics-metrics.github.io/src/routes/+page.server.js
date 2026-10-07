@@ -1,5 +1,6 @@
 import { render } from '#lib/markdown.js';
 import { read, locales } from '#lib/server/content.js';
+import { book } from '#lib/server/book.js';
 import { DEFAULT_LOCALE, localeLabel } from '#lib/locales.js';
 
 export function load() {
@@ -22,5 +23,5 @@ export function load() {
 			return worldA !== worldB ? worldA - worldB : a.label.localeCompare(b.label);
 		});
 
-	return { title, summary, locales: localeList };
+	return { title, summary, topicCount: book(DEFAULT_LOCALE).order.length, locales: localeList };
 }

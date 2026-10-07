@@ -15,6 +15,9 @@ Neu hier? Beginnen Sie mit [Opportunitätskosten](locales/en-gb-oxendict/topics/
 - [Sensitivitätsanalyse](locales/en-gb-oxendict/topics/sensitivity-analysis/) — Tornado-Diagramme; welche Annahme den Fall trägt
 - [Probabilistische Sensitivitätsanalyse](locales/en-gb-oxendict/topics/probabilistic-sensitivity-analysis/) — Monte Carlo, CEACs, Wahrscheinlichkeit, richtig zu liegen
 - [Erwarteter Wert perfekter Information](locales/en-gb-oxendict/topics/expected-value-of-perfect-information/) — den Pilotversuch bepreisen, bevor man ihn durchführt
+- [Erwarteter Wert von Stichprobeninformation (EVSI)](locales/en-gb-oxendict/topics/expected-value-of-sample-information/) — eine *konkret vorgeschlagene* Studie bepreisen, statt alle Unsicherheit zu beseitigen
+- [Realoptionsbewertung](locales/en-gb-oxendict/topics/real-options-valuation/) — die Option bepreisen, ein gestuftes Projekt später zu erweitern, statt zuerst Information zu sammeln
+- [Humankapitalansatz vs. Friktionskostenmethode](locales/en-gb-oxendict/topics/human-capital-and-friction-cost/) — zwei Wege, verlorene Produktivität zu bewerten — ein Unterschied von 2x und mehr bei den berichteten Kosten
 - [Dominanz und die Effizienzgrenze](locales/en-gb-oxendict/topics/dominance-and-efficiency-frontier/) — Optionen eliminieren, die niemand wählen sollte
 
 ## Outcome-Messgrößen
@@ -22,12 +25,15 @@ Neu hier? Beginnen Sie mit [Opportunitätskosten](locales/en-gb-oxendict/topics/
 - [Qualitätsadjustiertes Lebensjahr (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — die gemeinsame Währung des Gesundheitswerts
 - [Behinderungsbereinigtes Lebensjahr (DALY)](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — das Spiegelbild auf der Krankheitslast-Seite; die Kennzahl der globalen Gesundheit
 - [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — das Instrument hinter den meisten QALY-Nutzengewichten
+- [Time-Trade-Off-(TTO-)Nutzwerterhebung](locales/en-gb-oxendict/topics/time-trade-off-utility/) — wie ein Nutzgewicht tatsächlich von einem Befragten erhoben wird
 - [Inkrementelles Kosten-Effektivitäts-Verhältnis (ICER)](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — zusätzliche Kosten pro zusätzlicher Gesundheitseinheit
 - [Zahlungsbereitschaftsschwellen](locales/en-gb-oxendict/topics/willingness-to-pay-thresholds/) — NICEs 20.000–30.000 £/QALY und die anderen Grenzwerte der Welt
+- [Wert eines statistischen Lebens (VSL)](locales/en-gb-oxendict/topics/value-of-a-statistical-life/) — die arbeitsmarktbasierte Alternative zur schwellenbasierten Bewertung
 - [Nettomonetärer Nutzen (NMB)](locales/en-gb-oxendict/topics/net-monetary-benefit/) — Wert minus Kosten, richtig gemacht
 - [Gewonnene Lebensjahre](locales/en-gb-oxendict/topics/life-years-gained/) — Überlebensmathematik und die evLYG-Gerechtigkeitsvariante
 - [Gesundheitsbereinigte Lebenserwartung (HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — gesunde Lebensjahre auf Bevölkerungsebene
 - [QALY-Defizit und Schweregrad-Modifikatoren](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — warum die QALYs kränkerer Bevölkerungsgruppen mehr zählen
+- [Work Productivity and Activity Impairment (WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — Absentismus vs. Präsentismus, die verborgene Hälfte der Kosten
 
 ## Arten der ökonomischen Analyse
 
@@ -39,6 +45,7 @@ Neu hier? Beginnen Sie mit [Opportunitätskosten](locales/en-gb-oxendict/topics/
 - [Budget-Impact-Analyse (BIA)](locales/en-gb-oxendict/topics/budget-impact-analysis/) — Erschwinglichkeit, unterschieden von Wert
 - [Kapitalrendite (ROI)](locales/en-gb-oxendict/topics/return-on-investment/) — die gemeinsame Kennzahl, mit deklarierten Parametern
 - [Sozialer Kapitalertrag (SROI)](locales/en-gb-oxendict/topics/social-return-on-investment/) — monetarisieren, was Märkte nicht bepreisen
+- [Währungsübergreifender ICER-Vergleich](locales/en-gb-oxendict/topics/cross-currency-icer-comparison/) — KKP vs. Marktwechselkurs; die Umrechnungswahl, die eine Einführungsentscheidung kippen kann
 
 ## Betriebswirtschaft des Gesundheitssystems
 
@@ -61,12 +68,17 @@ Neu hier? Beginnen Sie mit [Opportunitätskosten](locales/en-gb-oxendict/topics/
 ## HTA-Rahmenwerke und Präventionsökonomie
 
 - [Bewertung von Gesundheitstechnologien (HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE, ICER (USA), CADTH: wer entscheidet, was es wert ist, gekauft zu werden
+- [Markov-Kohortensimulation](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — wie ein mehrzyklisches HTA-Modell tatsächlich Kohorte für Kohorte und Zyklus für Zyklus simuliert wird
 - [NICE-Evidenzstandards-Rahmenwerk](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — risikogestufte Evidenzanforderungen für digitale Gesundheit
 - [Deutschlands DiGA-Schnellverfahren](locales/en-gb-oxendict/topics/diga-fast-track/) — Apps auf Rezept; vorläufige Listung mit Evidenzfrist
 - [Number Needed to Treat (NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — Aufwand-pro-Nutzen-Einheiten, die Behauptungen ehrlich halten
+- [Populationsattributabler Anteil (PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — wie viel Krankheitslast ein Risikofaktor wirklich zu bekämpfen wert ist
 - [Präventionsökonomie](locales/en-gb-oxendict/topics/prevention-economics/) — warum Prävention kosteneffektiv, aber selten kostensparend ist
 - [Screening-Ökonomie](locales/en-gb-oxendict/topics/screening-economics/) — Wilson–Jungner, PPV-Kollaps bei niedriger Prävalenz, Alarmmüdigkeit
+- [Number Needed to Screen (NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — das Analogon des NNT auf Ebene des Screening-Programms
 - [Vermiedene nachgelagerte Kosten](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — Kostenausgleiche und die Regeln, die sie glaubwürdig machen
+- [Multikriterielle Entscheidungsanalyse (MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — gewichtetes Scoring, wenn eine einzelne Schwelle nicht genügt
+- [CO₂-Fußabdruck pro QALY](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — die Netto-Null-Verpflichtung des NHS trifft auf Kosten pro QALY
 
 ## Softwareentwicklung und digitale Leistungserbringung
 
@@ -78,6 +90,8 @@ Neu hier? Beginnen Sie mit [Opportunitätskosten](locales/en-gb-oxendict/topics/
 - [Technische Schulden](locales/en-gb-oxendict/topics/technical-debt/) — Tilgung, Zinsen und die Ökonomie chronischer Erkrankungen für Codebasen
 - [Gesamtbetriebskosten (TCO)](locales/en-gb-oxendict/topics/total-cost-of-ownership/) — Wartung macht 50–80 % aus; der naive Arzneimittelpreis-Fehler in der Software
 - [Cloud-Einheitsökonomie (FinOps)](locales/en-gb-oxendict/topics/cloud-unit-economics/) — Kosten pro Outputeinheit; die Referenzkosten des digitalen Dienstes
+- [Cent-genaue Kostenzuordnung](locales/en-gb-oxendict/topics/exact-cents-cost-allocation/) — die Largest-Remainder-Methode; eine Summe so aufteilen, dass die Teile exakt wieder aufgehen
+- [Währungssichere Kostenaggregation](locales/en-gb-oxendict/topics/currency-safe-cost-rollup/) — exaktes dezimales `Money` statt `f64` für Summen, die auf den Cent genau abstimmen müssen
 - [Eigenentwicklung oder Fremdbezug](locales/en-gb-oxendict/topics/build-vs-buy/) — risikoadjustierter Vergleich mit eingepreistem Verzögerungsterm
 - [Nutzenrealisierung](locales/en-gb-oxendict/topics/benefits-realization/) — Prüfung, ob prognostizierte Nutzen tatsächlich eingetreten sind
 - [GDS-Servicekennzahlen](locales/en-gb-oxendict/topics/gds-service-metrics/) — Kosten pro Transaktion, Zufriedenheit, Abschluss, Inanspruchnahme
@@ -103,6 +117,7 @@ Neu hier? Beginnen Sie mit [Opportunitätskosten](locales/en-gb-oxendict/topics/
 - [Ökonomie der Fernpatientenüberwachung](locales/en-gb-oxendict/topics/remote-patient-monitoring-economics/) — CPT-Codebündel und Substitution durch Hospital-at-Home
 - [Einheitsökonomie von Gesundheits-Apps](locales/en-gb-oxendict/topics/health-app-unit-economics/) — CAC, LTV, PMPM und ROI vs. VOI
 - [Reichweite und Gerechtigkeit](locales/en-gb-oxendict/topics/reach-and-equity/) — RE-AIM; Bevölkerungswirkung = Reichweite × Wirksamkeit
+- [Konzentrationsindex](locales/en-gb-oxendict/topics/concentration-index/) — ein formales statistisches Maß für sozioökonomisch bedingte gesundheitliche Ungleichheit
 
 ## Aktualität der Referenzwerte
 

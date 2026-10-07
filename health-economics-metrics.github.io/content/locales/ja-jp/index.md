@@ -15,6 +15,9 @@
 - [感度分析](locales/en-gb-oxendict/topics/sensitivity-analysis/) — トルネード図。どの前提が結論を左右するか
 - [確率的感度分析](locales/en-gb-oxendict/topics/probabilistic-sensitivity-analysis/) — モンテカルロ法、CEAC、正しい判断である確率
 - [完全情報の期待価値](locales/en-gb-oxendict/topics/expected-value-of-perfect-information/) — 実行前にパイロット試験の価格を決める
+- [標本情報の期待価値(EVSI)](locales/en-gb-oxendict/topics/expected-value-of-sample-information/) — あらゆる不確実性の解消ではなく、*特定の提案された*研究を価格づける
+- [リアルオプション評価](locales/en-gb-oxendict/topics/real-options-valuation/) — 先に情報を集めるオプションではなく、段階的なプロジェクトを後で拡張するオプションを価格づける
+- [人的資本アプローチと摩擦費用法](locales/en-gb-oxendict/topics/human-capital-and-friction-cost/) — 失われた生産性を評価する2つの方法 — 報告される費用に2倍以上の差
 - [優越性と効率フロンティア](locales/en-gb-oxendict/topics/dominance-and-efficiency-frontier/) — 誰も選ぶべきでない選択肢を排除する
 
 ## アウトカム指標
@@ -22,12 +25,15 @@
 - [質調整生存年(QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) — 健康価値の共通通貨
 - [障害調整生存年(DALY)](locales/en-gb-oxendict/topics/disability-adjusted-life-year/) — 疾病負担側の鏡像。グローバルヘルスの指標
 - [EQ-5D](locales/en-gb-oxendict/topics/eq-5d/) — ほとんどのQALY効用値の基盤となる測定尺度
+- [タイムトレードオフ(TTO)による効用値の導出](locales/en-gb-oxendict/topics/time-trade-off-utility/) — 効用の重みが回答者から実際にどう引き出されるか
 - [増分費用効果比(ICER)](locales/en-gb-oxendict/topics/incremental-cost-effectiveness-ratio/) — 追加的な健康単位あたりの追加費用
 - [支払意思閾値](locales/en-gb-oxendict/topics/willingness-to-pay-thresholds/) — NICEの£20,000〜30,000/QALYと世界各地の他の基準線
+- [統計的生命価値(VSL)](locales/en-gb-oxendict/topics/value-of-a-statistical-life/) — 閾値に基づく評価に対する労働市場ベースの代替案
 - [純金銭便益(NMB)](locales/en-gb-oxendict/topics/net-monetary-benefit/) — 価値からコストを引いた値を正しく計算する
 - [獲得生存年](locales/en-gb-oxendict/topics/life-years-gained/) — 生存年数の計算、そしてevLYGという公平性を考慮した変種
 - [健康調整平均余命(HALE)](locales/en-gb-oxendict/topics/health-adjusted-life-expectancy/) — 集団レベルでの健康年数の会計
 - [QALY不足分と重症度補正](locales/en-gb-oxendict/topics/qaly-shortfall-and-severity-modifiers/) — より重い病を抱える集団のQALYがより重く数えられる理由
+- [労働生産性・活動障害(WPAI)](locales/en-gb-oxendict/topics/work-productivity-and-activity-impairment/) — 欠勤とプレゼンティーイズム、コストの見えにくい半分
 
 ## 経済分析の種類
 
@@ -39,6 +45,7 @@
 - [予算影響分析(BIA)](locales/en-gb-oxendict/topics/budget-impact-analysis/) — 価値とは区別される「支払い可能性」
 - [投資収益率(ROI)](locales/en-gb-oxendict/topics/return-on-investment/) — 前提条件を明示した共通指標
 - [社会的投資収益率(SROI)](locales/en-gb-oxendict/topics/social-return-on-investment/) — 市場が値付けしないものを金銭化する
+- [通貨をまたぐICER比較](locales/en-gb-oxendict/topics/cross-currency-icer-comparison/) — PPPと市場為替レート、導入判断を覆しうる換算の選択
 
 ## 医療システム運用の経済学
 
@@ -61,12 +68,17 @@
 ## HTA枠組みと予防経済学
 
 - [医療技術評価(HTA)](locales/en-gb-oxendict/topics/health-technology-assessment/) — NICE、ICER(米国)、CADTH:何を購入する価値があるかを誰が決めるか
+- [マルコフコホートシミュレーション](locales/en-gb-oxendict/topics/markov-cohort-simulation/) — 複数サイクルのHTAモデルが実際にコホートごと、サイクルごとにどうシミュレートされるか
 - [NICEエビデンス基準枠組み](locales/en-gb-oxendict/topics/nice-evidence-standards-framework/) — デジタルヘルスに対するリスク段階別のエビデンス要件
 - [ドイツのDiGA迅速承認制度](locales/en-gb-oxendict/topics/diga-fast-track/) — 処方箋によるアプリ。エビデンス提出期限付きの暫定登録
 - [治療必要数(NNT)](locales/en-gb-oxendict/topics/number-needed-to-treat/) — 主張を誠実に保つ、労力対便益の単位
+- [集団寄与割合(PAF)](locales/en-gb-oxendict/topics/population-attributable-fraction/) — リスク因子が実際にどれだけの疾病負担を追う価値があるか
 - [予防の経済学](locales/en-gb-oxendict/topics/prevention-economics/) — 予防が費用効果的であっても、費用削減にはめったにならない理由
 - [スクリーニングの経済学](locales/en-gb-oxendict/topics/screening-economics/) — ウィルソン=ユングナー基準、低有病率でのPPV崩壊、アラート疲れ
+- [スクリーニング必要数(NNS)](locales/en-gb-oxendict/topics/number-needed-to-screen/) — NNTのスクリーニングプログラムレベルでの類似物
 - [回避された下流費用](locales/en-gb-oxendict/topics/avoided-downstream-costs/) — コスト相殺とそれを信頼できるものにする規則
+- [多基準意思決定分析(MCDA)](locales/en-gb-oxendict/topics/multi-criteria-decision-analysis/) — 単一の閾値では足りないときの重み付きスコアリング
+- [QALYあたりの炭素フットプリント](locales/en-gb-oxendict/topics/carbon-footprint-per-qaly/) — NHSのネットゼロ公約とQALYあたり費用の出会い
 
 ## ソフトウェア工学とデジタル提供
 
@@ -78,6 +90,8 @@
 - [技術的負債](locales/en-gb-oxendict/topics/technical-debt/) — コードベースにおける元本、利息、慢性疾患の経済学
 - [総所有コスト(TCO)](locales/en-gb-oxendict/topics/total-cost-of-ownership/) — 保守が50〜80%を占める。ソフトウェアにおける薬価の素朴な誤り
 - [クラウドユニットエコノミクス(FinOps)](locales/en-gb-oxendict/topics/cloud-unit-economics/) — 出力単位あたりの費用。デジタルサービスの基準コスト
+- [セント単位で正確なコスト配分](locales/en-gb-oxendict/topics/exact-cents-cost-allocation/) — 最大剰余法 — 各部分が合計にちょうど戻るように総額を分割する
+- [通貨安全なコスト集計](locales/en-gb-oxendict/topics/currency-safe-cost-rollup/) — 1セント単位で一致すべき合計には`f64`ではなく正確な10進の`Money`を
 - [内製か購入か](locales/en-gb-oxendict/topics/build-vs-buy/) — 遅延の項を価格に組み込んだリスク調整済み比較
 - [便益実現管理](locales/en-gb-oxendict/topics/benefits-realization/) — 予測された便益が実際に生じたかを監査する
 - [GDSサービス指標](locales/en-gb-oxendict/topics/gds-service-metrics/) — 取引あたりの費用、満足度、完了率、利用率
@@ -103,6 +117,7 @@
 - [遠隔患者モニタリングの経済学](locales/en-gb-oxendict/topics/remote-patient-monitoring-economics/) — CPTコードの積み上げと在宅入院への代替
 - [健康アプリのユニットエコノミクス](locales/en-gb-oxendict/topics/health-app-unit-economics/) — CAC、LTV、PMPM、そしてROI 対 VOI
 - [リーチと公平性](locales/en-gb-oxendict/topics/reach-and-equity/) — RE-AIM。集団への影響 = リーチ × 有効性
+- [集中度指数](locales/en-gb-oxendict/topics/concentration-index/) — 社会経済的な健康の不平等を測る正式な統計指標
 
 ## 基準値の鮮度
 

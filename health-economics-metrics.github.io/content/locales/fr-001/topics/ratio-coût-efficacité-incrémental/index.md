@@ -53,6 +53,7 @@ La discipline du RCEI se transpose en gros aux décisions d'ingénierie :
 - **Moyennes au lieu d'incréments** : le coût par QALY d'un programme entier n'est pas le RCEI de son extension ou de son adoption.
 - **Adoration de l'estimation ponctuelle** : les RCEI sont des ratios de deux différences incertaines ; rapportez l'incertitude via [ASP et CAEC](../analyse-de-sensibilité-probabiliste/).
 - **Les RCEI négatifs sont ambigus** (moins cher-et-meilleur contre plus cher-et-pire donnent le même signe) — ne rapportez jamais un RCEI négatif sans dire quel quadrant c'est.
+- **Comparer des ICER entre devises sans étape de conversion explicite** : un ICER calculé dans la monnaie d'un pays doit être converti par une méthode déclarée avant d'être comparé au seuil d'un autre pays — voir [Comparaison de l'ICER entre devises](../comparaison-de-l-icer-entre-devises/) pour comprendre pourquoi le choix du facteur de conversion (parité de pouvoir d'achat contre taux de change du marché) peut à lui seul inverser une décision d'adoption.
 
 ## Sources
 

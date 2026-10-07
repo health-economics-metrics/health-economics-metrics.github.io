@@ -24,6 +24,7 @@ Przypomina złożony wskaźnik satysfakcji zbudowany z kilku zmierzonych wymiar�
 
 - **Używanie zestawu wartości z niewłaściwego kraju.**
 - **Mieszanie starszej wersji EQ-5D-3L i nowszej EQ-5D-5L bez korekty.**
+- **Traktowanie zestawu wartości jako samouzasadniającego się**: wartości użyteczności zwracane przez zestaw wartości same zostały uzyskane od ogółu społeczeństwa w badaniach time trade-off (lub pokrewnych badaniach opartych na wyborze) — zobacz [Wywoływanie użyteczności metodą wymiany czasu (TTO)](../wywoływanie-użyteczności-metodą-wymiany-czasu/), jak.
 
 ## Źródła
 

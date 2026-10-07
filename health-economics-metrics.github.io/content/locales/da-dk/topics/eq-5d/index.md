@@ -24,6 +24,7 @@ Ligner en sammensat tilfredshedsscore bygget af flere målte dimensioner i stede
 
 - **At bruge et værdisæt fra det forkerte land.**
 - **At blande den ældre EQ-5D-3L og den nyere EQ-5D-5L uden justering.**
+- **At behandle et værdisæt som selvbegrundende**: de nytteværdier, et værdisæt returnerer, blev selv indhentet fra befolkningen via time trade-off (eller en beslægtet valgbaseret) undersøgelse — se [Time Trade-Off (TTO) – indhentning af nytteværdi](../time-trade-off-tto-indhentning-af-nytteværdi/) for hvordan.
 
 ## Kilder
 
