@@ -64,3 +64,29 @@ export const DEFAULT_LOCALE = 'en-gb-oxendict';
 export function localeLabel(code) {
 	return LOCALE_LABELS[code] ?? code;
 }
+
+// Browser language tags that name a locale family under a different code.
+const LANGUAGE_ALIASES = { nb: 'no', nn: 'no' };
+
+/**
+ * The available locale code that best matches the browser's language tags
+ * (navigator.languages / navigator.language), or null. A tag is normalised
+ * ('cy_GB' → 'cy-gb'), then tried as an exact locale ('cy-gb'), then by its
+ * language alone: the language's international '<lang>-001' locale (so en-AU
+ * → 'en-001'), then '<lang>-<lang>' (e.g. 'cy-cy'), then any '<lang>-*' locale. Earlier tags win over later ones.
+ */
+export function matchLocale(tags, codes) {
+	const available = new Set(codes);
+	for (const tag of tags) {
+		const normalised = String(tag ?? '').toLowerCase().replace(/_/g, '-');
+		if (!normalised) continue;
+		if (available.has(normalised)) return normalised;
+		const language = normalised.split('-')[0];
+		const family = LANGUAGE_ALIASES[language] ?? language;
+		if (available.has(`${family}-001`)) return `${family}-001`;
+		if (available.has(`${family}-${family}`)) return `${family}-${family}`;
+		const any = [...available].find((code) => code.startsWith(`${family}-`));
+		if (any) return any;
+	}
+	return null;
+}

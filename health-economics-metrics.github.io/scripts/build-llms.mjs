@@ -30,7 +30,7 @@ for (const line of readme.slice(1)) {
 			title: name,
 			slug,
 			description: (blurb ?? '').trim(),
-			url: `${SITE}/locales/${locale}/topics/${slug}/`,
+			url: `${SITE}/${locale}/topics/${slug}/`,
 			source: `${RAW}/locales/${locale}/topics/${slug}/index.md`
 		});
 	}
@@ -41,12 +41,12 @@ const localeDirs = readdirSync('content/locales').filter((d) => existsSync(join(
 const locales = localeDirs.map((code) => ({
 	code,
 	name: LOCALE_LABELS[code] ?? code,
-	url: `${SITE}/locales/${code}/`,
+	url: `${SITE}/${code}/`,
 	default: code === DEFAULT_LOCALE
 }));
 
 let txt = `# ${title}\n\n> ${summary}\n\n`;
-txt += `Each topic is one page: definition, why it matters, the math, a worked example, the software engineering connection, pitfalls, and sources. Pages are in the canonical locale (${DEFAULT_LOCALE}); the same topics are published in ${locales.length - 1} other locales, linked below. Every locale's topic URL has the same path shape: ${SITE}/locales/<locale>/topics/<slug>/.\n\n`;
+txt += `Each topic is one page: definition, why it matters, the math, a worked example, the software engineering connection, pitfalls, and sources. Pages are in the canonical locale (${DEFAULT_LOCALE}); the same topics are published in ${locales.length - 1} other locales, linked below. Every locale's topic URL has the same path shape: ${SITE}/<locale>/topics/<slug>/.\n\n`;
 for (const p of bookParts) {
 	txt += `## ${p.title}\n\n`;
 	for (const t of p.topics) txt += `- [${t.title}](${t.url})${t.description ? `: ${t.description}` : ''}\n`;
@@ -66,7 +66,7 @@ const json = {
 	site: SITE,
 	repository: REPO,
 	defaultLocale: DEFAULT_LOCALE,
-	topicUrlPattern: `${SITE}/locales/{locale}/topics/{slug}/`,
+	topicUrlPattern: `${SITE}/{locale}/topics/{slug}/`,
 	sourceUrlPattern: `${RAW}/locales/{locale}/topics/{slug}/index.md`,
 	parts: bookParts.map((p) => ({ title: p.title, topics: p.topics })),
 	locales,

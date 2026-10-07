@@ -2,6 +2,7 @@
 
 ## Layout
 
+- Every locale directory is `<language>-<region>` (for example `en-us`, `fr-001`). Never create a language-only directory such as `locales/en/`.
 - `en-gb-oxendict` is the canonical locale. `README.md` and all cross-references point at it.
 - English variants: `en-us`, `en-gb`, `en-001`, `en-150`. Dialect-spelled slugs differ by locale (for example `...-defense` and `...-defence`); the shared `.locale-peer-id` identifies the topic.
 - Full-language locales keep the English (`en-gb-oxendict`) slug for every topic. Only content is translated.

@@ -39,9 +39,16 @@ Then:
 
 - Fix any broken internal links
 - Fix any residual wrong-dialect spellings
-- Update this file and `health-economics-metrics.github.io/spec/locales/index.md`
+- Update this file and `locales.tsv` (one row per locale directory; the two must list the same codes)
 
 ## Content structure (book side)
+
+All locale directories are named `<language>-<region>` (lowercase), such as
+`en-us`, `de-de`, `fr-001`; a region may be a CLDR numeric code (`001` World,
+`150` Europe) or carry a variant suffix (`en-gb-oxendict`). Language-only
+directories such as `locales/en/` are not allowed, and neither are language-only
+site routes: a browser language with no exact locale goes to the language's
+`-001` route (en-AU → `/en-001/`).
 
 Each locale is `locales/<code>/` in the book repo, containing:
 
@@ -54,12 +61,35 @@ Each locale is `locales/<code>/` in the book repo, containing:
 
 ## Slugs
 
-Slugs are per-locale, not shared.** Translated locales rename topic directories
-to native-script/accented slugs.
+Slugs are per-locale, not shared. Every full-language locale (everything except
+the English dialects) renames its topic directories to a slug derived from that
+locale's own H1 title (`bin/localize-slugs`): lowercase, trailing parenthetical
+such as an acronym dropped, Unicode letters/numbers/marks kept, words joined by
+hyphens. The English dialects (`en-us`, `en-gb`, `en-gb-oxendict`, `en-001`,
+`en-150`) keep English slugs, spelled in the dialect.
 
 Example: `es-001` `año-de-vida-ajustado-por-calidad`, `ur-001` `صحت-ایڈجسٹڈ-متوقع-زندگی`.
 
 Nothing in the site assumes slugs match across locales.
+
+## Routing
+
+- Locale routes are `/<locale>/…` (home), `/<locale>/contents/`,
+  `/<locale>/topics/`, `/<locale>/topics/<slug>/`, `/<locale>/search/`. There is
+  no `/locales/` prefix and no language-only route (`/en/` does not exist);
+  `/en-001/` is a real route, not a redirect.
+- The URL is the source of truth for the locale. A saved picker choice is
+  restored only on `/`, never on another page without a locale (`/about/`).
+- On `/`, a first visit (no saved locale, no `?search`) is sent to the locale
+  matching the browser's language list (`navigator.languages`, else
+  `navigator.language`), normalised (`cy_GB` → `cy-gb`): an exact locale first
+  (`cy-gb`); otherwise the language's international `-001` locale
+  (`en-AU` → `/en-001/`); otherwise `<language>-<language>`; otherwise any
+  `<language>-*` locale; otherwise the default locale (`en-gb-oxendict`).
+  `nb`/`nn` map to `no`. Implemented by `matchLocale()` in `locales.js`.
+- Sitemap, `llms.txt`/`llms.json` and the search index are generated from the
+  built site and cover every locale; the search index holds the default locale
+  only.
 
 ## Locale picker (labels + ordering)
 

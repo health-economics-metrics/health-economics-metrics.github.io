@@ -5,14 +5,14 @@
 	import { page } from '$app/state';
 	import { Footer, Header, SkipLink } from '@lilydesignsystem/svelte-headless';
 	import PickerBar from '@lilydesignsystem/svelte-picker-bar';
-	import { DEFAULT_LOCALE, localeLabel } from '#lib/locales.js';
+	import { DEFAULT_LOCALE, localeLabel, matchLocale } from '#lib/locales.js';
 	import { ui } from '#lib/i18n.js';
 
 	let { data, children } = $props();
 
 	// page.data is the merged data across the whole layout hierarchy, so on a
 	// locale-scoped route this picks up that locale's own bookTitle (set by
-	// locales/[locale]/+layout.server.js, overriding this root layout's own
+	// [locale]/+layout.server.js, overriding this root layout's own
 	// canonical-locale one) instead of always showing the English title in
 	// the header/footer. The 404.html fallback is rendered without layout
 	// data at all, so this falls back to something sensible rather than
@@ -35,10 +35,10 @@
 	const topLinks = $derived(
 		locale
 			? [
-					{ href: `/locales/${locale}/`, label: t.navHome },
-					{ href: `/locales/${locale}/contents/`, label: t.navContents },
-					{ href: `/locales/${locale}/topics/`, label: t.navTopicsAZ },
-					{ href: `/locales/${locale}/search/`, label: t.navSearch },
+					{ href: `/${locale}/`, label: t.navHome },
+					{ href: `/${locale}/contents/`, label: t.navContents },
+					{ href: `/${locale}/topics/`, label: t.navTopicsAZ },
+					{ href: `/${locale}/search/`, label: t.navSearch },
 					{ href: '/about/', label: t.navAbout }
 				]
 			: [
@@ -87,11 +87,28 @@
 	// navigates on its own. On a topic page, `localeLinks` (from book.js, via
 	// each topic's .locale-peer-id) gives the exact URL for the same topic in
 	// the target locale, since slugs can differ by locale. Off a topic page,
-	// swapping the `/locales/<code>/` prefix is exact (home/contents/topics/
+	// swapping the `/<code>/` prefix is exact (home/contents/topics/
 	// search have no per-locale slug). With no locale in the URL at all
 	// (the root picker, /about/), there's nothing to preserve — go to that
 	// locale's home.
 	let restoredOnce = false;
+
+	// Read before the picker mounts and saves anything: did this browser
+	// already choose a locale? If not, the first visit to "/" goes to the
+	// locale matching navigator.language (e.g. 'cy_GB' → /cy-gb/) instead of
+	// the default one the picker would otherwise restore.
+	let hadSavedLocale = true;
+	try {
+		hadSavedLocale = typeof localStorage === 'undefined' || !!localStorage.getItem('health-economics-metrics.locale');
+	} catch {
+		hadSavedLocale = false;
+	}
+
+	function browserLocale() {
+		if (hadSavedLocale || typeof navigator === 'undefined') return null;
+		const tags = navigator.languages?.length ? navigator.languages : [navigator.language];
+		return matchLocale(tags, locales);
+	}
 
 	function navigateToLocale(next) {
 		const restoring = !restoredOnce;
@@ -102,7 +119,7 @@
 			return;
 		}
 		if (locale) {
-			goto(resolve(`${path.replace(/\/locales\/[\w-]+/, `/locales/${next}`)}`.slice(1)), { refreshAll: true });
+			goto(resolve(`${path.replace(/^\/[\w-]+/, `/${next}`)}`.slice(1)), { refreshAll: true });
 			return;
 		}
 		// A search (/?<target>) is on the root page: the picker's automatic
@@ -115,7 +132,8 @@
 		// with no locale in its URL (/about/) must stay where the link took
 		// the visitor.
 		if (restoring && page.url.pathname !== '/') return;
-		goto(resolve(`locales/${next}/`), { refreshAll: true });
+		const target = restoring && page.url.pathname === '/' ? (browserLocale() ?? next) : next;
+		goto(resolve(`${target}/`), { refreshAll: true });
 	}
 </script>
 
@@ -214,9 +232,9 @@
 		</p>
 		<nav class="site-footer-links" aria-label="Footer">
 			{#if locale}
-				<a href={resolve(`locales/${locale}/contents/`)}>{t.navContents}</a>
-				<a href={resolve(`locales/${locale}/topics/`)}>{t.navTopicsAZ}</a>
-				<a href={resolve(`locales/${locale}/search/`)}>{t.navSearch}</a>
+				<a href={resolve(`${locale}/contents/`)}>{t.navContents}</a>
+				<a href={resolve(`${locale}/topics/`)}>{t.navTopicsAZ}</a>
+				<a href={resolve(`${locale}/search/`)}>{t.navSearch}</a>
 			{/if}
 
 			<a href={resolve('about/')}>{t.navAbout}</a>

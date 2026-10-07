@@ -134,7 +134,7 @@ function resolveEntry(entry, locale, translated) {
 	const localTitle = source ? splitTitle(source).title : '';
 	return {
 		slug,
-		href: `/locales/${locale}/topics/${slug}/`,
+		href: `/${locale}/topics/${slug}/`,
 		title: localTitle || translated?.title || entry.title,
 		blurb: translated?.blurb || (locale === entry.canonicalLocale ? entry.blurb : ''),
 		part: entry.part,
@@ -192,7 +192,7 @@ export function book(locale) {
 	if (orphanSlugs.length) {
 		const entries = orphanSlugs.map((slug) => ({
 			slug,
-			href: `/locales/${locale}/topics/${slug}/`,
+			href: `/${locale}/topics/${slug}/`,
 			title: titleOf(locale, slug),
 			blurb: ''
 		}));
@@ -228,7 +228,7 @@ export function topic(locale, slug) {
 	// Every other locale's URL for this exact topic, for the locale switcher —
 	// resolved via .locale-peer-id, not by assuming the slug is unchanged.
 	const localeLinks = Object.fromEntries(
-		Object.entries(peers(locale, slug)).map(([loc, s]) => [loc, `/locales/${loc}/topics/${s}/`])
+		Object.entries(peers(locale, slug)).map(([loc, s]) => [loc, `/${loc}/topics/${s}/`])
 	);
 	return {
 		slug,
@@ -240,7 +240,7 @@ export function topic(locale, slug) {
 	};
 }
 
-const TOPIC_HREF = /href="\/locales\/([\w-]+)\/topics\/([^/]+)\/"/g;
+const TOPIC_HREF = /href="\/([\w-]+)\/topics\/([^/]+)\/"/g;
 
 /**
  * Rewrite rendered HTML's topic links from whichever locale they were written
@@ -252,7 +252,7 @@ const TOPIC_HREF = /href="\/locales\/([\w-]+)\/topics\/([^/]+)\/"/g;
 export function localizeHtml(html, locale) {
 	return html.replace(TOPIC_HREF, (match, fromLocale, slug) => {
 		const mapped = peers(fromLocale, slug)[locale];
-		return mapped ? `href="/locales/${locale}/topics/${mapped}/"` : match;
+		return mapped ? `href="/${locale}/topics/${mapped}/"` : match;
 	});
 }
 
