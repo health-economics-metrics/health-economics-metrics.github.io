@@ -989,6 +989,54 @@ pre {
 		padding: var(--lily-space-md);
 	}
 
+	/* Search on a narrow screen: the field opens over the row of picker
+	 * buttons, full width with its ⏎ button, instead of hanging off the
+	 * button (which pushed it past the viewport edge). It stays inside the
+	 * header, covering neither the nav links nor the content. The other
+	 * pickers are hidden only while the search panel is open. The theme
+	 * positions the panel inside :where() (no specificity), so these plain
+	 * class selectors win. Logical properties keep it right for RTL. */
+	.site-controls {
+		position: relative;
+		width: 100%;
+		justify-content: flex-end;
+	}
+
+	.search-picker {
+		position: static;
+	}
+
+	.search-picker-panel {
+		inset-inline: 0;
+		top: 0;
+		bottom: 0;
+		display: flex;
+		align-items: center;
+		padding: 0;
+		border: 0;
+		box-shadow: none;
+		background-color: var(--lily-surface);
+	}
+
+	.search-picker-panel[hidden] {
+		display: none;
+	}
+
+	.search-picker-form {
+		flex: 1;
+	}
+
+	.search-picker-input {
+		flex: 1;
+		width: auto;
+		max-width: none;
+		min-width: 0;
+	}
+
+	.site-controls:has(.search-picker-panel:not([hidden])) > :not(.search-picker) {
+		visibility: hidden;
+	}
+
 	.topic-contents .contents-list {
 		flex-direction: column;
 		gap: 0.15rem;
