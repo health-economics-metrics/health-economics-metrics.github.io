@@ -27,7 +27,7 @@ prerendering. A search box on the home page navigates to `/?<target>`.
   `<main>` content with markup removed, capped at 20 000 characters.
 - Locales: pages under a locale prefix (`/xx-yy/…`) are
   indexed only for the site's default locale (first present of `en-gb`,
-  `en-001`, `en-us`, `en`), plus every page that has no locale prefix. The 404
+  `en-001`, `en-us`), plus every page that has no locale prefix. The 404
   page and redirects are skipped.
 
 ## Matching and ranking

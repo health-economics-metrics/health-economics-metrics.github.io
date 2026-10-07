@@ -4,7 +4,7 @@ import { join, sep } from 'node:path';
 
 const BUILD = process.argv[2] ?? 'build';
 const MAX_TEXT = 20000;
-const DEFAULTS = ['en-gb', 'en-001', 'en-us', 'en'];
+const DEFAULTS = ['en-gb', 'en-001', 'en-us'];
 const LOCALE = /^[a-z]{2,3}(-[a-z0-9]{2,8})+$/i;
 
 function walk(dir, out = []) {
