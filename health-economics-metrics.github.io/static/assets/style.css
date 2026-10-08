@@ -1000,6 +1000,16 @@ pre {
 	margin-top: var(--lily-space-sm);
 }
 
+/* Long compound words (German, Dutch, Finnish headings and contents entries)
+ * would otherwise be wider than a phone and make the whole page scroll
+ * sideways. `anywhere` also lowers the content's minimum width, which plain
+ * `break-word` does not; `hyphens: auto` breaks at proper points where the
+ * browser has a dictionary for the page language. */
+.site-main {
+	overflow-wrap: anywhere;
+	hyphens: auto;
+}
+
 /* --- Narrow screens ------------------------------------------------------- */
 
 @media (max-width: 64rem) {
