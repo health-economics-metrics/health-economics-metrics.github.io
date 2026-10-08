@@ -180,6 +180,7 @@ pre {
  * ------------------------------------------------------------------------ */
 
 .search-picker,
+.link-picker,
 .theme-picker,
 .locale-picker,
 .text-size-picker,
@@ -188,6 +189,7 @@ pre {
 }
 
 .search-picker-button,
+.link-picker-button,
 .theme-picker-button,
 .locale-picker-button,
 .text-size-picker-button,
@@ -208,6 +210,7 @@ pre {
 }
 
 .search-picker-button:hover,
+.link-picker-button:hover,
 .theme-picker-button:hover,
 .locale-picker-button:hover,
 .text-size-picker-button:hover,
@@ -216,6 +219,7 @@ pre {
 	border-color: var(--lily-border-strong);
 }
 
+.link-picker-list,
 .theme-picker-list,
 .locale-picker-list,
 .text-size-picker-list,
@@ -258,6 +262,7 @@ pre {
  * stays hoverable (WCAG 1.4.13), so no pointer-events override.
  */
 .search-picker-tooltip,
+.link-picker-tooltip,
 .theme-picker-tooltip,
 .locale-picker-tooltip,
 .text-size-picker-tooltip,
@@ -278,6 +283,7 @@ pre {
 }
 
 .search-picker-tooltip[hidden],
+.link-picker-tooltip[hidden],
 .theme-picker-tooltip[hidden],
 .locale-picker-tooltip[hidden],
 .text-size-picker-tooltip[hidden],
@@ -340,6 +346,7 @@ pre {
 	cursor: pointer;
 }
 
+.link-picker-list[hidden],
 .theme-picker-list[hidden],
 .locale-picker-list[hidden],
 .text-size-picker-list[hidden],
@@ -386,6 +393,38 @@ pre {
 
 .share-picker-target:hover {
 	color: var(--lily-text);
+}
+
+/* The link picker is the first button in the row, so its list and tooltip
+ * open from the start edge (rightward in LTR, leftward in RTL) rather than
+ * the end edge the other pickers use, which would run off the screen. */
+.link-picker-list,
+.link-picker-tooltip {
+	inset-inline-start: 0;
+	inset-inline-end: auto;
+}
+
+/* link-picker's items are real <a> links too (same reason as above), laid
+ * out like the other pickers' options. */
+.link-picker-link {
+	display: block;
+	padding: 0.4rem 0.6rem;
+	border-radius: var(--lily-radius-sm);
+	font-size: 0.95em;
+	white-space: nowrap;
+	color: var(--lily-text);
+	text-decoration: none;
+}
+
+.link-picker-link:hover,
+.link-picker-link:focus-visible,
+.link-picker-link[aria-current='page'] {
+	color: var(--lily-text);
+	background-color: var(--lily-surface-alt);
+}
+
+.link-picker-list-item {
+	list-style: none;
 }
 
 /* The theme renders this as a normal in-flow paragraph (`margin-block-start`
@@ -1010,6 +1049,17 @@ pre {
 		inset-inline: 0;
 		top: 0;
 		bottom: 0;
+		/* the theme sets width: max-content and max-width, which would shrink-wrap the field */
+		width: auto;
+		min-width: 0;
+		max-width: none;
+		margin: 0;
+		overflow: visible;
+		/* Theme 0.4 places popups with CSS anchor positioning, which makes
+		 * `inset` relative to the anchor; opt out so the insets below refer
+		 * to the header row. */
+		position-area: none;
+		position-anchor: none;
 		display: flex;
 		align-items: center;
 		padding: 0;

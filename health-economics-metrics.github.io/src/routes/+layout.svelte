@@ -47,6 +47,18 @@
 				]
 	);
 
+	// Project links for the header's link picker (the leftmost button). Home and
+	// About follow the current locale; the rest are the project's own pages.
+	const projectLinks = $derived([
+		{ id: 'home', label: t.navHome, href: locale ? `/${locale}/` : '/', current: path === (locale ? `/${locale}/` : '/') },
+		{ id: 'about', label: t.navAbout, href: '/about/', current: path === '/about/' },
+		// Absolute so the prerender crawler doesn't treat this generated file as a route.
+		{ id: 'llms', label: 'llms.txt', href: 'https://health-economics-metrics.github.io/llms.txt' },
+		{ id: 'github', label: 'GitHub', href: 'https://github.com/health-economics-metrics/health-economics-metrics.github.io', newTab: true },
+		{ id: 'codeberg', label: 'Codeberg', href: 'https://codeberg.org/health-economics-metrics/health-economics-metrics', newTab: true },
+		{ id: 'gitlab', label: 'GitLab', href: 'https://gitlab.com/health-economics-metrics/health-economics-metrics', newTab: true }
+	]);
+
 	const shareTargets = $derived([
 		{
 			id: 'email',
@@ -180,7 +192,13 @@
 
 		<PickerBar
 			class="site-controls"
+			links={projectLinks}
+			linkProps={{
+				// Routes navigate in-app; the static llms.txt file is a plain load.
+				navigate: (href) => (href.endsWith('.txt') ? location.assign(href) : goto(href))
+			}}
 			labels={{
+				link: t.pickerLinks,
 				search: t.navSearch,
 				searchInput: t.searchInputLabel,
 				searchSubmit: t.navSearch,
