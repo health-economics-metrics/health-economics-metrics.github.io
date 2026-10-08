@@ -82,7 +82,9 @@ test_topic_links() {
     for topics in "$top"/locales/*/topics; do
         for file in "$topics"/*/index.md; do
             for slug in $(grep -o '](\.\./[^/)#]*/' "$file" | sed 's#](\.\./##; s#/$##' | sort -u); do
-                test -d "$topics/$slug" || err "Broken link ../$slug/ in $file"
+                # ls -1 + exact match, not test -d: macOS filesystems ignore case
+                # and would accept ../EQ-5D/ for a directory named eq-5d.
+                ls -1 "$topics" | grep -Fxq -- "$slug" || err "Broken link ../$slug/ in $file"
             done
         done
     done
