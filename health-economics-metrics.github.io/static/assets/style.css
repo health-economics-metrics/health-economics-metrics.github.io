@@ -1041,8 +1041,30 @@ pre {
 		justify-content: flex-end;
 	}
 
-	.search-picker {
+	/* Every dropdown opens under the full-width picker row rather than under
+	 * its own button, so long lists (the theme names are wide) can never run
+	 * off the screen edge on either side, in LTR or RTL. */
+	.link-picker,
+	.search-picker,
+	.theme-picker,
+	.locale-picker,
+	.text-size-picker,
+	.share-picker {
 		position: static;
+	}
+
+	.link-picker-list,
+	.theme-picker-list,
+	.locale-picker-list,
+	.text-size-picker-list,
+	.share-picker-list {
+		inset-inline: 0;
+		width: auto;
+		min-width: 0;
+		max-width: none;
+		margin: 0;
+		position-area: none;
+		position-anchor: none;
 	}
 
 	.search-picker-panel {
