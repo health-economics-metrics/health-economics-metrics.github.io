@@ -1386,6 +1386,159 @@ const zhTw = {
 	paginationNext: '下一篇'
 };
 
+const is = {
+	skipToContent: 'Fara beint í efnið',
+	navHome: 'Forsíða',
+	navContents: 'Efnisyfirlit',
+	navTopicsAZ: 'Efni A–Ö',
+	navSearch: 'Leit',
+	navAbout: 'Um bókina',
+	footerSourceLink: 'Frumkóði',
+	footerTaglineSuffix:
+		' — stærðfræði, dæmi og röksemdafærsla í heilsuhagfræði fyrir hugbúnaðarverkfræðinga sem smíða fyrir landsbundna heilbrigðisþjónustu.',
+	footerNote:
+		'Tölur í þessari bók úreldast fljótt. Hvert efni tímasetur viðmiðunartölur sínar í textanum; athugaðu þær aftur áður en þú notar nokkra tölu í raunverulegum viðskiptarökum.',
+	pickerTheme: 'Þema útlits',
+	pickerLanguage: 'Tungumál',
+	pickerTextSize: 'Textastærð',
+	pickerShare: 'Deila',
+	pickerLinks: 'Tenglar',
+	shareCopyLink: 'Afrita tengil',
+	shareCopied: 'Afritað',
+	shareCopyFailed: 'Afritun mistókst',
+	shareEmailLabel: 'Senda tengil í tölvupósti',
+	shareLinkedinLabel: 'Deila á LinkedIn',
+	shareRedditLabel: 'Deila á Reddit',
+	shareBlueskyLabel: 'Deila á Bluesky',
+	shareMastodonLabel: 'Deila á Mastodon',
+	startHere: 'Byrjaðu hér',
+	startHereSubtitle: 'Þrjár hugmyndir sem allt annað byggir á.',
+	contentsMetaDescription: (bookTitle) => `Hvert efni bókarinnar „${bookTitle}“ í lesröð.`,
+	contentsIntro: (count, parts) =>
+		`Öll ${count} efnin í lesröð, í ${parts} hlutum. Hvert efni fjallar um einn mælikvarða eða hugtak: skilgreiningu, hvers vegna það skiptir máli, stærðfræðina, útreiknað dæmi, tengsl við hugbúnaðarverkfræði, gildrur og heimildir.`,
+	topicsMetaDescription: (bookTitle) => `Hvert efni bókarinnar „${bookTitle}“ í stafrófsröð.`,
+	topicsIntroPrefix: (count) => `Öll ${count} efnin í stafrófsröð. Fyrir lesröð, sjá:`,
+	contentsLinkText: 'efnisyfirlit',
+	jumpToLetter: 'Fara á staf',
+	searchMetaDescription: (bookTitle) => `Leitaðu í hverju efni bókarinnar „${bookTitle}“.`,
+	searchIntro: (count) =>
+		`Leitaðu í öllum ${count} efnunum eftir titli, hluta, samantekt og undirfyrirsögnum. Allt keyrir í vafranum þínum — ekkert sem þú skrifar yfirgefur þessa síðu.`,
+	searchInputLabel: 'Leita í efnum',
+	searchPlaceholder: 'QALY, núvirðing, kostnaður á tóken…',
+	searchHintEmptyHtml: 'Skrifaðu til að leita. Prófaðu <em>QALY</em>, <em>legudaga</em> eða <em>ROI</em>.',
+	noResultsPrefix: 'Ekkert efni passar við ',
+	noResultsMiddle: '. Prófaðu víðara leitarorð eða skoðaðu: ',
+	resultsCountSingular: 'efni',
+	resultsCountPlural: 'efni',
+	topicPosition: (index, total) => `Efni ${index} af ${total}`,
+	onThisPage: 'Á þessari síðu',
+	paginationLabel: 'Bókin',
+	paginationPrevious: 'Fyrri',
+	paginationNext: 'Næsta'
+};
+
+const tr = {
+	skipToContent: 'İçeriğe geç',
+	navHome: 'Ana sayfa',
+	navContents: 'İçindekiler',
+	navTopicsAZ: 'Konular A–Z',
+	navSearch: 'Ara',
+	navAbout: 'Hakkında',
+	footerSourceLink: 'Kaynak',
+	footerTaglineSuffix:
+		' — ulusal sağlık hizmetleri için geliştirme yapan yazılım mühendislerine yönelik sağlık ekonomisi matematiği, örnekleri ve muhakemesi.',
+	footerNote:
+		'Bu kitaptaki rakamlar hızla eskir. Her konu kıyaslamalarını metin içinde tarihlendirir; canlı bir iş gerekçesinde herhangi bir sayıyı kullanmadan önce yeniden doğrulayın.',
+	pickerTheme: 'Tema',
+	pickerLanguage: 'Dil',
+	pickerTextSize: 'Yazı boyutu',
+	pickerShare: 'Paylaş',
+	pickerLinks: 'Bağlantılar',
+	shareCopyLink: 'Bağlantıyı kopyala',
+	shareCopied: 'Kopyalandı',
+	shareCopyFailed: 'Kopyalama başarısız',
+	shareEmailLabel: 'Bağlantıyı e-postayla gönder',
+	shareLinkedinLabel: 'LinkedIn\'de paylaş',
+	shareRedditLabel: 'Reddit\'te paylaş',
+	shareBlueskyLabel: 'Bluesky\'da paylaş',
+	shareMastodonLabel: 'Mastodon\'da paylaş',
+	startHere: 'Buradan başlayın',
+	startHereSubtitle: 'Diğer her şeyin üzerine kurulduğu üç fikir.',
+	contentsMetaDescription: (bookTitle) => `${bookTitle} kitabındaki her konu, okuma sırasıyla.`,
+	contentsIntro: (count, parts) =>
+		`Okuma sırasıyla tüm ${count} konu, ${parts} bölümde. Her konu tek bir metriği veya kavramı kapsar: tanım, neden önemli, matematik, çözümlü örnek, yazılım mühendisliği bağlantısı, tuzaklar ve kaynaklar.`,
+	topicsMetaDescription: (bookTitle) => `${bookTitle} kitabındaki her konu, A'dan Z'ye sıralı.`,
+	topicsIntroPrefix: (count) => `Alfabetik sırayla tüm ${count} konu. Okuma sırası için bkz.`,
+	contentsLinkText: 'içindekiler',
+	jumpToLetter: 'Harfe git',
+	searchMetaDescription: (bookTitle) => `${bookTitle} kitabındaki her konuda arayın.`,
+	searchIntro: (count) =>
+		`Tüm ${count} konuyu başlık, bölüm, özet ve bölüm başlığına göre arayın. Her şey tarayıcınızda çalışır — yazdığınız hiçbir şey bu sayfadan ayrılmaz.`,
+	searchInputLabel: 'Konularda ara',
+	searchPlaceholder: 'QALY, iskonto, token başına maliyet…',
+	searchHintEmptyHtml: 'Aramak için yazın. <em>QALY</em>, <em>yatak günleri</em> veya <em>ROI</em> deneyin.',
+	noResultsPrefix: 'Eşleşen konu yok: ',
+	noResultsMiddle: '. Daha geniş bir terim deneyin veya göz atın: ',
+	resultsCountSingular: 'konu',
+	resultsCountPlural: 'konu',
+	topicPosition: (index, total) => `Konu ${index} / ${total}`,
+	onThisPage: 'Bu sayfada',
+	paginationLabel: 'Kitap',
+	paginationPrevious: 'Önceki',
+	paginationNext: 'Sonraki'
+};
+
+const sw = {
+	skipToContent: 'Ruka hadi maudhui',
+	navHome: 'Mwanzo',
+	navContents: 'Yaliyomo',
+	navTopicsAZ: 'Mada A–Z',
+	navSearch: 'Tafuta',
+	navAbout: 'Kuhusu kitabu',
+	footerSourceLink: 'Chanzo',
+	footerTaglineSuffix:
+		' — hisabati, mifano, na hoja za uchumi wa afya kwa wahandisi wa programu wanaojenga kwa ajili ya huduma za afya za taifa.',
+	footerNote:
+		'Namba katika kitabu hiki huchakaa haraka. Kila mada huweka tarehe kwenye vigezo vyake ndani ya maandishi; zithibitishe upya kabla ya kutumia namba yoyote katika hoja halisi ya biashara.',
+	pickerTheme: 'Mandhari ya mwonekano',
+	pickerLanguage: 'Lugha',
+	pickerTextSize: 'Ukubwa wa maandishi',
+	pickerShare: 'Shiriki',
+	pickerLinks: 'Viungo',
+	shareCopyLink: 'Nakili kiungo',
+	shareCopied: 'Imenakiliwa',
+	shareCopyFailed: 'Kunakili kumeshindikana',
+	shareEmailLabel: 'Tuma kiungo kwa barua pepe',
+	shareLinkedinLabel: 'Shiriki kwenye LinkedIn',
+	shareRedditLabel: 'Shiriki kwenye Reddit',
+	shareBlueskyLabel: 'Shiriki kwenye Bluesky',
+	shareMastodonLabel: 'Shiriki kwenye Mastodon',
+	startHere: 'Anzia hapa',
+	startHereSubtitle: 'Mawazo matatu ambayo kila kitu kingine kinajengwa juu yake.',
+	contentsMetaDescription: (bookTitle) => `Kila mada ya kitabu «${bookTitle}» kwa mpangilio wa kusoma.`,
+	contentsIntro: (count, parts) =>
+		`Mada zote ${count} kwa mpangilio wa kusoma, katika sehemu ${parts}. Kila mada inahusu kipimo au dhana moja: ufafanuzi, kwa nini ni muhimu, hisabati, mfano uliokokotolewa, uhusiano na uhandisi wa programu, mitego, na vyanzo.`,
+	topicsMetaDescription: (bookTitle) => `Kila mada ya kitabu «${bookTitle}» kwa mpangilio wa alfabeti.`,
+	topicsIntroPrefix: (count) => `Mada zote ${count} kwa mpangilio wa alfabeti. Kwa mpangilio wa kusoma, tazama:`,
+	contentsLinkText: 'yaliyomo',
+	jumpToLetter: 'Ruka hadi herufi',
+	searchMetaDescription: (bookTitle) => `Tafuta katika kila mada ya kitabu «${bookTitle}».`,
+	searchIntro: (count) =>
+		`Tafuta katika mada zote ${count} kwa kichwa, sehemu, muhtasari na vichwa vidogo. Kila kitu kinaendeshwa kwenye kivinjari chako — hakuna unachoandika kinachoondoka kwenye ukurasa huu.`,
+	searchInputLabel: 'Tafuta mada',
+	searchPlaceholder: 'QALY, kupunguza thamani, gharama kwa kila tokeni…',
+	searchHintEmptyHtml: 'Andika ili kutafuta. Jaribu <em>QALY</em>, <em>siku za kitanda</em> au <em>ROI</em>.',
+	noResultsPrefix: 'Hakuna mada inayolingana na ',
+	noResultsMiddle: '. Jaribu neno pana zaidi au pitia: ',
+	resultsCountSingular: 'mada',
+	resultsCountPlural: 'mada',
+	topicPosition: (index, total) => `Mada ${index} ya ${total}`,
+	onThisPage: 'Kwenye ukurasa huu',
+	paginationLabel: 'Kitabu',
+	paginationPrevious: 'Iliyotangulia',
+	paginationNext: 'Inayofuata'
+};
+
 const TRANSLATIONS = {
 	'de-de': de,
 	'de-001': de,
@@ -1434,7 +1587,10 @@ const TRANSLATIONS = {
 	'pl-pl': pl,
 	'pl-001': pl,
 	'vi-001': vi,
-	'th-001': th
+	'th-001': th,
+	'is-001': is,
+	'tr-001': tr,
+	'sw-001': sw
 };
 
 /** This locale's UI strings, falling back to English for any missing key. */

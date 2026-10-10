@@ -57,7 +57,10 @@ export const LOCALE_LABELS = {
 	'ur-001': 'اردو',
 	'ur-pk': 'اردو - پاکستان',
 	'vi-001': 'Tiếng Việt',
-	'th-001': 'ไทย'
+	'th-001': 'ไทย',
+	'is-001': 'Íslenska',
+	'tr-001': 'Türkçe',
+	'sw-001': 'Kiswahili'
 };
 
 export const DEFAULT_LOCALE = 'en-gb-oxendict';
