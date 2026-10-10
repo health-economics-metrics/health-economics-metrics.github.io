@@ -1337,6 +1337,55 @@ const th = {
 	paginationNext: 'ถัดไป'
 };
 
+const zhTw = {
+	skipToContent: '跳到主要內容',
+	navHome: '首頁',
+	navContents: '目錄',
+	navTopicsAZ: '主題 A–Z',
+	navSearch: '搜尋',
+	navAbout: '關於',
+	footerSourceLink: '原始碼',
+	footerTaglineSuffix: ' —— 為全球各國醫療服務機構開發軟體的工程師提供的健康經濟學數學、案例與推理。',
+	footerNote: '本書中的數字更新很快。每個主題都在正文中標註了其基準資料的日期；在實際業務案例中使用任何數字之前，請重新核實。',
+	pickerTheme: '主題外觀',
+	pickerLanguage: '語言',
+	pickerTextSize: '字號',
+	pickerShare: '分享',
+	pickerLinks: '連結',
+	shareCopyLink: '複製連結',
+	shareCopied: '已複製',
+	shareCopyFailed: '複製失敗',
+	shareEmailLabel: '透過郵件傳送連結',
+	shareLinkedinLabel: '分享到 LinkedIn',
+	shareRedditLabel: '分享到 Reddit',
+	shareBlueskyLabel: '分享到 Bluesky',
+	shareMastodonLabel: '分享到 Mastodon',
+	startHere: '從這裡開始',
+	startHereSubtitle: '其餘一切都建立在這三個概念之上。',
+	contentsMetaDescription: (bookTitle) => `《${bookTitle}》的全部主題，按閱讀順序排列。`,
+	contentsIntro: (count, parts) =>
+		`全部 ${count} 個主題按閱讀順序排列，共分為 ${parts} 個部分。每個主題涵蓋一個指標或概念：定義、為何重要、數學計算、一個例項解析、與軟體工程的關聯、常見誤區，以及參考來源。`,
+	topicsMetaDescription: (bookTitle) => `《${bookTitle}》的全部主題，按字母順序排列。`,
+	topicsIntroPrefix: (count) => `全部 ${count} 個主題按字母順序排列。如需閱讀順序，請檢視`,
+	contentsLinkText: '目錄',
+	jumpToLetter: '跳轉到字母',
+	searchMetaDescription: (bookTitle) => `搜尋《${bookTitle}》中的所有主題。`,
+	searchIntro: (count) =>
+		`按標題、部分、摘要和小節標題搜尋全部 ${count} 個主題。一切都在你的瀏覽器中執行 —— 你輸入的內容不會離開此頁面。`,
+	searchInputLabel: '搜尋主題',
+	searchPlaceholder: 'QALY、貼現、每 token 成本……',
+	searchHintEmptyHtml: '開始輸入以搜尋。試試 <em>QALY</em>、<em>床位天數</em> 或 <em>ROI</em>。',
+	noResultsPrefix: '沒有主題匹配 ',
+	noResultsMiddle: '。請嘗試更寬泛的詞語，或瀏覽',
+	resultsCountSingular: '個主題',
+	resultsCountPlural: '個主題',
+	topicPosition: (index, total) => `第 ${index} 個主題，共 ${total} 個`,
+	onThisPage: '本頁內容',
+	paginationLabel: '全書',
+	paginationPrevious: '上一篇',
+	paginationNext: '下一篇'
+};
+
 const TRANSLATIONS = {
 	'de-de': de,
 	'de-001': de,
@@ -1353,6 +1402,7 @@ const TRANSLATIONS = {
 	'ru-001': ru,
 	'zh-cn': zh,
 	'zh-001': zh,
+	'zh-tw': zhTw,
 	'ar-eg': ar,
 	'ar-001': ar,
 	'cy-gb': cy,

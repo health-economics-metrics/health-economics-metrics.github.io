@@ -41,6 +41,7 @@ export const LOCALE_LABELS = {
 	'fi-fi': 'Suomi - Suomi',
 	'zh-cn': '中文 - 中国大陆',
 	'zh-001': '中文',
+	'zh-tw': '中文 - 台灣',
 	'ar-eg': 'العربية - مصر',
 	'ar-001': 'العربية',
 	'cy-gb': 'Cymraeg - Y Deyrnas Unedig',
