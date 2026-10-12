@@ -1,6 +1,7 @@
 import { render } from '#lib/markdown.js';
 import { book, localizeHtml, readmeSource } from '#lib/server/book.js';
 import { locales } from '#lib/server/content.js';
+import { localeLabel } from '#lib/locales.js';
 
 // This is the first page reached for each locale, so its entries() drives
 // prerendering for the whole [locale] subtree: the crawler discovers
@@ -74,8 +75,15 @@ export function load({ params }) {
 		}
 	);
 
+	// The world (-001) translations, English first, then by code.
+	const translations = locales()
+		.filter((code) => code.endsWith('-001'))
+		.sort((a, b) => (a === 'en-001' ? -1 : b === 'en-001' ? 1 : a.localeCompare(b)))
+		.map((code) => ({ code, label: localeLabel(code) }));
+
 	return {
 		title,
+		translations,
 		summary,
 		parts,
 		trailingHtml,
