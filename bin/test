@@ -41,13 +41,30 @@ test_locales() {
     done
 }
 
+# Print a locale's topics directory. English locales call it `topics`; every
+# other locale translates the name. It is the subdirectory whose children carry
+# a .locale-peer-id.
+topics_dir() {
+    for d in "$top"/locales/"$1"/*/; do
+        for c in "$d"*/; do
+            if test -f "${c}.locale-peer-id"; then printf %s\\n "${d%/}"; return 0; fi
+        done
+    done
+    return 0
+}
+
 test_locales_subdirectories() {
-    # Only the per-topic directories: locales/<locale>/topics/<slug>.
-    for dir in "$top"/locales/*/topics/*/; do
+    # Only the per-topic directories: locales/<locale>/<topics-dir>/<slug>.
+    for loc in "$top"/locales/*/; do
+      loc="$(basename "$loc")"
+      topics="$(topics_dir "$loc")"
+      test -n "$topics" || continue
+      for dir in "$topics"/*/; do
         dir="${dir%/}"
         file_exists_or_err "$dir/.locale-peer-id"
         file_exists_or_err "$dir/index.md"
         symlink_exists_or_err "$dir/README.md"
+      done
     done
 }
 
@@ -66,7 +83,7 @@ test_locale_names() {
 # .locale-peer-id (slugs differ by locale).
 test_locale_topics_complete() {
     canonical="en-gb-oxendict"
-    peer_ids() { cat "$top"/locales/"$1"/topics/*/.locale-peer-id 2>/dev/null | sort; }
+    peer_ids() { t="$(topics_dir "$1")"; test -n "$t" && cat "$t"/*/.locale-peer-id 2>/dev/null | sort; return 0; }
     peer_ids "$canonical" > "${TMPDIR:-/tmp}/hem-canonical-ids.$$"
     for dir in "$top"/locales/*/; do
         name="$(basename "$dir")"
@@ -79,7 +96,9 @@ test_locale_topics_complete() {
 
 # Every ../<slug>/ link in a topic points at a topic in the same locale.
 test_topic_links() {
-    for topics in "$top"/locales/*/topics; do
+    for loc in "$top"/locales/*/; do
+        topics="$(topics_dir "$(basename "$loc")")"
+        test -n "$topics" || continue
         for file in "$topics"/*/index.md; do
             for slug in $(grep -o '](\.\./[^/)#]*/' "$file" | sed 's#](\.\./##; s#/$##' | sort -u); do
                 # ls -1 + exact match, not test -d: macOS filesystems ignore case

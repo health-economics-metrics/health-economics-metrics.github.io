@@ -61,6 +61,20 @@ if (localeNames.length === 0) {
 	process.exit(1);
 }
 
+// A non-English locale translates the name of its topics directory (locales/es-001/temas/);
+// it is the subdirectory whose children carry a `.locale-peer-id`. It is vendored back under
+// the fixed name `topics/` so the site's routes and content loader stay locale-agnostic.
+async function topicsDirName(locale) {
+	const base = join(localesDir, locale);
+	for (const e of await readdir(base, { withFileTypes: true })) {
+		if (!e.isDirectory()) continue;
+		for (const c of await readdir(join(base, e.name), { withFileTypes: true })) {
+			if (c.isDirectory() && existsSync(join(base, e.name, c.name, '.locale-peer-id'))) return e.name;
+		}
+	}
+	return 'topics';
+}
+
 for (const locale of localeNames) {
 	// This locale's own translated index.md (the book's per-locale README,
 	// read by book.js's readmeSource/localizedIndex) — vendored even when
@@ -74,9 +88,9 @@ for (const locale of localeNames) {
 		count += 1;
 	}
 
-	const topicsFrom = join(localesDir, locale, 'topics');
+	const topicsFrom = join(localesDir, locale, await topicsDirName(locale));
 	if (!existsSync(topicsFrom)) {
-		console.warn(`skip (missing): locales/${locale}/topics/`);
+		console.warn(`skip (missing): locales/${locale}/<topics dir>/`);
 		continue;
 	}
 	const topicsTo = join(contentDir, 'locales', locale, 'topics');

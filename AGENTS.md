@@ -9,7 +9,8 @@ Guidance for AI coding agents working in this repository.
 ```
 README.md                          canonical table of contents (links into en-gb-oxendict)
 locales/<locale>/index.md          each locale's home page (mirrors README.md, translated)
-locales/<locale>/topics/<slug>/    one directory per topic:
+locales/<locale>/<topics-dir>/<slug>/  one directory per topic (English locales: `topics`; every other
+                                   locale translates the name, e.g. `temas`, `主题`, `주제`; the site vendors it back as `topics`):
     index.md                       the content
     README.md                      symlink to index.md
     .locale-peer-id                hash, byte-identical across locales for the same topic

@@ -40,9 +40,23 @@ def slugify(title):
     return ''.join(out)
 
 
+def topics_base(loc):
+    """A locale's topics directory. English locales call it `topics`; every other
+    locale translates the name. It is the subdirectory whose children carry a
+    `.locale-peer-id`."""
+    base = os.path.join(ROOT, loc)
+    for e in sorted(os.listdir(base)):
+        d = os.path.join(base, e)
+        if os.path.isdir(d) and any(
+            os.path.exists(os.path.join(d, c, '.locale-peer-id')) for c in os.listdir(d)
+        ):
+            return d
+    return os.path.join(base, 'topics')
+
+
 def topics(loc):
     """{slug: (peer_id, title)} for a locale."""
-    base = os.path.join(ROOT, loc, 'topics')
+    base = topics_base(loc)
     result = {}
     for s in sorted(os.listdir(base)):
         d = os.path.join(base, s)
@@ -60,7 +74,7 @@ def rewrite_links(loc, mapping):
         return 0
     pat = re.compile(r'\]\(\.\./([^/)#]+)/')
     n = 0
-    base = os.path.join(ROOT, loc, 'topics')
+    base = topics_base(loc)
     for s in os.listdir(base):
         p = os.path.join(base, s, 'index.md')
         if not os.path.isfile(p):
@@ -87,7 +101,7 @@ def main():
     dry = '--dry-run' in sys.argv
     loc = args[0]
     canon = {pid: s for s, (pid, _) in topics(CANON).items()}
-    base = os.path.join(ROOT, loc, 'topics')
+    base = topics_base(loc)
 
     if '--copy-missing-from' in sys.argv:
         src = sys.argv[sys.argv.index('--copy-missing-from') + 1]
@@ -106,7 +120,7 @@ def main():
         for s, new in copies.items():
             print(f'  copy {src}/{s} -> {loc}/{new}')
             if not dry:
-                shutil.copytree(os.path.join(ROOT, src, 'topics', s), os.path.join(base, new), symlinks=True)
+                shutil.copytree(os.path.join(topics_base(src), s), os.path.join(base, new), symlinks=True)
         if not dry:
             for s, new in copies.items():
                 p = os.path.join(base, new, 'index.md')
