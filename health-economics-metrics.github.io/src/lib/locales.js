@@ -25,6 +25,7 @@ export const LOCALE_LABELS = {
 	'no-001': 'Norsk',
 	'no-no': 'Norsk - Norge',
 	'et-001': 'Eesti',
+	'et-et': 'Eesti - Eesti',
 	'pl-001': 'Polski',
 	'pl-pl': 'Polski - Polska',
 	'es-es': 'Español - España',
@@ -57,9 +58,13 @@ export const LOCALE_LABELS = {
 	'ur-001': 'اردو',
 	'ur-pk': 'اردو - پاکستان',
 	'vi-001': 'Tiếng Việt',
+	'vi-vn': 'Tiếng Việt - Việt Nam',
 	'th-001': 'ไทย',
+	'th-th': 'ไทย - ประเทศไทย',
 	'is-001': 'Íslenska',
+	'is-is': 'Íslenska - Ísland',
 	'tr-001': 'Türkçe',
+	'tr-tr': 'Türkçe - Türkiye',
 	'sw-001': 'Kiswahili'
 };
 
