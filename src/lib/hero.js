@@ -73,6 +73,10 @@ export const HERO = {
   "tagline": "Tervisemajanduse matemaatika, näited ja arutlused tarkvarainseneridele.",
   "translations": "Tõlked: "
  },
+ "et-et": {
+  "tagline": "Tervisemajanduse matemaatika, näited ja arutlused tarkvarainseneridele.",
+  "translations": "Tõlked: "
+ },
  "fi-001": {
   "tagline": "Terveystaloustieteen matematiikkaa, esimerkkejä ja perusteluja ohjelmistoinsinööreille.",
   "translations": "Käännökset: "
@@ -106,6 +110,10 @@ export const HERO = {
   "translations": "Terjemahan: "
  },
  "is-001": {
+  "tagline": "Stærðfræði heilsuhagfræði, dæmi og rökstuðningur fyrir hugbúnaðarverkfræðinga.",
+  "translations": "Þýðingar: "
+ },
+ "is-is": {
   "tagline": "Stærðfræði heilsuhagfræði, dæmi og rökstuðningur fyrir hugbúnaðarverkfræðinga.",
   "translations": "Þýðingar: "
  },
@@ -189,7 +197,15 @@ export const HERO = {
   "tagline": "คณิตศาสตร์ ตัวอย่าง และการให้เหตุผลด้านเศรษฐศาสตร์สุขภาพ สำหรับวิศวกรซอฟต์แวร์",
   "translations": "การแปล: "
  },
+ "th-th": {
+  "tagline": "คณิตศาสตร์ ตัวอย่าง และการให้เหตุผลด้านเศรษฐศาสตร์สุขภาพ สำหรับวิศวกรซอฟต์แวร์",
+  "translations": "การแปล: "
+ },
  "tr-001": {
+  "tagline": "Yazılım mühendisleri için sağlık ekonomisi matematiği, örnekler ve gerekçelendirme.",
+  "translations": "Çeviriler: "
+ },
+ "tr-tr": {
   "tagline": "Yazılım mühendisleri için sağlık ekonomisi matematiği, örnekler ve gerekçelendirme.",
   "translations": "Çeviriler: "
  },
@@ -210,6 +226,10 @@ export const HERO = {
   "translations": "تراجم: "
  },
  "vi-001": {
+  "tagline": "Toán học kinh tế y tế, ví dụ và lập luận dành cho kỹ sư phần mềm.",
+  "translations": "Bản dịch: "
+ },
+ "vi-vn": {
   "tagline": "Toán học kinh tế y tế, ví dụ và lập luận dành cho kỹ sư phần mềm.",
   "translations": "Bản dịch: "
  },
@@ -247,6 +267,7 @@ export const ENDONYMS = {
  "es-001": "Español",
  "es-es": "Español (España)",
  "et-001": "Eesti",
+ "et-et": "Eesti (Eesti)",
  "fi-001": "Suomi",
  "fi-fi": "Suomi (Suomi)",
  "fr-001": "Français",
@@ -256,6 +277,7 @@ export const ENDONYMS = {
  "id-001": "Bahasa Indonesia",
  "id-id": "Bahasa Indonesia (Indonesia)",
  "is-001": "Íslenska",
+ "is-is": "Íslenska (Ísland)",
  "it-001": "Italiano",
  "it-it": "Italiano (Italia)",
  "ja-001": "日本語",
@@ -276,12 +298,15 @@ export const ENDONYMS = {
  "sv-se": "Svenska (Sverige)",
  "sw-001": "Kiswahili",
  "th-001": "ไทย",
+ "th-th": "ไทย (ประเทศไทย)",
  "tr-001": "Türkçe",
+ "tr-tr": "Türkçe (Türkiye)",
  "uk-001": "Українська",
  "uk-ua": "Українська (Україна)",
  "ur-001": "اردو",
  "ur-pk": "اردو (پاکستان)",
  "vi-001": "Tiếng Việt",
+ "vi-vn": "Tiếng Việt (Việt Nam)",
  "zh-001": "中文",
  "zh-cn": "简体中文",
  "zh-tw": "繁體中文"
