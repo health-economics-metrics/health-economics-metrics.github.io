@@ -1547,7 +1547,6 @@ const TRANSLATIONS = {
 	'es-es': es,
 	'es-001': es,
 	'et-001': et,
-	'et-et': et,
 	'it-it': it,
 	'it-001': it,
 	'fr-fr': fr,
@@ -1588,13 +1587,9 @@ const TRANSLATIONS = {
 	'pl-pl': pl,
 	'pl-001': pl,
 	'vi-001': vi,
-	'vi-vn': vi,
 	'th-001': th,
-	'th-th': th,
 	'is-001': is,
-	'is-is': is,
 	'tr-001': tr,
-	'tr-tr': tr,
 	'sw-001': sw
 };
 
