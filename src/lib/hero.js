@@ -193,6 +193,10 @@ export const HERO = {
   "tagline": "Hisabati ya uchumi wa afya, mifano na hoja kwa wahandisi wa programu.",
   "translations": "Tafsiri: "
  },
+ "sw-tz": {
+  "tagline": "Hisabati ya uchumi wa afya, mifano na hoja kwa wahandisi wa programu.",
+  "translations": "Tafsiri: "
+ },
  "th-001": {
   "tagline": "คณิตศาสตร์ ตัวอย่าง และการให้เหตุผลด้านเศรษฐศาสตร์สุขภาพ สำหรับวิศวกรซอฟต์แวร์",
   "translations": "การแปล: "
@@ -297,6 +301,7 @@ export const ENDONYMS = {
  "sv-001": "Svenska",
  "sv-se": "Svenska (Sverige)",
  "sw-001": "Kiswahili",
+ "sw-tz": "Kiswahili (Tanzania)",
  "th-001": "ไทย",
  "th-th": "ไทย (ประเทศไทย)",
  "tr-001": "Türkçe",
