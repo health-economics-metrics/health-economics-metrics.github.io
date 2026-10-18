@@ -1595,7 +1595,8 @@ const TRANSLATIONS = {
 	'is-is': is,
 	'tr-001': tr,
 	'tr-tr': tr,
-	'sw-001': sw
+	'sw-001': sw,
+	'sw-tz': sw
 };
 
 /** This locale's UI strings, falling back to English for any missing key. */

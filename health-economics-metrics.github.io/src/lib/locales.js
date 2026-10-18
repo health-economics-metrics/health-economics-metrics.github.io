@@ -65,7 +65,8 @@ export const LOCALE_LABELS = {
 	'is-is': 'Íslenska - Ísland',
 	'tr-001': 'Türkçe',
 	'tr-tr': 'Türkçe - Türkiye',
-	'sw-001': 'Kiswahili'
+	'sw-001': 'Kiswahili',
+	'sw-tz': 'Kiswahili - Tanzania'
 };
 
 export const DEFAULT_LOCALE = 'en-gb-oxendict';
