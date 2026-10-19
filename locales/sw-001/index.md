@@ -1,6 +1,6 @@
 # Vipimo vya Uchumi wa Afya
 
-Utangulizi wa kina wa hisabati, mifano, na hoja za uchumi wa afya, ulioandikwa kwa wahandisi wa programu wanaojenga kwa mashirika ya huduma za afya ya taifa kote ulimwenguni. Kila faili inahusu kipimo au dhana moja: ufafanuzi, kwa nini ni muhimu, hisabati, mfano uliokokotolewa, uhusiano na uhandisi wa programu, mitego, na vyanzo.
+Utangulizi wa kina wa hisabati, mifano, na hoja za uchumi wa afya. Kila faili inahusu kipimo au dhana moja: ufafanuzi, kwa nini ni muhimu, hisabati, mfano uliokokotolewa, uhusiano na uhandisi wa programu, mitego, na vyanzo.
 
 Wewe ni mgeni hapa? Anza na [Gharama ya Fursa](locales/en-gb-oxendict/topics/opportunity-cost/), [Mwaka wa Maisha Uliorekebishwa kwa Ubora (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) na [Gharama ya Ucheleweshaji (CoD)](locales/en-gb-oxendict/topics/cost-of-delay/) — mawazo matatu ambayo kila kitu kingine kimejengwa juu yake.
 
