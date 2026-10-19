@@ -1,6 +1,6 @@
 # Mælikvarðar í heilsuhagfræði
 
-Ítarleg kynning á stærðfræði, dæmum og rökhugsun heilsuhagfræði, skrifuð fyrir hugbúnaðarverkfræðinga sem smíða fyrir landsbundnar heilbrigðisstofnanir um allan heim. Hver skrá fjallar um einn mælikvarða eða hugtak: skilgreiningu, hvers vegna það skiptir máli, stærðfræðina, útreiknað dæmi, tengsl við hugbúnaðarverkfræði, gildrur og heimildir.
+Ítarleg kynning á stærðfræði, dæmum og rökhugsun heilsuhagfræði. Hver skrá fjallar um einn mælikvarða eða hugtak: skilgreiningu, hvers vegna það skiptir máli, stærðfræðina, útreiknað dæmi, tengsl við hugbúnaðarverkfræði, gildrur og heimildir.
 
 Er þetta nýtt fyrir þér? Byrjaðu á [Fórnarkostnaður](locales/en-gb-oxendict/topics/opportunity-cost/), [Gæðaleiðrétt lífár (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) og [Kostnaður við tafir (CoD)](locales/en-gb-oxendict/topics/cost-of-delay/) — þrjár hugmyndir sem allt annað byggir á.
 

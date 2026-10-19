@@ -1,6 +1,6 @@
 # Hälsoekonomiska mått
 
-En omfattande introduktion till hälsoekonomins matematik, exempel och resonemang, skriven för mjukvaruingenjörer som bygger för nationella hälso- och sjukvårdsorganisationer världen över. Varje fil täcker ett mått eller begrepp: definition, varför det är viktigt, matematiken, ett genomarbetat exempel, kopplingen till mjukvaruutveckling, fallgropar och källor.
+En omfattande introduktion till hälsoekonomins matematik, exempel och resonemang. Varje fil täcker ett mått eller begrepp: definition, varför det är viktigt, matematiken, ett genomarbetat exempel, kopplingen till mjukvaruutveckling, fallgropar och källor.
 
 Ny här? Börja med [alternativkostnad](locales/en-gb-oxendict/topics/opportunity-cost/), [kvalitetsjusterat levnadsår](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) och [kostnad för fördröjning](locales/en-gb-oxendict/topics/cost-of-delay/) — de tre idéer som allt annat bygger på.
 
