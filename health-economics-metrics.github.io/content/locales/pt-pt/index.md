@@ -1,6 +1,6 @@
 # Métricas de Economia da Saúde
 
-Uma introdução abrangente à matemática, aos exemplos e ao raciocínio da economia da saúde, escrita para engenheiros de software que desenvolvem soluções para organizações de serviços de saúde nacionais em todo o mundo. Cada ficheiro cobre uma métrica ou conceito: definição, por que importa, a matemática, um exemplo resolvido, a ligação com a engenharia de software, armadilhas comuns e fontes.
+Uma introdução abrangente à matemática, aos exemplos e ao raciocínio da economia da saúde. Cada ficheiro cobre uma métrica ou conceito: definição, por que importa, a matemática, um exemplo resolvido, a ligação com a engenharia de software, armadilhas comuns e fontes.
 
 Novo por aqui? Comece por [custo de oportunidade](locales/en-gb-oxendict/topics/opportunity-cost/), [ano de vida ajustado pela qualidade](locales/en-gb-oxendict/topics/quality-adjusted-life-year/), e [custo do atraso](locales/en-gb-oxendict/topics/cost-of-delay/) — as três ideias sobre as quais tudo o resto se constrói.
 

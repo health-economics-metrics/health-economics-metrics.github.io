@@ -1,6 +1,6 @@
 # Metrigau Economeg Iechyd
 
-Cyflwyniad cynhwysfawr i fathemateg, enghreifftiau, a rhesymu economeg iechyd, wedi'i ysgrifennu ar gyfer peirianwyr meddalwedd sy'n adeiladu ar gyfer sefydliadau gwasanaeth iechyd cenedlaethol ledled y byd. Mae pob ffeil yn ymdrin ag un metrig neu gysyniad: diffiniad, pam mae'n bwysig, y fathemateg, enghraifft wedi'i datrys, y cysylltiad â pheirianneg feddalwedd, peryglon, a ffynonellau.
+Cyflwyniad cynhwysfawr i fathemateg, enghreifftiau, a rhesymu economeg iechyd. Mae pob ffeil yn ymdrin ag un metrig neu gysyniad: diffiniad, pam mae'n bwysig, y fathemateg, enghraifft wedi'i datrys, y cysylltiad â pheirianneg feddalwedd, peryglon, a ffynonellau.
 
 Yn newydd yma? Dechreuwch gyda [cost cyfle](locales/en-gb-oxendict/topics/opportunity-cost/), [blwyddyn fywyd a addaswyd yn ôl ansawdd](locales/en-gb-oxendict/topics/quality-adjusted-life-year/), a [chost oedi](locales/en-gb-oxendict/topics/cost-of-delay/) — y tri syniad y mae popeth arall yn adeiladu arnynt.
 

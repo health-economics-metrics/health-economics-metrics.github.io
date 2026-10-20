@@ -1,6 +1,6 @@
 # Sundhedsøkonomiske nøgletal
 
-En omfattende introduktion til sundhedsøkonomiens matematik, eksempler og ræsonnementer, skrevet til softwareingeniører, der udvikler løsninger til nationale sundhedsorganisationer verden over. Hver fil dækker ét nøgletal eller begreb: definition, hvorfor det er vigtigt, matematikken, et gennemarbejdet eksempel, forbindelsen til softwareudvikling, faldgruber og kilder.
+En omfattende introduktion til sundhedsøkonomiens matematik, eksempler og ræsonnementer. Hver fil dækker ét nøgletal eller begreb: definition, hvorfor det er vigtigt, matematikken, et gennemarbejdet eksempel, forbindelsen til softwareudvikling, faldgruber og kilder.
 
 Ny her? Begynd med [alternativomkostning](locales/en-gb-oxendict/topics/opportunity-cost/), [kvalitetsjusteret leveår](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) og [omkostning ved forsinkelse](locales/en-gb-oxendict/topics/cost-of-delay/) — de tre idéer, som alt andet bygger på.
 

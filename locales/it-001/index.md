@@ -1,6 +1,6 @@
 # Metriche di Economia Sanitaria
 
-Un'introduzione completa alla matematica, agli esempi e al ragionamento dell'economia sanitaria, scritta per gli ingegneri del software che sviluppano per i servizi sanitari nazionali di tutto il mondo. Ogni file tratta una metrica o un concetto: definizione, perché è importante, la matematica, un esempio risolto, il collegamento con l'ingegneria del software, le insidie e le fonti.
+Un'introduzione completa alla matematica, agli esempi e al ragionamento dell'economia sanitaria. Ogni file tratta una metrica o un concetto: definizione, perché è importante, la matematica, un esempio risolto, il collegamento con l'ingegneria del software, le insidie e le fonti.
 
 Sei nuovo qui? Inizia con [costo opportunità](locales/en-gb-oxendict/topics/opportunity-cost/), [anno di vita corretto per la qualità](locales/en-gb-oxendict/topics/quality-adjusted-life-year/), e [costo del ritardo](locales/en-gb-oxendict/topics/cost-of-delay/) — le tre idee su cui si basa tutto il resto.
 

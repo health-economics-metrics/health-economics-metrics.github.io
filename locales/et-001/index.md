@@ -1,6 +1,6 @@
 # Tervishoiumajanduse näitajad
 
-Põhjalik sissejuhatus tervishoiumajanduse matemaatikasse, näidetesse ja arutluskäiku, kirjutatud tarkvarainseneridele, kes arendavad lahendusi riiklikele tervishoiuorganisatsioonidele kogu maailmas. Iga fail käsitleb ühte näitajat või mõistet: määratlus, miks see on oluline, matemaatika, lahendatud näide, seos tarkvaraarendusega, lõksud ja allikad.
+Põhjalik sissejuhatus tervishoiumajanduse matemaatikasse, näidetesse ja arutluskäiku. Iga fail käsitleb ühte näitajat või mõistet: määratlus, miks see on oluline, matemaatika, lahendatud näide, seos tarkvaraarendusega, lõksud ja allikad.
 
 Kas olete siin esimest korda? Alustage teemadest [alternatiivkulu](locales/en-gb-oxendict/topics/opportunity-cost/), [kvaliteedikohandatud eluaasta](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) ja [viivituse kulu](locales/en-gb-oxendict/topics/cost-of-delay/) — kolm ideed, millele kõik muu toetub.
 

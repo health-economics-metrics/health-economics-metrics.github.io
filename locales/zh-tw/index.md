@@ -1,6 +1,6 @@
 # 健康經濟學指標
 
-一份全面介紹健康經濟學數學、案例與推理方法的指南，面向為全球各國醫療服務機構開發軟體的工程師。每篇檔案涵蓋一個指標或概念：定義、為何重要、數學計算、一個實例解析、與軟體工程的關聯、常見誤區，以及參考來源。
+一份全面介紹健康經濟學數學、案例與推理方法的指南。每篇檔案涵蓋一個指標或概念：定義、為何重要、數學計算、一個實例解析、與軟體工程的關聯、常見誤區，以及參考來源。
 
 剛接觸這裡？從[機會成本](locales/en-gb-oxendict/topics/opportunity-cost/)、[品質調整生命年](locales/en-gb-oxendict/topics/quality-adjusted-life-year/)和[延遲成本](locales/en-gb-oxendict/topics/cost-of-delay/)開始 —— 其餘一切都建立在這三個概念之上。
 

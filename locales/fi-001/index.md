@@ -1,6 +1,6 @@
 # Terveystaloustieteen mittarit
 
-Kattava johdatus terveystaloustieteen matematiikkaan, esimerkkeihin ja ajatteluun, kirjoitettu ohjelmistoinsinööreille, jotka rakentavat ratkaisuja kansallisille terveydenhuolto-organisaatioille ympäri maailmaa. Jokainen tiedosto käsittelee yhden mittarin tai käsitteen: määritelmän, miksi se on tärkeä, matematiikan, ratkaistun esimerkin, yhteyden ohjelmistokehitykseen, sudenkuopat ja lähteet.
+Kattava johdatus terveystaloustieteen matematiikkaan, esimerkkeihin ja ajatteluun. Jokainen tiedosto käsittelee yhden mittarin tai käsitteen: määritelmän, miksi se on tärkeä, matematiikan, ratkaistun esimerkin, yhteyden ohjelmistokehitykseen, sudenkuopat ja lähteet.
 
 Uusi täällä? Aloita [vaihtoehtoiskustannuksesta](locales/en-gb-oxendict/topics/opportunity-cost/), [laatupainotetusta elinvuodesta](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) ja [viivästymisen kustannuksesta](locales/en-gb-oxendict/topics/cost-of-delay/) — kolmesta ideasta, joiden varaan kaikki muu rakentuu.
 

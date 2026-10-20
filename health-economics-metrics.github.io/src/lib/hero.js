@@ -2,75 +2,75 @@
 /** @type {Record<string, {tagline: string, intro?: string, translations: string}>} */
 export const HERO = {
  "ar-001": {
-  "tagline": "رياضيات اقتصاديات الصحة وأمثلتها ومنطقها لمهندسي البرمجيات.",
+  "tagline": "رياضيات اقتصاديات الصحة وأمثلتها ومنطقها.",
   "translations": "الترجمات: "
  },
  "ar-eg": {
-  "tagline": "رياضيات اقتصاديات الصحة وأمثلتها ومنطقها لمهندسي البرمجيات.",
+  "tagline": "رياضيات اقتصاديات الصحة وأمثلتها ومنطقها.",
   "translations": "الترجمات: "
  },
  "bn-001": {
-  "tagline": "সফটওয়্যার প্রকৌশলীদের জন্য স্বাস্থ্য অর্থনীতির গণিত, উদাহরণ ও যুক্তি।",
+  "tagline": "স্বাস্থ্য অর্থনীতির গণিত, উদাহরণ ও যুক্তি।",
   "translations": "অনুবাদ: "
  },
  "bn-bd": {
-  "tagline": "সফটওয়্যার প্রকৌশলীদের জন্য স্বাস্থ্য অর্থনীতির গণিত, উদাহরণ ও যুক্তি।",
+  "tagline": "স্বাস্থ্য অর্থনীতির গণিত, উদাহরণ ও যুক্তি।",
   "translations": "অনুবাদ: "
  },
  "cy-001": {
-  "tagline": "Mathemateg economeg iechyd, enghreifftiau a rhesymu ar gyfer peirianwyr meddalwedd.",
+  "tagline": "Mathemateg economeg iechyd, enghreifftiau a rhesymu.",
   "translations": "Cyfieithiadau: "
  },
  "cy-gb": {
-  "tagline": "Mathemateg economeg iechyd, enghreifftiau a rhesymu ar gyfer peirianwyr meddalwedd.",
+  "tagline": "Mathemateg economeg iechyd, enghreifftiau a rhesymu.",
   "translations": "Cyfieithiadau: "
  },
  "da-001": {
-  "tagline": "Sundhedsøkonomisk matematik, eksempler og ræsonnement til softwareingeniører.",
+  "tagline": "Sundhedsøkonomisk matematik, eksempler og ræsonnement.",
   "translations": "Oversættelser: "
  },
  "da-dk": {
-  "tagline": "Sundhedsøkonomisk matematik, eksempler og ræsonnement til softwareingeniører.",
+  "tagline": "Sundhedsøkonomisk matematik, eksempler og ræsonnement.",
   "translations": "Oversættelser: "
  },
  "de-001": {
-  "tagline": "Mathematik, Beispiele und Argumentation der Gesundheitsökonomie für Softwareingenieure.",
+  "tagline": "Mathematik, Beispiele und Argumentation der Gesundheitsökonomie.",
   "translations": "Übersetzungen: "
  },
  "de-de": {
-  "tagline": "Mathematik, Beispiele und Argumentation der Gesundheitsökonomie für Softwareingenieure.",
+  "tagline": "Mathematik, Beispiele und Argumentation der Gesundheitsökonomie.",
   "translations": "Übersetzungen: "
  },
  "en-001": {
-  "tagline": "Health economics maths, examples, and reasoning for software engineers.",
+  "tagline": "Health economics maths, examples, and reasoning.",
   "translations": "Translations: "
  },
  "en-150": {
-  "tagline": "Health economics maths, examples, and reasoning for software engineers.",
+  "tagline": "Health economics maths, examples, and reasoning.",
   "translations": "Translations: "
  },
  "en-gb": {
-  "tagline": "Health economics maths, examples, and reasoning for software engineers.",
+  "tagline": "Health economics maths, examples, and reasoning.",
   "translations": "Translations: "
  },
  "en-gb-oxendict": {
-  "tagline": "Health economics maths, examples, and reasoning for software engineers.",
+  "tagline": "Health economics maths, examples, and reasoning.",
   "translations": "Translations: "
  },
  "en-us": {
-  "tagline": "Health economics maths, examples, and reasoning for software engineers.",
+  "tagline": "Health economics maths, examples, and reasoning.",
   "translations": "Translations: "
  },
  "es-001": {
-  "tagline": "Matemáticas, ejemplos y razonamiento de economía de la salud para ingenieros de software.",
+  "tagline": "Matemáticas, ejemplos y razonamiento de economía de la salud.",
   "translations": "Traducciones: "
  },
  "es-es": {
-  "tagline": "Matemáticas, ejemplos y razonamiento de economía de la salud para ingenieros de software.",
+  "tagline": "Matemáticas, ejemplos y razonamiento de economía de la salud.",
   "translations": "Traducciones: "
  },
  "et-001": {
-  "tagline": "Tervisemajanduse matemaatika, näited ja arutlused tarkvarainseneridele.",
+  "tagline": "Tervisemajanduse matemaatika, näited ja arutlused.",
   "translations": "Tõlked: "
  },
  "et-et": {
@@ -78,39 +78,39 @@ export const HERO = {
   "translations": "Tõlked: "
  },
  "fi-001": {
-  "tagline": "Terveystaloustieteen matematiikkaa, esimerkkejä ja perusteluja ohjelmistoinsinööreille.",
+  "tagline": "Terveystaloustieteen matematiikkaa, esimerkkejä ja perusteluja.",
   "translations": "Käännökset: "
  },
  "fi-fi": {
-  "tagline": "Terveystaloustieteen matematiikkaa, esimerkkejä ja perusteluja ohjelmistoinsinööreille.",
+  "tagline": "Terveystaloustieteen matematiikkaa, esimerkkejä ja perusteluja.",
   "translations": "Käännökset: "
  },
  "fr-001": {
-  "tagline": "Mathématiques, exemples et raisonnement de l'économie de la santé pour les ingénieurs logiciels.",
+  "tagline": "Mathématiques, exemples et raisonnement de l'économie de la santé.",
   "translations": "Traductions: "
  },
  "fr-fr": {
-  "tagline": "Mathématiques, exemples et raisonnement de l'économie de la santé pour les ingénieurs logiciels.",
+  "tagline": "Mathématiques, exemples et raisonnement de l'économie de la santé.",
   "translations": "Traductions: "
  },
  "hi-001": {
-  "tagline": "सॉफ़्टवेयर इंजीनियरों के लिए स्वास्थ्य अर्थशास्त्र का गणित, उदाहरण और तर्क।",
+  "tagline": "स्वास्थ्य अर्थशास्त्र का गणित, उदाहरण और तर्क।",
   "translations": "अनुवाद: "
  },
  "hi-in": {
-  "tagline": "सॉफ़्टवेयर इंजीनियरों के लिए स्वास्थ्य अर्थशास्त्र का गणित, उदाहरण और तर्क।",
+  "tagline": "स्वास्थ्य अर्थशास्त्र का गणित, उदाहरण और तर्क।",
   "translations": "अनुवाद: "
  },
  "id-001": {
-  "tagline": "Matematika ekonomi kesehatan, contoh, dan penalaran bagi insinyur perangkat lunak.",
+  "tagline": "Matematika ekonomi kesehatan, contoh, dan penalaran.",
   "translations": "Terjemahan: "
  },
  "id-id": {
-  "tagline": "Matematika ekonomi kesehatan, contoh, dan penalaran bagi insinyur perangkat lunak.",
+  "tagline": "Matematika ekonomi kesehatan, contoh, dan penalaran.",
   "translations": "Terjemahan: "
  },
  "is-001": {
-  "tagline": "Stærðfræði heilsuhagfræði, dæmi og rökstuðningur fyrir hugbúnaðarverkfræðinga.",
+  "tagline": "Stærðfræði heilsuhagfræði, dæmi og rökstuðningur.",
   "translations": "Þýðingar: "
  },
  "is-is": {
@@ -118,87 +118,87 @@ export const HERO = {
   "translations": "Þýðingar: "
  },
  "it-001": {
-  "tagline": "Matematica dell'economia sanitaria, esempi e ragionamento per ingegneri del software.",
+  "tagline": "Matematica dell'economia sanitaria, esempi e ragionamento.",
   "translations": "Traduzioni: "
  },
  "it-it": {
-  "tagline": "Matematica dell'economia sanitaria, esempi e ragionamento per ingegneri del software.",
+  "tagline": "Matematica dell'economia sanitaria, esempi e ragionamento.",
   "translations": "Traduzioni: "
  },
  "ja-001": {
-  "tagline": "ソフトウェアエンジニアのための、医療経済学の数学・事例・考え方。",
+  "tagline": "医療経済学の数学・事例・考え方。",
   "translations": "翻訳： "
  },
  "ja-jp": {
-  "tagline": "ソフトウェアエンジニアのための、医療経済学の数学・事例・考え方。",
+  "tagline": "医療経済学の数学・事例・考え方。",
   "translations": "翻訳： "
  },
  "ko-001": {
-  "tagline": "소프트웨어 엔지니어를 위한 보건경제학 수학, 사례, 추론.",
+  "tagline": "보건경제학 수학, 사례, 추론.",
   "translations": "번역: "
  },
  "ko-kr": {
-  "tagline": "소프트웨어 엔지니어를 위한 보건경제학 수학, 사례, 추론.",
+  "tagline": "보건경제학 수학, 사례, 추론.",
   "translations": "번역: "
  },
  "nl-001": {
-  "tagline": "Wiskunde, voorbeelden en redeneringen uit de gezondheidseconomie voor software-engineers.",
+  "tagline": "Wiskunde, voorbeelden en redeneringen uit de gezondheidseconomie.",
   "translations": "Vertalingen: "
  },
  "nl-nl": {
-  "tagline": "Wiskunde, voorbeelden en redeneringen uit de gezondheidseconomie voor software-engineers.",
+  "tagline": "Wiskunde, voorbeelden en redeneringen uit de gezondheidseconomie.",
   "translations": "Vertalingen: "
  },
  "no-001": {
-  "tagline": "Helseøkonomisk matematikk, eksempler og resonnement for programvareingeniører.",
+  "tagline": "Helseøkonomisk matematikk, eksempler og resonnement.",
   "translations": "Oversettelser: "
  },
  "no-no": {
-  "tagline": "Helseøkonomisk matematikk, eksempler og resonnement for programvareingeniører.",
+  "tagline": "Helseøkonomisk matematikk, eksempler og resonnement.",
   "translations": "Oversettelser: "
  },
  "pl-001": {
-  "tagline": "Matematyka ekonomii zdrowia, przykłady i rozumowanie dla inżynierów oprogramowania.",
+  "tagline": "Matematyka ekonomii zdrowia, przykłady i rozumowanie.",
   "translations": "Tłumaczenia: "
  },
  "pl-pl": {
-  "tagline": "Matematyka ekonomii zdrowia, przykłady i rozumowanie dla inżynierów oprogramowania.",
+  "tagline": "Matematyka ekonomii zdrowia, przykłady i rozumowanie.",
   "translations": "Tłumaczenia: "
  },
  "pt-001": {
-  "tagline": "Matemática, exemplos e raciocínio de economia da saúde para engenheiros de software.",
+  "tagline": "Matemática, exemplos e raciocínio de economia da saúde.",
   "translations": "Traduções: "
  },
  "pt-pt": {
-  "tagline": "Matemática, exemplos e raciocínio de economia da saúde para engenheiros de software.",
+  "tagline": "Matemática, exemplos e raciocínio de economia da saúde.",
   "translations": "Traduções: "
  },
  "ru-001": {
-  "tagline": "Математика экономики здравоохранения, примеры и рассуждения для программных инженеров.",
+  "tagline": "Математика экономики здравоохранения, примеры и рассуждения.",
   "translations": "Переводы: "
  },
  "ru-ru": {
-  "tagline": "Математика экономики здравоохранения, примеры и рассуждения для программных инженеров.",
+  "tagline": "Математика экономики здравоохранения, примеры и рассуждения.",
   "translations": "Переводы: "
  },
  "sv-001": {
-  "tagline": "Hälsoekonomisk matematik, exempel och resonemang för mjukvaruingenjörer.",
+  "tagline": "Hälsoekonomisk matematik, exempel och resonemang.",
   "translations": "Översättningar: "
  },
  "sv-se": {
-  "tagline": "Hälsoekonomisk matematik, exempel och resonemang för mjukvaruingenjörer.",
+  "tagline": "Hälsoekonomisk matematik, exempel och resonemang.",
   "translations": "Översättningar: "
  },
  "sw-001": {
-  "tagline": "Hisabati ya uchumi wa afya, mifano na hoja kwa wahandisi wa programu.",
+  "tagline": "Hisabati ya uchumi wa afya, mifano na hoja.",
   "translations": "Tafsiri: "
  },
  "sw-tz": {
-  "tagline": "Hisabati ya uchumi wa afya, mifano na hoja kwa wahandisi wa programu.",
+  "tagline": "Hisabati ya uchumi wa afya, mifano na hoja.",
   "translations": "Tafsiri: "
  },
  "th-001": {
-  "tagline": "คณิตศาสตร์ ตัวอย่าง และการให้เหตุผลด้านเศรษฐศาสตร์สุขภาพ สำหรับวิศวกรซอฟต์แวร์",
+  "tagline": "คณิตศาสตร์ ตัวอย่าง และการให้เหตุผลด้านเศรษฐศาสตร์สุขภาพ",
   "translations": "การแปล: "
  },
  "th-th": {
@@ -206,7 +206,7 @@ export const HERO = {
   "translations": "การแปล: "
  },
  "tr-001": {
-  "tagline": "Yazılım mühendisleri için sağlık ekonomisi matematiği, örnekler ve gerekçelendirme.",
+  "tagline": "Sağlık ekonomisi matematiği, örnekler ve gerekçelendirme.",
   "translations": "Çeviriler: "
  },
  "tr-tr": {
@@ -214,23 +214,23 @@ export const HERO = {
   "translations": "Çeviriler: "
  },
  "uk-001": {
-  "tagline": "Математика економіки охорони здоров'я, приклади та міркування для інженерів-програмістів.",
+  "tagline": "Математика економіки охорони здоров'я, приклади та міркування.",
   "translations": "Переклади: "
  },
  "uk-ua": {
-  "tagline": "Математика економіки охорони здоров'я, приклади та міркування для інженерів-програмістів.",
+  "tagline": "Математика економіки охорони здоров'я, приклади та міркування.",
   "translations": "Переклади: "
  },
  "ur-001": {
-  "tagline": "سافٹ ویئر انجینئروں کے لیے صحت کی معاشیات کی ریاضی، مثالیں اور استدلال۔",
+  "tagline": "صحت کی معاشیات کی ریاضی، مثالیں اور استدلال۔",
   "translations": "تراجم: "
  },
  "ur-pk": {
-  "tagline": "سافٹ ویئر انجینئروں کے لیے صحت کی معاشیات کی ریاضی، مثالیں اور استدلال۔",
+  "tagline": "صحت کی معاشیات کی ریاضی، مثالیں اور استدلال۔",
   "translations": "تراجم: "
  },
  "vi-001": {
-  "tagline": "Toán học kinh tế y tế, ví dụ và lập luận dành cho kỹ sư phần mềm.",
+  "tagline": "Toán học kinh tế y tế, ví dụ và lập luận.",
   "translations": "Bản dịch: "
  },
  "vi-vn": {
@@ -238,15 +238,15 @@ export const HERO = {
   "translations": "Bản dịch: "
  },
  "zh-001": {
-  "tagline": "面向软件工程师的卫生经济学数学、案例与推理。",
+  "tagline": "卫生经济学数学、案例与推理。",
   "translations": "翻译： "
  },
  "zh-cn": {
-  "tagline": "面向软件工程师的卫生经济学数学、案例与推理。",
+  "tagline": "卫生经济学数学、案例与推理。",
   "translations": "翻译： "
  },
  "zh-tw": {
-  "tagline": "面向軟體工程師的衛生經濟學數學、案例與推理。",
+  "tagline": "衛生經濟學數學、案例與推理。",
   "translations": "翻譯： "
  }
 };

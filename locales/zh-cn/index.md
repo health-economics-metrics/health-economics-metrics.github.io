@@ -1,6 +1,6 @@
 # 健康经济学指标
 
-一份全面介绍健康经济学数学、案例与推理方法的指南，面向为全球各国医疗服务机构开发软件的工程师。每篇文档涵盖一个指标或概念：定义、为何重要、数学计算、一个实例解析、与软件工程的关联、常见误区，以及参考来源。
+一份全面介绍健康经济学数学、案例与推理方法的指南。每篇文档涵盖一个指标或概念：定义、为何重要、数学计算、一个实例解析、与软件工程的关联、常见误区，以及参考来源。
 
 刚接触这里？从[机会成本](locales/en-gb-oxendict/topics/opportunity-cost/)、[质量调整生命年](locales/en-gb-oxendict/topics/quality-adjusted-life-year/)和[延迟成本](locales/en-gb-oxendict/topics/cost-of-delay/)开始 —— 其余一切都建立在这三个概念之上。
 

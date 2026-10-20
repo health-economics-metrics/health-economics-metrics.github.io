@@ -1,6 +1,6 @@
 # Các chỉ số kinh tế y tế
 
-Một giới thiệu toàn diện về toán học, ví dụ và lập luận trong kinh tế y tế, được viết cho các kỹ sư phần mềm xây dựng giải pháp cho các tổ chức dịch vụ y tế quốc gia trên toàn thế giới. Mỗi tệp đề cập đến một chỉ số hoặc khái niệm: định nghĩa, tại sao nó quan trọng, toán học, một ví dụ đã giải, mối liên hệ với kỹ thuật phần mềm, những cạm bẫy và nguồn tham khảo.
+Một giới thiệu toàn diện về toán học, ví dụ và lập luận trong kinh tế y tế. Mỗi tệp đề cập đến một chỉ số hoặc khái niệm: định nghĩa, tại sao nó quan trọng, toán học, một ví dụ đã giải, mối liên hệ với kỹ thuật phần mềm, những cạm bẫy và nguồn tham khảo.
 
 Mới ở đây? Hãy bắt đầu với [chi phí cơ hội](locales/en-gb-oxendict/topics/opportunity-cost/), [năm sống điều chỉnh theo chất lượng](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) và [chi phí trì hoãn](locales/en-gb-oxendict/topics/cost-of-delay/) — ba ý tưởng mà mọi thứ khác được xây dựng dựa trên đó.
 
