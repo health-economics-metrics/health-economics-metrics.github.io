@@ -1,6 +1,6 @@
 # Gezondheidseconomie Metrieken
 
-Een uitgebreide inleiding tot de wiskunde, voorbeelden en redenering van gezondheidseconomie, geschreven voor software-engineers die bouwen voor nationale gezondheidsdiensten wereldwijd. Elk bestand behandelt één metriek of concept: definitie, waarom het ertoe doet, de wiskunde, een uitgewerkt voorbeeld, de verbinding met software-engineering, valkuilen en bronnen.
+Een uitgebreide inleiding tot de wiskunde, voorbeelden en redenering van gezondheidseconomie. Elk bestand behandelt één metriek of concept: definitie, waarom het ertoe doet, de wiskunde, een uitgewerkt voorbeeld, de verbinding met software-engineering, valkuilen en bronnen.
 
 Nieuw hier? Begin met [opportuniteitskosten](locales/en-gb-oxendict/topics/opportunity-cost/), [voor kwaliteit gecorrigeerd levensjaar](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) en [kosten van vertraging](locales/en-gb-oxendict/topics/cost-of-delay/) — de drie ideeën waarop al het andere voortbouwt.
 
