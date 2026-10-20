@@ -1,6 +1,6 @@
 # Helseøkonomiske mål
 
-En omfattende innføring i helseøkonomiens matematikk, eksempler og resonnement, skrevet for programvareingeniører som bygger for nasjonale helsetjenester over hele verden. Hver fil dekker ett mål eller begrep: definisjon, hvorfor det er viktig, matematikken, et gjennomarbeidet eksempel, koblingen til programvareutvikling, fallgruver og kilder.
+En omfattende innføring i helseøkonomiens matematikk, eksempler og resonnement. Hver fil dekker ett mål eller begrep: definisjon, hvorfor det er viktig, matematikken, et gjennomarbeidet eksempel, koblingen til programvareutvikling, fallgruver og kilder.
 
 Ny her? Begynn med [alternativkostnad](locales/en-gb-oxendict/topics/opportunity-cost/), [kvalitetsjustert leveår](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) og [kostnad ved forsinkelse](locales/en-gb-oxendict/topics/cost-of-delay/) — de tre idéene alt annet bygger på.
 

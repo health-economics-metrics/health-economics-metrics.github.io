@@ -1,6 +1,6 @@
 # Gesundheitsökonomische Kennzahlen
 
-Eine umfassende Einführung in die Mathematik, Beispiele und Argumentation der Gesundheitsökonomie, geschrieben für Softwareentwickler, die für nationale Gesundheitsdienste weltweit entwickeln. Jede Datei behandelt eine Kennzahl oder ein Konzept: Definition, warum es wichtig ist, die Mathematik, ein durchgerechnetes Beispiel, den Bezug zur Softwareentwicklung, Fallstricke und Quellen.
+Eine umfassende Einführung in die Mathematik, Beispiele und Argumentation der Gesundheitsökonomie. Jede Datei behandelt eine Kennzahl oder ein Konzept: Definition, warum es wichtig ist, die Mathematik, ein durchgerechnetes Beispiel, den Bezug zur Softwareentwicklung, Fallstricke und Quellen.
 
 Neu hier? Beginnen Sie mit [Opportunitätskosten](locales/en-gb-oxendict/topics/opportunity-cost/), [qualitätsadjustiertem Lebensjahr](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) und [Verzögerungskosten](locales/en-gb-oxendict/topics/cost-of-delay/) — den drei Ideen, auf denen alles andere aufbaut.
 

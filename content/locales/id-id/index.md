@@ -1,6 +1,6 @@
 # Metrik Ekonomi Kesehatan
 
-Pengantar komprehensif untuk matematika, contoh, dan penalaran ekonomi kesehatan, ditulis untuk insinyur perangkat lunak yang membangun untuk organisasi layanan kesehatan nasional di seluruh dunia. Setiap berkas membahas satu metrik atau konsep: definisi, mengapa itu penting, matematikanya, contoh yang diselesaikan, hubungan dengan rekayasa perangkat lunak, jebakan, dan sumber.
+Pengantar komprehensif untuk matematika, contoh, dan penalaran ekonomi kesehatan. Setiap berkas membahas satu metrik atau konsep: definisi, mengapa itu penting, matematikanya, contoh yang diselesaikan, hubungan dengan rekayasa perangkat lunak, jebakan, dan sumber.
 
 Baru di sini? Mulai dengan [biaya peluang](locales/en-gb-oxendict/topics/opportunity-cost/), [tahun hidup yang disesuaikan kualitas](locales/en-gb-oxendict/topics/quality-adjusted-life-year/), dan [biaya penundaan](locales/en-gb-oxendict/topics/cost-of-delay/) — tiga ide yang menjadi dasar semua yang lain.
 

@@ -1,6 +1,6 @@
 # Sağlık Ekonomisi Metrikleri
 
-Dünya genelinde ulusal sağlık hizmeti kuruluşları için geliştirme yapan yazılım mühendisleri için yazılmış, sağlık ekonomisi matematiği, örnekleri ve muhakemesine kapsamlı bir giriş. Her dosya tek bir metriği veya kavramı kapsar: tanım, neden önemli, matematik, çözümlü örnek, yazılım mühendisliği bağlantısı, tuzaklar ve kaynaklar.
+Sağlık ekonomisi matematiği, örnekleri ve muhakemesine kapsamlı bir giriş. Her dosya tek bir metriği veya kavramı kapsar: tanım, neden önemli, matematik, çözümlü örnek, yazılım mühendisliği bağlantısı, tuzaklar ve kaynaklar.
 
 Burada yeniyseniz şunlarla başlayın: [Fırsat Maliyeti](locales/en-gb-oxendict/topics/opportunity-cost/), [Kaliteye Ayarlı Yaşam Yılı (QALY)](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) ve [Gecikme Maliyeti (CoD)](locales/en-gb-oxendict/topics/cost-of-delay/) — diğer her şeyin üzerine kurulduğu üç fikir.
 

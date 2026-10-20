@@ -1,6 +1,6 @@
 # Wskaźniki ekonomii zdrowia
 
-Kompleksowe wprowadzenie do matematyki, przykładów i rozumowania ekonomii zdrowia, napisane dla inżynierów oprogramowania budujących rozwiązania dla krajowych organizacji opieki zdrowotnej na całym świecie. Każdy plik obejmuje jeden wskaźnik lub pojęcie: definicję, dlaczego to ważne, matematykę, rozwiązany przykład, powiązanie z inżynierią oprogramowania, pułapki i źródła.
+Kompleksowe wprowadzenie do matematyki, przykładów i rozumowania ekonomii zdrowia. Każdy plik obejmuje jeden wskaźnik lub pojęcie: definicję, dlaczego to ważne, matematykę, rozwiązany przykład, powiązanie z inżynierią oprogramowania, pułapki i źródła.
 
 Nowy tutaj? Zacznij od [kosztu alternatywnego](locales/en-gb-oxendict/topics/opportunity-cost/), [roku życia skorygowanego jakością](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) i [kosztu opóźnienia](locales/en-gb-oxendict/topics/cost-of-delay/) — trzech idei, na których buduje się wszystko inne.
 

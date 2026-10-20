@@ -1,6 +1,6 @@
 # Indicateurs d'économie de la santé
 
-Une introduction complète aux mathématiques, aux exemples et au raisonnement de l'économie de la santé, écrite pour les ingénieurs logiciels qui développent des solutions pour des organismes de santé nationaux du monde entier. Chaque fichier couvre un indicateur ou un concept : définition, pourquoi c'est important, les mathématiques, un exemple résolu, le lien avec l'ingénierie logicielle, les pièges et les sources.
+Une introduction complète aux mathématiques, aux exemples et au raisonnement de l'économie de la santé. Chaque fichier couvre un indicateur ou un concept : définition, pourquoi c'est important, les mathématiques, un exemple résolu, le lien avec l'ingénierie logicielle, les pièges et les sources.
 
 Nouveau ici ? Commencez par [coût d'opportunité](locales/en-gb-oxendict/topics/opportunity-cost/), [année de vie ajustée sur la qualité](locales/en-gb-oxendict/topics/quality-adjusted-life-year/) et [coût du délai](locales/en-gb-oxendict/topics/cost-of-delay/) — les trois idées sur lesquelles tout le reste repose.
 

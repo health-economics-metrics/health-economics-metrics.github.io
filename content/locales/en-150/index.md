@@ -1,6 +1,6 @@
 # Health Economics Metrics
 
-A comprehensive introduction to health economics maths, examples, and reasoning, written for software engineers building for national health service organisations worldwide. Each file covers one metric or concept: definition, why it matters, the maths, a worked example, the software engineering connection, pitfalls, and sources.
+A comprehensive introduction to health economics maths, examples, and reasoning. Each file covers one metric or concept: definition, why it matters, the maths, a worked example, the software engineering connection, pitfalls, and sources.
 
 New here? Start with [opportunity cost](locales/en-gb-oxendict/topics/opportunity-cost/), [quality-adjusted life year](locales/en-gb-oxendict/topics/quality-adjusted-life-year/), and [cost of delay](locales/en-gb-oxendict/topics/cost-of-delay/) — the three ideas everything else builds on.
 
