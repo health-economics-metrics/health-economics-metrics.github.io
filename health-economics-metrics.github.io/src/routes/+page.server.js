@@ -23,5 +23,11 @@ export function load() {
 			return worldA !== worldB ? worldA - worldB : a.label.localeCompare(b.label);
 		});
 
-	return { title, summary, topicCount: book(DEFAULT_LOCALE).order.length, locales: localeList };
+	// The world (-001) translations, English first, then by code.
+	const translations = locales()
+		.filter((code) => code.endsWith('-001'))
+		.sort((a, b) => (a === 'en-001' ? -1 : b === 'en-001' ? 1 : a.localeCompare(b)))
+		.map((code) => ({ code, label: localeLabel(code) }));
+
+	return { title, summary, translations, topicCount: book(DEFAULT_LOCALE).order.length, locales: localeList };
 }
